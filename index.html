@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard — Órdenes Incidentadas 2026</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; color: #1a1a2e; }
+
+  header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%);
+    color: #fff;
+    padding: 24px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header h1 { font-size: 1.4rem; font-weight: 600; }
+  header small { font-size: .75rem; opacity: .7; display: block; margin-top: 4px; }
+  .badge {
+    background: rgba(255,255,255,.12);
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: .8rem;
+  }
+
+  main { padding: 24px 32px; max-width: 1400px; margin: 0 auto; }
+
+  /* ── KPIs ── */
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 24px; }
+  .kpi {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,.06);
+    border-top: 4px solid var(--c);
+  }
+  .kpi .num { font-size: 2rem; font-weight: 700; color: var(--c); }
+  .kpi .label { font-size: .78rem; color: #666; margin-top: 4px; }
+  .kpi .pct { font-size: .85rem; color: #999; margin-top: 2px; }
+
+  /* ── Grid gráficas ── */
+  .grid { display: grid; gap: 20px; }
+  .row-2 { grid-template-columns: 1fr 1fr; }
+  .row-3 { grid-template-columns: 2fr 1fr; }
+  @media (max-width: 900px) {
+    .row-2, .row-3 { grid-template-columns: 1fr; }
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.06);
+  }
+  .card h2 { font-size: .9rem; font-weight: 600; color: #444; margin-bottom: 16px; text-transform: uppercase; letter-spacing: .5px; }
+  .chart-wrap { position: relative; height: 260px; }
+  .chart-wrap-sm { position: relative; height: 220px; }
+
+  footer { text-align: center; color: #aaa; font-size: .75rem; padding: 24px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>📦 Dashboard — Órdenes Incidentadas 2026</h1>
+    <small>Fuente: Ordenes con novedad Junio - dic.xlsx &nbsp;|&nbsp; Actualizado: 15/06/2026 00:00</small>
+  </div>
+  <div class="badge">Total: 1,371 órdenes</div>
+</header>
+
+<main>
+
+  <!-- KPIs -->
+  <div class="kpis">
+    <div class="kpi" style="--c:#0f3460">
+      <div class="num">1,371</div>
+      <div class="label">Total Órdenes</div>
+    </div>
+    <div class="kpi" style="--c:#27ae60">
+      <div class="num">1,018</div>
+      <div class="label">Solucionadas</div>
+      <div class="pct">74.3%</div>
+    </div>
+    <div class="kpi" style="--c:#e67e22">
+      <div class="num">163</div>
+      <div class="label">Continuidad</div>
+      <div class="pct">11.9%</div>
+    </div>
+    <div class="kpi" style="--c:#e74c3c">
+      <div class="num">127</div>
+      <div class="label">En Revisión</div>
+      <div class="pct">9.3%</div>
+    </div>
+    <div class="kpi" style="--c:#95a5a6">
+      <div class="num">8</div>
+      <div class="label">No Encontrado</div>
+      <div class="pct">0.6%</div>
+    </div>
+  </div>
+
+  <!-- Fila 1: Órdenes por mes + Pendiente por -->
+  <div class="grid row-3" style="margin-bottom:20px">
+    <div class="card">
+      <h2>📅 Órdenes por Mes (2026)</h2>
+      <div class="chart-wrap"><canvas id="chartMeses"></canvas></div>
+    </div>
+    <div class="card">
+      <h2>🔄 Estado Pendiente</h2>
+      <div class="chart-wrap"><canvas id="chartPendiente"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Fila 2: Marca/País + Acción OPS -->
+  <div class="grid row-2" style="margin-bottom:20px">
+    <div class="card">
+      <h2>🌎 Top 10 — Marca / País</h2>
+      <div class="chart-wrap"><canvas id="chartMarca"></canvas></div>
+    </div>
+    <div class="card">
+      <h2>⚙️ Acción OPS</h2>
+      <div class="chart-wrap"><canvas id="chartAccion"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Fila 3: Estado caso -->
+  <div class="card">
+    <h2>📋 Top Causas — Estado del Caso</h2>
+    <div class="chart-wrap"><canvas id="chartEstado"></canvas></div>
+  </div>
+
+</main>
+
+<footer>Generado automáticamente desde Ordenes con novedad Junio - dic.xlsx &nbsp;·&nbsp; 15/06/2026 00:00</footer>
+
+<script>
+const COLORS = [
+  '#0f3460','#16213e','#1a6c9e','#27ae60','#e67e22',
+  '#e74c3c','#9b59b6','#3498db','#1abc9c','#f39c12'
+];
+const PALETTE_PIE = ['#27ae60','#e67e22','#e74c3c','#95a5a6'];
+
+Chart.defaults.font.family = "'Segoe UI', sans-serif";
+Chart.defaults.font.size = 12;
+
+// Meses
+new Chart(document.getElementById('chartMeses'), {
+  type: 'bar',
+  data: {
+    labels: ["Ene 2026", "Feb 2026", "Mar 2026", "Abr 2026", "May 2026", "Jun 2026"],
+    datasets: [{ label: 'Órdenes', data: [10, 18, 15, 12, 221, 835],
+      backgroundColor: '#0f3460', borderRadius: 6 }]
+  },
+  options: { responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: { y: { beginAtZero: true, grid: { color: '#f0f0f0' } }, x: { grid: { display: false } } }
+  }
+});
+
+// Pendiente por (donut)
+new Chart(document.getElementById('chartPendiente'), {
+  type: 'doughnut',
+  data: {
+    labels: ["Operaciones Solucionado", "Operaciones Revision/Configuracion", "Continuidad", "No encontrado"],
+    datasets: [{ data: [1018, 127, 163, 8],
+      backgroundColor: PALETTE_PIE, borderWidth: 2, borderColor: '#fff' }]
+  },
+  options: { responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } } }
+  }
+});
+
+// Marca PAIS (horizontal bar)
+new Chart(document.getElementById('chartMarca'), {
+  type: 'bar',
+  data: {
+    labels: ["Motorola Chile", "MKP Chile", "COLOMBIA", "Dockers Chile", "JBL URUGUAY", "Colombia", "JBL CHILE", "MKP Full Chile", "GUATEMALA", "Crocs Panam\u00e1"],
+    datasets: [{ label: 'Órdenes', data: [280, 218, 217, 138, 109, 91, 66, 61, 35, 25],
+      backgroundColor: COLORS, borderRadius: 4 }]
+  },
+  options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: { x: { beginAtZero: true, grid: { color: '#f0f0f0' } }, y: { grid: { display: false } } }
+  }
+});
+
+// Acción OPS (bar)
+new Chart(document.getElementById('chartAccion'), {
+  type: 'bar',
+  data: {
+    labels: ["En Revision Co - It", "Facturada", "Sin Stock", "Alistamiento", "Cancelada", "Cancelada - Sin Stock", "Cancelada  - Sin Stock", "Orden Cancelada"],
+    datasets: [{ label: 'Órdenes', data: [998, 137, 87, 75, 60, 7, 5, 1],
+      backgroundColor: COLORS, borderRadius: 4 }]
+  },
+  options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: { x: { beginAtZero: true, grid: { color: '#f0f0f0' } }, y: { grid: { display: false } } }
+  }
+});
+
+// Estado caso (horizontal)
+new Chart(document.getElementById('chartEstado'), {
+  type: 'bar',
+  data: {
+    labels: ["Orden sin estado  \"Handling\" o \"Ready for Handling\"", "Sin falla al revisar", "Orden sin facturar en NS", "Pendiente revision CO", "Orden sin stock", "Desincronizacion de stock Crocs CO BTI-483", "Pendiente respuesta de SKU CENTRAL para reenvio de orden", "Validacion de guia en el seller"],
+    datasets: [{ label: 'Casos', data: [257, 189, 121, 66, 62, 47, 30, 29],
+      backgroundColor: '#1a6c9e', borderRadius: 4 }]
+  },
+  options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: { x: { beginAtZero: true, grid: { color: '#f0f0f0' } }, y: { grid: { display: false } } }
+  }
+});
+</script>
+</body>
+</html>
