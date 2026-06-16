@@ -548,6 +548,12 @@ function topN(obj, n) {
 }
 function pct(n, tot) { return tot ? (n/tot*100).toFixed(1)+'%' : '0%'; }
 function fmt(n) { return n.toLocaleString('es-CO'); }
+function norm(s) {
+  return (s||'').toLowerCase()
+    .replace(/á/g,'a').replace(/é/g,'e').replace(/í/g,'i')
+    .replace(/ó/g,'o').replace(/ú/g,'u').replace(/ñ/g,'n');
+}
+const ES_EN_REV = 'en revision co - it';
 
 // ── Render ───────────────────────────────────────────────────────────────
 function render(selectedDate) {
@@ -556,34 +562,33 @@ function render(selectedDate) {
     ? RECORDS.filter(r => r.fn === selectedDate)
     : RECORDS;
 
-  // KPIs y barra de progreso: SIEMPRE acumulado total (RECORDS completo)
-  const allRecs = RECORDS;
-  const total   = allRecs.length;
-  const penAll  = count(allRecs, 'pen');
-  const sol     = penAll['Operaciones Solucionado'] || 0;
-  const cont    = penAll['Continuidad'] || 0;
-  const rev     = penAll['Operaciones Revision/Configuracion'] || 0;
-  // EN REVISIÓN CO - IT: campo ops, acumulado total
-  const enRevIT = allRecs.filter(r => r.ops && r.ops.trim().toLowerCase() === 'en revision co - it').length;
+  // KPIs: solo registros EN REVISIÓN CO - IT
+  const allRecs  = RECORDS;
+  const enRevRecs = allRecs.filter(r => r.ops && norm(r.ops.trim()) === ES_EN_REV);
+  const enRevIT  = enRevRecs.length;  // total general
+  const penIT    = count(enRevRecs, 'pen');
+  const sol      = penIT['Operaciones Solucionado'] || 0;
+  const cont     = penIT['Continuidad'] || 0;
+  const rev      = penIT['Operaciones Revision/Configuracion'] || 0;
 
-  // KPIs
+  // KPIs — porcentajes sobre el total EN REVISIÓN CO - IT
   document.getElementById('kpiTotal').textContent    = fmt(enRevIT);
-  document.getElementById('kpiTotalPct').textContent = pct(enRevIT, total);
+  document.getElementById('kpiTotalPct').textContent = pct(enRevIT, allRecs.length);
   document.getElementById('kpiSol').textContent      = fmt(sol);
   document.getElementById('kpiCont').textContent     = fmt(cont);
   document.getElementById('kpiRev').textContent      = fmt(rev);
-  document.getElementById('kpiSolPct').textContent   = pct(sol, total);
-  document.getElementById('kpiContPct').textContent  = pct(cont, total);
-  document.getElementById('kpiRevPct').textContent   = pct(rev, total);
+  document.getElementById('kpiSolPct').textContent   = pct(sol, enRevIT);
+  document.getElementById('kpiContPct').textContent  = pct(cont, enRevIT);
+  document.getElementById('kpiRevPct').textContent   = pct(rev, enRevIT);
 
-  // Barra progreso (acumulado total)
+  // Barra progreso (sobre total EN REVISIÓN CO - IT)
   const segs = [
     {id:'ps-sol', v:sol}, {id:'ps-cont',v:cont},
     {id:'ps-rev', v:rev}
   ];
   segs.forEach(s => {
     const el = document.getElementById(s.id);
-    const p  = total ? (s.v/total*100).toFixed(1) : 0;
+    const p  = enRevIT ? (s.v/enRevIT*100).toFixed(1) : 0;
     el.style.width = p + '%';
     el.textContent = s.v > 0 ? (p > 5 ? s.v : '') : '';
   });
@@ -600,7 +605,7 @@ function render(selectedDate) {
 
   // Filtro fijo: Acción OPS = "En revision CO - IT" Y Pendiente por = "Continuidad"
   const recsNotif = RECORDS.filter(r =>
-    r.ops && r.ops.trim().toLowerCase() === 'en revision co - it' &&
+    r.ops && norm(r.ops.trim()) === ES_EN_REV &&
     r.pen === 'Continuidad'
   );
 
@@ -683,7 +688,7 @@ function render(selectedDate) {
 
   // Estado del día — solo órdenes EN REVISIÓN CO - IT
   const estFecha = selectedDate || [...new Set(RECORDS.filter(r=>r.fn).map(r=>r.fn))].sort().slice(-1)[0];
-  const recsEst  = RECORDS.filter(r => r.fn === estFecha && r.ops && r.ops.trim().toLowerCase() === 'en revision co - it');
+  const recsEst  = RECORDS.filter(r => r.fn === estFecha && r.ops && norm(r.ops.trim()) === ES_EN_REV);
   const estCount = count(recsEst, 'est');
   const estTop   = topN(estCount, 8);
   const maxEst   = estTop.length ? estTop[0][1] : 1;
@@ -966,7 +971,7 @@ function switchTab(tab) {
 // ═══════════ SIN STOCK ═══════════
 // Filtro unificado Sin Stock
 function isSinStock(r){
-  var ops=(r.ops||'').toLowerCase().trim();
+  var ops=norm((r.ops||'').trim());
   var est=(r.est||'').toLowerCase();
   var com=(r.com||'').toLowerCase();
   return ops.indexOf('sin stock')>=0 ||
@@ -1168,9 +1173,9 @@ function renderSS(){
 var chartKronoBar = null;
 
 function isKrono(r){
-  var ops = (r.ops||'').toLowerCase().replace(/\s+/g,' ').trim();
+  var ops = norm((r.ops||'').trim());
   var com = (r.com||'').toLowerCase().trim();
-  return ops === 'en revision co - it' && com === 'escalado con kronotime';
+  return ops === ES_EN_REV && com === 'escalado con kronotime';
 }
 
 function doInitKrono(){
