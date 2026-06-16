@@ -434,6 +434,12 @@ const RECORDS = [{"fo": "2026-03-19", "fn": "2026-03-20", "com": "Liberada", "es
 const FECHAS  = ["2026-02-06", "2026-03-20", "2026-04-06", "2026-05-04", "2026-05-05", "2026-05-11", "2026-05-15", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-15"];
 const TOP_COM = ["Liberada", "Sin stock", "Escalado operaciones", "Pendiente revision CO", "Escalado con Driver", "Orden cancelada", "Escalado con Customer Integration", "Escalado con la Capa", "Sin Stock"];
 
+// ── Variables globales Sin Stock (definidas temprano para evitar undefined) ──
+var MESES_N={1:'Enero',2:'Febrero',3:'Marzo',4:'Abril',5:'Mayo',6:'Junio',
+             7:'Julio',8:'Agosto',9:'Septiembre',10:'Octubre',11:'Noviembre',12:'Diciembre'};
+var chartSSBar=null;
+var ssPaisActivo='todas';
+
 // ── Charts ──────────────────────────────────────────────────────────────
 Chart.defaults.font.family = "'Segoe UI', system-ui, sans-serif";
 Chart.defaults.font.size   = 11;
@@ -958,11 +964,6 @@ function switchTab(tab) {
 }
 
 // ═══════════ SIN STOCK ═══════════
-var MESES_N={1:'Enero',2:'Febrero',3:'Marzo',4:'Abril',5:'Mayo',6:'Junio',
-             7:'Julio',8:'Agosto',9:'Septiembre',10:'Octubre',11:'Noviembre',12:'Diciembre'};
-var chartSSBar=null;
-var ssPaisActivo='todas';
-
 // Filtro unificado Sin Stock
 function isSinStock(r){
   var ops=(r.ops||'').toLowerCase().trim();
@@ -977,7 +978,8 @@ function getCountry(marca){
   var m=marca.trim().toLowerCase();
   var M={'colombia':'Colombia','chile':'Chile','mexico':'México','méxico':'México',
          'peru':'Perú','perú':'Perú','guatemala':'Guatemala','panama':'Panamá','panamá':'Panamá',
-         'uruguay':'Uruguay','salvador':'El Salvador'};
+         'uruguay':'Uruguay','salvador':'El Salvador','el salvador':'El Salvador',
+         'costa rica':'Costa Rica'};
   if(M[m]) return M[m];
   var ks=Object.keys(M);
   for(var i=0;i<ks.length;i++){
@@ -1126,6 +1128,7 @@ function renderSS(){
     data:{labels:labels,datasets:[{label:'Sin Stock',data:vals,backgroundColor:colors,borderRadius:4}]},
     options:{
       responsive:true,
+      maintainAspectRatio:false,
       plugins:{legend:{display:false}},
       scales:{
         x:{ticks:{color:'#1E293B',font:{size:9},maxRotation:45},grid:{display:false}},
@@ -1178,8 +1181,13 @@ function renderSS(){
       <button class="ss-filter-btn active" data-pais="todas" onclick="setSsPais(this, 'todas')">🌎 Todas</button>
       <button class="ss-filter-btn" data-pais="Chile" onclick="setSsPais(this,'Chile')">🇨🇱 Chile</button>
       <button class="ss-filter-btn" data-pais="Colombia" onclick="setSsPais(this,'Colombia')">🇨🇴 Colombia</button>
+      <button class="ss-filter-btn" data-pais="Guatemala" onclick="setSsPais(this,'Guatemala')">🇬🇹 Guatemala</button>
       <button class="ss-filter-btn" data-pais="México" onclick="setSsPais(this,'México')">🇲🇽 México</button>
+      <button class="ss-filter-btn" data-pais="Panamá" onclick="setSsPais(this,'Panamá')">🇵🇦 Panamá</button>
       <button class="ss-filter-btn" data-pais="Perú" onclick="setSsPais(this,'Perú')">🇵🇪 Perú</button>
+      <button class="ss-filter-btn" data-pais="Costa Rica" onclick="setSsPais(this,'Costa Rica')">🇨🇷 Costa Rica</button>
+      <button class="ss-filter-btn" data-pais="Uruguay" onclick="setSsPais(this,'Uruguay')">🇺🇾 Uruguay</button>
+      <button class="ss-filter-btn" data-pais="El Salvador" onclick="setSsPais(this,'El Salvador')">🇸🇻 El Salvador</button>
     </div>
 
     <div style="width:1px;height:28px;background:#E2E8F0"></div>
@@ -1232,7 +1240,9 @@ function renderSS(){
         Órdenes sin stock por día
       </div>
       <div id="ss-subtitle" style="font-size:11px;color:#94A3B8;margin-bottom:14px"></div>
-      <canvas id="chartSSDia" height="120"></canvas>
+      <div style="position:relative;height:280px">
+        <canvas id="chartSSDia"></canvas>
+      </div>
     </div>
   </div>
 
@@ -1252,37 +1262,4 @@ function renderSS(){
               <th>Marca</th>
               <th>País</th>
               <th>Acción OPS</th>
-              <th>Pendiente por</th>
-              <th>Estado</th>
-            </tr>
-          </thead>
-          <tbody id="ss-tbl-body"></tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Auto-init script -->
-  <script>
-    // Llamada directa cuando el tab carga: MutationObserver en page-sinstock
-    (function(){
-      var el = document.getElementById('page-sinstock');
-      if(!el) return;
-      var obs = new MutationObserver(function(muts){
-        muts.forEach(function(mut){
-          if(mut.type==='attributes' && mut.attributeName==='class'){
-            if(el.classList.contains('active')){
-              setTimeout(function(){ if(typeof doInitSS==='function') doInitSS(); }, 100);
-            }
-          }
-        });
-      });
-      obs.observe(el, {attributes:true});
-    })();
-  </script>
-
-</div><!-- /page-sinstock -->
-
-</body>
-</html>
+              
