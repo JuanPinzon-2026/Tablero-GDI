@@ -186,10 +186,10 @@ body{font-family:'Segoe UI',system-ui,sans-serif;background:#F0F4F8;color:#1E293
 .tbl td.zero{color:#94A3B8}
 .tbl td.hot{color:#DC2626 !important;font-weight:700;font-size:13px}
 .tbl tfoot td.hot-foot{background:#DC2626 !important;color:#fff !important;font-size:13px}
-.tbl tfoot td.tot15{background:#64748B !important;color:#fff !important;font-weight:700}
-.tbl tfoot td.toth{background:#D97706 !important;color:#fff !important;font-weight:700}
-.tbl td.tot15{background:#64748B;color:#fff;font-weight:700}
-.tbl td.toth{background:#D97706;color:#fff;font-weight:700}
+.tbl tfoot td.tot15{background:#64748B !important;color:#000 !important;font-weight:700}
+.tbl tfoot td.toth{background:#D97706 !important;color:#000 !important;font-weight:700}
+.tbl td.tot15{background:#64748B !important;color:#000 !important;font-weight:700}
+.tbl td.toth{background:#D97706 !important;color:#000 !important;font-weight:700}
 .tbl tfoot td{background:#E2E8F0;color:#1E293B;font-weight:700;text-align:center;padding:6px 8px}
 
 /* ── ESTADO ORDENES ── */
@@ -603,7 +603,8 @@ function render(selectedDate) {
   // Dona
 
   // Tabla continuidad — filtro fijo: ops="En revision CO - IT" Y pen="Continuidad"
-  const allNotifFechas = [...new Set(RECORDS.filter(r=>r.fn).map(r=>r.fn))].sort();
+  const reDateValid = /^\d{4}-\d{2}-\d{2}$/;
+  const allNotifFechas = [...new Set(RECORDS.filter(r=>r.fn && reDateValid.test(r.fn)).map(r=>r.fn))].sort();
   const cutoff = selectedDate || allNotifFechas[allNotifFechas.length-1];
   const ult15  = allNotifFechas.filter(f => f <= cutoff).slice(-15);
 
@@ -691,7 +692,7 @@ function render(selectedDate) {
       : fmt(total) + ' órdenes en total';
 
   // Estado del día — solo órdenes EN REVISIÓN CO - IT
-  const estFecha = selectedDate || [...new Set(RECORDS.filter(r=>r.fn).map(r=>r.fn))].sort().slice(-1)[0];
+  const estFecha = selectedDate || [...new Set(RECORDS.filter(r=>r.fn && reDateValid.test(r.fn)).map(r=>r.fn))].sort().slice(-1)[0];
   const recsEst  = RECORDS.filter(r => r.fn === estFecha && r.ops && isEnRevIT(r.ops));
   const estCount = count(recsEst, 'est');
   const estTop   = topN(estCount, 8);
@@ -716,7 +717,7 @@ function render(selectedDate) {
 
   // Tendencia diaria (todos, últimos 30 con datos)
   const ordPorDia = {};
-  RECORDS.filter(r=>r.fn).forEach(r => { ordPorDia[r.fn] = (ordPorDia[r.fn]||0)+1; });
+  RECORDS.filter(r=>r.fn && reDateValid.test(r.fn)).forEach(r => { ordPorDia[r.fn] = (ordPorDia[r.fn]||0)+1; });
   const diasSort = Object.keys(ordPorDia).sort().slice(-30);
   chartDia.data.labels   = diasSort.map(d => d.slice(5).replace('-','/'));
   chartDia.data.datasets[0].data = diasSort.map(d => ordPorDia[d]);
