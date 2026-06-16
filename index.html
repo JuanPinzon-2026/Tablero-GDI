@@ -681,9 +681,9 @@ function render(selectedDate) {
       ? total + ' órdenes el ' + selectedDate.split('-').reverse().join('/')
       : fmt(total) + ' órdenes en total';
 
-  // Estado del día
+  // Estado del día — solo órdenes EN REVISIÓN CO - IT
   const estFecha = selectedDate || [...new Set(RECORDS.filter(r=>r.fn).map(r=>r.fn))].sort().slice(-1)[0];
-  const recsEst  = RECORDS.filter(r => r.fn === estFecha);
+  const recsEst  = RECORDS.filter(r => r.fn === estFecha && r.ops && r.ops.trim().toLowerCase() === 'en revision co - it');
   const estCount = count(recsEst, 'est');
   const estTop   = topN(estCount, 8);
   const maxEst   = estTop.length ? estTop[0][1] : 1;
@@ -723,15 +723,7 @@ function render(selectedDate) {
   populateMesDropdown();
   updateMarcaChart();
 
-  // Acción OPS
-  const opsRaw = {};
-  recsForCharts.forEach(r => {
-    if(r.ops) { const k = r.ops.trim(); opsRaw[k] = (opsRaw[k]||0)+1; }
-  });
-  const opsTop = topN(opsRaw, 7);
-  chartOps.data.labels            = opsTop.map(x=>x[0]);
-  chartOps.data.datasets[0].data  = opsTop.map(x=>x[1]);
-  chartOps.update();
+  // Top 10 Issues se actualiza via updateMarcaChart() → updateIssuesChart() — usa RECORDS completo
 }
 
 // ── Calendario Flatpickr ─────────────────────────────────────────────────
