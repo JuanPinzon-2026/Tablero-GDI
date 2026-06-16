@@ -287,6 +287,7 @@ footer{text-align:center;color:#94A3B8;font-size:10px;padding:16px;letter-spacin
 <div class="tab-nav">
   <button class="tab-btn active" onclick="switchTab('main')">📊 Órdenes Incidentadas</button>
   <button class="tab-btn" onclick="switchTab('sinstock');setTimeout(function(){doInitSS();},150)">📦 Sin Stock</button>
+  <button class="tab-btn" onclick="switchTab('kronotime');setTimeout(function(){doInitKrono();},150)">⏱️ Kronotime</button>
 </div>
 
 <div id="page-main" class="tab-page active">
@@ -949,17 +950,21 @@ render(null);
 // ═══════════ TABS ═══════════
 function switchTab(tab) {
   document.querySelectorAll('.tab-btn').forEach(function(b,i){
-    b.classList.toggle('active',(tab==='main'&&i===0)||(tab==='sinstock'&&i===1));
+    b.classList.toggle('active',(tab==='main'&&i===0)||(tab==='sinstock'&&i===1)||(tab==='kronotime'&&i===2));
   });
   document.getElementById('page-main').classList.toggle('active', tab==='main');
   document.getElementById('page-sinstock').classList.toggle('active', tab==='sinstock');
+  var pkr=document.getElementById('page-kronotime');
+  if(pkr) pkr.classList.toggle('active', tab==='kronotime');
   if(tab==='sinstock'){
     ssPaisActivo='todas';
     document.querySelectorAll('.ss-filter-btn').forEach(function(b,i){ b.classList.toggle('active', i===0); });
     doInitSS();
-    setTimeout(function(){
-      if(chartSSBar) chartSSBar.resize();
-    }, 300);
+    setTimeout(function(){ if(chartSSBar) chartSSBar.resize(); }, 300);
+  }
+  if(tab==='kronotime'){
+    doInitKrono();
+    setTimeout(function(){ if(chartKronoBar) chartKronoBar.resize(); }, 300);
   }
 }
 
@@ -1164,6 +1169,138 @@ function renderSS(){
   }
 }
 
+// ═══════════ KRONOTIME ═══════════
+var chartKronoBar = null;
+
+function isKrono(r){
+  var com = (r.com||'').toLowerCase();
+  var est = (r.est||'').toLowerCase();
+  return com.indexOf('kronotime')>=0 || est.indexOf('krono')>=0;
+}
+
+function doInitKrono(){
+  var KR = RECORDS.filter(isKrono);
+  window._KR_CACHE = KR;
+  var meses=[];
+  KR.forEach(function(r){ if(r.fn){var ym=r.fn.slice(0,7);if(meses.indexOf(ym)<0)meses.push(ym);} });
+  meses.sort();
+  var sel=document.getElementById('krMes');
+  if(sel && meses.length>0){
+    var today=new Date().toISOString().slice(0,7);
+    var cur=sel.value||'';
+    var def=meses.indexOf(today)>=0?today:meses[meses.length-1];
+    if(meses.indexOf(cur)<0) cur=def;
+    var html='';
+    meses.forEach(function(ym){
+      var pp=ym.split('-'); var mo=parseInt(pp[1],10);
+      html+='<option value="'+ym+'"'+(ym===cur?' selected':'')+'>'+MESES_N[mo]+' '+pp[0]+'</option>';
+    });
+    sel.innerHTML=html;
+  }
+  renderKrono();
+}
+
+function renderKrono(){
+  var sel=document.getElementById('krMes');
+  var ym=sel&&sel.value?sel.value:'2026-06';
+  var pp=ym.split('-'); var y=+pp[0]; var mo=+pp[1];
+  var nDias=getDias(ym);
+  var KR=window._KR_CACHE||[];
+  var KRmes=KR.filter(function(r){ return r.fn&&r.fn.slice(0,7)===ym; });
+
+  // Badge total mes
+  var badge=document.getElementById('kr-total-badge');
+  if(badge) badge.textContent=KRmes.length;
+
+  // Badge pendientes (Escalado con Kronotime activos en el mes)
+  var pend=KRmes.filter(function(r){ return (r.com||'').toLowerCase().indexOf('escalado con kronotime')>=0; });
+  var pbadge=document.getElementById('kr-pend-badge');
+  if(pbadge) pbadge.textContent=pend.length;
+
+  // Tabla resumen por Error/Estado
+  var errGrp={};
+  KRmes.forEach(function(r){ var e=(r.est||'Sin estado').trim(); errGrp[e]=(errGrp[e]||0)+1; });
+  var errArr=Object.entries(errGrp).sort(function(a,b){return b[1]-a[1];});
+  var tbody=document.getElementById('kr-sum-body');
+  if(tbody){
+    var rows='';
+    errArr.forEach(function(pair){
+      rows+='<tr style="border-bottom:1px solid #F1F5F9">'
+        +'<td style="padding:6px 12px;font-size:12px;color:#0F172A">'+pair[0]+'</td>'
+        +'<td style="padding:6px 12px;font-size:12px;font-weight:700;color:#0F172A;text-align:right">'+pair[1]+'</td></tr>';
+    });
+    tbody.innerHTML=rows||'<tr><td colspan="2" style="padding:16px;text-align:center;color:#94A3B8">Sin datos</td></tr>';
+    var tot=document.getElementById('kr-sum-tot');
+    if(tot) tot.textContent=KRmes.length;
+  }
+
+  // Gráfica por día
+  var dias=[];
+  for(var i=1;i<=nDias;i++) dias.push(ym+'-'+(i<10?'0':'')+i);
+  var cntD={};
+  KRmes.forEach(function(r){ if(r.fn) cntD[r.fn]=(cntD[r.fn]||0)+1; });
+  var vals=dias.map(function(d){ return cntD[d]||0; });
+  var maxV=Math.max.apply(null,vals.concat([0]));
+  var mo2=mo<10?'0'+mo:String(mo);
+  var labels=dias.map(function(d){ return parseInt(d.slice(8),10)+'/'+mo2; });
+  var colors=vals.map(function(v){ return v===maxV&&v>0?'#DC2626':'#6366F1'; });
+
+  var canvas=document.getElementById('chartKronoDia');
+  if(canvas){
+    var kronoLabelPlugin={
+      id:'kronoLabels',
+      afterDatasetsDraw:function(chart){
+        var ctx=chart.ctx;
+        chart.data.datasets.forEach(function(ds,i){
+          chart.getDatasetMeta(i).data.forEach(function(bar,j){
+            var v=ds.data[j]; if(!v||v===0) return;
+            ctx.save(); ctx.fillStyle='#0F172A'; ctx.font='bold 9px sans-serif';
+            ctx.textAlign='center'; ctx.textBaseline='bottom';
+            ctx.fillText(v,bar.x,bar.y-2); ctx.restore();
+          });
+        });
+      }
+    };
+    if(chartKronoBar){ chartKronoBar.destroy(); chartKronoBar=null; }
+    chartKronoBar=new Chart(canvas,{
+      type:'bar',
+      data:{labels:labels,datasets:[{label:'Kronotime',data:vals,backgroundColor:colors,borderRadius:4}]},
+      options:{
+        responsive:true, maintainAspectRatio:false,
+        plugins:{legend:{display:false}},
+        scales:{
+          x:{ticks:{color:'#1E293B',font:{size:9},maxRotation:45},grid:{display:false}},
+          y:{ticks:{color:'#1E293B',stepSize:1},beginAtZero:true}
+        }
+      },
+      plugins:[kronoLabelPlugin]
+    });
+  }
+
+  // Tabla detalle
+  var sorted=KRmes.slice().sort(function(a,b){ return (b.fn||'').localeCompare(a.fn||''); });
+  var dc=document.getElementById('kr-det-count');
+  if(dc) dc.textContent=sorted.length+' registros';
+  var det=document.getElementById('kr-tbl-body');
+  if(det){
+    var html2='';
+    sorted.forEach(function(r){
+      var fn=r.fn?r.fn.split('-').reverse().join('/'):'—';
+      var est=(r.est||'—').length>70?(r.est||'').slice(0,70)+'…':(r.est||'—');
+      var ops=r.ops||'—';
+      var pen=r.pen||'—';
+      var marca=extractBrand(r.marca)||r.marca||'—';
+       var isPend=(r.com||'').toLowerCase().indexOf('escalado con kronotime')>=0;
+      html2+='<tr style="border-bottom:1px solid #F1F5F9'+(isPend?';background:#FEF9C3':'')+'">'
+        +'<td style="padding:6px 12px;font-size:12px;white-space:nowrap">'+fn+'</td>'
+        +'<td style="padding:6px 12px;font-size:11px;color:#475569;max-width:280px">'+est+'</td>'
+        +'<td style="padding:6px 12px;font-size:12px"><span style="background:#EDE9FE;color:#5B21B6;padding:2px 8px;border-radius:6px;font-size:11px;font-weight:600">'+ops+'</span></td>'
+        +'<td style="padding:6px 12px;font-size:12px;color:#0F172A">'+pen+'</td>'
+        +'<td style="padding:6px 12px;font-size:12px;color:#475569">'+marca+'</td></tr>';
+    });
+    det.innerHTML=html2||'<tr><td colspan="5" style="text-align:center;padding:20px;color:#94A3B8">Sin datos</td></tr>';
+  }
+}
 </script>
 
 </div><!-- /page-main -->
@@ -1174,7 +1311,6 @@ function renderSS(){
   <!-- Barra de filtros -->
   <div style="background:#fff;border-bottom:1px solid #E2E8F0;padding:14px 24px;
               display:flex;flex-wrap:wrap;align-items:center;gap:12px">
-
     <!-- Botones País / General -->
     <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">
       <span style="font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.5px">País:</span>
@@ -1272,10 +1408,7 @@ function renderSS(){
     </div>
   </div>
 
-
-  <!-- Auto-init script -->
   <script>
-    // Llamada directa cuando el tab carga: MutationObserver en page-sinstock
     (function(){
       var el = document.getElementById('page-sinstock');
       if(!el) return;
@@ -1293,6 +1426,114 @@ function renderSS(){
   </script>
 
 </div><!-- /page-sinstock -->
+
+<!-- ═══════════ PÁGINA KRONOTIME ═══════════ -->
+<div id="page-kronotime" class="tab-page">
+
+  <!-- Barra de filtros -->
+  <div style="background:#fff;border-bottom:1px solid #E2E8F0;padding:14px 24px;
+              display:flex;flex-wrap:wrap;align-items:center;gap:16px">
+    <div style="display:flex;gap:6px;align-items:center">
+      <span style="font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.5px">Mes:</span>
+      <select id="krMes" onchange="renderKrono()"
+        style="padding:6px 10px;border-radius:8px;border:1px solid #CBD5E1;
+               background:#fff;color:#1E293B;font-size:12px;font-family:inherit;cursor:pointer">
+        <option value="2026-05">Mayo 2026</option>
+        <option value="2026-06" selected>Junio 2026</option>
+      </select>
+    </div>
+    <div style="display:flex;gap:10px;margin-left:auto">
+      <div style="background:#EDE9FE;border:1px solid #DDD6FE;border-radius:10px;padding:8px 18px;text-align:center">
+        <div style="font-size:10px;color:#5B21B6;font-weight:700;text-transform:uppercase">Total Mes</div>
+        <div id="kr-total-badge" style="font-size:22px;font-weight:900;color:#6D28D9;line-height:1.1">—</div>
+      </div>
+      <div style="background:#FEF9C3;border:1px solid #FEF08A;border-radius:10px;padding:8px 18px;text-align:center">
+        <div style="font-size:10px;color:#92400E;font-weight:700;text-transform:uppercase">Pendientes</div>
+        <div id="kr-pend-badge" style="font-size:22px;font-weight:900;color:#D97706;line-height:1.1">—</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenido: tabla resumen + gráfica -->
+  <div style="display:grid;grid-template-columns:340px 1fr;gap:16px;padding:20px 24px">
+    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);overflow:hidden">
+      <div style="background:#4C1D95;padding:10px 16px">
+        <span style="font-size:12px;font-weight:700;color:#fff;text-transform:uppercase;letter-spacing:.5px">
+          ⏱️ Órdenes por Error / Estado
+        </span>
+      </div>
+      <table style="width:100%;border-collapse:collapse">
+        <thead>
+          <tr style="background:#EDE9FE">
+            <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:left;font-weight:700">Error / Estado</th>
+            <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:right;font-weight:700">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody id="kr-sum-body"></tbody>
+        <tfoot>
+          <tr style="background:#1E293B">
+            <td style="padding:8px 12px;font-size:12px;color:#fff;font-weight:700">Total</td>
+            <td id="kr-sum-tot" style="padding:8px 12px;font-size:12px;color:#fff;font-weight:700;text-align:right">—</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);padding:20px">
+      <div style="font-size:12px;font-weight:700;color:#4C1D95;text-transform:uppercase;
+                  letter-spacing:.5px;margin-bottom:4px">Kronotime por fecha</div>
+      <div style="font-size:11px;color:#94A3B8;margin-bottom:14px">Órdenes por día del mes seleccionado</div>
+      <div style="position:relative;height:260px">
+        <canvas id="chartKronoDia"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tabla detalle -->
+  <div style="padding:0 24px 24px">
+    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);overflow:hidden">
+      <div style="padding:12px 18px;background:#F8FAFC;border-bottom:1px solid #E2E8F0;
+                  display:flex;align-items:center;justify-content:space-between">
+        <span style="font-size:13px;font-weight:700;color:#1E293B">📋 Detalle órdenes Kronotime</span>
+        <span id="kr-det-count" style="font-size:11px;color:#64748B"></span>
+      </div>
+      <div style="overflow-x:auto;max-height:340px;overflow-y:auto">
+        <table style="width:100%;border-collapse:collapse">
+          <thead style="position:sticky;top:0">
+            <tr style="background:#EDE9FE">
+              <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:left;font-weight:700;white-space:nowrap">Fecha</th>
+              <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:left;font-weight:700">Error / Estado</th>
+              <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:left;font-weight:700;white-space:nowrap">Acción OPS</th>
+              <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:left;font-weight:700;white-space:nowrap">Pendiente por</th>
+              <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:left;font-weight:700">Marca</th>
+            </tr>
+          </thead>
+          <tbody id="kr-tbl-body"></tbody>
+        </table>
+      </div>
+      <div style="padding:8px 14px;background:#F8FAFC;border-top:1px solid #E2E8F0;font-size:10px;color:#94A3B8">
+        🟡 Fila amarilla = orden actualmente escalada con Kronotime
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function(){
+      var el=document.getElementById('page-kronotime');
+      if(!el) return;
+      var obs=new MutationObserver(function(muts){
+        muts.forEach(function(mut){
+          if(mut.type==='attributes'&&mut.attributeName==='class'){
+            if(el.classList.contains('active')){
+              setTimeout(function(){ if(typeof doInitKrono==='function') doInitKrono(); },100);
+            }
+          }
+        });
+      });
+      obs.observe(el,{attributes:true});
+    })();
+  </script>
+
+</div><!-- /page-kronotime -->
 
 </body>
 </html>
