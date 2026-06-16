@@ -288,6 +288,7 @@ footer{text-align:center;color:#94A3B8;font-size:10px;padding:16px;letter-spacin
   <button class="tab-btn active" onclick="switchTab('main')">📊 Órdenes Incidentadas</button>
   <button class="tab-btn" onclick="switchTab('sinstock');setTimeout(function(){doInitSS();},150)">📦 Sin Stock</button>
   <button class="tab-btn" onclick="switchTab('kronotime');setTimeout(function(){doInitKrono();},150)">⚠️ Kronotime</button>
+  <button class="tab-btn" onclick="switchTab('jira');setTimeout(function(){doInitJira();},150)">🔵 Jira</button>
 </div>
 
 <div id="page-main" class="tab-page active">
@@ -950,12 +951,14 @@ render(null);
 // ═══════════ TABS ═══════════
 function switchTab(tab) {
   document.querySelectorAll('.tab-btn').forEach(function(b,i){
-    b.classList.toggle('active',(tab==='main'&&i===0)||(tab==='sinstock'&&i===1)||(tab==='kronotime'&&i===2));
+    b.classList.toggle('active',(tab==='main'&&i===0)||(tab==='sinstock'&&i===1)||(tab==='kronotime'&&i===2)||(tab==='jira'&&i===3));
   });
   document.getElementById('page-main').classList.toggle('active', tab==='main');
   document.getElementById('page-sinstock').classList.toggle('active', tab==='sinstock');
   var pkr=document.getElementById('page-kronotime');
   if(pkr) pkr.classList.toggle('active', tab==='kronotime');
+  var pjr=document.getElementById('page-jira');
+  if(pjr) pjr.classList.toggle('active', tab==='jira');
   if(tab==='sinstock'){
     ssPaisActivo='todas';
     document.querySelectorAll('.ss-filter-btn').forEach(function(b,i){ b.classList.toggle('active', i===0); });
@@ -1520,12 +1523,238 @@ function renderKrono(){
         🟡 Fila amarilla = orden actualmente escalada con Kronotime
       </div>
     </div>
-  </div>
+
+  </div><!-- /kronotime-inner -->
 
   <script>
     (function(){
       var el=document.getElementById('page-kronotime');
       if(!el) return;
       var obs=new MutationObserver(function(muts){
-        muts.forEach(function(mut){
-        
+        muts.forEach(function(m){
+          if(m.type==='attributes'&&m.attributeName==='class'){
+            if(el.classList.contains('active')){doInitKrono();}
+          }
+        });
+      });
+      obs.observe(el,{attributes:true});
+    })();
+  </script>
+
+</div><!-- /page-kronotime -->
+
+<!-- ═══════════ PÁGINA JIRA ═══════════ -->
+<div id="page-jira" class="tab-page">
+
+<style>
+.jira-header{background:linear-gradient(135deg,#1E3A8A 0%,#2563EB 100%);padding:16px 24px;display:flex;align-items:center;justify-content:space-between}
+.jira-title{color:#fff;font-size:14px;font-weight:700;letter-spacing:.3px}
+.jira-sub{color:#BFDBFE;font-size:11px;margin-top:2px}
+.jira-refresh{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;transition:background .2s;font-family:inherit}
+.jira-refresh:hover{background:rgba(255,255,255,.25)}
+.jira-refresh:disabled{opacity:.5;cursor:default}
+.jira-filters{background:#fff;border-bottom:1px solid #E2E8F0;padding:10px 24px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.jira-filter-lbl{font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.5px}
+.jira-filter-btn{padding:5px 14px;border-radius:20px;border:1.5px solid #E2E8F0;font-size:12px;font-weight:600;cursor:pointer;background:#fff;color:#475569;transition:all .15s;font-family:inherit}
+.jira-filter-btn.active{background:#1E3A8A;border-color:#1E3A8A;color:#fff}
+.jira-filter-btn:hover:not(.active){border-color:#94A3B8}
+.jira-badges{padding:14px 24px;display:flex;gap:12px;flex-wrap:wrap;background:#F8FAFC}
+.jira-badge{background:#fff;border-radius:12px;padding:10px 18px;box-shadow:0 1px 3px rgba(0,0,0,.08);text-align:center;min-width:110px}
+.jira-badge-lbl{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#64748B}
+.jira-badge-num{font-size:26px;font-weight:900;line-height:1.1}
+.jira-content{padding:0 24px 24px;background:#F8FAFC;min-height:300px}
+.jira-section-title{font-size:13px;font-weight:700;color:#1E293B;padding:14px 0 8px;border-bottom:2px solid #E2E8F0;display:flex;align-items:center;gap:8px}
+.jira-avatar{width:26px;height:26px;border-radius:50%;color:#fff;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center}
+.jira-tbl-wrap{background:#fff;border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,.08);overflow:hidden;margin-bottom:18px}
+.jira-tbl{width:100%;border-collapse:collapse}
+.jira-tbl thead tr{background:#F1F5F9}
+.jira-tbl th{padding:8px 12px;font-size:11px;font-weight:700;color:#475569;text-align:left;text-transform:uppercase;letter-spacing:.4px;white-space:nowrap}
+.jira-tbl td{padding:8px 12px;font-size:12px;color:#1E293B;border-top:1px solid #F1F5F9;vertical-align:middle}
+.jira-tbl tr:hover td{background:#F8FAFC}
+.jira-key{font-weight:700;color:#2563EB;text-decoration:none;font-size:12px;white-space:nowrap}
+.jira-key:hover{text-decoration:underline}
+.jira-sbadge{display:inline-flex;align-items:center;padding:3px 8px;border-radius:20px;font-size:10px;font-weight:700;white-space:nowrap}
+.js-new{background:#DBEAFE;color:#1D4ED8}.js-prog{background:#FEF3C7;color:#92400E}
+.js-wait{background:#F3E8FF;color:#6D28D9}.js-other{background:#F1F5F9;color:#475569}
+.jira-pbadge{display:inline-flex;padding:2px 7px;border-radius:4px;font-size:10px;font-weight:700}
+.jp-alta{background:#FEE2E2;color:#DC2626}.jp-media{background:#FEF3C7;color:#D97706}
+.jp-baja{background:#F0FDF4;color:#16A34A}.jp-other{background:#F1F5F9;color:#64748B}
+.jira-sum{max-width:300px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.jira-loading{display:flex;align-items:center;justify-content:center;padding:48px;color:#94A3B8;font-size:13px;gap:10px}
+.jira-spinner{width:16px;height:16px;border:2px solid #E2E8F0;border-top-color:#2563EB;border-radius:50%;animation:jspin .7s linear infinite}
+@keyframes jspin{to{transform:rotate(360deg)}}
+.jira-error{background:#FEE2E2;border:1px solid #FECACA;border-radius:10px;padding:14px 18px;color:#DC2626;font-size:12px;margin:16px 0}
+.jira-nocowork{background:#FEF3C7;border:1px solid #FDE68A;border-radius:10px;padding:16px 20px;color:#92400E;font-size:12px;margin:16px 0;line-height:1.6}
+.jira-empty td{text-align:center;color:#94A3B8;padding:20px}
+</style>
+
+<div class="jira-header">
+  <div>
+    <div class="jira-title">🔵 Información Jira — GDI</div>
+    <div class="jira-sub">Tickets activos · Anlly Giraldo y Juan Pinzon · ixglobalit.atlassian.net</div>
+  </div>
+  <button class="jira-refresh" id="jiraRefreshBtn" onclick="loadJira()">↻ Actualizar</button>
+</div>
+
+<div class="jira-filters">
+  <span class="jira-filter-lbl">Ver:</span>
+  <button class="jira-filter-btn active" onclick="setJiraFilter('all',this)">Todos</button>
+  <button class="jira-filter-btn" onclick="setJiraFilter('anlly',this)">👤 Anlly Giraldo</button>
+  <button class="jira-filter-btn" onclick="setJiraFilter('juan',this)">👤 Juan Pinzon</button>
+</div>
+
+<div class="jira-badges">
+  <div class="jira-badge"><div class="jira-badge-lbl">Total activos</div><div class="jira-badge-num" style="color:#2563EB" id="jBadgeTotal">—</div></div>
+  <div class="jira-badge"><div class="jira-badge-lbl">Anlly Giraldo</div><div class="jira-badge-num" style="color:#7C3AED" id="jBadgeAnlly">—</div></div>
+  <div class="jira-badge"><div class="jira-badge-lbl">Juan Pinzon</div><div class="jira-badge-num" style="color:#059669" id="jBadgeJuan">—</div></div>
+  <div class="jira-badge"><div class="jira-badge-lbl">Alta prioridad</div><div class="jira-badge-num" style="color:#DC2626" id="jBadgeAlta">—</div></div>
+  <div class="jira-badge" style="margin-left:auto"><div class="jira-badge-lbl">Actualizado</div><div style="font-size:11px;font-weight:600;color:#64748B;margin-top:4px" id="jBadgeTime">—</div></div>
+</div>
+
+<div class="jira-content" id="jiraContent">
+  <div class="jira-loading"><div class="jira-spinner"></div> Cargando…</div>
+</div>
+
+<script>
+(function(){
+  var ANLLY_ID='712020:9fbaf830-8be0-4f9e-8492-6a93eaba2a0f';
+  var JUAN_ID='62bde6a2ec4c0d377fa0cec3';
+  var CLOUD_ID='67ecd7cc-e886-4670-b8f4-634a3abcad85';
+  var JIRA_URL='https://ixglobalit.atlassian.net/browse/';
+  var jiraIssues=[];
+  var jiraFilter='all';
+  var jiraInited=false;
+
+  window.setJiraFilter=function(f,btn){
+    jiraFilter=f;
+    document.querySelectorAll('.jira-filter-btn').forEach(function(b){b.classList.remove('active');});
+    btn.classList.add('active');
+    renderJira();
+  };
+
+  function jStatusClass(s){
+    s=(s||'').toLowerCase();
+    if(s.includes('nuevo')||s.includes('new')||s.includes('por hacer')) return 'js-new';
+    if(s.includes('curso')||s.includes('progres')||s.includes('espera')) return 'js-prog';
+    if(s.includes('proveedor')||s.includes('consulta')||s.includes('pendiente')) return 'js-wait';
+    return 'js-other';
+  }
+  function jPrioClass(p){
+    p=(p||'').toLowerCase();
+    if(p.includes('alta')||p.includes('high')||p.includes('major')) return 'jp-alta';
+    if(p.includes('media')||p.includes('medium')) return 'jp-media';
+    if(p.includes('baja')||p.includes('low')||p.includes('minor')) return 'jp-baja';
+    return 'jp-other';
+  }
+  function jFmtDate(iso){
+    if(!iso) return '—';
+    var d=new Date(iso);
+    return d.toLocaleDateString('es-CO',{day:'2-digit',month:'short',year:'numeric'});
+  }
+  function jTrunc(s,n){return(!s)?'—':(s.length>n?s.slice(0,n)+'…':s);}
+
+  function buildJiraTbl(issues){
+    if(!issues.length){
+      return '<div class="jira-tbl-wrap"><table class="jira-tbl"><tbody><tr class="jira-empty"><td colspan="6">Sin tickets activos</td></tr></tbody></table></div>';
+    }
+    var rows=issues.map(function(iss){
+      var f=iss.fields||{};
+      var key=iss.key||'';
+      var status=(f.status&&f.status.name)||'—';
+      var prio=(f.priority&&f.priority.name)||'—';
+      var updated=jFmtDate(f.updated);
+      var assignee=(f.assignee&&f.assignee.displayName)||'—';
+      var type=((f.issuetype&&f.issuetype.name)||'').toLowerCase();
+      var icon=type.includes('incidente')?'🔴':type.includes('solicitud')?'🔵':'⬜';
+      var summary=jTrunc(f.summary||'—',52);
+      return '<tr>'+
+        '<td><a class="jira-key" href="'+JIRA_URL+key+'" target="_blank">'+key+'</a></td>'+
+        '<td><span class="jira-sum" title="'+( f.summary||'')+'">'+icon+' '+summary+'</span></td>'+
+        '<td><span class="jira-sbadge '+jStatusClass(status)+'">'+status+'</span></td>'+
+        '<td><span class="jira-pbadge '+jPrioClass(prio)+'">'+prio+'</span></td>'+
+        '<td style="color:#64748B;font-size:11px">'+assignee+'</td>'+
+        '<td style="color:#94A3B8;font-size:11px;white-space:nowrap">'+updated+'</td>'+
+      '</tr>';
+    }).join('');
+    return '<div class="jira-tbl-wrap"><table class="jira-tbl">'+
+      '<thead><tr><th>Ticket</th><th>Resumen</th><th>Estado</th><th>Prioridad</th><th>Asignado</th><th>Actualizado</th></tr></thead>'+
+      '<tbody>'+rows+'</tbody></table></div>';
+  }
+
+  function renderJira(){
+    var anlly=jiraIssues.filter(function(i){return (i.fields&&i.fields.assignee&&i.fields.assignee.accountId)===ANLLY_ID;});
+    var juan=jiraIssues.filter(function(i){return (i.fields&&i.fields.assignee&&i.fields.assignee.accountId)===JUAN_ID;});
+    var html='';
+    if(jiraFilter==='all'||jiraFilter==='anlly'){
+      html+='<div class="jira-section-title"><span class="jira-avatar" style="background:#7C3AED">AG</span> Anlly Giraldo <span style="font-size:10px;color:#94A3B8;margin-left:auto;font-weight:400">'+anlly.length+' tickets</span></div>';
+      html+=buildJiraTbl(anlly);
+    }
+    if(jiraFilter==='all'||jiraFilter==='juan'){
+      html+='<div class="jira-section-title"><span class="jira-avatar" style="background:#059669">JP</span> Juan Pinzon <span style="font-size:10px;color:#94A3B8;margin-left:auto;font-weight:400">'+juan.length+' tickets</span></div>';
+      html+=buildJiraTbl(juan);
+    }
+    document.getElementById('jiraContent').innerHTML=html;
+    var alta=jiraIssues.filter(function(i){return ((i.fields&&i.fields.priority&&i.fields.priority.name)||'').toLowerCase().includes('alta');}).length;
+    document.getElementById('jBadgeTotal').textContent=jiraIssues.length;
+    document.getElementById('jBadgeAnlly').textContent=anlly.length;
+    document.getElementById('jBadgeJuan').textContent=juan.length;
+    document.getElementById('jBadgeAlta').textContent=alta;
+    document.getElementById('jBadgeTime').textContent=new Date().toLocaleTimeString('es-CO',{hour:'2-digit',minute:'2-digit'});
+  }
+
+  window.loadJira=async function(){
+    var btn=document.getElementById('jiraRefreshBtn');
+    if(btn){btn.disabled=true;btn.textContent='↻ Cargando…';}
+    document.getElementById('jiraContent').innerHTML='<div class="jira-loading"><div class="jira-spinner"></div> Consultando Jira…</div>';
+    if(!window.cowork||typeof window.cowork.callMcpTool!=='function'){
+      document.getElementById('jiraContent').innerHTML=
+        '<div class="jira-nocowork">'+
+        '⚠️ <strong>Esta sección requiere Cowork</strong><br>'+
+        'Para ver tickets de Jira en tiempo real, abre este tablero dentro de Cowork donde la conexión a Jira está disponible.<br>'+
+        '<span style="color:#B45309;font-size:11px">GitHub Pages no tiene acceso directo a la API de Jira.</span>'+
+        '</div>';
+      if(btn){btn.disabled=false;btn.textContent='↻ Actualizar';}
+      return;
+    }
+    try{
+      var result=await window.cowork.callMcpTool(
+        'mcp__47874e77-ba74-4f58-8df9-835aaf16c0c5__searchJiraIssuesUsingJql',
+        {cloudId:CLOUD_ID,
+         jql:'assignee in ("'+ANLLY_ID+'","'+JUAN_ID+'") AND statusCategory != Done ORDER BY assignee ASC, updated DESC',
+         fields:['summary','status','priority','assignee','issuetype','updated'],
+         maxResults:50,
+         responseContentFormat:'markdown'}
+      );
+      if(result.isError) throw new Error((result.content&&result.content[0]&&result.content[0].text)||'Error desconocido');
+      var data=result.structuredContent||JSON.parse(result.content[0].text);
+      jiraIssues=(data&&data.issues&&data.issues.nodes)||[];
+      renderJira();
+    }catch(err){
+      document.getElementById('jiraContent').innerHTML='<div class="jira-error">⚠️ Error al cargar datos de Jira: '+err.message+'</div>';
+    }finally{
+      if(btn){btn.disabled=false;btn.textContent='↻ Actualizar';}
+    }
+  };
+
+  window.doInitJira=function(){
+    if(!jiraInited){jiraInited=true;loadJira();}
+  };
+
+  var el=document.getElementById('page-jira');
+  if(el){
+    var obs=new MutationObserver(function(muts){
+      muts.forEach(function(m){
+        if(m.type==='attributes'&&m.attributeName==='class'){
+          if(el.classList.contains('active')&&!jiraInited){jiraInited=true;loadJira();}
+        }
+      });
+    });
+    obs.observe(el,{attributes:true});
+  }
+})();
+</script>
+
+</div><!-- /page-jira -->
+
+</body>
+</html>
