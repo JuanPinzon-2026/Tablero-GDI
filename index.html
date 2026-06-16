@@ -1173,9 +1173,9 @@ function renderSS(){
 var chartKronoBar = null;
 
 function isKrono(r){
-  var com = (r.com||'').toLowerCase();
-  var est = (r.est||'').toLowerCase();
-  return com.indexOf('kronotime')>=0 || est.indexOf('krono')>=0;
+  var ops = (r.ops||'').toLowerCase().replace(/\s+/g,' ').trim();
+  var com = (r.com||'').toLowerCase().trim();
+  return ops === 'en revision co - it' && com === 'escalado con kronotime';
 }
 
 function doInitKrono(){
@@ -1263,17 +1263,23 @@ function renderKrono(){
     };
     if(chartKronoBar){ chartKronoBar.destroy(); chartKronoBar=null; }
     chartKronoBar=new Chart(canvas,{
-      type:'bar',
-      data:{labels:labels,datasets:[{label:'Kronotime',data:vals,backgroundColor:colors,borderRadius:4}]},
+      type:'line',
+      data:{labels:labels,datasets:[{
+        label:'Kronotime',data:vals,
+        borderColor:'#6D28D9',backgroundColor:'rgba(109,40,217,0.1)',
+        borderWidth:2,pointBackgroundColor:'#6D28D9',pointRadius:4,
+        pointHoverRadius:6,fill:true,tension:0.3
+      }]},
       options:{
         responsive:true, maintainAspectRatio:false,
-        plugins:{legend:{display:false}},
+        plugins:{legend:{display:false},
+          tooltip:{backgroundColor:'#4C1D95',titleColor:'#fff',bodyColor:'#DDD6FE',
+            callbacks:{label:function(ctx){return ' '+ctx.raw+' órdenes';}}}},
         scales:{
           x:{ticks:{color:'#1E293B',font:{size:9},maxRotation:45},grid:{display:false}},
-          y:{ticks:{color:'#1E293B',stepSize:1},beginAtZero:true}
+          y:{ticks:{color:'#1E293B',stepSize:1},beginAtZero:true,grid:{color:'#F1F5F9'}}
         }
-      },
-      plugins:[kronoLabelPlugin]
+      }
     });
   }
 
@@ -1522,18 +1528,4 @@ function renderKrono(){
       if(!el) return;
       var obs=new MutationObserver(function(muts){
         muts.forEach(function(mut){
-          if(mut.type==='attributes'&&mut.attributeName==='class'){
-            if(el.classList.contains('active')){
-              setTimeout(function(){ if(typeof doInitKrono==='function') doInitKrono(); },100);
-            }
-          }
-        });
-      });
-      obs.observe(el,{attributes:true});
-    })();
-  </script>
-
-</div><!-- /page-kronotime -->
-
-</body>
-</html>
+        
