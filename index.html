@@ -564,6 +564,7 @@ function render(selectedDate) {
 
   // KPIs: solo registros EN REVISIÓN CO - IT
   const allRecs  = RECORDS;
+  const total    = allRecs.length;
   const enRevRecs = allRecs.filter(r => r.ops && norm(r.ops.trim()) === ES_EN_REV);
   const enRevIT  = enRevRecs.length;  // total general
   const penIT    = count(enRevRecs, 'pen');
