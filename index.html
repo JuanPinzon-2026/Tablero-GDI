@@ -553,7 +553,10 @@ function norm(s) {
     .replace(/á/g,'a').replace(/é/g,'e').replace(/í/g,'i')
     .replace(/ó/g,'o').replace(/ú/g,'u').replace(/ñ/g,'n');
 }
-const ES_EN_REV = 'en revision co - it';
+// Compara ops ignorando acentos, espacios y guiones (captura todas las variantes del campo)
+function isEnRevIT(ops) {
+  return norm(ops||'').replace(/[\s\-]/g,'') === 'enrevisioncoit';
+}
 
 // ── Render ───────────────────────────────────────────────────────────────
 function render(selectedDate) {
@@ -565,7 +568,7 @@ function render(selectedDate) {
   // KPIs: solo registros EN REVISIÓN CO - IT
   const allRecs  = RECORDS;
   const total    = allRecs.length;
-  const enRevRecs = allRecs.filter(r => r.ops && norm(r.ops.trim()) === ES_EN_REV);
+  const enRevRecs = allRecs.filter(r => r.ops && isEnRevIT(r.ops));
   const enRevIT  = enRevRecs.length;  // total general
   const penIT    = count(enRevRecs, 'pen');
   const sol      = penIT['Operaciones Solucionado'] || 0;
@@ -606,7 +609,7 @@ function render(selectedDate) {
 
   // Filtro fijo: Acción OPS = "En revision CO - IT" Y Pendiente por = "Continuidad"
   const recsNotif = RECORDS.filter(r =>
-    r.ops && norm(r.ops.trim()) === ES_EN_REV &&
+    r.ops && isEnRevIT(r.ops) &&
     r.pen === 'Continuidad'
   );
 
@@ -689,7 +692,7 @@ function render(selectedDate) {
 
   // Estado del día — solo órdenes EN REVISIÓN CO - IT
   const estFecha = selectedDate || [...new Set(RECORDS.filter(r=>r.fn).map(r=>r.fn))].sort().slice(-1)[0];
-  const recsEst  = RECORDS.filter(r => r.fn === estFecha && r.ops && norm(r.ops.trim()) === ES_EN_REV);
+  const recsEst  = RECORDS.filter(r => r.fn === estFecha && r.ops && isEnRevIT(r.ops));
   const estCount = count(recsEst, 'est');
   const estTop   = topN(estCount, 8);
   const maxEst   = estTop.length ? estTop[0][1] : 1;
@@ -976,7 +979,7 @@ function isSinStock(r){
   var est=(r.est||'').toLowerCase();
   var com=(r.com||'').toLowerCase();
   return ops.indexOf('sin stock')>=0 ||
-    (ops==='en revision co - it' && (est.indexOf('sin stock')>=0 || com.indexOf('sin stock')>=0));
+    (isEnRevIT(r.ops) && (est.indexOf('sin stock')>=0 || com.indexOf('sin stock')>=0));
 }
 
 function getCountry(marca){
@@ -1007,7 +1010,7 @@ function doInitSS(){
     var est=((r.est)||'').toLowerCase();
     var com2=((r.com)||'').toLowerCase();
     if(ops.indexOf('sin stock')>=0||
-       (ops==='en revision co - it'&&(est.indexOf('sin stock')>=0||com2.indexOf('sin stock')>=0))){
+       (isEnRevIT(r.ops)&&(est.indexOf('sin stock')>=0||com2.indexOf('sin stock')>=0))){
       SS.push(r);
     }
   }
@@ -1056,7 +1059,7 @@ function renderSS(){
       var opsr=((rr.ops)||'').toLowerCase().replace(/\s+/g,' ').trim();
       var estr=((rr.est)||'').toLowerCase();
       var comr=((rr.com)||'').toLowerCase();
-      if(opsr.indexOf('sin stock')>=0||(opsr==='en revision co - it'&&(estr.indexOf('sin stock')>=0||comr.indexOf('sin stock')>=0)))
+      if(opsr.indexOf('sin stock')>=0||(isEnRevIT(rr.ops)&&(estr.indexOf('sin stock')>=0||comr.indexOf('sin stock')>=0)))
         SS.push(rr);
     }
     window._SS_CACHE=SS;
@@ -1174,9 +1177,8 @@ function renderSS(){
 var chartKronoBar = null;
 
 function isKrono(r){
-  var ops = norm((r.ops||'').trim());
   var com = (r.com||'').toLowerCase().trim();
-  return ops === ES_EN_REV && com === 'escalado con kronotime';
+  return isEnRevIT(r.ops) && com === 'escalado con kronotime';
 }
 
 function doInitKrono(){
