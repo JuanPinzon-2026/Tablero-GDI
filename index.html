@@ -1262,4 +1262,37 @@ function renderSS(){
               <th>Marca</th>
               <th>País</th>
               <th>Acción OPS</th>
-              
+              <th>Pendiente por</th>
+              <th>Estado</th>
+            </tr>
+          </thead>
+          <tbody id="ss-tbl-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Auto-init script -->
+  <script>
+    // Llamada directa cuando el tab carga: MutationObserver en page-sinstock
+    (function(){
+      var el = document.getElementById('page-sinstock');
+      if(!el) return;
+      var obs = new MutationObserver(function(muts){
+        muts.forEach(function(mut){
+          if(mut.type==='attributes' && mut.attributeName==='class'){
+            if(el.classList.contains('active')){
+              setTimeout(function(){ if(typeof doInitSS==='function') doInitSS(); }, 100);
+            }
+          }
+        });
+      });
+      obs.observe(el, {attributes:true});
+    })();
+  </script>
+
+</div><!-- /page-sinstock -->
+
+</body>
+</html>
