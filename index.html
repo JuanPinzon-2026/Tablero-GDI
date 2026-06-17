@@ -1011,16 +1011,14 @@ function doInitSS(){
   var SS=RECORDS.filter(isSinStock);
   window._SS_CACHE=SS;
 
-  // Poblar select de marcas desde TODOS los registros
-  // Agrupar marcas sin importar mayúsculas (usar la versión con mejor capitalización)
+  // Poblar select de marcas SOLO con las que tienen registros sin stock
   var todasMarcasLow={};
   var todasMarcasLabel={};
-  RECORDS.forEach(function(r){
+  SS.forEach(function(r){
     var b=extractBrand(r.marca);
     if(!b) return;
     var bl=b.toLowerCase();
     todasMarcasLow[bl]=(todasMarcasLow[bl]||0)+1;
-    // Guardar la versión con más letras mayúsculas como label
     if(!todasMarcasLabel[bl] || b.length > todasMarcasLabel[bl].length) todasMarcasLabel[bl]=b;
   });
   var marcasOrden=Object.keys(todasMarcasLabel).sort(function(a,b){ return todasMarcasLabel[a].localeCompare(todasMarcasLabel[b]); });
