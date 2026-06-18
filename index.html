@@ -549,15 +549,36 @@ function initCharts() {
     }
   });
 
+  const opsValuePlugin = {
+    id: 'opsValues',
+    afterDatasetsDraw(chart) {
+      const {ctx} = chart;
+      chart.data.datasets.forEach((ds, i) => {
+        chart.getDatasetMeta(i).data.forEach((bar, j) => {
+          const v = ds.data[j];
+          if(!v) return;
+          ctx.save();
+          ctx.font = 'bold 11px Segoe UI, sans-serif';
+          ctx.fillStyle = '#1E293B';
+          ctx.textAlign = 'left';
+          ctx.textBaseline = 'middle';
+          ctx.fillText(v, bar.x + 6, bar.y);
+          ctx.restore();
+        });
+      });
+    }
+  };
+
   chartOps = new Chart(document.getElementById('chartOps'), {
     type: 'bar',
+    plugins: [opsValuePlugin],
     data: { labels: [], datasets: [{ label: 'Órdenes', data: [],
       backgroundColor: ['#D97706','#F59E0B','#FCD34D','#FDE68A',
                          '#F97316','#FB923C','#FDBA74','#FED7AA'],
       borderRadius: 5 }] },
     options: {
       indexAxis: 'y', responsive: true, maintainAspectRatio: false,
-      cursor: 'pointer',
+      layout: { padding: { right: 32 } },
       plugins: {
         legend: { display: false },
         tooltip: { backgroundColor: '#1E3A8A',
