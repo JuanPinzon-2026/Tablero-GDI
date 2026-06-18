@@ -925,31 +925,37 @@ function updateMarcaChart() {
     badge.style.display = 'none';
   }
 
-  // Header issues
-  const _now = new Date();
-  const _mesIssues = _now.getFullYear()+'-'+(String(_now.getMonth()+1).padStart(2,'0'));
-  const _mesLbl = _now.toLocaleDateString('es-CO',{month:'long',year:'numeric'});
-  document.querySelector('#issuesHdr span').textContent =
-    (marca ? '🔎 Top 10 Issues — '+marca : '🔎 Top 10 Issues') + ' · ' + _mesLbl;
-  updateIssuesChart(marca, _mesIssues);
+  // Header issues (se actualiza dentro de updateIssuesChart)
+  updateIssuesChart(marca);
 }
 
 function updateIssuesChart(marca, mesActual) {
-  // Si no se pasa mes, calcularlo
+  // Prioridad: mes seleccionado en dropdown → parámetro → mes actual
+  const selMes = (document.getElementById('selectMes')||{}).value || '';
   if(!mesActual){
     const _n=new Date();
     mesActual=_n.getFullYear()+'-'+(String(_n.getMonth()+1).padStart(2,'0'));
   }
-  // Filtrar solo registros del mes actual
-  let recs = RECORDS.filter(r => r.fn && r.fn.slice(0,7) === mesActual);
+  const mes = selMes || mesActual;
+
+  // Filtrar por mes
+  let recs = RECORDS.filter(r => r.fn && r.fn.slice(0,7) === mes);
   if(marca) recs = recs.filter(r => extractBrand(r.marca) === marca);
+
   const cnt = {};
   recs.forEach(r => { if(r.est) cnt[r.est] = (cnt[r.est]||0)+1; });
   const top10 = Object.entries(cnt).sort((a,b)=>b[1]-a[1]).slice(0,10);
   const color = marca ? getBrandColor(marca) : '#D97706';
+
+  // Label del mes para el header
+  const [y,m] = mes.split('-');
+  const mesLbl = (MESES_FULL&&MESES_FULL[+m]) || mes;
+  document.querySelector('#issuesHdr span').textContent =
+    (marca ? '🔎 Top 10 Issues — '+marca : '🔎 Top 10 Issues') + ' · ' + mesLbl;
+
   chartOps.data.labels   = top10.map(([l]) => l.length>45 ? l.slice(0,45)+'…' : l);
   chartOps.data.datasets = [{
-    label: (marca||'Todos')+' · '+mesActual, data: top10.map(x=>x[1]),
+    label: (marca||'Todos')+' · '+mes, data: top10.map(x=>x[1]),
     backgroundColor: color, borderRadius: 4
   }];
   chartOps.update();
