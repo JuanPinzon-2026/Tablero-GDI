@@ -504,49 +504,19 @@ const valueLabelsPlugin = {
 };
 
 function initCharts() {
-  const diaValuePlugin = {
-    id: 'diaValues',
-    afterDatasetsDraw(chart) {
-      const {ctx} = chart;
-      // Solo dataset 0 (barras), skip línea
-      const meta = chart.getDatasetMeta(0);
-      if(!meta || meta.hidden) return;
-      meta.data.forEach((bar, j) => {
-        const v = chart.data.datasets[0].data[j];
-        if(!v) return;
-        ctx.save();
-        ctx.font = 'bold 10px Segoe UI, sans-serif';
-        ctx.fillStyle = '#1E3A8A';
-        ctx.textAlign = 'center';
-        ctx.textBaseline = 'bottom';
-        ctx.fillText(v, bar.x, bar.y - 3);
-        ctx.restore();
-      });
-    }
-  };
-
   chartDia = new Chart(document.getElementById('chartDia'), {
     type: 'bar',
-    plugins: [diaValuePlugin],
+    plugins: [valueLabelsPlugin],
     data: { labels: [], datasets: [
-      { label: 'Órdenes por día', data: [], backgroundColor: [],
-        borderColor: '#2563EB', borderWidth: 0, borderRadius: 5, order: 2 },
-      { label: 'Tendencia (prom. 3 días)', data: [],
-        type: 'line',
-        borderColor: '#DC2626', borderWidth: 2.5, borderDash: [6,4],
-        pointBackgroundColor: '#DC2626', pointRadius: 3, pointHoverRadius: 5,
-        fill: false, tension: 0.4, order: 1 }
+      { label: 'Órdenes', data: [], backgroundColor: [],
+        borderColor: '#2563EB', borderWidth: 0, borderRadius: 6 }
     ]},
     options: {
       responsive: true, maintainAspectRatio: false,
       plugins: {
-        legend: { display: true, position: 'top',
-          labels: { boxWidth: 12, padding: 14, color: '#1E293B', font: {size:11},
-            usePointStyle: true } },
+        legend: { display: false },
         tooltip: { backgroundColor: '#1E3A8A', titleColor: '#fff', bodyColor: '#BFDBFE',
-          callbacks: { label: ctx => ctx.datasetIndex === 1
-            ? ' ' + (ctx.raw != null ? ctx.raw.toFixed(1) : '—') + ' prom.'
-            : ' ' + ctx.raw + ' órdenes' } }
+          callbacks: { label: ctx => ' ' + ctx.raw + ' órdenes' } }
       },
       scales: {
         y: { beginAtZero: true, grid: { color: '#F1F5F9' }, ticks: { color: '#1E293B' } },
@@ -816,21 +786,13 @@ function render(selectedDate) {
   for(let d=1; d<=_hoy.getDate(); d++){
     diasSort.push(_mesActual+'-'+String(d).padStart(2,'0'));
   }
-  const diasVals = diasSort.map(d => ordPorDia[d]||0);
-  // Promedio móvil de 3 días (ventana centrada)
-  const movAvg = diasVals.map((v, i, arr) => {
-    const from = Math.max(0, i-1), to = Math.min(arr.length-1, i+1);
-    const slice = arr.slice(from, to+1);
-    return Math.round((slice.reduce((s,x)=>s+x,0)/slice.length)*10)/10;
-  });
   // Highlight selected date o día de hoy
   const highlightDate = selectedDate || _diaHoy;
   chartDia.data.labels = diasSort.map(d => d.slice(8)+'/'+d.slice(5,7));
-  chartDia.data.datasets[0].data = diasVals;
+  chartDia.data.datasets[0].data = diasSort.map(d => ordPorDia[d]||0);
   chartDia.data.datasets[0].backgroundColor = diasSort.map(d =>
-    d === highlightDate ? '#F59E0B' : 'rgba(37,99,235,0.65)'
+    d === highlightDate ? '#DC2626' : 'rgba(37,99,235,0.7)'
   );
-  chartDia.data.datasets[1].data = movAvg;
   chartDia.update();
 
   // Marca — poblar dropdowns y actualizar
