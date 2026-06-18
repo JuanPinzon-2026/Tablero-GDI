@@ -237,6 +237,34 @@ footer{text-align:center;color:#94A3B8;font-size:10px;padding:16px;letter-spacin
 .tab-page.active{display:block}
 
 /* ── SIN STOCK PAGE ── */
+/* ── MODAL ISSUE DRILL-DOWN ── */
+.issue-modal-bg{display:none;position:fixed;inset:0;background:rgba(15,23,42,.55);
+  z-index:9999;align-items:center;justify-content:center;backdrop-filter:blur(3px)}
+.issue-modal-bg.open{display:flex}
+.issue-modal{background:#fff;border-radius:18px;box-shadow:0 20px 60px rgba(0,0,0,.25);
+  width:min(680px,95vw);max-height:88vh;display:flex;flex-direction:column;overflow:hidden}
+.issue-modal-hdr{background:linear-gradient(135deg,#1E3A8A,#2563EB);padding:20px 24px;
+  display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.issue-modal-title{color:#fff;font-size:15px;font-weight:800;line-height:1.3;flex:1}
+.issue-modal-sub{color:#BFDBFE;font-size:11px;margin-top:4px}
+.issue-modal-close{background:rgba(255,255,255,.2);border:none;color:#fff;border-radius:50%;
+  width:28px;height:28px;cursor:pointer;font-size:16px;line-height:1;flex-shrink:0;
+  display:flex;align-items:center;justify-content:center}
+.issue-modal-close:hover{background:rgba(255,255,255,.35)}
+.issue-modal-body{overflow-y:auto;padding:20px 24px;display:flex;flex-direction:column;gap:20px}
+.issue-modal-section{font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;
+  letter-spacing:.6px;margin-bottom:8px}
+.issue-modal-tbl{width:100%;border-collapse:collapse;font-size:12px}
+.issue-modal-tbl thead th{background:#F1F5F9;color:#1E293B;padding:7px 10px;
+  text-align:left;font-weight:700;border-radius:4px}
+.issue-modal-tbl tbody td{padding:7px 10px;border-bottom:1px solid #F1F5F9;color:#0F172A}
+.issue-modal-tbl tbody tr:hover td{background:#EFF6FF}
+.issue-modal-bar-wrap{display:flex;align-items:center;gap:8px}
+.issue-modal-bar{height:8px;border-radius:4px;background:linear-gradient(90deg,#2563EB,#60A5FA);min-width:4px}
+.issue-modal-chips{display:flex;flex-wrap:wrap;gap:6px}
+.issue-chip{padding:4px 12px;border-radius:20px;font-size:11px;font-weight:700;
+  background:#EFF6FF;color:#1E3A8A;border:1px solid #BFDBFE}
+
 .ss-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:20px 24px 8px}
 .ss-charts{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:0 24px 16px}
 .ss-chart-card{background:#fff;border-radius:14px;padding:18px;box-shadow:var(--shadow)}
@@ -529,17 +557,26 @@ function initCharts() {
       borderRadius: 5 }] },
     options: {
       indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+      cursor: 'pointer',
       plugins: {
         legend: { display: false },
         tooltip: { backgroundColor: '#1E3A8A',
-          callbacks: { label: ctx => '  ' + ctx.raw + ' casos' } }
+          callbacks: { label: ctx => '  ' + ctx.raw + ' casos · Click para ver detalle' } }
       },
       scales: {
         x: { beginAtZero: true, grid: { color: '#F1F5F9' }, ticks: { color: '#1E293B' } },
         y: { grid: { display: false }, ticks: { color: '#1E293B', font: { size: 10 } } }
+      },
+      onClick: (evt, elements) => {
+        if(!elements.length) return;
+        const idx = elements[0].index;
+        const label = chartOps.data.labels[idx];
+        const total = chartOps.data.datasets[0].data[idx];
+        openIssueModal(label, total);
       }
     }
   });
+  document.getElementById('chartOps').style.cursor = 'pointer';
 }
 
 // ── Helpers ──────────────────────────────────────────────────────────────
@@ -963,6 +1000,74 @@ function updateIssuesChart(marca, mesActual) {
 
 function onMarcaChange() { updateMarcaChart(); }
 
+// ── Modal Issue Drill-Down ────────────────────────────────────────────────
+function openIssueModal(issueLabel, total) {
+  // Obtener mes y marca activos del dashboard
+  const selMes   = (document.getElementById('selectMes')||{}).value || '';
+  const selMarca = (document.getElementById('selectMarca')||{}).value || '';
+  const _n = new Date();
+  const mesActual = selMes || (_n.getFullYear()+'-'+(String(_n.getMonth()+1).padStart(2,'0')));
+
+  // Filtrar registros que coincidan con el issue seleccionado + mes + marca
+  // El label puede estar truncado (…), buscamos coincidencia por inicio
+  const labelFull = issueLabel.endsWith('…') ? issueLabel.slice(0,-1) : issueLabel;
+  let recs = RECORDS.filter(r =>
+    r.fn && r.fn.slice(0,7) === mesActual &&
+    (r.est||'') && (r.est.startsWith(labelFull) || r.est === issueLabel)
+  );
+  if(selMarca) recs = recs.filter(r => extractBrand(r.marca) === selMarca);
+
+  // Header del modal
+  const [y,m] = mesActual.split('-');
+  const mesLbl = (MESES_FULL&&MESES_FULL[+m]) || mesActual;
+  document.getElementById('issueModalTitle').textContent = issueLabel;
+  document.getElementById('issueModalSub').textContent =
+    total + ' órdenes · ' + mesLbl + (selMarca ? ' · ' + selMarca : '');
+
+  // Top fechas
+  const cntF = {};
+  recs.forEach(r => { if(r.fn) cntF[r.fn] = (cntF[r.fn]||0)+1; });
+  const topF = Object.entries(cntF).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  const maxF = topF.length ? topF[0][1] : 1;
+  document.getElementById('issueModalFechas').innerHTML = topF.map(([d,n]) => {
+    const dFmt = d.split('-').reverse().join('/');
+    const pct  = Math.round(n/maxF*100);
+    return `<tr>
+      <td>${dFmt}</td>
+      <td><strong>${n}</strong></td>
+      <td><div class="issue-modal-bar-wrap">
+        <div class="issue-modal-bar" style="width:${pct}%"></div>
+        <span style="font-size:11px;color:#64748B">${Math.round(n/total*100)}%</span>
+      </div></td>
+    </tr>`;
+  }).join('') || '<tr><td colspan="3" style="color:#94A3B8;text-align:center;padding:12px">Sin datos</td></tr>';
+
+  // Países (chips con conteo)
+  const cntP = {};
+  recs.forEach(r => { const p=(r.pais||getCountry(r.marca)||'').trim(); if(p) cntP[p]=(cntP[p]||0)+1; });
+  const topP = Object.entries(cntP).sort((a,b)=>b[1]-a[1]);
+  document.getElementById('issueModalPaises').innerHTML = topP.length
+    ? topP.map(([p,n]) => `<span class="issue-chip">${p} <strong>(${n})</strong></span>`).join('')
+    : '<span style="color:#94A3B8;font-size:12px">Sin datos de país</span>';
+
+  // Marcas (chips con conteo)
+  const cntM = {};
+  recs.forEach(r => { const b=extractBrand(r.marca)||r.marca; if(b) cntM[b]=(cntM[b]||0)+1; });
+  const topM = Object.entries(cntM).sort((a,b)=>b[1]-a[1]);
+  document.getElementById('issueModalMarcas').innerHTML = topM.length
+    ? topM.map(([b,n]) => `<span class="issue-chip">${b} <strong>(${n})</strong></span>`).join('')
+    : '<span style="color:#94A3B8;font-size:12px">Sin datos de marca</span>';
+
+  document.getElementById('issueModalBg').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeIssueModal(evt) {
+  if(evt && evt.target !== document.getElementById('issueModalBg')) return;
+  document.getElementById('issueModalBg').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
 function resetJunio() {
   // Buscar el mes de junio 2026 disponible
   const mesSel = document.getElementById('selectMes');
@@ -1362,6 +1467,36 @@ function renderKrono(){
   }
 }
 </script>
+
+<!-- MODAL ISSUE DRILL-DOWN -->
+<div class="issue-modal-bg" id="issueModalBg" onclick="closeIssueModal(event)">
+  <div class="issue-modal">
+    <div class="issue-modal-hdr">
+      <div>
+        <div class="issue-modal-title" id="issueModalTitle"></div>
+        <div class="issue-modal-sub" id="issueModalSub"></div>
+      </div>
+      <button class="issue-modal-close" onclick="closeIssueModal(null)">✕</button>
+    </div>
+    <div class="issue-modal-body">
+      <div>
+        <div class="issue-modal-section">📅 Top fechas con este issue</div>
+        <table class="issue-modal-tbl">
+          <thead><tr><th>Fecha</th><th>Órdenes</th><th>Distribución</th></tr></thead>
+          <tbody id="issueModalFechas"></tbody>
+        </table>
+      </div>
+      <div>
+        <div class="issue-modal-section">🌎 Países involucrados</div>
+        <div class="issue-modal-chips" id="issueModalPaises"></div>
+      </div>
+      <div>
+        <div class="issue-modal-section">🏷️ Marcas involucradas</div>
+        <div class="issue-modal-chips" id="issueModalMarcas"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 </div><!-- /page-main -->
 
