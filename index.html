@@ -508,16 +508,28 @@ function initCharts() {
     type: 'bar',
     plugins: [valueLabelsPlugin],
     data: { labels: [], datasets: [
-      { label: 'Órdenes', data: [], backgroundColor: 'rgba(37,99,235,0.15)',
-        borderColor: '#2563EB', borderWidth: 2, borderRadius: 6,
-        pointBackgroundColor: '#2563EB', fill: true, tension: 0.4 }
+      { label: 'Órdenes por día', data: [],
+        backgroundColor: diasColors => diasColors.data.map((_,i) => 'rgba(37,99,235,0.65)'),
+        borderColor: '#2563EB', borderWidth: 0, borderRadius: 5,
+        order: 2 },
+      { label: 'Tendencia (promedio 3 días)', data: [],
+        type: 'line',
+        borderColor: '#DC2626', borderWidth: 2.5,
+        borderDash: [6, 4],
+        pointBackgroundColor: '#DC2626', pointRadius: 3, pointHoverRadius: 5,
+        fill: false, tension: 0.4,
+        order: 1 }
     ]},
     options: {
       responsive: true, maintainAspectRatio: false,
       plugins: {
-        legend: { display: false },
+        legend: { display: true, position: 'top',
+          labels: { boxWidth: 14, padding: 14, color: '#1E293B', font: { size: 11 },
+            usePointStyle: true } },
         tooltip: { backgroundColor: '#1E3A8A', titleColor: '#fff', bodyColor: '#BFDBFE',
-          callbacks: { label: ctx => ' ' + ctx.raw + ' órdenes' } },
+          callbacks: { label: ctx => ' ' + (ctx.datasetIndex===1
+            ? (ctx.raw != null ? ctx.raw.toFixed(1) : '—') + ' prom.'
+            : ctx.raw) + ' órdenes' } },
 
       },
       scales: {
@@ -789,13 +801,21 @@ function render(selectedDate) {
   for(let d=1; d<=_hoy.getDate(); d++){
     diasSort.push(_mesActual+'-'+String(d).padStart(2,'0'));
   }
-  chartDia.data.labels   = diasSort.map(d => d.slice(8)+'/'+d.slice(5,7));
-  chartDia.data.datasets[0].data = diasSort.map(d => ordPorDia[d]||0);
+  const diasVals = diasSort.map(d => ordPorDia[d]||0);
+  // Promedio móvil de 3 días (ventana centrada)
+  const movAvg = diasVals.map((v, i, arr) => {
+    const from = Math.max(0, i-1), to = Math.min(arr.length-1, i+1);
+    const slice = arr.slice(from, to+1);
+    return Math.round((slice.reduce((s,x)=>s+x,0)/slice.length)*10)/10;
+  });
   // Highlight selected date o día de hoy
   const highlightDate = selectedDate || _diaHoy;
+  chartDia.data.labels = diasSort.map(d => d.slice(8)+'/'+d.slice(5,7));
+  chartDia.data.datasets[0].data = diasVals;
   chartDia.data.datasets[0].backgroundColor = diasSort.map(d =>
-    d === highlightDate ? '#DC2626' : 'rgba(37,99,235,0.7)'
+    d === highlightDate ? '#F59E0B' : 'rgba(37,99,235,0.65)'
   );
+  chartDia.data.datasets[1].data = movAvg;
   chartDia.update();
 
   // Marca — poblar dropdowns y actualizar
