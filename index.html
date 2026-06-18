@@ -1432,7 +1432,7 @@ function renderKrono(){
             var v=ds.data[j]; if(!v||v===0) return;
             ctx.save(); ctx.fillStyle='#4C1D95'; ctx.font='bold 11px sans-serif';
             ctx.textAlign='center'; ctx.textBaseline='bottom';
-            ctx.fillText(v,bar.x,bar.y-4); ctx.restore();
+            ctx.fillText(v,bar.x,bar.y-7); ctx.restore();
           });
         });
       }
@@ -1452,9 +1452,11 @@ function renderKrono(){
         plugins:{legend:{display:false},
           tooltip:{backgroundColor:'#4C1D95',titleColor:'#fff',bodyColor:'#DDD6FE',
             callbacks:{label:function(ctx){return ' '+ctx.raw+' órdenes';}}}},
+        layout:{padding:{top:18}},
         scales:{
           x:{ticks:{color:'#1E293B',font:{size:9},maxRotation:45},grid:{display:false}},
-          y:{ticks:{color:'#1E293B',stepSize:1},beginAtZero:true,grid:{color:'#F1F5F9'}}
+          y:{ticks:{color:'#1E293B',stepSize:1},beginAtZero:true,grid:{color:'#F1F5F9'},
+             max: Math.max.apply(null,vals.concat([0]))+2}
         }
       }
     });
