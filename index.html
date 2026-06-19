@@ -361,6 +361,11 @@ footer{text-align:center;color:#94A3B8;font-size:10px;padding:16px;letter-spacin
 <script>
 (function(){
   if(typeof netlifyIdentity === 'undefined') return;
+  var hash = window.location.hash || '';
+  if(hash.includes('invite_token') || hash.includes('recovery_token') || hash.includes('confirmation_token')){
+    document.getElementById('auth-gate').style.display = 'none';
+    return;
+  }
   netlifyIdentity.on('init', function(user){
     if(!user){
       document.getElementById('auth-gate').querySelector('div:last-child').textContent = 'Inicia sesión para continuar';
