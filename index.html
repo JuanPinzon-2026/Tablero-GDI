@@ -794,10 +794,10 @@ function render(selectedDate) {
 
   const estRows = document.getElementById('estRows');
   estRows.innerHTML = estTop.map(([lbl,val]) =>
-    '<div class="est-row">' +
+    '<div class="est-row" style="cursor:pointer" title="Click para ver detalle" onclick="openEstModal(\''+lbl.replace(/'/g,"\\'").replace(/\\/g,'\\\\')+'\',' + val + ',\''+estFecha+'\')">' +
     '<div class="est-lbl-txt" title="'+lbl+'">'+lbl.slice(0,55)+(lbl.length>55?'…':'')+'</div>' +
     '<div class="est-bar-wrap"><div class="est-bar-fill" style="width:'+Math.round(val/maxEst*100)+'%"></div></div>' +
-    '<div class="est-val">'+val+'</div>' +
+    '<div class="est-val" style="display:flex;align-items:center;gap:6px">'+val+'<span style="font-size:9px;color:#94A3B8">▶</span></div>' +
     '</div>'
   ).join('');
 
@@ -1227,6 +1227,64 @@ function closeIssueModal(evt) {
   if(evt && evt.target !== document.getElementById('issueModalBg')) return;
   document.getElementById('issueModalBg').classList.remove('open');
   document.body.style.overflow = '';
+}
+
+// ── Modal Estado de Órdenes (mismo overlay, distinto contexto) ────────────
+function openEstModal(estLabel, totalDia, estFecha) {
+  // Registros EN REVISION con ese estado en LA FECHA seleccionada
+  const recsDia = RECORDS.filter(r =>
+    r.fn === estFecha && isEnRevIT(r.ops) && (r.est||'') === estLabel
+  );
+
+  // Header
+  const fechaFmt = estFecha.split('-').reverse().join('/');
+  document.getElementById('issueModalTitle').textContent = estLabel || 'Sin estado';
+  document.getElementById('issueModalSub').textContent =
+    totalDia + ' órdenes · Fecha ' + fechaFmt + ' · EN REVISIÓN CO-IT';
+
+  // Top fechas — comparar con otros días del mes para ver si es recurrente
+  const mesActual = estFecha.slice(0,7);
+  const recsMes = RECORDS.filter(r =>
+    r.fn && r.fn.slice(0,7) === mesActual && isEnRevIT(r.ops) && (r.est||'') === estLabel
+  );
+  const cntF = {};
+  recsMes.forEach(r => { if(r.fn) cntF[r.fn] = (cntF[r.fn]||0)+1; });
+  const topF = Object.entries(cntF).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  const maxF = topF.length ? topF[0][1] : 1;
+  const totalMes = recsMes.length;
+
+  document.getElementById('issueModalFechas').innerHTML = topF.map(([d,n]) => {
+    const dFmt = d.split('-').reverse().join('/');
+    const pct  = Math.round(n/maxF*100);
+    const esDia = d === estFecha ? ' style="font-weight:800;color:#2563EB"' : '';
+    return `<tr>
+      <td${esDia}>${dFmt}${d===estFecha?' ◀ seleccionada':''}</td>
+      <td><strong>${n}</strong></td>
+      <td><div class="issue-modal-bar-wrap">
+        <div class="issue-modal-bar" style="width:${pct}%"></div>
+        <span style="font-size:11px;color:#64748B">${totalMes?Math.round(n/totalMes*100):0}% del mes</span>
+      </div></td>
+    </tr>`;
+  }).join('') || '<tr><td colspan="3" style="color:#94A3B8;text-align:center;padding:12px">Sin datos</td></tr>';
+
+  // Países — del día seleccionado
+  const cntP = {};
+  recsDia.forEach(r => { const p=(r.pais||getCountry(r.marca)||'').trim(); if(p) cntP[p]=(cntP[p]||0)+1; });
+  const topP = Object.entries(cntP).sort((a,b)=>b[1]-a[1]);
+  document.getElementById('issueModalPaises').innerHTML = topP.length
+    ? topP.map(([p,n]) => `<span class="issue-chip">${p} <strong>(${n})</strong></span>`).join('')
+    : '<span style="color:#94A3B8;font-size:12px">Sin datos de país</span>';
+
+  // Marcas — del día seleccionado
+  const cntM = {};
+  recsDia.forEach(r => { const b=extractBrand(r.marca)||r.marca; if(b) cntM[b]=(cntM[b]||0)+1; });
+  const topM = Object.entries(cntM).sort((a,b)=>b[1]-a[1]);
+  document.getElementById('issueModalMarcas').innerHTML = topM.length
+    ? topM.map(([b,n]) => `<span class="issue-chip">${b} <strong>(${n})</strong></span>`).join('')
+    : '<span style="color:#94A3B8;font-size:12px">Sin datos de marca</span>';
+
+  document.getElementById('issueModalBg').classList.add('open');
+  document.body.style.overflow = 'hidden';
 }
 
 function resetJunio() {
