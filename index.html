@@ -7,6 +7,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <style>
 :root{
   --blue:#2563EB;--blue-dark:#1E40AF;--blue-light:#DBEAFE;
@@ -291,6 +293,20 @@ footer{text-align:center;color:#94A3B8;font-size:10px;padding:16px;letter-spacin
 .ss-filter-btn:hover{border-color:#3B82F6;color:#1D4ED8;background:#EFF6FF}
 .ss-filter-btn.active{border-color:#D97706;background:#FEF3C7;color:#92400E;font-weight:700}
 
+/* ── EXPORT BUTTONS ── */
+.export-btns{display:flex;gap:6px;align-items:center}
+.btn-export{display:inline-flex;align-items:center;gap:5px;padding:6px 13px;
+  border-radius:8px;border:none;font-size:11px;font-weight:700;cursor:pointer;
+  font-family:inherit;transition:all .15s;white-space:nowrap}
+.btn-export-pdf{background:#DC2626;color:#fff}
+.btn-export-pdf:hover{background:#B91C1C}
+.btn-export-jpg{background:#16A34A;color:#fff}
+.btn-export-jpg:hover{background:#15803D}
+.btn-export:disabled{opacity:.6;cursor:wait}
+.export-spinner{display:none;width:11px;height:11px;border:2px solid rgba(255,255,255,.4);
+  border-top-color:#fff;border-radius:50%;animation:spin .6s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
 </style>
 </head>
 <body>
@@ -304,12 +320,22 @@ footer{text-align:center;color:#94A3B8;font-size:10px;padding:16px;letter-spacin
       <p>Informe Diario de Operaciones · 2026</p>
     </div>
   </div>
-  <div class="hdr-meta">
-    <span class="badge">EN REVISIÓN CO - IT</span><br>
-    <span style="display:inline-flex;align-items:center;gap:6px;margin-top:4px;font-size:11px;font-weight:600;color:#34D399">
-      <span style="width:8px;height:8px;background:#34D399;border-radius:50%;display:inline-block;box-shadow:0 0 0 3px rgba(52,211,153,0.3);animation:pulse-live 1.5s ease-in-out infinite"></span>
-      LIVE
-    </span>
+  <div style="display:flex;align-items:center;gap:14px">
+    <div class="export-btns">
+      <button class="btn-export btn-export-pdf" onclick="exportarPDF(this)" title="Descargar PDF">
+        <span>📄</span><span>PDF</span><div class="export-spinner" id="spinPDF"></div>
+      </button>
+      <button class="btn-export btn-export-jpg" onclick="exportarJPG(this)" title="Descargar JPG">
+        <span>🖼️</span><span>JPG</span><div class="export-spinner" id="spinJPG"></div>
+      </button>
+    </div>
+    <div class="hdr-meta">
+      <span class="badge">EN REVISIÓN CO - IT</span><br>
+      <span style="display:inline-flex;align-items:center;gap:6px;margin-top:4px;font-size:11px;font-weight:600;color:#34D399">
+        <span style="width:8px;height:8px;background:#34D399;border-radius:50%;display:inline-block;box-shadow:0 0 0 3px rgba(52,211,153,0.3);animation:pulse-live 1.5s ease-in-out infinite"></span>
+        LIVE
+      </span>
+    </div>
   </div>
 </div>
 
@@ -1017,6 +1043,112 @@ function updateIssuesChart(marca, mesActual) {
 }
 
 function onMarcaChange() { updateMarcaChart(); }
+
+// ── Exportar PDF / JPG ───────────────────────────────────────────────────
+function _getTabActiva() {
+  const tabs = ['page-main','page-sinstock','page-kronotime','page-jira'];
+  for(const id of tabs){
+    const el = document.getElementById(id);
+    if(el && el.classList.contains('active')) return el;
+  }
+  return document.body;
+}
+
+function _nombreTab() {
+  const map = {
+    'page-main': 'Ordenes_Incidentadas',
+    'page-sinstock': 'Sin_Stock',
+    'page-kronotime': 'Kronotime',
+    'page-jira': 'Jira'
+  };
+  const tabs = Object.keys(map);
+  for(const id of tabs){
+    const el = document.getElementById(id);
+    if(el && el.classList.contains('active')) return map[id];
+  }
+  return 'Tablero_GDI';
+}
+
+function _capturar(btn, spinnerId, callback) {
+  btn.disabled = true;
+  const spin = document.getElementById(spinnerId);
+  if(spin) spin.style.display = 'inline-block';
+
+  const target = _getTabActiva();
+  // Scroll al inicio para capturar desde arriba
+  target.scrollTop = 0;
+
+  setTimeout(() => {
+    html2canvas(target, {
+      scale: 2,
+      useCORS: true,
+      allowTaint: true,
+      backgroundColor: '#F0F4F8',
+      scrollX: 0, scrollY: 0,
+      windowWidth: target.scrollWidth,
+      windowHeight: target.scrollHeight,
+      logging: false
+    }).then(canvas => {
+      callback(canvas);
+      btn.disabled = false;
+      if(spin) spin.style.display = 'none';
+    }).catch(() => {
+      btn.disabled = false;
+      if(spin) spin.style.display = 'none';
+      alert('Error al generar la imagen. Intenta de nuevo.');
+    });
+  }, 300);
+}
+
+function exportarJPG(btn) {
+  _capturar(btn, 'spinJPG', canvas => {
+    const fecha = new Date().toISOString().slice(0,10);
+    const nombre = 'GDI_' + _nombreTab() + '_' + fecha + '.jpg';
+    const link = document.createElement('a');
+    link.download = nombre;
+    link.href = canvas.toDataURL('image/jpeg', 0.92);
+    link.click();
+  });
+}
+
+function exportarPDF(btn) {
+  _capturar(btn, 'spinPDF', canvas => {
+    const { jsPDF } = window.jspdf;
+    const fecha = new Date().toISOString().slice(0,10);
+    const nombre = 'GDI_' + _nombreTab() + '_' + fecha + '.pdf';
+
+    const imgW = canvas.width;
+    const imgH = canvas.height;
+    // A4 landscape si es más ancho que alto, portrait si no
+    const landscape = imgW > imgH;
+    const pdf = new jsPDF({ orientation: landscape ? 'landscape' : 'portrait', unit: 'px', format: 'a4' });
+    const pageW = pdf.internal.pageSize.getWidth();
+    const pageH = pdf.internal.pageSize.getHeight();
+
+    // Escalar imagen para que quepa en el ancho de la página
+    const ratio = pageW / imgW;
+    const scaledH = imgH * ratio;
+
+    // Si cabe en una página
+    if(scaledH <= pageH) {
+      pdf.addImage(canvas.toDataURL('image/jpeg', 0.92), 'JPEG', 0, 0, pageW, scaledH);
+    } else {
+      // Paginar: dividir en segmentos
+      let yOffset = 0;
+      while(yOffset < imgH) {
+        const segH = Math.min(pageH / ratio, imgH - yOffset);
+        const segCanvas = document.createElement('canvas');
+        segCanvas.width = imgW;
+        segCanvas.height = segH;
+        segCanvas.getContext('2d').drawImage(canvas, 0, yOffset, imgW, segH, 0, 0, imgW, segH);
+        if(yOffset > 0) pdf.addPage();
+        pdf.addImage(segCanvas.toDataURL('image/jpeg', 0.92), 'JPEG', 0, 0, pageW, segH * ratio);
+        yOffset += segH;
+      }
+    }
+    pdf.save(nombre);
+  });
+}
 
 // ── Modal Issue Drill-Down ────────────────────────────────────────────────
 function openIssueModal(issueLabel, total) {
