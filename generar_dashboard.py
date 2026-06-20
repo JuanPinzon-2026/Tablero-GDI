@@ -1,6 +1,10 @@
 # generar_dashboard.py
 # Lee los Excel de órdenes y actualiza el index.html del Tablero GDI
-# También consulta Jira API → actualiza jira_tickets.db → exporta jira_data.json
+# También consulta Jira API -> actualiza jira_tickets.db -> exporta jira_data.json
+
+import sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 import openpyxl
 import json
@@ -103,7 +107,7 @@ def leer_excel(path):
     priority = [s for s in wb.sheetnames if normalizar(s) in PRIORITY_SHEETS]
     if priority:
         sheets_to_read = priority
-        print(f"  → Hojas prioritarias: {priority}")
+        print(f"  -> Hojas prioritarias: {priority}")
 
     for sheet_name in sheets_to_read:
         ws = wb[sheet_name]
@@ -160,7 +164,7 @@ def leer_excel(path):
             })
 
     wb.close()
-    print(f"  → {len(records)} registros leídos")
+    print(f"  -> {len(records)} registros leidos")
     return records
 
 def reemplazar_array(content, variable, records):
