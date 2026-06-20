@@ -584,16 +584,71 @@ footer{text-align:center;color:#94A3B8;font-size:10px;padding:16px;letter-spacin
 </div>
 
 <div id="page-sinstock" class="tab-page">
-  <div style="padding:60px;text-align:center;color:#94A3B8">
-    <div style="font-size:3rem;margin-bottom:12px">📦</div>
-    <div style="font-size:16px;font-weight:600">Pestaña Sin Stock — próximamente</div>
+  <div style="padding:16px 24px 8px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #E2E8F0">
+    <div style="font-size:15px;font-weight:700;color:#1E293B">📦 Sin Stock — Histórico</div>
+    <div style="display:flex;gap:8px;align-items:center">
+      <select id="ssMesSelect" onchange="doInitSS()" style="font-size:12px;padding:5px 10px;border-radius:6px;border:1px solid #E2E8F0"><option value="">Todos los meses</option></select>
+      <select id="ssMarcaSelect" onchange="doInitSS()" style="font-size:12px;padding:5px 10px;border-radius:6px;border:1px solid #E2E8F0"><option value="">Todas las marcas</option></select>
+    </div>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:16px 24px">
+    <div class="jira-kpi-card"><div class="jira-kpi-num" id="ssTotal">—</div><div class="jira-kpi-lbl">Total Sin Stock</div></div>
+    <div class="jira-kpi-card" style="--jc:#DC2626"><div class="jira-kpi-num" id="ssMarcas">—</div><div class="jira-kpi-lbl">Marcas afectadas</div></div>
+    <div class="jira-kpi-card" style="--jc:#D97706"><div class="jira-kpi-num" id="ssMeses">—</div><div class="jira-kpi-lbl">Meses con registro</div></div>
+    <div class="jira-kpi-card" style="--jc:#16A34A"><div class="jira-kpi-num" id="ssPaises">—</div><div class="jira-kpi-lbl">Países</div></div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:0 24px 16px">
+    <div class="card">
+      <div class="card-hdr"><span>📊 Sin Stock por Marca</span></div>
+      <div class="card-body"><div class="chart-wrap"><canvas id="chartSSMarca"></canvas></div></div>
+    </div>
+    <div class="card">
+      <div class="card-hdr"><span>📅 Sin Stock por Mes</span></div>
+      <div class="card-body"><div class="chart-wrap"><canvas id="chartSSMes"></canvas></div></div>
+    </div>
+  </div>
+  <div style="padding:0 24px 24px">
+    <div class="card">
+      <div class="card-hdr"><span>📋 Detalle Sin Stock</span></div>
+      <div class="tbl-wrap">
+        <table class="tbl" id="tblSS">
+          <thead><tr><th>Fecha Notif.</th><th>Marca</th><th>País</th><th>Estado</th><th>Ticket</th></tr></thead>
+          <tbody id="tblSSBody"></tbody>
+        </table>
+      </div>
+    </div>
   </div>
 </div>
 
 <div id="page-kronotime" class="tab-page">
-  <div style="padding:60px;text-align:center;color:#94A3B8">
-    <div style="font-size:3rem;margin-bottom:12px">⚠️</div>
-    <div style="font-size:16px;font-weight:600">Pestaña Kronotime — próximamente</div>
+  <div style="padding:16px 24px 8px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #E2E8F0">
+    <div style="font-size:15px;font-weight:700;color:#1E293B">⚠️ Kronotime — Órdenes por Día</div>
+    <div style="display:flex;gap:8px;align-items:center">
+      <select id="krMesSelect" onchange="doInitKrono()" style="font-size:12px;padding:5px 10px;border-radius:6px;border:1px solid #E2E8F0"><option value="">Mes actual</option></select>
+      <select id="krMarcaSelect" onchange="doInitKrono()" style="font-size:12px;padding:5px 10px;border-radius:6px;border:1px solid #E2E8F0"><option value="">Todas las marcas</option></select>
+    </div>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:16px 24px">
+    <div class="jira-kpi-card"><div class="jira-kpi-num" id="krTotal">—</div><div class="jira-kpi-lbl">Total órdenes</div></div>
+    <div class="jira-kpi-card" style="--jc:#DC2626"><div class="jira-kpi-num" id="krContinu">—</div><div class="jira-kpi-lbl">Continuidad</div></div>
+    <div class="jira-kpi-card" style="--jc:#D97706"><div class="jira-kpi-num" id="krRev">—</div><div class="jira-kpi-lbl">Rev./Config.</div></div>
+    <div class="jira-kpi-card" style="--jc:#16A34A"><div class="jira-kpi-num" id="krSol">—</div><div class="jira-kpi-lbl">Solucionado</div></div>
+  </div>
+  <div style="padding:0 24px 16px">
+    <div class="card">
+      <div class="card-hdr"><span>📊 Órdenes por Día — Kronotime</span></div>
+      <div class="card-body"><div class="chart-wrap" style="height:280px"><canvas id="chartKronoBar"></canvas></div></div>
+    </div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:0 24px 24px">
+    <div class="card">
+      <div class="card-hdr"><span>🏷️ Por Marca</span></div>
+      <div class="card-body"><div class="chart-wrap"><canvas id="chartKronoMarca"></canvas></div></div>
+    </div>
+    <div class="card">
+      <div class="card-hdr"><span>⚡ Por Estado</span></div>
+      <div class="card-body"><div class="chart-wrap"><canvas id="chartKronoEst"></canvas></div></div>
+    </div>
   </div>
 </div>
 
@@ -1049,8 +1104,150 @@ function switchTab(id) {
   const idx = names.indexOf(id);
   if (idx >= 0 && btns[idx]) btns[idx].classList.add('active');
 }
-function doInitSS() {}
-function doInitKrono() {}
+// ── Sin Stock ─────────────────────────────────────────────────────────────
+var chartSSMarca = null, chartSSMes = null;
+function doInitSS() {
+  var selMes   = (document.getElementById('ssMesSelect')   || {}).value || '';
+  var selMarca = (document.getElementById('ssMarcaSelect') || {}).value || '';
+
+  // Poblar filtros la primera vez
+  var mesesSS  = [...new Set(RECORDS_SS.filter(r=>r.fn).map(r=>r.fn.slice(0,7)))].sort();
+  var marcasSS = [...new Set(RECORDS_SS.map(r=>extractBrand(r.marca)).filter(Boolean))].sort();
+  var selMesEl   = document.getElementById('ssMesSelect');
+  var selMarcaEl = document.getElementById('ssMarcaSelect');
+  if (selMesEl && selMesEl.options.length <= 1) {
+    mesesSS.forEach(m => { var o=document.createElement('option'); o.value=m; var p=m.split('-'); o.text=(MESES_FULL[+p[1]]||m)+' '+p[0]; selMesEl.appendChild(o); });
+  }
+  if (selMarcaEl && selMarcaEl.options.length <= 1) {
+    marcasSS.forEach(m => { var o=document.createElement('option'); o.value=m; o.text=m; selMarcaEl.appendChild(o); });
+  }
+
+  var recs = RECORDS_SS;
+  if (selMes)   recs = recs.filter(r => r.fn && r.fn.slice(0,7) === selMes);
+  if (selMarca) recs = recs.filter(r => extractBrand(r.marca) === selMarca);
+
+  // KPIs
+  document.getElementById('ssTotal').textContent   = recs.length;
+  document.getElementById('ssMarcas').textContent  = new Set(recs.map(r=>extractBrand(r.marca)).filter(Boolean)).size;
+  document.getElementById('ssMeses').textContent   = new Set(recs.filter(r=>r.fn).map(r=>r.fn.slice(0,7))).size;
+  document.getElementById('ssPaises').textContent  = new Set(recs.map(r=>getCountry(r.marca)).filter(Boolean)).size;
+
+  // Chart por Marca
+  var cntMarca = {};
+  recs.forEach(r => { var m=extractBrand(r.marca)||'Sin marca'; cntMarca[m]=(cntMarca[m]||0)+1; });
+  var topMarca = Object.entries(cntMarca).sort((a,b)=>b[1]-a[1]).slice(0,12);
+  if (chartSSMarca) chartSSMarca.destroy();
+  chartSSMarca = new Chart(document.getElementById('chartSSMarca'), {
+    type:'bar',
+    data:{ labels:topMarca.map(x=>x[0]), datasets:[{ label:'Sin Stock', data:topMarca.map(x=>x[1]), backgroundColor:'rgba(220,38,38,0.7)', borderRadius:4 }] },
+    options:{ responsive:true, maintainAspectRatio:false, plugins:{ legend:{display:false} }, scales:{ x:{ticks:{maxRotation:45,font:{size:10}}}, y:{beginAtZero:true} } }
+  });
+
+  // Chart por Mes
+  var cntMes = {};
+  recs.filter(r=>r.fn).forEach(r => { var m=r.fn.slice(0,7); cntMes[m]=(cntMes[m]||0)+1; });
+  var mesesOrden = Object.keys(cntMes).sort();
+  if (chartSSMes) chartSSMes.destroy();
+  chartSSMes = new Chart(document.getElementById('chartSSMes'), {
+    type:'bar',
+    data:{ labels:mesesOrden.map(m=>{ var p=m.split('-'); return (MESES_FULL[+p[1]]||m).slice(0,3)+' '+p[0]; }),
+           datasets:[{ label:'Sin Stock', data:mesesOrden.map(m=>cntMes[m]), backgroundColor:'rgba(37,99,235,0.7)', borderRadius:4 }] },
+    options:{ responsive:true, maintainAspectRatio:false, plugins:{ legend:{display:false} }, scales:{ x:{ticks:{font:{size:10}}}, y:{beginAtZero:true} } }
+  });
+
+  // Tabla
+  var JIRA_BASE = 'https://ixglobalit.atlassian.net/browse/';
+  var tbody = document.getElementById('tblSSBody');
+  if (tbody) tbody.innerHTML = recs.slice(0,200).map(r =>
+    '<tr><td>'+(r.fn||'—')+'</td><td>'+(extractBrand(r.marca)||r.marca||'—')+'</td><td>'+(getCountry(r.marca)||'—')+'</td><td style="max-width:250px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+(r.est||'—')+'</td><td>'+(r.venta?'<a class="kpi-jira-link" href="'+JIRA_BASE+r.venta+'" target="_blank">'+r.venta+'</a>':'—')+'</td></tr>'
+  ).join('');
+}
+
+// ── Kronotime ─────────────────────────────────────────────────────────────
+var chartKronoBar = null, chartKronoMarca = null, chartKronoEst = null;
+var kronoLabelPlugin = {
+  id:'kronoLabels',
+  afterDatasetsDraw:function(chart){
+    var ctx=chart.ctx;
+    chart.data.datasets.forEach(function(ds,i){
+      chart.getDatasetMeta(i).data.forEach(function(bar,j){
+        var v=ds.data[j]; if(!v||v===0) return;
+        ctx.save(); ctx.fillStyle='#4C1D95'; ctx.font='bold 11px sans-serif';
+        ctx.textAlign='center'; ctx.textBaseline='bottom';
+        ctx.fillText(v,bar.x,bar.y-4); ctx.restore();
+      });
+    });
+  }
+};
+function doInitKrono() {
+  var selMes   = (document.getElementById('krMesSelect')   || {}).value || '';
+  var selMarca = (document.getElementById('krMarcaSelect') || {}).value || '';
+
+  // Poblar filtros la primera vez
+  var _hoy = new Date();
+  var _mesAct = _hoy.getFullYear()+'-'+(String(_hoy.getMonth()+1).padStart(2,'0'));
+  var mesesKr  = [...new Set(RECORDS.filter(r=>r.fn && /^\d{4}-\d{2}-\d{2}$/.test(r.fn)).map(r=>r.fn.slice(0,7)))].sort();
+  var marcasKr = [...new Set(RECORDS.map(r=>extractBrand(r.marca)).filter(Boolean))].sort();
+  var selMesEl   = document.getElementById('krMesSelect');
+  var selMarcaEl = document.getElementById('krMarcaSelect');
+  if (selMesEl && selMesEl.options.length <= 1) {
+    mesesKr.forEach(m => { var o=document.createElement('option'); o.value=m; var p=m.split('-'); o.text=(MESES_FULL[+p[1]]||m)+' '+p[0]; selMesEl.appendChild(o); });
+  }
+  if (selMarcaEl && selMarcaEl.options.length <= 1) {
+    marcasKr.forEach(m => { var o=document.createElement('option'); o.value=m; o.text=m; selMarcaEl.appendChild(o); });
+  }
+
+  var mes = selMes || _mesAct;
+  var recs = RECORDS.filter(r => r.fn && r.fn.slice(0,7) === mes);
+  if (selMarca) recs = recs.filter(r => extractBrand(r.marca) === selMarca);
+
+  // KPIs
+  document.getElementById('krTotal').textContent   = recs.length;
+  document.getElementById('krContinu').textContent = recs.filter(r=>r.pen==='Continuidad').length;
+  document.getElementById('krRev').textContent     = recs.filter(r=>r.pen==='Operaciones Revision/Configuracion').length;
+  document.getElementById('krSol').textContent     = recs.filter(r=>r.pen==='Operaciones Solucionado').length;
+
+  // Chart por Día
+  var ordPorDia = {};
+  recs.forEach(r => { ordPorDia[r.fn]=(ordPorDia[r.fn]||0)+1; });
+  var diasMes = [];
+  var diasEnMes = new Date(_hoy.getFullYear(), +mes.split('-')[1], 0).getDate();
+  var limDia = (mes === _mesAct) ? _hoy.getDate() : diasEnMes;
+  for (var d=1; d<=limDia; d++) diasMes.push(mes+'-'+String(d).padStart(2,'0'));
+  var vals = diasMes.map(d=>ordPorDia[d]||0);
+  if (chartKronoBar) chartKronoBar.destroy();
+  chartKronoBar = new Chart(document.getElementById('chartKronoBar'), {
+    type:'bar', plugins:[kronoLabelPlugin],
+    data:{ labels:diasMes.map(d=>d.slice(8)+'/'+d.slice(5,7)), datasets:[{ label:'Órdenes', data:vals, backgroundColor:'rgba(124,58,237,0.7)', borderRadius:4 }] },
+    options:{ responsive:true, maintainAspectRatio:false, layout:{padding:{top:18}},
+      plugins:{legend:{display:false}},
+      scales:{ x:{ticks:{color:'#1E293B',font:{size:9},maxRotation:45},grid:{display:false}},
+               y:{ticks:{color:'#1E293B',stepSize:1},beginAtZero:true,max:Math.max(...vals,0)+2} } }
+  });
+
+  // Chart por Marca
+  var cntMarca={};
+  recs.forEach(r=>{ var m=extractBrand(r.marca)||'Sin marca'; cntMarca[m]=(cntMarca[m]||0)+1; });
+  var topM=Object.entries(cntMarca).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  if (chartKronoMarca) chartKronoMarca.destroy();
+  chartKronoMarca = new Chart(document.getElementById('chartKronoMarca'), {
+    type:'bar',
+    data:{ labels:topM.map(x=>x[0]), datasets:[{ data:topM.map(x=>x[1]), backgroundColor:'rgba(37,99,235,0.7)', borderRadius:4 }] },
+    options:{ responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales:{x:{ticks:{maxRotation:45,font:{size:10}}},y:{beginAtZero:true}} }
+  });
+
+  // Chart por Estado
+  var cntEst={};
+  recs.forEach(r=>{ var e=(r.pen||'Sin estado'); cntEst[e]=(cntEst[e]||0)+1; });
+  var estColors={'Operaciones Solucionado':'rgba(22,163,74,0.7)','Continuidad':'rgba(217,119,6,0.7)','Operaciones Revision/Configuracion':'rgba(37,99,235,0.7)'};
+  var estLabels=Object.keys(cntEst);
+  if (chartKronoEst) chartKronoEst.destroy();
+  chartKronoEst = new Chart(document.getElementById('chartKronoEst'), {
+    type:'doughnut',
+    data:{ labels:estLabels, datasets:[{ data:estLabels.map(e=>cntEst[e]), backgroundColor:estLabels.map(e=>estColors[e]||'rgba(100,116,139,0.7)') }] },
+    options:{ responsive:true, maintainAspectRatio:false, plugins:{legend:{position:'bottom',labels:{font:{size:10}}}} }
+  });
+}
 
 // ── Jira Tab ─────────────────────────────────────────────────────────────
 var _jiraData = [];
@@ -2325,29 +2522,7 @@ function renderKrono(){
 
 </div><!-- /page-kronotime -->
 
-<!-- ═══════════ PÁGINA JIRA ═══════════ -->
-<div id="page-jira" class="tab-page">
-<!-- EN CONSTRUCCIÓN -->
-<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:420px;background:#F8FAFC;padding:48px 24px;text-align:center;">
-  <div style="font-size:80px;margin-bottom:16px;animation:bounce-jira 1.2s ease-in-out infinite;">🚧</div>
-  <h2 style="font-size:22px;font-weight:800;color:#1E293B;margin:0 0 10px;">Módulo en Construcción</h2>
-  <p style="font-size:14px;color:#64748B;max-width:380px;line-height:1.6;margin:0 0 28px;">
-    La integración con Jira está siendo desarrollada.<br>
-    Pronto podrás consultar tickets directamente desde aquí.
-  </p>
-  <div style="display:flex;gap:8px;align-items:center;background:#FEF9C3;border:1px solid #FDE68A;border-radius:10px;padding:10px 20px;">
-    <span style="font-size:16px;">⚠️</span>
-    <span style="font-size:12px;font-weight:600;color:#92400E;">Disponible próximamente</span>
-  </div>
-</div>
-<style>
-@keyframes bounce-jira{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
-</style>
-<script>
-function doInitJira(){}
-</script>
-
-</div><!-- /page-jira -->
+<!-- page-jira está definido arriba (línea ~655) —  este bloque eliminado -->
 
 </body>
 </html>
