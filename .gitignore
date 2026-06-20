@@ -1,0 +1,5 @@
+# Credenciales Jira — nunca subir al repo
+jira_config.py
+
+# Base de datos local — permanece solo en tu PC/OneDrive
+jira_tickets.db

@@ -19,14 +19,20 @@ echo     Dashboard generado OK
 
 echo [2/3] Preparando cambios para GitHub...
 cd /d "%REPO%"
-git add index.html
-git commit -m "Actualizar dashboard %date% %time%"
+
+REM Limpiar lock files si existen
+if exist ".git\index.lock" del /f /q ".git\index.lock"
+if exist ".git\HEAD.lock" del /f /q ".git\HEAD.lock"
+if exist ".git\refs\heads\main.lock" del /f /q ".git\refs\heads\main.lock"
+
+git add .
+git commit -m "Actualizacion automatica %date% %time%"
 
 echo [3/3] Subiendo a GitHub...
 git push origin main
 
 echo.
 echo ============================================
-echo   LISTO - https://JuanPinzon-2026.github.io/Tablero-GDI
+echo   LISTO - https://dashboardgdi.netlify.app
 echo ============================================
 pause
