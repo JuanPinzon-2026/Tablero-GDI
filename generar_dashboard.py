@@ -241,6 +241,79 @@ def leer_jira_excel(path):
     print(f"  -> {len(records)} tickets Jira leidos")
     return records
 
+JIRA_EST_COLORS_PY = {
+    'Resuelto': '#16A34A', 'Nuevo': '#DC2626', 'Pendiente de proveedor': '#D97706',
+    'En Nivel 1': '#2563EB', 'En consulta a usuario': '#7C3AED',
+    'En atencion': '#0891B2', 'Categorizado': '#64748B'
+}
+
+def prerender_jira_html(content, records_jira):
+    """Pre-renderiza KPIs y tabla Jira directamente en el HTML — sin depender de JS."""
+    if not records_jira:
+        return content
+    total     = len(records_jira)
+    resueltos = sum(1 for r in records_jira if r.get('estado') == 'Resuelto')
+    abiertos  = total - resueltos
+
+    # ── KPIs ──────────────────────────────────────────────────────────────────
+    content = re.sub(r'<div id="jkTotal">[^<]*</div>', f'<div id="jkTotal">{total}</div>', content)
+    content = re.sub(r'<div id="jkOpen">[^<]*</div>',  f'<div id="jkOpen">{abiertos}</div>', content)
+    content = re.sub(r'<div id="jkDone">[^<]*</div>',  f'<div id="jkDone">{resueltos}</div>', content)
+
+    # ── Filas de tabla ─────────────────────────────────────────────────────────
+    JIRA_BASE_URL = 'https://ixglobalit.atlassian.net/browse/'
+    rows_html = []
+    for r in records_jira[:300]:
+        estado   = r.get('estado', '')
+        color    = JIRA_EST_COLORS_PY.get(estado, '#64748B')
+        rowbg    = '#F0FDF4' if estado == 'Resuelto' else ('#FEF2F2' if estado in ('Nuevo', 'En Nivel 1') else '#FFFBEB')
+        key      = r.get('key', '')
+        resumen  = r.get('resumen', '').replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;')
+        res_disp = resumen[:80] + ('...' if len(resumen) > 80 else '')
+        asignado = r.get('asignado', '').replace('<', '&lt;').replace('>', '&gt;')
+        prioridad= r.get('prioridad', '').replace('<', '&lt;').replace('>', '&gt;')
+        creada   = r.get('creada', '')
+        marca    = r.get('marca', '').replace('<', '&lt;').replace('>', '&gt;')
+        rows_html.append(
+            f'<tr style="border-bottom:1px solid #E2E8F0;background:{rowbg}">'
+            f'<td style="padding:8px 10px;white-space:nowrap"><a href="{JIRA_BASE_URL}{key}" target="_blank" style="color:#2563EB;font-weight:600;text-decoration:none">{key}</a></td>'
+            f'<td style="padding:8px 10px;max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="{resumen}">{res_disp}</td>'
+            f'<td style="padding:8px 10px;white-space:nowrap"><span style="background:{color};color:#fff;padding:3px 10px;border-radius:9999px;font-size:11px;font-weight:700">{estado}</span></td>'
+            f'<td style="padding:8px 10px;white-space:nowrap">{asignado}</td>'
+            f'<td style="padding:8px 10px;white-space:nowrap">{prioridad}</td>'
+            f'<td style="padding:8px 10px;white-space:nowrap">{creada}</td>'
+            f'<td style="padding:8px 10px;white-space:nowrap">{marca}</td>'
+            f'</tr>'
+        )
+    tbody_content = ''.join(rows_html)
+    content = re.sub(
+        r'<tbody id="jiraExcelBody">.*?</tbody>',
+        f'<tbody id="jiraExcelBody">{tbody_content}</tbody>',
+        content, flags=re.DOTALL
+    )
+
+    # ── Contador ───────────────────────────────────────────────────────────────
+    count_text = f'Mostrando {min(total, 300)} de {total} tickets'
+    content = re.sub(
+        r'<div id="jiraExcelCount"[^>]*>[^<]*</div>',
+        f'<div id="jiraExcelCount" style="margin-top:8px;font-size:12px;color:#64748B;text-align:right">{count_text}</div>',
+        content
+    )
+
+    # ── Dropdown asignados (pre-poblado) ───────────────────────────────────────
+    asigs = sorted(set(r.get('asignado', '') for r in records_jira if r.get('asignado')))
+    asig_options = '<option value="">Todos los asignados</option>' + ''.join(
+        f'<option value="{a}">{a}</option>' for a in asigs
+    )
+    content = re.sub(
+        r'(<select id="jiraFiltroAsig"[^>]*>).*?(</select>)',
+        lambda m: m.group(1) + asig_options + m.group(2),
+        content, flags=re.DOTALL
+    )
+
+    print(f"✅ Jira pre-renderizado en HTML: {total} tickets ({abiertos} abiertos, {resueltos} resueltos)")
+    return content
+
 def actualizar_html(records_main, records_ss, records_jira):
     if not os.path.exists(DASHBOARD):
         print(f"❌ No se encontró: {DASHBOARD}")
@@ -256,12 +329,18 @@ def actualizar_html(records_main, records_ss, records_jira):
     content = reemplazar_array(content, "RECORDS_JIRA", records_jira)
     if content is None: return False
     print(f"✅ RECORDS_JIRA actualizado con {len(records_jira)} tickets")
-    # ── Corregir botón Jira: quitar doInitJira del onclick ──────────────────
-    OLD_BTN = "onclick=\"switchTab('jira');setTimeout(function(){doInitJira();},150)\""
-    NEW_BTN = "onclick=\"switchTab('jira')\""
-    if OLD_BTN in content:
-        content = content.replace(OLD_BTN, NEW_BTN, 1)
-        print("✅ Botón Jira corregido (removido doInitJira)")
+    # ── Pre-renderizar Jira en HTML (no depende de JS) ───────────────────────
+    content = prerender_jira_html(content, records_jira)
+    # ── Corregir botón Jira: usar setTimeout como sinstock/kronotime ─────────
+    OLD_BTN1 = "onclick=\"switchTab('jira');setTimeout(function(){doInitJira();},150)\""
+    OLD_BTN2 = "onclick=\"switchTab('jira')\""
+    NEW_BTN  = "onclick=\"switchTab('jira');setTimeout(function(){if(typeof initJiraExcel==='function') initJiraExcel();},150)\""
+    if OLD_BTN1 in content:
+        content = content.replace(OLD_BTN1, NEW_BTN, 1)
+        print("✅ Botón Jira corregido (doInitJira -> initJiraExcel con setTimeout)")
+    elif OLD_BTN2 in content:
+        content = content.replace(OLD_BTN2, NEW_BTN, 1)
+        print("✅ Botón Jira actualizado (añadido setTimeout initJiraExcel)")
     # ── Añadir MutationObserver para page-jira si aún no existe ─────────────
     JIRA_OBS_MARKER = "obs-jira-excel"
     JIRA_OBS_SCRIPT = (
