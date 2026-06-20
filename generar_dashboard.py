@@ -205,15 +205,16 @@ def leer_jira_excel(path):
                 if n in h:
                     return i
         return None
-    i_clave    = col(['clave'])
-    i_resumen  = col(['resumen'])
-    i_asignado = col(['persona asignada', 'asignada'])
-    i_estado   = col(['estado'])
-    i_prioridad= col(['prioridad'])
-    i_creada   = col(['creada'])
-    i_resuelta = col(['resuelta'])
-    i_marca    = col(['marcas', 'comerciales'])
-    i_canal    = col(['canal'])
+    i_clave      = col(['clave'])
+    i_resumen    = col(['resumen'])
+    i_asignado   = col(['persona asignada', 'asignada'])
+    i_estado     = col(['estado'])
+    i_prioridad  = col(['prioridad'])
+    i_creada     = col(['creada'])
+    i_resuelta   = col(['resuelta'])
+    i_marca      = col(['marcas', 'comerciales'])
+    i_canal      = col(['canal'])
+    i_informador = col(['informador', 'reporter', 'reportado'])
     records = []
     for row in rows[1:]:
         if not any(row):
@@ -227,15 +228,16 @@ def leer_jira_excel(path):
         if not clave:
             continue
         records.append({
-            'key':      clave,
-            'resumen':  gv(i_resumen),
-            'asignado': gv(i_asignado),
-            'estado':   gv(i_estado),
-            'prioridad':gv(i_prioridad),
-            'creada':   gv(i_creada),
-            'resuelta': gv(i_resuelta),
-            'marca':    gv(i_marca),
-            'canal':    gv(i_canal),
+            'key':        clave,
+            'resumen':    gv(i_resumen),
+            'asignado':   gv(i_asignado),
+            'estado':     gv(i_estado),
+            'prioridad':  gv(i_prioridad),
+            'creada':     gv(i_creada),
+            'resuelta':   gv(i_resuelta),
+            'marca':      gv(i_marca),
+            'canal':      gv(i_canal),
+            'informador': gv(i_informador),
         })
     wb.close()
     print(f"  -> {len(records)} tickets Jira leidos")
