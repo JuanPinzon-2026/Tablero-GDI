@@ -256,6 +256,33 @@ def actualizar_html(records_main, records_ss, records_jira):
     content = reemplazar_array(content, "RECORDS_JIRA", records_jira)
     if content is None: return False
     print(f"✅ RECORDS_JIRA actualizado con {len(records_jira)} tickets")
+    # ── Corregir botón Jira: quitar doInitJira del onclick ──────────────────
+    OLD_BTN = "onclick=\"switchTab('jira');setTimeout(function(){doInitJira();},150)\""
+    NEW_BTN = "onclick=\"switchTab('jira')\""
+    if OLD_BTN in content:
+        content = content.replace(OLD_BTN, NEW_BTN, 1)
+        print("✅ Botón Jira corregido (removido doInitJira)")
+    # ── Añadir MutationObserver para page-jira si aún no existe ─────────────
+    JIRA_OBS_MARKER = "obs-jira-excel"
+    JIRA_OBS_SCRIPT = (
+        "\n<script id=\"obs-jira-excel\">\n"
+        "(function(){\n"
+        "  var el=document.getElementById('page-jira');\n"
+        "  if(!el) return;\n"
+        "  new MutationObserver(function(muts){\n"
+        "    muts.forEach(function(m){\n"
+        "      if(m.attributeName==='class' && el.classList.contains('active')){\n"
+        "        if(typeof initJiraExcel==='function') initJiraExcel();\n"
+        "      }\n"
+        "    });\n"
+        "  }).observe(el,{attributes:true});\n"
+        "})();\n"
+        "</script>\n"
+    )
+    if JIRA_OBS_MARKER not in content:
+        # Insertar justo antes de </body>
+        content = content.replace("</body>", JIRA_OBS_SCRIPT + "</body>", 1)
+        print("✅ MutationObserver Jira añadido")
     with open(DASHBOARD, "w", encoding="utf-8") as f:
         f.write(content)
     return True
