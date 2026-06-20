@@ -553,75 +553,6 @@ footer{text-align:center;color:#94A3B8;font-size:10px;padding:16px;letter-spacin
   </div>
 </div>
 
-<div id="page-sinstock" class="tab-page">
-  <div style="padding:16px 24px 8px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #E2E8F0">
-    <div style="font-size:15px;font-weight:700;color:#1E293B">📦 Sin Stock — Histórico</div>
-    <div style="display:flex;gap:8px;align-items:center">
-      <select id="ssMesSelect" onchange="doInitSS()" style="font-size:12px;padding:5px 10px;border-radius:6px;border:1px solid #E2E8F0"><option value="">Todos los meses</option></select>
-      <select id="ssMarcaSelect" onchange="doInitSS()" style="font-size:12px;padding:5px 10px;border-radius:6px;border:1px solid #E2E8F0"><option value="">Todas las marcas</option></select>
-    </div>
-  </div>
-  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:16px 24px">
-    <div class="jira-kpi-card"><div class="jira-kpi-num" id="ssTotal">—</div><div class="jira-kpi-lbl">Total Sin Stock</div></div>
-    <div class="jira-kpi-card" style="--jc:#DC2626"><div class="jira-kpi-num" id="ssMarcas">—</div><div class="jira-kpi-lbl">Marcas afectadas</div></div>
-    <div class="jira-kpi-card" style="--jc:#D97706"><div class="jira-kpi-num" id="ssMeses">—</div><div class="jira-kpi-lbl">Meses con registro</div></div>
-    <div class="jira-kpi-card" style="--jc:#16A34A"><div class="jira-kpi-num" id="ssPaises">—</div><div class="jira-kpi-lbl">Países</div></div>
-  </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:0 24px 16px">
-    <div class="card">
-      <div class="card-hdr"><span>📊 Sin Stock por Marca</span></div>
-      <div class="card-body"><div class="chart-wrap"><canvas id="chartSSMarca"></canvas></div></div>
-    </div>
-    <div class="card">
-      <div class="card-hdr"><span>📅 Sin Stock por Mes</span></div>
-      <div class="card-body"><div class="chart-wrap"><canvas id="chartSSMes"></canvas></div></div>
-    </div>
-  </div>
-  <div style="padding:0 24px 24px">
-    <div class="card">
-      <div class="card-hdr"><span>📋 Detalle Sin Stock</span></div>
-      <div class="tbl-wrap">
-        <table class="tbl" id="tblSS">
-          <thead><tr><th>Fecha Notif.</th><th>Marca</th><th>País</th><th>Estado</th><th>Ticket</th></tr></thead>
-          <tbody id="tblSSBody"></tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id="page-kronotime" class="tab-page">
-  <div style="padding:16px 24px 8px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #E2E8F0">
-    <div style="font-size:15px;font-weight:700;color:#1E293B">⚠️ Kronotime — Órdenes por Día</div>
-    <div style="display:flex;gap:8px;align-items:center">
-      <select id="krMesSelect" onchange="doInitKrono()" style="font-size:12px;padding:5px 10px;border-radius:6px;border:1px solid #E2E8F0"><option value="">Mes actual</option></select>
-      <select id="krMarcaSelect" onchange="doInitKrono()" style="font-size:12px;padding:5px 10px;border-radius:6px;border:1px solid #E2E8F0"><option value="">Todas las marcas</option></select>
-    </div>
-  </div>
-  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:16px 24px">
-    <div class="jira-kpi-card"><div class="jira-kpi-num" id="krTotal">—</div><div class="jira-kpi-lbl">Total órdenes</div></div>
-    <div class="jira-kpi-card" style="--jc:#DC2626"><div class="jira-kpi-num" id="krContinu">—</div><div class="jira-kpi-lbl">Continuidad</div></div>
-    <div class="jira-kpi-card" style="--jc:#D97706"><div class="jira-kpi-num" id="krRev">—</div><div class="jira-kpi-lbl">Rev./Config.</div></div>
-    <div class="jira-kpi-card" style="--jc:#16A34A"><div class="jira-kpi-num" id="krSol">—</div><div class="jira-kpi-lbl">Solucionado</div></div>
-  </div>
-  <div style="padding:0 24px 16px">
-    <div class="card">
-      <div class="card-hdr"><span>📊 Órdenes por Día — Kronotime</span></div>
-      <div class="card-body"><div class="chart-wrap" style="height:280px"><canvas id="chartKronoBar"></canvas></div></div>
-    </div>
-  </div>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:0 24px 24px">
-    <div class="card">
-      <div class="card-hdr"><span>🏷️ Por Marca</span></div>
-      <div class="card-body"><div class="chart-wrap"><canvas id="chartKronoMarca"></canvas></div></div>
-    </div>
-    <div class="card">
-      <div class="card-hdr"><span>⚡ Por Estado</span></div>
-      <div class="card-body"><div class="chart-wrap"><canvas id="chartKronoEst"></canvas></div></div>
-    </div>
-  </div>
-</div>
-
 <div id="page-jira" class="tab-page">
   <div class="jira-toolbar">
     <div class="jira-title">🔵 Tickets Jira — ITHD</div>
@@ -1063,20 +994,12 @@ function buildCalendar() {
   });
 }
 
-// ── Tab navigation ───────────────────────────────────────────────────────
-function switchTab(id) {
-  document.querySelectorAll('.tab-page').forEach(p => p.classList.remove('active'));
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-  const page = document.getElementById('page-' + id);
-  if (page) page.classList.add('active');
-  const btns = document.querySelectorAll('.tab-btn');
-  const names = ['main','sinstock','kronotime','jira'];
-  const idx = names.indexOf(id);
-  if (idx >= 0 && btns[idx]) btns[idx].classList.add('active');
-}
-// ── Sin Stock ─────────────────────────────────────────────────────────────
-var chartSSMarca = null, chartSSMes = null;
-function doInitSS() {
+// ── Jira Tab (doInitSS y doInitKrono — funciones reales más abajo en TABS) ─
+// INICIO JIRA
+function doInitSS() { /* stub — la función real reemplaza esta */ }
+function doInitKrono() { /* stub — la función real reemplaza esta */ }
+// FIN STUB — eliminar bloque hasta Jira Tab
+function doInitSS_UNUSED() {
   var selMes   = (document.getElementById('ssMesSelect')   || {}).value || '';
   var selMarca = (document.getElementById('ssMarcaSelect') || {}).value || '';
 
