@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Tablero GDI — IX Comercio</title>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js"></script>
@@ -378,6 +379,35 @@ footer{text-align:center;color:#94A3B8;font-size:10px;padding:16px;letter-spacin
 </head>
 <body>
 
+<!-- AUTH GATE — Netlify Identity -->
+<div id="auth-gate" style="position:fixed;inset:0;background:#0F172A;z-index:99999;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:16px">
+  <div style="color:#fff;font-size:2rem">🔒</div>
+  <div style="color:#fff;font-size:1.2rem;font-weight:700">Tablero GDI — IX Comercio</div>
+  <div style="color:#94A3B8;font-size:0.9rem">Verificando acceso...</div>
+</div>
+<script>
+(function(){
+  if(typeof netlifyIdentity === 'undefined') return;
+  var hash = window.location.hash || '';
+  if(hash.includes('invite_token') || hash.includes('recovery_token') || hash.includes('confirmation_token')){
+    document.getElementById('auth-gate').style.display = 'none';
+    return;
+  }
+  netlifyIdentity.on('init', function(user){
+    if(!user){
+      document.getElementById('auth-gate').querySelector('div:last-child').textContent = 'Inicia sesión para continuar';
+      netlifyIdentity.open('login');
+    } else {
+      document.getElementById('auth-gate').style.display = 'none';
+    }
+  });
+  netlifyIdentity.on('login', function(){
+    document.getElementById('auth-gate').style.display = 'none';
+    netlifyIdentity.close();
+  });
+})();
+</script>
+
 <!-- HEADER -->
 <div class="header">
   <div class="hdr-brand">
@@ -553,249 +583,74 @@ footer{text-align:center;color:#94A3B8;font-size:10px;padding:16px;letter-spacin
   </div>
 </div>
 
-
-<!-- ═══════════ PÁGINA SIN STOCK ═══════════ -->
 <div id="page-sinstock" class="tab-page">
-
-  <!-- Barra de filtros -->
-  <div style="background:#fff;border-bottom:1px solid #E2E8F0;padding:14px 24px;
-              display:flex;flex-wrap:wrap;align-items:center;gap:12px">
-    <!-- Botones País / General -->
-    <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">
-      <span style="font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.5px">País:</span>
-      <button class="ss-filter-btn active" data-pais="todas" onclick="setSsPais(this, 'todas')">🌎 Todas</button>
-      <button class="ss-filter-btn" data-pais="Chile" onclick="setSsPais(this,'Chile')"><img src="https://flagcdn.com/w20/cl.png" style="height:13px;vertical-align:middle;border-radius:2px;margin-right:4px"> Chile</button>
-      <button class="ss-filter-btn" data-pais="Colombia" onclick="setSsPais(this,'Colombia')"><img src="https://flagcdn.com/w20/co.png" style="height:13px;vertical-align:middle;border-radius:2px;margin-right:4px"> Colombia</button>
-      <button class="ss-filter-btn" data-pais="Guatemala" onclick="setSsPais(this,'Guatemala')"><img src="https://flagcdn.com/w20/gt.png" style="height:13px;vertical-align:middle;border-radius:2px;margin-right:4px"> Guatemala</button>
-      <button class="ss-filter-btn" data-pais="México" onclick="setSsPais(this,'México')"><img src="https://flagcdn.com/w20/mx.png" style="height:13px;vertical-align:middle;border-radius:2px;margin-right:4px"> México</button>
-      <button class="ss-filter-btn" data-pais="Panamá" onclick="setSsPais(this,'Panamá')"><img src="https://flagcdn.com/w20/pa.png" style="height:13px;vertical-align:middle;border-radius:2px;margin-right:4px"> Panamá</button>
-      <button class="ss-filter-btn" data-pais="Perú" onclick="setSsPais(this,'Perú')"><img src="https://flagcdn.com/w20/pe.png" style="height:13px;vertical-align:middle;border-radius:2px;margin-right:4px"> Perú</button>
-      <button class="ss-filter-btn" data-pais="Costa Rica" onclick="setSsPais(this,'Costa Rica')"><img src="https://flagcdn.com/w20/cr.png" style="height:13px;vertical-align:middle;border-radius:2px;margin-right:4px"> Costa Rica</button>
-      <button class="ss-filter-btn" data-pais="Uruguay" onclick="setSsPais(this,'Uruguay')"><img src="https://flagcdn.com/w20/uy.png" style="height:13px;vertical-align:middle;border-radius:2px;margin-right:4px"> Uruguay</button>
-      <button class="ss-filter-btn" data-pais="El Salvador" onclick="setSsPais(this,'El Salvador')"><img src="https://flagcdn.com/w20/sv.png" style="height:13px;vertical-align:middle;border-radius:2px;margin-right:4px"> El Salvador</button>
-    </div>
-
-    <div style="width:1px;height:28px;background:#E2E8F0"></div>
-
-    <!-- Selector marca -->
-    <div style="display:flex;gap:6px;align-items:center">
-      <span style="font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.5px">Marca:</span>
-      <select id="ssMarca" onchange="setSsMarca(this.value)"
-        style="padding:6px 10px;border-radius:8px;border:1px solid #CBD5E1;
-               background:#fff;color:#1E293B;font-size:12px;font-family:inherit;cursor:pointer;min-width:160px">
-        <option value="todas">Todas las marcas</option>
-      </select>
-    </div>
-
-    <div style="width:1px;height:28px;background:#E2E8F0"></div>
-
-    <!-- Selector mes -->
-    <div style="display:flex;gap:6px;align-items:center">
-      <span style="font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.5px">Mes:</span>
-      <select id="ssMes" onchange="renderSS()"
-        style="padding:6px 10px;border-radius:8px;border:1px solid #CBD5E1;
-               background:#fff;color:#1E293B;font-size:12px;font-family:inherit;cursor:pointer">
-        <option value="2026-05">Mayo 2026</option>
-        <option value="2026-06" selected>Junio 2026</option>
-      </select>
-    </div>
-
-    <!-- Total badge -->
-    <div style="margin-left:auto;background:#FEF3C7;border:1px solid #FDE68A;
-                border-radius:10px;padding:8px 18px;text-align:center">
-      <div style="font-size:10px;color:#92400E;font-weight:700;text-transform:uppercase">Total Sin Stock</div>
-      <div id="ss-total-badge" style="font-size:24px;font-weight:900;color:#D97706;line-height:1.1">—</div>
+  <div style="padding:16px 24px 8px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #E2E8F0">
+    <div style="font-size:15px;font-weight:700;color:#1E293B">📦 Sin Stock — Histórico</div>
+    <div style="display:flex;gap:8px;align-items:center">
+      <select id="ssMesSelect" onchange="doInitSS()" style="font-size:12px;padding:5px 10px;border-radius:6px;border:1px solid #E2E8F0"><option value="">Todos los meses</option></select>
+      <select id="ssMarcaSelect" onchange="doInitSS()" style="font-size:12px;padding:5px 10px;border-radius:6px;border:1px solid #E2E8F0"><option value="">Todas las marcas</option></select>
     </div>
   </div>
-
-  <!-- Contenido: tabla + gráfica -->
-  <div style="display:grid;grid-template-columns:300px 1fr;gap:16px;padding:20px 24px">
-
-    <!-- Tabla fechas -->
-    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);overflow:hidden;
-                max-height:520px;overflow-y:auto">
-      <div style="background:#E2E8F0;padding:10px 14px;position:sticky;top:0;z-index:1">
-        <div style="display:flex;justify-content:space-between;font-size:12px;font-weight:700;color:#1E293B">
-          <span>Fecha</span><span>Órdenes sin stock</span>
-        </div>
-      </div>
-      <table style="width:100%;border-collapse:collapse;font-size:12px">
-        <tbody id="ss-date-tbody"></tbody>
-        <tfoot>
-          <tr style="background:#1E293B;color:#fff;font-weight:700">
-            <td style="padding:8px 14px">Total</td>
-            <td id="ss-tbl-tot" style="padding:8px 14px;text-align:right">—</td>
-          </tr>
-        </tfoot>
-      </table>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:16px 24px">
+    <div class="jira-kpi-card"><div class="jira-kpi-num" id="ssTotal">—</div><div class="jira-kpi-lbl">Total Sin Stock</div></div>
+    <div class="jira-kpi-card" style="--jc:#DC2626"><div class="jira-kpi-num" id="ssMarcas">—</div><div class="jira-kpi-lbl">Marcas afectadas</div></div>
+    <div class="jira-kpi-card" style="--jc:#D97706"><div class="jira-kpi-num" id="ssMeses">—</div><div class="jira-kpi-lbl">Meses con registro</div></div>
+    <div class="jira-kpi-card" style="--jc:#16A34A"><div class="jira-kpi-num" id="ssPaises">—</div><div class="jira-kpi-lbl">Países</div></div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:0 24px 16px">
+    <div class="card">
+      <div class="card-hdr"><span>📊 Sin Stock por Marca</span></div>
+      <div class="card-body"><div class="chart-wrap"><canvas id="chartSSMarca"></canvas></div></div>
     </div>
-
-    <!-- Gráfica -->
-    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);padding:20px">
-      <div style="font-size:12px;font-weight:700;color:#475569;text-transform:uppercase;
-                  letter-spacing:.5px;margin-bottom:4px" id="ss-chart-title">
-        Órdenes sin stock por día
-      </div>
-      <div id="ss-subtitle" style="font-size:11px;color:#94A3B8;margin-bottom:14px"></div>
-      <div style="position:relative;height:280px">
-        <canvas id="chartSSDia"></canvas>
-      </div>
+    <div class="card">
+      <div class="card-hdr"><span>📅 Sin Stock por Mes</span></div>
+      <div class="card-body"><div class="chart-wrap"><canvas id="chartSSMes"></canvas></div></div>
     </div>
   </div>
-
-  <!-- Tabla detalle completa -->
   <div style="padding:0 24px 24px">
-    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);overflow:hidden">
-      <div style="padding:12px 18px;background:#F8FAFC;border-bottom:1px solid #E2E8F0;
-                  display:flex;align-items:center;justify-content:space-between">
-        <span style="font-size:13px;font-weight:700;color:#1E293B">📋 Detalle órdenes Sin Stock</span>
-        <span id="ss-det-count" style="font-size:11px;color:#64748B"></span>
-      </div>
-      <div style="overflow-x:auto;max-height:320px;overflow-y:auto">
-        <table class="ss-tbl">
-          <thead>
-            <tr>
-              <th>Fecha notif.</th>
-              <th>Marca</th>
-              <th>País</th>
-              <th>Acción OPS</th>
-              <th>Pendiente por</th>
-              <th>Estado</th>
-            </tr>
-          </thead>
-          <tbody id="ss-tbl-body"></tbody>
+    <div class="card">
+      <div class="card-hdr"><span>📋 Detalle Sin Stock</span></div>
+      <div class="tbl-wrap">
+        <table class="tbl" id="tblSS">
+          <thead><tr><th>Fecha Notif.</th><th>Marca</th><th>País</th><th>Estado</th><th>Ticket</th></tr></thead>
+          <tbody id="tblSSBody"></tbody>
         </table>
       </div>
     </div>
   </div>
+</div>
 
-  <script>
-    (function(){
-      var el = document.getElementById('page-sinstock');
-      if(!el) return;
-      var obs = new MutationObserver(function(muts){
-        muts.forEach(function(mut){
-          if(mut.type==='attributes' && mut.attributeName==='class'){
-            if(el.classList.contains('active')){
-              setTimeout(function(){ if(typeof doInitSS==='function') doInitSS(); }, 100);
-            }
-          }
-        });
-      });
-      obs.observe(el, {attributes:true});
-    })();
-  </script>
-
-</div><!-- /page-sinstock -->
-
-<!-- ═══════════ PÁGINA KRONOTIME ═══════════ -->
 <div id="page-kronotime" class="tab-page">
-
-  <!-- Barra de filtros -->
-  <div style="background:#fff;border-bottom:1px solid #E2E8F0;padding:14px 24px;
-              display:flex;flex-wrap:wrap;align-items:center;gap:16px">
-    <div style="display:flex;gap:6px;align-items:center">
-      <span style="font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.5px">Mes:</span>
-      <select id="krMes" onchange="renderKrono()"
-        style="padding:6px 10px;border-radius:8px;border:1px solid #CBD5E1;
-               background:#fff;color:#1E293B;font-size:12px;font-family:inherit;cursor:pointer">
-        <option value="2026-05">Mayo 2026</option>
-        <option value="2026-06" selected>Junio 2026</option>
-      </select>
-    </div>
-    <div style="display:flex;gap:10px;margin-left:auto">
-      <div style="background:#EDE9FE;border:1px solid #DDD6FE;border-radius:10px;padding:8px 18px;text-align:center">
-        <div style="font-size:10px;color:#5B21B6;font-weight:700;text-transform:uppercase">Total Mes</div>
-        <div id="kr-total-badge" style="font-size:22px;font-weight:900;color:#6D28D9;line-height:1.1">—</div>
-      </div>
-      <div style="background:#FEF9C3;border:1px solid #FEF08A;border-radius:10px;padding:8px 18px;text-align:center">
-        <div style="font-size:10px;color:#92400E;font-weight:700;text-transform:uppercase">Pendientes</div>
-        <div id="kr-pend-badge" style="font-size:22px;font-weight:900;color:#D97706;line-height:1.1">—</div>
-      </div>
+  <div style="padding:16px 24px 8px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #E2E8F0">
+    <div style="font-size:15px;font-weight:700;color:#1E293B">⚠️ Kronotime — Órdenes por Día</div>
+    <div style="display:flex;gap:8px;align-items:center">
+      <select id="krMesSelect" onchange="doInitKrono()" style="font-size:12px;padding:5px 10px;border-radius:6px;border:1px solid #E2E8F0"><option value="">Mes actual</option></select>
+      <select id="krMarcaSelect" onchange="doInitKrono()" style="font-size:12px;padding:5px 10px;border-radius:6px;border:1px solid #E2E8F0"><option value="">Todas las marcas</option></select>
     </div>
   </div>
-
-  <!-- Contenido: tabla resumen + gráfica -->
-  <div style="display:grid;grid-template-columns:340px 1fr;gap:16px;padding:20px 24px">
-    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);overflow:hidden">
-      <div style="background:#4C1D95;padding:10px 16px">
-        <span style="font-size:12px;font-weight:700;color:#fff;text-transform:uppercase;letter-spacing:.5px">
-          ⚠️ Órdenes por Error / Estado
-        </span>
-      </div>
-      <table style="width:100%;border-collapse:collapse">
-        <thead>
-          <tr style="background:#EDE9FE">
-            <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:left;font-weight:700">Error / Estado</th>
-            <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:right;font-weight:700">Cantidad</th>
-          </tr>
-        </thead>
-        <tbody id="kr-sum-body"></tbody>
-        <tfoot>
-          <tr style="background:#1E293B">
-            <td style="padding:8px 12px;font-size:12px;color:#fff;font-weight:700">Total</td>
-            <td id="kr-sum-tot" style="padding:8px 12px;font-size:12px;color:#fff;font-weight:700;text-align:right">—</td>
-          </tr>
-        </tfoot>
-      </table>
-    </div>
-    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);padding:20px">
-      <div style="font-size:12px;font-weight:700;color:#4C1D95;text-transform:uppercase;
-                  letter-spacing:.5px;margin-bottom:4px">Kronotime por fecha</div>
-      <div style="font-size:11px;color:#94A3B8;margin-bottom:14px">Órdenes por día del mes seleccionado</div>
-      <div style="position:relative;height:260px">
-        <canvas id="chartKronoDia"></canvas>
-      </div>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:16px 24px">
+    <div class="jira-kpi-card"><div class="jira-kpi-num" id="krTotal">—</div><div class="jira-kpi-lbl">Total órdenes</div></div>
+    <div class="jira-kpi-card" style="--jc:#DC2626"><div class="jira-kpi-num" id="krContinu">—</div><div class="jira-kpi-lbl">Continuidad</div></div>
+    <div class="jira-kpi-card" style="--jc:#D97706"><div class="jira-kpi-num" id="krRev">—</div><div class="jira-kpi-lbl">Rev./Config.</div></div>
+    <div class="jira-kpi-card" style="--jc:#16A34A"><div class="jira-kpi-num" id="krSol">—</div><div class="jira-kpi-lbl">Solucionado</div></div>
+  </div>
+  <div style="padding:0 24px 16px">
+    <div class="card">
+      <div class="card-hdr"><span>📊 Órdenes por Día — Kronotime</span></div>
+      <div class="card-body"><div class="chart-wrap" style="height:280px"><canvas id="chartKronoBar"></canvas></div></div>
     </div>
   </div>
-
-  <!-- Tabla detalle -->
-  <div style="padding:0 24px 24px">
-    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);overflow:hidden">
-      <div style="padding:12px 18px;background:#F8FAFC;border-bottom:1px solid #E2E8F0;
-                  display:flex;align-items:center;justify-content:space-between">
-        <span style="font-size:13px;font-weight:700;color:#1E293B">📋 Detalle órdenes Kronotime</span>
-        <span id="kr-det-count" style="font-size:11px;color:#64748B"></span>
-      </div>
-      <div style="overflow-x:auto;max-height:340px;overflow-y:auto">
-        <table style="width:100%;border-collapse:collapse">
-          <thead style="position:sticky;top:0">
-            <tr style="background:#EDE9FE">
-              <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:left;font-weight:700;white-space:nowrap">Fecha</th>
-              <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:left;font-weight:700">Error / Estado</th>
-              <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:left;font-weight:700;white-space:nowrap">Acción OPS</th>
-              <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:left;font-weight:700;white-space:nowrap">Pendiente por</th>
-              <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:left;font-weight:700">Marca</th>
-            </tr>
-          </thead>
-          <tbody id="kr-tbl-body"></tbody>
-        </table>
-      </div>
-      <div style="padding:8px 14px;background:#F8FAFC;border-top:1px solid #E2E8F0;font-size:10px;color:#94A3B8">
-        🟡 Fila amarilla = orden actualmente escalada con Kronotime
-      </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:0 24px 24px">
+    <div class="card">
+      <div class="card-hdr"><span>🏷️ Por Marca</span></div>
+      <div class="card-body"><div class="chart-wrap"><canvas id="chartKronoMarca"></canvas></div></div>
     </div>
-
-  </div><!-- /kronotime-inner -->
-
-  <script>
-    (function(){
-      var el=document.getElementById('page-kronotime');
-      if(!el) return;
-      var obs=new MutationObserver(function(muts){
-        muts.forEach(function(m){
-          if(m.type==='attributes'&&m.attributeName==='class'){
-            if(el.classList.contains('active')){doInitKrono();}
-          }
-        });
-      });
-      obs.observe(el,{attributes:true});
-    })();
-  </script>
-
-</div><!-- /page-kronotime -->
-
-
+    <div class="card">
+      <div class="card-hdr"><span>⚡ Por Estado</span></div>
+      <div class="card-body"><div class="chart-wrap"><canvas id="chartKronoEst"></canvas></div></div>
+    </div>
+  </div>
+</div>
 
 <div id="page-jira" class="tab-page">
   <div class="jira-toolbar">
@@ -1162,4 +1017,1512 @@ function render(selectedDate) {
     diasSort.push(_mesActual+'-'+String(d).padStart(2,'0'));
   }
   // Highlight selected date o día de hoy
-  cons
+  const highlightDate = selectedDate || _diaHoy;
+  chartDia.data.labels = diasSort.map(d => d.slice(8)+'/'+d.slice(5,7));
+  chartDia.data.datasets[0].data = diasSort.map(d => ordPorDia[d]||0);
+  chartDia.data.datasets[0].backgroundColor = diasSort.map(d =>
+    d === highlightDate ? '#DC2626' : 'rgba(37,99,235,0.7)'
+  );
+  chartDia.update();
+
+  // Marca — poblar dropdowns y actualizar
+  populateMarcaDropdown();
+  populateMesDropdown();
+  updateMarcaChart();
+
+  // Top 10 Issues se actualiza via updateMarcaChart() → updateIssuesChart() — usa RECORDS completo
+}
+
+// ── Calendario Flatpickr ─────────────────────────────────────────────────
+let currentDate = null;
+let fp;
+
+function selectDate(fecha) {
+  currentDate = fecha || null;
+  const btnTodos = document.getElementById('btnTodos');
+  if (!fecha) {
+    btnTodos.classList.remove('inactive');
+    btnTodos.style.background = '';
+    if (fp) fp.clear();
+  } else {
+    btnTodos.classList.add('inactive');
+    btnTodos.style.background = '';
+  }
+  render(currentDate);
+}
+
+function toISO(d) {
+  return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+}
+
+function buildCalendar() {
+  const fechasSet = new Set(FECHAS);
+  // Última fecha con datos como default
+  const ultimaFecha = FECHAS[FECHAS.length - 1];
+
+  fp = flatpickr('#datePicker', {
+    locale: {
+      firstDayOfWeek: 1,
+      weekdays: {
+        shorthand: ['Do','Lu','Ma','Mi','Ju','Vi','Sa'],
+        longhand:  ['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado']
+      },
+      months: {
+        shorthand: ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'],
+        longhand:  ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre']
+      }
+    },
+    dateFormat: 'd/m/Y',
+    defaultDate: ultimaFecha,
+    disableMobile: true,
+    onDayCreate: (dObj, dStr, fp, dayElem) => {
+      const iso = toISO(dayElem.dateObj);
+      if (fechasSet.has(iso)) {
+        dayElem.classList.add('has-data');
+        const dot = document.createElement('span');
+        dot.className = 'day-dot';
+        dayElem.appendChild(dot);
+      }
+    },
+    onChange: (selectedDates) => {
+      if (selectedDates.length === 0) return;
+      const iso = toISO(selectedDates[0]);
+      document.getElementById('btnTodos').classList.add('inactive');
+      selectDate(iso);
+    }
+  });
+}
+
+// ── Tab navigation ───────────────────────────────────────────────────────
+function switchTab(id) {
+  document.querySelectorAll('.tab-page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  const page = document.getElementById('page-' + id);
+  if (page) page.classList.add('active');
+  const btns = document.querySelectorAll('.tab-btn');
+  const names = ['main','sinstock','kronotime','jira'];
+  const idx = names.indexOf(id);
+  if (idx >= 0 && btns[idx]) btns[idx].classList.add('active');
+}
+// ── Sin Stock ─────────────────────────────────────────────────────────────
+var chartSSMarca = null, chartSSMes = null;
+function doInitSS() {
+  var selMes   = (document.getElementById('ssMesSelect')   || {}).value || '';
+  var selMarca = (document.getElementById('ssMarcaSelect') || {}).value || '';
+
+  // Poblar filtros la primera vez
+  var mesesSS  = [...new Set(RECORDS_SS.filter(r=>r.fn).map(r=>r.fn.slice(0,7)))].sort();
+  var marcasSS = [...new Set(RECORDS_SS.map(r=>extractBrand(r.marca)).filter(Boolean))].sort();
+  var selMesEl   = document.getElementById('ssMesSelect');
+  var selMarcaEl = document.getElementById('ssMarcaSelect');
+  if (selMesEl && selMesEl.options.length <= 1) {
+    mesesSS.forEach(m => { var o=document.createElement('option'); o.value=m; var p=m.split('-'); o.text=(MESES_FULL[+p[1]]||m)+' '+p[0]; selMesEl.appendChild(o); });
+  }
+  if (selMarcaEl && selMarcaEl.options.length <= 1) {
+    marcasSS.forEach(m => { var o=document.createElement('option'); o.value=m; o.text=m; selMarcaEl.appendChild(o); });
+  }
+
+  var recs = RECORDS_SS;
+  if (selMes)   recs = recs.filter(r => r.fn && r.fn.slice(0,7) === selMes);
+  if (selMarca) recs = recs.filter(r => extractBrand(r.marca) === selMarca);
+
+  // KPIs
+  document.getElementById('ssTotal').textContent   = recs.length;
+  document.getElementById('ssMarcas').textContent  = new Set(recs.map(r=>extractBrand(r.marca)).filter(Boolean)).size;
+  document.getElementById('ssMeses').textContent   = new Set(recs.filter(r=>r.fn).map(r=>r.fn.slice(0,7))).size;
+  document.getElementById('ssPaises').textContent  = new Set(recs.map(r=>getCountry(r.marca)).filter(Boolean)).size;
+
+  // Chart por Marca
+  var cntMarca = {};
+  recs.forEach(r => { var m=extractBrand(r.marca)||'Sin marca'; cntMarca[m]=(cntMarca[m]||0)+1; });
+  var topMarca = Object.entries(cntMarca).sort((a,b)=>b[1]-a[1]).slice(0,12);
+  if (chartSSMarca) chartSSMarca.destroy();
+  chartSSMarca = new Chart(document.getElementById('chartSSMarca'), {
+    type:'bar',
+    data:{ labels:topMarca.map(x=>x[0]), datasets:[{ label:'Sin Stock', data:topMarca.map(x=>x[1]), backgroundColor:'rgba(220,38,38,0.7)', borderRadius:4 }] },
+    options:{ responsive:true, maintainAspectRatio:false, plugins:{ legend:{display:false} }, scales:{ x:{ticks:{maxRotation:45,font:{size:10}}}, y:{beginAtZero:true} } }
+  });
+
+  // Chart por Mes
+  var cntMes = {};
+  recs.filter(r=>r.fn).forEach(r => { var m=r.fn.slice(0,7); cntMes[m]=(cntMes[m]||0)+1; });
+  var mesesOrden = Object.keys(cntMes).sort();
+  if (chartSSMes) chartSSMes.destroy();
+  chartSSMes = new Chart(document.getElementById('chartSSMes'), {
+    type:'bar',
+    data:{ labels:mesesOrden.map(m=>{ var p=m.split('-'); return (MESES_FULL[+p[1]]||m).slice(0,3)+' '+p[0]; }),
+           datasets:[{ label:'Sin Stock', data:mesesOrden.map(m=>cntMes[m]), backgroundColor:'rgba(37,99,235,0.7)', borderRadius:4 }] },
+    options:{ responsive:true, maintainAspectRatio:false, plugins:{ legend:{display:false} }, scales:{ x:{ticks:{font:{size:10}}}, y:{beginAtZero:true} } }
+  });
+
+  // Tabla
+  var JIRA_BASE = 'https://ixglobalit.atlassian.net/browse/';
+  var tbody = document.getElementById('tblSSBody');
+  if (tbody) tbody.innerHTML = recs.slice(0,200).map(r =>
+    '<tr><td>'+(r.fn||'—')+'</td><td>'+(extractBrand(r.marca)||r.marca||'—')+'</td><td>'+(getCountry(r.marca)||'—')+'</td><td style="max-width:250px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">'+(r.est||'—')+'</td><td>'+(r.venta?'<a class="kpi-jira-link" href="'+JIRA_BASE+r.venta+'" target="_blank">'+r.venta+'</a>':'—')+'</td></tr>'
+  ).join('');
+}
+
+// ── Kronotime ─────────────────────────────────────────────────────────────
+var chartKronoBar = null, chartKronoMarca = null, chartKronoEst = null;
+var kronoLabelPlugin = {
+  id:'kronoLabels',
+  afterDatasetsDraw:function(chart){
+    var ctx=chart.ctx;
+    chart.data.datasets.forEach(function(ds,i){
+      chart.getDatasetMeta(i).data.forEach(function(bar,j){
+        var v=ds.data[j]; if(!v||v===0) return;
+        ctx.save(); ctx.fillStyle='#4C1D95'; ctx.font='bold 11px sans-serif';
+        ctx.textAlign='center'; ctx.textBaseline='bottom';
+        ctx.fillText(v,bar.x,bar.y-4); ctx.restore();
+      });
+    });
+  }
+};
+function doInitKrono() {
+  var selMes   = (document.getElementById('krMesSelect')   || {}).value || '';
+  var selMarca = (document.getElementById('krMarcaSelect') || {}).value || '';
+
+  // Poblar filtros la primera vez
+  var _hoy = new Date();
+  var _mesAct = _hoy.getFullYear()+'-'+(String(_hoy.getMonth()+1).padStart(2,'0'));
+  var mesesKr  = [...new Set(RECORDS.filter(r=>r.fn && /^\d{4}-\d{2}-\d{2}$/.test(r.fn)).map(r=>r.fn.slice(0,7)))].sort();
+  var marcasKr = [...new Set(RECORDS.map(r=>extractBrand(r.marca)).filter(Boolean))].sort();
+  var selMesEl   = document.getElementById('krMesSelect');
+  var selMarcaEl = document.getElementById('krMarcaSelect');
+  if (selMesEl && selMesEl.options.length <= 1) {
+    mesesKr.forEach(m => { var o=document.createElement('option'); o.value=m; var p=m.split('-'); o.text=(MESES_FULL[+p[1]]||m)+' '+p[0]; selMesEl.appendChild(o); });
+  }
+  if (selMarcaEl && selMarcaEl.options.length <= 1) {
+    marcasKr.forEach(m => { var o=document.createElement('option'); o.value=m; o.text=m; selMarcaEl.appendChild(o); });
+  }
+
+  var mes = selMes || _mesAct;
+  var recs = RECORDS.filter(r => r.fn && r.fn.slice(0,7) === mes);
+  if (selMarca) recs = recs.filter(r => extractBrand(r.marca) === selMarca);
+
+  // KPIs
+  document.getElementById('krTotal').textContent   = recs.length;
+  document.getElementById('krContinu').textContent = recs.filter(r=>r.pen==='Continuidad').length;
+  document.getElementById('krRev').textContent     = recs.filter(r=>r.pen==='Operaciones Revision/Configuracion').length;
+  document.getElementById('krSol').textContent     = recs.filter(r=>r.pen==='Operaciones Solucionado').length;
+
+  // Chart por Día
+  var ordPorDia = {};
+  recs.forEach(r => { ordPorDia[r.fn]=(ordPorDia[r.fn]||0)+1; });
+  var diasMes = [];
+  var diasEnMes = new Date(_hoy.getFullYear(), +mes.split('-')[1], 0).getDate();
+  var limDia = (mes === _mesAct) ? _hoy.getDate() : diasEnMes;
+  for (var d=1; d<=limDia; d++) diasMes.push(mes+'-'+String(d).padStart(2,'0'));
+  var vals = diasMes.map(d=>ordPorDia[d]||0);
+  if (chartKronoBar) chartKronoBar.destroy();
+  chartKronoBar = new Chart(document.getElementById('chartKronoBar'), {
+    type:'bar', plugins:[kronoLabelPlugin],
+    data:{ labels:diasMes.map(d=>d.slice(8)+'/'+d.slice(5,7)), datasets:[{ label:'Órdenes', data:vals, backgroundColor:'rgba(124,58,237,0.7)', borderRadius:4 }] },
+    options:{ responsive:true, maintainAspectRatio:false, layout:{padding:{top:18}},
+      plugins:{legend:{display:false}},
+      scales:{ x:{ticks:{color:'#1E293B',font:{size:9},maxRotation:45},grid:{display:false}},
+               y:{ticks:{color:'#1E293B',stepSize:1},beginAtZero:true,max:Math.max(...vals,0)+2} } }
+  });
+
+  // Chart por Marca
+  var cntMarca={};
+  recs.forEach(r=>{ var m=extractBrand(r.marca)||'Sin marca'; cntMarca[m]=(cntMarca[m]||0)+1; });
+  var topM=Object.entries(cntMarca).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  if (chartKronoMarca) chartKronoMarca.destroy();
+  chartKronoMarca = new Chart(document.getElementById('chartKronoMarca'), {
+    type:'bar',
+    data:{ labels:topM.map(x=>x[0]), datasets:[{ data:topM.map(x=>x[1]), backgroundColor:'rgba(37,99,235,0.7)', borderRadius:4 }] },
+    options:{ responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales:{x:{ticks:{maxRotation:45,font:{size:10}}},y:{beginAtZero:true}} }
+  });
+
+  // Chart por Estado
+  var cntEst={};
+  recs.forEach(r=>{ var e=(r.pen||'Sin estado'); cntEst[e]=(cntEst[e]||0)+1; });
+  var estColors={'Operaciones Solucionado':'rgba(22,163,74,0.7)','Continuidad':'rgba(217,119,6,0.7)','Operaciones Revision/Configuracion':'rgba(37,99,235,0.7)'};
+  var estLabels=Object.keys(cntEst);
+  if (chartKronoEst) chartKronoEst.destroy();
+  chartKronoEst = new Chart(document.getElementById('chartKronoEst'), {
+    type:'doughnut',
+    data:{ labels:estLabels, datasets:[{ data:estLabels.map(e=>cntEst[e]), backgroundColor:estLabels.map(e=>estColors[e]||'rgba(100,116,139,0.7)') }] },
+    options:{ responsive:true, maintainAspectRatio:false, plugins:{legend:{position:'bottom',labels:{font:{size:10}}}} }
+  });
+}
+
+// ── Jira Tab ─────────────────────────────────────────────────────────────
+var _jiraData = [];
+var _jiraLoaded = false;
+
+function doInitJira(forceRefresh) {
+  if (_jiraLoaded && !forceRefresh) return;
+  const loading = document.getElementById('jiraLoading');
+  const errDiv  = document.getElementById('jiraError');
+  const tbl     = document.getElementById('jiraTbl');
+  const btn     = document.getElementById('jiraRefreshBtn');
+  if (loading) loading.style.display = 'block';
+  if (errDiv)  errDiv.style.display  = 'none';
+  if (tbl)     tbl.style.display     = 'none';
+  if (loading) loading.textContent   = '⏳ Cargando tickets desde Jira...';
+  if (btn)     btn.disabled = true;
+
+  fetch('/jira_data.json?_=' + Date.now())
+    .then(r => r.json())
+    .then(data => {
+      if (data.error) throw new Error(data.error);
+      _jiraData = data.issues || [];
+      _jiraLoaded = true;
+
+      // Timestamp
+      const ts = new Date(data.ts);
+      const tsEl = document.getElementById('jira-ts');
+      if (tsEl) tsEl.textContent = 'Actualizado: ' + ts.toLocaleTimeString('es-CO', {hour:'2-digit',minute:'2-digit'});
+
+      // Poblar filtros
+      const asigSet = [...new Set(_jiraData.map(i => i.asignado))].sort();
+      const estSet  = [...new Set(_jiraData.map(i => i.status))].sort();
+      const selAsig = document.getElementById('jiraFiltroAsig');
+      const selEst  = document.getElementById('jiraFiltroEst');
+      if (selAsig) {
+        selAsig.innerHTML = '<option value="">Todos los asignados</option>' +
+          asigSet.map(a => '<option value="'+a+'">'+a+'</option>').join('');
+      }
+      if (selEst) {
+        selEst.innerHTML = '<option value="">Todos los estados</option>' +
+          estSet.map(e => '<option value="'+e+'">'+e+'</option>').join('');
+      }
+
+      // KPIs
+      const ventasExcel = new Set(RECORDS.filter(r => r.fn && r.fn.slice(0,7) === new Date().getFullYear()+'-'+(String(new Date().getMonth()+1).padStart(2,'0'))).map(r => r.venta).filter(Boolean));
+      const open = _jiraData.filter(i => i.cat === 'new').length;
+      const prog = _jiraData.filter(i => i.cat === 'indeterminate').length;
+      const done = _jiraData.filter(i => i.cat === 'done').length;
+      const enExcel = _jiraData.filter(i => ventasExcel.has(i.key)).length;
+      document.getElementById('jkTotal').textContent = _jiraData.length;
+      document.getElementById('jkOpen').textContent  = open;
+      document.getElementById('jkProg').textContent  = prog;
+      document.getElementById('jkDone').textContent  = done;
+      document.getElementById('jkExcel').textContent = enExcel;
+
+      if (loading) loading.style.display = 'none';
+      if (tbl)     tbl.style.display     = '';
+      renderJiraTable();
+    })
+    .catch(err => {
+      if (loading) loading.style.display = 'none';
+      if (errDiv)  { errDiv.style.display = ''; errDiv.textContent = '❌ Error: ' + err.message; }
+    })
+    .finally(() => { if (btn) btn.disabled = false; });
+}
+
+function renderJiraTable() {
+  if (!_jiraData.length) return;
+  const filtAsig  = (document.getElementById('jiraFiltroAsig') || {}).value || '';
+  const filtEst   = (document.getElementById('jiraFiltroEst')  || {}).value || '';
+  const buscar    = ((document.getElementById('jiraBuscar') || {}).value || '').toLowerCase();
+  const mesActual = new Date().getFullYear()+'-'+(String(new Date().getMonth()+1).padStart(2,'0'));
+  const ventasExcel = new Set(RECORDS.filter(r => r.fn && r.fn.slice(0,7) === mesActual).map(r => r.venta).filter(Boolean));
+  const JIRA_BASE = 'https://ixglobalit.atlassian.net/browse/';
+
+  const filtered = _jiraData.filter(i => {
+    if (filtAsig && i.asignado !== filtAsig) return false;
+    if (filtEst  && i.status   !== filtEst)  return false;
+    if (buscar && !i.key.toLowerCase().includes(buscar) && !i.summary.toLowerCase().includes(buscar)) return false;
+    return true;
+  });
+
+  const badgeCls = cat => {
+    if (cat === 'new')           return 'jira-badge jira-badge-open';
+    if (cat === 'indeterminate') return 'jira-badge jira-badge-prog';
+    if (cat === 'done')          return 'jira-badge jira-badge-done';
+    return 'jira-badge jira-badge-other';
+  };
+
+  const tbody = document.getElementById('jiraTbody');
+  if (!tbody) return;
+  tbody.innerHTML = filtered.map(i => {
+    const enExcel = ventasExcel.has(i.key);
+    return '<tr>' +
+      '<td><a class="jira-link" href="'+JIRA_BASE+i.key+'" target="_blank">'+i.key+'</a></td>' +
+      '<td style="max-width:380px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="'+i.summary.replace(/"/g,'&quot;')+'">'+i.summary+'</td>' +
+      '<td><span class="'+badgeCls(i.cat)+'">'+i.status+'</span></td>' +
+      '<td>'+i.asignado+'</td>' +
+      '<td>'+i.prioridad+'</td>' +
+      '<td>'+i.actualizado+'</td>' +
+      '<td class="'+(enExcel?'jira-excel-si':'jira-excel-no')+'">'+(enExcel?'✅ Sí':'—')+'</td>' +
+    '</tr>';
+  }).join('');
+
+  if (!filtered.length) {
+    tbody.innerHTML = '<tr><td colspan="7" style="text-align:center;padding:24px;color:#94A3B8">Sin resultados</td></tr>';
+  }
+}
+
+// ── Marca dropdown helpers ───────────────────────────────────────────────
+// ── Marca / Mes helpers ──────────────────────────────────────────────────
+const BRAND_PALETTE = [
+  '#16A34A','#2563EB','#DC2626','#D97706','#7C3AED',
+  '#0891B2','#EA580C','#BE185D','#0F766E','#B45309',
+  '#1D4ED8','#15803D','#9333EA','#C2410C','#0369A1'
+];
+const MESES_FULL = {1:'Enero',2:'Febrero',3:'Marzo',4:'Abril',5:'Mayo',6:'Junio',
+  7:'Julio',8:'Agosto',9:'Septiembre',10:'Octubre',11:'Noviembre',12:'Diciembre'};
+
+
+const COUNTRIES = [
+  'costa rica','el salvador','colombia','chile','mexico','méxico','guatemala',
+  'panama','panamá','uruguay','peru','perú','salvador','bolivia','ecuador',
+  'argentina','paraguay','venezuela'
+];
+
+function extractBrand(marca) {
+  if (!marca || !marca.trim()) return '';
+  let m = marca.trim();
+  // Quitar país al final (ej: "Crocs Colombia" → "Crocs")
+  for (const c of COUNTRIES) {
+    const safe = c.replace(/[.*+?^${}()|[\]\\]/g,'\\$&').replace(/\s+/,'\\s+');
+    m = m.replace(new RegExp('\\s+' + safe + '\\s*$','i'),'').trim();
+  }
+  // Quitar país en el medio (ej: "Epson Chile Whitelabel 360" → "Epson Whitelabel 360")
+  for (const c of COUNTRIES) {
+    const safe = c.replace(/[.*+?^${}()|[\]\\]/g,'\\$&').replace(/\s+/,'\\s+');
+    m = m.replace(new RegExp('\\s+' + safe + '\\s+','i'),' ').trim();
+  }
+  // Si lo que quedó ES solo un país → registro sin marca identificable
+  if (COUNTRIES.includes(m.toLowerCase())) return '';
+  // Normalizar capitalización de marcas conocidas
+  const MAP = {
+    'crocs':'Crocs','jbl':'JBL','mkp':'MKP','mkp full':'MKP Full',
+    'mkp full chile':'MKP Full','motorola':'Motorola','dockers':'Dockers',
+    'harman audio':'Harman Audio','running balboa':'Running Balboa',
+    'epson whitelabel 360':'Epson Whitelabel 360',
+    'hp whitelabel 360':'HP Whitelabel 360'
+  };
+  return MAP[m.toLowerCase()] || m;
+}
+
+function getBrandColor(brand) {
+  let h = 0;
+  for (let i = 0; i < brand.length; i++) h = (h * 31 + brand.charCodeAt(i)) >>> 0;
+  return BRAND_PALETTE[h % BRAND_PALETTE.length];
+}
+
+function populateMarcaDropdown() {
+  const sel = document.getElementById('selectMarca');
+  const cur = sel.value;
+  // Extraer marca limpia (sin país) y deduplicar
+  const marcas = [...new Set(
+    RECORDS.map(r => extractBrand(r.marca)).filter(b => b && b.length > 1)
+  )].sort((a,b) => a.localeCompare(b));
+  sel.innerHTML = '<option value="">Todas las marcas</option>' +
+    marcas.map(m => `<option value="${m}"${m===cur?' selected':''}>${m}</option>`).join('');
+}
+
+function populateMesDropdown() {
+  const sel = document.getElementById('selectMes');
+  const cur = sel.value;
+  const meses = [...new Set(RECORDS.filter(r=>r.fn && r.fn.startsWith('2026')).map(r=>r.fn.slice(0,7)))].sort();
+  sel.innerHTML = '<option value="">Todos los meses</option>' +
+    meses.map(ym => {
+      const [y,m] = ym.split('-');
+      return `<option value="${ym}"${ym===cur?' selected':''}>${MESES_FULL[+m]}</option>`;
+    }).join('');
+}
+
+function updateMarcaChart() {
+  const marca = document.getElementById('selectMarca').value;
+  const mes   = document.getElementById('selectMes').value;
+
+  // Días a mostrar
+  let dias = [...new Set(RECORDS.filter(r=>r.fn && r.fn.startsWith('2026')).map(r=>r.fn))].sort();
+  if (mes) dias = dias.filter(d => d.startsWith(mes));
+  else     dias = dias.slice(-30);
+
+  const labels = dias.map(d => d.slice(5).replace('-','/'));
+  const color  = marca ? getBrandColor(marca) : 'rgba(37,99,235,0.75)';
+
+  const vals = dias.map(d =>
+    RECORDS.filter(r => r.fn === d && (!marca || extractBrand(r.marca) === marca)).length
+  );
+
+  chartMarca.data.labels = labels;
+  chartMarca.data.datasets = [{
+    label: marca || 'Total órdenes',
+    data: vals,
+    backgroundColor: color,
+    borderColor: marca ? color : '#1E3A8A',
+    borderWidth: marca ? 0 : 1,
+    borderRadius: 6
+  }];
+  chartMarca.options.scales.x.stacked = false;
+  chartMarca.options.scales.y.stacked = false;
+  chartMarca.update();
+
+  // Badge resumen
+  const badge = document.getElementById('totalMesBadge');
+  if (marca || mes) {
+    const total = RECORDS.filter(r =>
+      (!mes   || (r.fn && r.fn.startsWith(mes))) &&
+      (!marca || r.marca === marca)
+    ).length;
+    const mesLabel = mes ? MESES_FULL[+mes.split('-')[1]] : 'Todo el período';
+    badge.style.display = 'flex';
+    badge.innerHTML =
+      `<span>📅 <b>${mesLabel}</b></span>` +
+      (marca ? `<span>🏷️ <b>${marca}</b></span>` : '') +
+      `<span>📦 Total: <b style="font-size:15px;color:${color}">${total.toLocaleString('es-CO')}</b> órdenes</span>`;
+  } else {
+    badge.style.display = 'none';
+  }
+
+  // Header issues (se actualiza dentro de updateIssuesChart)
+  updateIssuesChart(marca);
+}
+
+function updateIssuesChart(marca, mesActual) {
+  // Prioridad: mes seleccionado en dropdown → parámetro → mes actual
+  const selMes = (document.getElementById('selectMes')||{}).value || '';
+  if(!mesActual){
+    const _n=new Date();
+    mesActual=_n.getFullYear()+'-'+(String(_n.getMonth()+1).padStart(2,'0'));
+  }
+  const mes = selMes || mesActual;
+
+  // Filtrar por mes
+  let recs = RECORDS.filter(r => r.fn && r.fn.slice(0,7) === mes);
+  if(marca) recs = recs.filter(r => extractBrand(r.marca) === marca);
+
+  const cnt = {};
+  recs.forEach(r => { if(r.est) cnt[r.est] = (cnt[r.est]||0)+1; });
+  const top10 = Object.entries(cnt).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  const color = marca ? getBrandColor(marca) : '#D97706';
+
+  // Label del mes para el header
+  const [y,m] = mes.split('-');
+  const mesLbl = (MESES_FULL&&MESES_FULL[+m]) || mes;
+  document.querySelector('#issuesHdr span').textContent =
+    (marca ? '🔎 Top 10 Issues — '+marca : '🔎 Top 10 Issues') + ' · ' + mesLbl;
+
+  chartOps.data.labels   = top10.map(([l]) => l.length>45 ? l.slice(0,45)+'…' : l);
+  chartOps.data.datasets = [{
+    label: (marca||'Todos')+' · '+mes, data: top10.map(x=>x[1]),
+    backgroundColor: color, borderRadius: 4
+  }];
+  chartOps.update();
+}
+
+function onMarcaChange() { updateMarcaChart(); }
+
+// ── Exportar PDF / JPG ───────────────────────────────────────────────────
+function _getTabActiva() {
+  const tabs = ['page-main','page-sinstock','page-kronotime','page-jira'];
+  for(const id of tabs){
+    const el = document.getElementById(id);
+    if(el && el.classList.contains('active')) return el;
+  }
+  return document.body;
+}
+
+function _nombreTab() {
+  const map = {
+    'page-main': 'Ordenes_Incidentadas',
+    'page-sinstock': 'Sin_Stock',
+    'page-kronotime': 'Kronotime',
+    'page-jira': 'Jira'
+  };
+  const tabs = Object.keys(map);
+  for(const id of tabs){
+    const el = document.getElementById(id);
+    if(el && el.classList.contains('active')) return map[id];
+  }
+  return 'Tablero_GDI';
+}
+
+function _fechaExport() {
+  // Usa la fecha seleccionada en el calendario; si no hay, usa hoy
+  const picker = document.getElementById('datePicker');
+  if(picker && picker.value && picker.value.trim()) {
+    // Flatpickr muestra d/m/Y — convertir a YYYY-MM-DD
+    const parts = picker.value.trim().split('/');
+    if(parts.length === 3) return parts[2]+'-'+parts[1]+'-'+parts[0];
+  }
+  return new Date().toISOString().slice(0,10);
+}
+
+function _capturar(btn, spinnerId, callback) {
+  btn.disabled = true;
+  const spin = document.getElementById(spinnerId);
+  if(spin) spin.style.display = 'inline-block';
+
+  const target = _getTabActiva();
+  // Scroll al inicio para capturar desde arriba
+  target.scrollTop = 0;
+
+  setTimeout(() => {
+    html2canvas(target, {
+      scale: 2,
+      useCORS: true,
+      allowTaint: true,
+      backgroundColor: '#F0F4F8',
+      scrollX: 0, scrollY: 0,
+      windowWidth: target.scrollWidth,
+      windowHeight: target.scrollHeight,
+      logging: false
+    }).then(canvas => {
+      callback(canvas);
+      btn.disabled = false;
+      if(spin) spin.style.display = 'none';
+    }).catch(() => {
+      btn.disabled = false;
+      if(spin) spin.style.display = 'none';
+      alert('Error al generar la imagen. Intenta de nuevo.');
+    });
+  }, 300);
+}
+
+function exportarJPG(btn) {
+  _capturar(btn, 'spinJPG', canvas => {
+    const fecha = _fechaExport();
+    const nombre = 'GDI_' + _nombreTab() + '_' + fecha + '.jpg';
+    const link = document.createElement('a');
+    link.download = nombre;
+    link.href = canvas.toDataURL('image/jpeg', 0.92);
+    link.click();
+  });
+}
+
+function exportarPDF(btn) {
+  _capturar(btn, 'spinPDF', canvas => {
+    const { jsPDF } = window.jspdf;
+    const fecha = _fechaExport();
+    const nombre = 'GDI_' + _nombreTab() + '_' + fecha + '.pdf';
+
+    const imgW = canvas.width;
+    const imgH = canvas.height;
+    // A4 landscape si es más ancho que alto, portrait si no
+    const landscape = imgW > imgH;
+    const pdf = new jsPDF({ orientation: landscape ? 'landscape' : 'portrait', unit: 'px', format: 'a4' });
+    const pageW = pdf.internal.pageSize.getWidth();
+    const pageH = pdf.internal.pageSize.getHeight();
+
+    // Escalar imagen para que quepa en el ancho de la página
+    const ratio = pageW / imgW;
+    const scaledH = imgH * ratio;
+
+    // Si cabe en una página
+    if(scaledH <= pageH) {
+      pdf.addImage(canvas.toDataURL('image/jpeg', 0.92), 'JPEG', 0, 0, pageW, scaledH);
+    } else {
+      // Paginar: dividir en segmentos
+      let yOffset = 0;
+      while(yOffset < imgH) {
+        const segH = Math.min(pageH / ratio, imgH - yOffset);
+        const segCanvas = document.createElement('canvas');
+        segCanvas.width = imgW;
+        segCanvas.height = segH;
+        segCanvas.getContext('2d').drawImage(canvas, 0, yOffset, imgW, segH, 0, 0, imgW, segH);
+        if(yOffset > 0) pdf.addPage();
+        pdf.addImage(segCanvas.toDataURL('image/jpeg', 0.92), 'JPEG', 0, 0, pageW, segH * ratio);
+        yOffset += segH;
+      }
+    }
+    pdf.save(nombre);
+  });
+}
+
+// ── Modal KPI Drill-Down ─────────────────────────────────────────────────
+var _JIRA_BASE = 'https://ixglobalit.atlassian.net/browse/';
+
+function openKpiModal(tipo) {
+  const cfg = {
+    total: { label:'🔵 EN REVISIÓN CO - IT',   color:'linear-gradient(135deg,#991B1B,#DC2626)', filtro: r => isEnRevIT(r.ops) },
+    sol:   { label:'✅ Operaciones Solucionado', color:'linear-gradient(135deg,#14532D,#16A34A)', filtro: r => isEnRevIT(r.ops) && r.pen === 'Operaciones Solucionado' },
+    cont:  { label:'⚠️ Continuidad',            color:'linear-gradient(135deg,#78350F,#D97706)', filtro: r => isEnRevIT(r.ops) && r.pen === 'Continuidad' },
+    rev:   { label:'⚙️ Operaciones Rev./Config.',color:'linear-gradient(135deg,#1E3A8A,#2563EB)', filtro: r => isEnRevIT(r.ops) && r.pen === 'Operaciones Revision/Configuracion' }
+  };
+  const c = cfg[tipo];
+  if(!c) return;
+
+  const recs = RECORDS.filter(c.filtro)
+    .sort((a,b) => (b.fn||'').localeCompare(a.fn||''));
+
+  // Header
+  document.getElementById('kpiModalHdr').style.background = c.color;
+  document.getElementById('kpiModalTitle').textContent = c.label;
+  document.getElementById('kpiModalSub').textContent   = recs.length + ' registros · Haz clic en el ticket para abrir en Jira';
+
+  // Columnas según tipo
+  const esCont = tipo === 'cont';
+  const thead = document.getElementById('kpiModalThead');
+  thead.innerHTML = '<tr>' +
+    '<th>Ticket Jira</th>' +
+    '<th>Fecha</th>' +
+    '<th>Marca</th>' +
+    '<th>País</th>' +
+    (esCont ? '<th>Escalamiento</th>' : '') +
+    '<th>Comentario</th>' +
+    '</tr>';
+
+  // Filas
+  const tbody = document.getElementById('kpiModalTbody');
+  if(!recs.length) {
+    tbody.innerHTML = '<tr><td colspan="'+(esCont?6:5)+'" style="text-align:center;padding:20px;color:#94A3B8">Sin registros</td></tr>';
+  } else {
+    tbody.innerHTML = recs.map(r => {
+      const ticket = (r.venta||'').trim();
+      const jiraLink = ticket
+        ? '<a class="kpi-jira-link" href="'+_JIRA_BASE+ticket+'" target="_blank" rel="noopener">'+ticket+' ↗</a>'
+        : '<span style="color:#94A3B8">—</span>';
+      const fecha  = r.fn ? r.fn.split('-').reverse().join('/') : '—';
+      const marca  = '<span class="kpi-chip-marca">'+(extractBrand(r.marca)||r.marca||'—')+'</span>';
+      const pais   = '<span class="kpi-chip-pais">'+(r.pais||getCountry(r.marca)||'—')+'</span>';
+      const com    = r.com || '—';
+      const esc    = esCont
+        ? '<td><span class="kpi-chip-esc">'+(r.pen||'—')+'</span></td>'
+        : '';
+      return '<tr>'+
+        '<td>'+jiraLink+'</td>'+
+        '<td style="white-space:nowrap;color:#475569">'+fecha+'</td>'+
+        '<td>'+marca+'</td>'+
+        '<td>'+pais+'</td>'+
+        esc+
+        '<td style="max-width:300px;font-size:11px;color:#475569">'+com+'</td>'+
+        '</tr>';
+    }).join('');
+  }
+
+  document.getElementById('kpiModalFooter').textContent = recs.length + ' registros totales';
+  document.getElementById('kpiModalBg').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeKpiModal(evt) {
+  if(evt && evt.target !== document.getElementById('kpiModalBg')) return;
+  document.getElementById('kpiModalBg').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// ── Modal Issue Drill-Down ────────────────────────────────────────────────
+function openIssueModal(issueLabel, total) {
+  // Obtener mes y marca activos del dashboard
+  const selMes   = (document.getElementById('selectMes')||{}).value || '';
+  const selMarca = (document.getElementById('selectMarca')||{}).value || '';
+  const _n = new Date();
+  const mesActual = selMes || (_n.getFullYear()+'-'+(String(_n.getMonth()+1).padStart(2,'0')));
+
+  // Filtrar registros que coincidan con el issue seleccionado + mes + marca
+  // El label puede estar truncado (…), buscamos coincidencia por inicio
+  const labelFull = issueLabel.endsWith('…') ? issueLabel.slice(0,-1) : issueLabel;
+  let recs = RECORDS.filter(r =>
+    r.fn && r.fn.slice(0,7) === mesActual &&
+    (r.est||'') && (r.est.startsWith(labelFull) || r.est === issueLabel)
+  );
+  if(selMarca) recs = recs.filter(r => extractBrand(r.marca) === selMarca);
+
+  // Header del modal
+  const [y,m] = mesActual.split('-');
+  const mesLbl = (MESES_FULL&&MESES_FULL[+m]) || mesActual;
+  document.getElementById('issueModalTitle').textContent = issueLabel;
+  document.getElementById('issueModalSub').textContent =
+    total + ' órdenes · ' + mesLbl + (selMarca ? ' · ' + selMarca : '');
+
+  // Top fechas
+  const cntF = {};
+  recs.forEach(r => { if(r.fn) cntF[r.fn] = (cntF[r.fn]||0)+1; });
+  const topF = Object.entries(cntF).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  const maxF = topF.length ? topF[0][1] : 1;
+  document.getElementById('issueModalFechas').innerHTML = topF.map(([d,n]) => {
+    const dFmt = d.split('-').reverse().join('/');
+    const pct  = Math.round(n/maxF*100);
+    return `<tr>
+      <td>${dFmt}</td>
+      <td><strong>${n}</strong></td>
+      <td><div class="issue-modal-bar-wrap">
+        <div class="issue-modal-bar" style="width:${pct}%"></div>
+        <span style="font-size:11px;color:#64748B">${Math.round(n/total*100)}%</span>
+      </div></td>
+    </tr>`;
+  }).join('') || '<tr><td colspan="3" style="color:#94A3B8;text-align:center;padding:12px">Sin datos</td></tr>';
+
+  // Países (chips con conteo)
+  const cntP = {};
+  recs.forEach(r => { const p=(r.pais||getCountry(r.marca)||'').trim(); if(p) cntP[p]=(cntP[p]||0)+1; });
+  const topP = Object.entries(cntP).sort((a,b)=>b[1]-a[1]);
+  document.getElementById('issueModalPaises').innerHTML = topP.length
+    ? topP.map(([p,n]) => `<span class="issue-chip">${p} <strong>(${n})</strong></span>`).join('')
+    : '<span style="color:#94A3B8;font-size:12px">Sin datos de país</span>';
+
+  // Marcas (chips con conteo)
+  const cntM = {};
+  recs.forEach(r => { const b=extractBrand(r.marca)||r.marca; if(b) cntM[b]=(cntM[b]||0)+1; });
+  const topM = Object.entries(cntM).sort((a,b)=>b[1]-a[1]);
+  document.getElementById('issueModalMarcas').innerHTML = topM.length
+    ? topM.map(([b,n]) => `<span class="issue-chip">${b} <strong>(${n})</strong></span>`).join('')
+    : '<span style="color:#94A3B8;font-size:12px">Sin datos de marca</span>';
+
+  document.getElementById('issueModalBg').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeIssueModal(evt) {
+  if(evt && evt.target !== document.getElementById('issueModalBg')) return;
+  document.getElementById('issueModalBg').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// ── Modal Estado de Órdenes (mismo overlay, distinto contexto) ────────────
+function openEstModal(estLabel, totalDia, estFecha) {
+  // Registros EN REVISION con ese estado en LA FECHA seleccionada
+  const recsDia = RECORDS.filter(r =>
+    r.fn === estFecha && isEnRevIT(r.ops) && (r.est||'') === estLabel
+  );
+
+  // Header
+  const fechaFmt = estFecha.split('-').reverse().join('/');
+  document.getElementById('issueModalTitle').textContent = estLabel || 'Sin estado';
+  document.getElementById('issueModalSub').textContent =
+    totalDia + ' órdenes · Fecha ' + fechaFmt + ' · EN REVISIÓN CO-IT';
+
+  // Top fechas — comparar con otros días del mes para ver si es recurrente
+  const mesActual = estFecha.slice(0,7);
+  const recsMes = RECORDS.filter(r =>
+    r.fn && r.fn.slice(0,7) === mesActual && isEnRevIT(r.ops) && (r.est||'') === estLabel
+  );
+  const cntF = {};
+  recsMes.forEach(r => { if(r.fn) cntF[r.fn] = (cntF[r.fn]||0)+1; });
+  const topF = Object.entries(cntF).sort((a,b)=>b[1]-a[1]).slice(0,10);
+  const maxF = topF.length ? topF[0][1] : 1;
+  const totalMes = recsMes.length;
+
+  document.getElementById('issueModalFechas').innerHTML = topF.map(([d,n]) => {
+    const dFmt = d.split('-').reverse().join('/');
+    const pct  = Math.round(n/maxF*100);
+    const esDia = d === estFecha ? ' style="font-weight:800;color:#2563EB"' : '';
+    return `<tr>
+      <td${esDia}>${dFmt}${d===estFecha?' ◀ seleccionada':''}</td>
+      <td><strong>${n}</strong></td>
+      <td><div class="issue-modal-bar-wrap">
+        <div class="issue-modal-bar" style="width:${pct}%"></div>
+        <span style="font-size:11px;color:#64748B">${totalMes?Math.round(n/totalMes*100):0}% del mes</span>
+      </div></td>
+    </tr>`;
+  }).join('') || '<tr><td colspan="3" style="color:#94A3B8;text-align:center;padding:12px">Sin datos</td></tr>';
+
+  // Países — del día seleccionado
+  const cntP = {};
+  recsDia.forEach(r => { const p=(r.pais||getCountry(r.marca)||'').trim(); if(p) cntP[p]=(cntP[p]||0)+1; });
+  const topP = Object.entries(cntP).sort((a,b)=>b[1]-a[1]);
+  document.getElementById('issueModalPaises').innerHTML = topP.length
+    ? topP.map(([p,n]) => `<span class="issue-chip">${p} <strong>(${n})</strong></span>`).join('')
+    : '<span style="color:#94A3B8;font-size:12px">Sin datos de país</span>';
+
+  // Marcas — del día seleccionado
+  const cntM = {};
+  recsDia.forEach(r => { const b=extractBrand(r.marca)||r.marca; if(b) cntM[b]=(cntM[b]||0)+1; });
+  const topM = Object.entries(cntM).sort((a,b)=>b[1]-a[1]);
+  document.getElementById('issueModalMarcas').innerHTML = topM.length
+    ? topM.map(([b,n]) => `<span class="issue-chip">${b} <strong>(${n})</strong></span>`).join('')
+    : '<span style="color:#94A3B8;font-size:12px">Sin datos de marca</span>';
+
+  document.getElementById('issueModalBg').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function resetJunio() {
+  // Buscar el mes de junio 2026 disponible
+  const mesSel = document.getElementById('selectMes');
+  const marcaSel = document.getElementById('selectMarca');
+  const junioOpt = [...mesSel.options].find(o => o.value === '2026-06');
+  if (junioOpt) mesSel.value = '2026-06';
+  marcaSel.value = '';
+  updateMarcaChart();
+}
+
+// ── Init ─────────────────────────────────────────────────────────────────
+initCharts();
+buildCalendar();
+render(null);
+
+// ═══════════ TABS ═══════════
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(function(b,i){
+    b.classList.toggle('active',(tab==='main'&&i===0)||(tab==='sinstock'&&i===1)||(tab==='kronotime'&&i===2)||(tab==='jira'&&i===3));
+  });
+  document.getElementById('page-main').classList.toggle('active', tab==='main');
+  document.getElementById('page-sinstock').classList.toggle('active', tab==='sinstock');
+  var pkr=document.getElementById('page-kronotime');
+  if(pkr) pkr.classList.toggle('active', tab==='kronotime');
+  var pjr=document.getElementById('page-jira');
+  if(pjr) pjr.classList.toggle('active', tab==='jira');
+  if(tab==='sinstock'){
+    ssPaisActivo='todas';
+    ssMarcaActivo='todas';
+    document.querySelectorAll('.ss-filter-btn').forEach(function(b,i){ b.classList.toggle('active', i===0); });
+    doInitSS();
+    setTimeout(function(){ if(chartSSBar) chartSSBar.resize(); }, 300);
+  }
+  if(tab==='kronotime'){
+    doInitKrono();
+    setTimeout(function(){ if(chartKronoBar) chartKronoBar.resize(); }, 300);
+  }
+}
+
+// ═══════════ SIN STOCK ═══════════
+// Filtro unificado Sin Stock
+function isSinStock(r){
+  // Sin Stock = Comentario continuidad contiene "sin stock"
+  // También cubre ops que contienen "sin stock" (ej: "cancelada - Sin stock")
+  return norm(r.com||'').indexOf('sin stock') >= 0 ||
+         norm(r.ops||'').indexOf('sin stock') >= 0;
+}
+
+function getCountry(marca){
+  if(!marca) return '';
+  var m=marca.trim().toLowerCase();
+  var M={'colombia':'Colombia','chile':'Chile','mexico':'México','méxico':'México',
+         'peru':'Perú','perú':'Perú','guatemala':'Guatemala','panama':'Panamá','panamá':'Panamá',
+         'uruguay':'Uruguay','salvador':'El Salvador','el salvador':'El Salvador',
+         'costa rica':'Costa Rica'};
+  if(M[m]) return M[m];
+  var ks=Object.keys(M);
+  for(var i=0;i<ks.length;i++){
+    if(m.endsWith(' '+ks[i])||m.indexOf(' '+ks[i]+' ')>=0) return M[ks[i]];
+  }
+  return '';
+}
+
+function getDias(ym){
+  var p=ym.split('-'); return new Date(+p[0],+p[1],0).getDate();
+}
+
+function doInitSS(){
+  // Recalcular caché SS: com contiene "sin stock" (sin importar ops)
+  var SS=(RECORDS_SS&&RECORDS_SS.length?RECORDS_SS:RECORDS).filter(isSinStock);
+  window._SS_CACHE=SS;
+
+  // Poblar select de marcas SOLO con las que tienen registros sin stock
+  var todasMarcasLow={};
+  var todasMarcasLabel={};
+  SS.forEach(function(r){
+    var b=extractBrand(r.marca);
+    if(!b) return;
+    var bl=b.toLowerCase();
+    todasMarcasLow[bl]=(todasMarcasLow[bl]||0)+1;
+    if(!todasMarcasLabel[bl] || b.length > todasMarcasLabel[bl].length) todasMarcasLabel[bl]=b;
+  });
+  var marcasOrden=Object.keys(todasMarcasLabel).sort(function(a,b){ return todasMarcasLabel[a].localeCompare(todasMarcasLabel[b]); });
+  var selM=document.getElementById('ssMarca');
+  if(selM){
+    var mOpts='<option value="todas">Todas las marcas</option>';
+    marcasOrden.forEach(function(bl){
+      var label=todasMarcasLabel[bl];
+      mOpts+='<option value="'+bl+'"'+(bl===ssMarcaActivo.toLowerCase()?' selected':'')+'>'+label+'</option>';
+    });
+    selM.innerHTML=mOpts;
+  }
+
+  // Actualizar opciones del select con meses de datos SS
+  var meses=[];
+  for(var si=0;si<SS.length;si++){
+    if(SS[si].fn){var ym0=SS[si].fn.slice(0,7);if(meses.indexOf(ym0)<0)meses.push(ym0);}
+  }
+  meses.sort();
+  var sel=document.getElementById('ssMes');
+  if(sel&&meses.length>0){
+    var today=new Date().toISOString().slice(0,7);
+    var cur=sel.value||'';
+    var def=meses.indexOf(today)>=0?today:meses[meses.length-1];
+    if(meses.indexOf(cur)<0) cur=def;
+    var optsHtml='';
+    for(var k=0;k<meses.length;k++){
+      var ym2=meses[k];var pp=ym2.split('-');var mo2=parseInt(pp[1],10);
+      optsHtml+='<option value="'+ym2+'"'+(ym2===cur?' selected':'')+'>'+MESES_N[mo2]+' '+pp[0]+'</option>';
+    }
+    sel.innerHTML=optsHtml;
+  }
+  renderSS();
+}
+
+function setSsPais(btn,pais){
+  document.querySelectorAll('.ss-filter-btn').forEach(function(b){ b.classList.remove('active'); });
+  btn.classList.add('active');
+  ssPaisActivo=pais||'todas';
+  renderSS();
+}
+
+function setSsMarca(val){
+  ssMarcaActivo=(val||'todas').toLowerCase();
+  renderSS();
+}
+
+function renderSS(){
+  var sel=document.getElementById('ssMes');
+  var ym=sel&&sel.value?sel.value:'2026-06';
+  var p=ym.split('-'); var y=+p[0]; var mo=+p[1];
+  var nDias=getDias(ym);
+
+  // Usar caché o recalcular
+  var SS=window._SS_CACHE||[];
+  if(SS.length===0 && RECORDS){
+    for(var ri=0;ri<RECORDS.length;ri++){
+      var rr=RECORDS[ri];
+      if(isSinStock(rr)) SS.push(rr);
+    }
+    window._SS_CACHE=SS;
+  }
+  if(ssPaisActivo&&ssPaisActivo!=='todas'){
+    var paisLow=ssPaisActivo.toLowerCase();
+    SS=SS.filter(function(r){
+      // Usar campo pais directo si está disponible, si no extraer de marca
+      var rPais=(r.pais||getCountry(r.marca)||'').toLowerCase();
+      return rPais===paisLow || rPais.indexOf(paisLow)>=0;
+    });
+  }
+  if(ssMarcaActivo&&ssMarcaActivo!=='todas'){
+    var marcaLow=ssMarcaActivo.toLowerCase();
+    SS=SS.filter(function(r){ return extractBrand(r.marca).toLowerCase()===marcaLow; });
+  }
+  var SSmes=SS.filter(function(r){ return r.fn&&r.fn.slice(0,7)===ym; });
+
+  // Badge total
+  var badge=document.getElementById('ss-total-badge');
+  if(badge) badge.textContent=SSmes.length;
+
+  var ct=document.getElementById('ss-chart-title');
+  if(ct) ct.textContent='Sin Stock por día — '+MESES_N[mo]+' '+y;
+  var cs=document.getElementById('ss-subtitle');
+  if(cs) cs.textContent=(ssPaisActivo==='todas'?'Todos los países':ssPaisActivo)+' · '+SSmes.length+' órdenes';
+
+  // Todos los días del mes
+  var dias=[];
+  for(var i=1;i<=nDias;i++) dias.push(ym+'-'+(i<10?'0':'')+i);
+
+  var cntD={};
+  SSmes.forEach(function(r){ if(r.fn) cntD[r.fn]=(cntD[r.fn]||0)+1; });
+  var vals=dias.map(function(d){ return cntD[d]||0; });
+  var maxV=Math.max.apply(null,vals.concat([0]));
+
+  // Tabla de fechas
+  var tbody=document.getElementById('ss-date-tbody');
+  if(tbody){
+    var rows='';
+    dias.forEach(function(d,i){
+      var v=vals[i];
+      var dd=(i+1<10?'0'+(i+1):(i+1))+'/'+(mo<10?'0'+mo:mo)+'/'+y;
+      var sty=v===0?'color:#94A3B8':(v===maxV&&v>0?'color:#DC2626;font-weight:700':'color:#0F172A;font-weight:600');
+      rows+='<tr style="border-bottom:1px solid #E2E8F0">'
+           +'<td style="padding:5px 14px;font-size:12px">'+dd+'</td>'
+           +'<td style="padding:5px 14px;font-size:12px;text-align:right;'+sty+'">'+v+'</td></tr>';
+    });
+    tbody.innerHTML=rows;
+    var tt=document.getElementById('ss-tbl-tot');
+    if(tt) tt.textContent=SSmes.length;
+  }
+
+  // Gráfica
+  var canvas=document.getElementById('chartSSDia');
+  if(!canvas) return;
+  var mo2=mo<10?'0'+mo:String(mo);
+  var labels=dias.map(function(d){ return parseInt(d.slice(8),10)+'/'+mo2; });
+  var colors=vals.map(function(v){ return v===maxV&&v>0?'#DC2626':'#3B82F6'; });
+  // Plugin inline para mostrar valores sobre barras
+  var ssLabelsPlugin={
+    id:'ssLabels',
+    afterDatasetsDraw:function(chart){
+      var ctx=chart.ctx;
+      chart.data.datasets.forEach(function(ds,i){
+        var meta=chart.getDatasetMeta(i);
+        meta.data.forEach(function(bar,j){
+          var v=ds.data[j];
+          if(!v||v===0) return;
+          ctx.save();
+          ctx.fillStyle='#0F172A';
+          ctx.font='bold 9px sans-serif';
+          ctx.textAlign='center';
+          ctx.textBaseline='bottom';
+          ctx.fillText(v, bar.x, bar.y-2);
+          ctx.restore();
+        });
+      });
+    }
+  };
+  if(chartSSBar){ chartSSBar.destroy(); chartSSBar=null; }
+  chartSSBar=new Chart(canvas,{
+    type:'bar',
+    data:{labels:labels,datasets:[{label:'Sin Stock',data:vals,backgroundColor:colors,borderRadius:4}]},
+    options:{
+      responsive:true,
+      maintainAspectRatio:false,
+      plugins:{legend:{display:false}},
+      scales:{
+        x:{ticks:{color:'#1E293B',font:{size:9},maxRotation:45},grid:{display:false}},
+        y:{ticks:{color:'#1E293B',stepSize:1},beginAtZero:true}
+      }
+    },
+    plugins:[ssLabelsPlugin]
+  });
+
+  // Detalle
+  var sorted=SSmes.slice().sort(function(a,b){ return (b.fn||'').localeCompare(a.fn||''); });
+  var dc=document.getElementById('ss-det-count');
+  if(dc) dc.textContent=sorted.length+' registros';
+  var det=document.getElementById('ss-tbl-body');
+  if(det){
+    var html2='';
+    sorted.forEach(function(r){
+      var marca=extractBrand(r.marca)||r.marca||'—';
+      var pais=getCountry(r.marca)||'—';
+      var fn=r.fn?r.fn.split('-').reverse().join('/'):'—';
+      var ops=r.ops||'—';
+      var pen=r.pen||'—';
+      var est=(r.est||'').length>60?(r.est||'').slice(0,60)+'…':(r.est||'—');
+      html2+='<tr>'
+        +'<td>'+fn+'</td>'
+        +'<td><span class="ss-badge-marca">'+marca+'</span></td>'
+        +'<td>'+pais+'</td>'
+        +'<td><span class="ss-badge-ops">'+ops+'</span></td>'
+        +'<td>'+pen+'</td>'
+        +'<td style="font-size:10px;color:#475569">'+est+'</td></tr>';
+    });
+    det.innerHTML=html2||'<tr><td colspan="6" style="text-align:center;padding:20px;color:#94A3B8">Sin datos</td></tr>';
+  }
+}
+
+// ═══════════ KRONOTIME ═══════════
+var chartKronoBar = null;
+
+function isKrono(r){
+  var com = (r.com||'').toLowerCase().trim();
+  return isEnRevIT(r.ops) && com === 'escalado con kronotime';
+}
+
+function doInitKrono(){
+  var KR = RECORDS.filter(isKrono);
+  window._KR_CACHE = KR;
+  var meses=[];
+  KR.forEach(function(r){ if(r.fn){var ym=r.fn.slice(0,7);if(meses.indexOf(ym)<0)meses.push(ym);} });
+  meses.sort();
+  var sel=document.getElementById('krMes');
+  if(sel && meses.length>0){
+    var today=new Date().toISOString().slice(0,7);
+    var cur=sel.value||'';
+    var def=meses.indexOf(today)>=0?today:meses[meses.length-1];
+    if(meses.indexOf(cur)<0) cur=def;
+    var html='';
+    meses.forEach(function(ym){
+      var pp=ym.split('-'); var mo=parseInt(pp[1],10);
+      html+='<option value="'+ym+'"'+(ym===cur?' selected':'')+'>'+MESES_N[mo]+' '+pp[0]+'</option>';
+    });
+    sel.innerHTML=html;
+  }
+  renderKrono();
+}
+
+function renderKrono(){
+  var sel=document.getElementById('krMes');
+  var ym=sel&&sel.value?sel.value:'2026-06';
+  var pp=ym.split('-'); var y=+pp[0]; var mo=+pp[1];
+  var nDias=getDias(ym);
+  var KR=window._KR_CACHE||[];
+  var KRmes=KR.filter(function(r){ return r.fn&&r.fn.slice(0,7)===ym; });
+
+  // Badge total mes
+  var badge=document.getElementById('kr-total-badge');
+  if(badge) badge.textContent=KRmes.length;
+
+  // Badge pendientes (Escalado con Kronotime activos en el mes)
+  var pend=KRmes.filter(function(r){ return (r.com||'').toLowerCase().indexOf('escalado con kronotime')>=0; });
+  var pbadge=document.getElementById('kr-pend-badge');
+  if(pbadge) pbadge.textContent=pend.length;
+
+  // Tabla resumen por Error/Estado
+  var errGrp={};
+  KRmes.forEach(function(r){ var e=(r.est||'Sin estado').trim(); errGrp[e]=(errGrp[e]||0)+1; });
+  var errArr=Object.entries(errGrp).sort(function(a,b){return b[1]-a[1];});
+  var tbody=document.getElementById('kr-sum-body');
+  if(tbody){
+    var rows='';
+    errArr.forEach(function(pair){
+      rows+='<tr style="border-bottom:1px solid #F1F5F9">'
+        +'<td style="padding:6px 12px;font-size:12px;color:#0F172A">'+pair[0]+'</td>'
+        +'<td style="padding:6px 12px;font-size:12px;font-weight:700;color:#0F172A;text-align:right">'+pair[1]+'</td></tr>';
+    });
+    tbody.innerHTML=rows||'<tr><td colspan="2" style="padding:16px;text-align:center;color:#94A3B8">Sin datos</td></tr>';
+    var tot=document.getElementById('kr-sum-tot');
+    if(tot) tot.textContent=KRmes.length;
+  }
+
+  // Gráfica por día
+  var dias=[];
+  for(var i=1;i<=nDias;i++) dias.push(ym+'-'+(i<10?'0':'')+i);
+  var cntD={};
+  KRmes.forEach(function(r){ if(r.fn) cntD[r.fn]=(cntD[r.fn]||0)+1; });
+  var vals=dias.map(function(d){ return cntD[d]||0; });
+  var maxV=Math.max.apply(null,vals.concat([0]));
+  var mo2=mo<10?'0'+mo:String(mo);
+  var labels=dias.map(function(d){ return parseInt(d.slice(8),10)+'/'+mo2; });
+  var colors=vals.map(function(v){ return v===maxV&&v>0?'#DC2626':'#6366F1'; });
+
+  var canvas=document.getElementById('chartKronoDia');
+  if(canvas){
+    var kronoLabelPlugin={
+      id:'kronoLabels',
+      afterDatasetsDraw:function(chart){
+        var ctx=chart.ctx;
+        chart.data.datasets.forEach(function(ds,i){
+          chart.getDatasetMeta(i).data.forEach(function(bar,j){
+            var v=ds.data[j]; if(!v||v===0) return;
+            ctx.save(); ctx.fillStyle='#4C1D95'; ctx.font='bold 11px sans-serif';
+            ctx.textAlign='center'; ctx.textBaseline='bottom';
+            ctx.fillText(v,bar.x,bar.y-7); ctx.restore();
+          });
+        });
+      }
+    };
+    if(chartKronoBar){ chartKronoBar.destroy(); chartKronoBar=null; }
+    chartKronoBar=new Chart(canvas,{
+      type:'line',
+      plugins:[kronoLabelPlugin],
+      data:{labels:labels,datasets:[{
+        label:'Kronotime',data:vals,
+        borderColor:'#6D28D9',backgroundColor:'rgba(109,40,217,0.1)',
+        borderWidth:2,pointBackgroundColor:'#6D28D9',pointRadius:4,
+        pointHoverRadius:6,fill:true,tension:0.3
+      }]},
+      options:{
+        responsive:true, maintainAspectRatio:false,
+        plugins:{legend:{display:false},
+          tooltip:{backgroundColor:'#4C1D95',titleColor:'#fff',bodyColor:'#DDD6FE',
+            callbacks:{label:function(ctx){return ' '+ctx.raw+' órdenes';}}}},
+        layout:{padding:{top:18}},
+        scales:{
+          x:{ticks:{color:'#1E293B',font:{size:9},maxRotation:45},grid:{display:false}},
+          y:{ticks:{color:'#1E293B',stepSize:1},beginAtZero:true,grid:{color:'#F1F5F9'},
+             max: Math.max.apply(null,vals.concat([0]))+2}
+        }
+      }
+    });
+  }
+
+  // Tabla detalle
+  var sorted=KRmes.slice().sort(function(a,b){ return (b.fn||'').localeCompare(a.fn||''); });
+  var dc=document.getElementById('kr-det-count');
+  if(dc) dc.textContent=sorted.length+' registros';
+  var det=document.getElementById('kr-tbl-body');
+  if(det){
+    var html2='';
+    sorted.forEach(function(r){
+      var fn=r.fn?r.fn.split('-').reverse().join('/'):'—';
+      var est=(r.est||'—').length>70?(r.est||'').slice(0,70)+'…':(r.est||'—');
+      var ops=r.ops||'—';
+      var pen=r.pen||'—';
+      var marca=extractBrand(r.marca)||r.marca||'—';
+       var isPend=(r.com||'').toLowerCase().indexOf('escalado con kronotime')>=0;
+      html2+='<tr style="border-bottom:1px solid #F1F5F9'+(isPend?';background:#FEF9C3':'')+'">'
+        +'<td style="padding:6px 12px;font-size:12px;white-space:nowrap">'+fn+'</td>'
+        +'<td style="padding:6px 12px;font-size:11px;color:#475569;max-width:280px">'+est+'</td>'
+        +'<td style="padding:6px 12px;font-size:12px"><span style="background:#EDE9FE;color:#5B21B6;padding:2px 8px;border-radius:6px;font-size:11px;font-weight:600">'+ops+'</span></td>'
+        +'<td style="padding:6px 12px;font-size:12px;color:#0F172A">'+pen+'</td>'
+        +'<td style="padding:6px 12px;font-size:12px;color:#475569">'+marca+'</td></tr>';
+    });
+    det.innerHTML=html2||'<tr><td colspan="5" style="text-align:center;padding:20px;color:#94A3B8">Sin datos</td></tr>';
+  }
+}
+</script>
+
+<!-- MODAL KPI DRILL-DOWN -->
+<div class="kpi-modal-bg" id="kpiModalBg" onclick="closeKpiModal(event)">
+  <div class="kpi-modal">
+    <div class="kpi-modal-hdr" id="kpiModalHdr">
+      <div>
+        <div class="kpi-modal-title" id="kpiModalTitle"></div>
+        <div class="kpi-modal-sub" id="kpiModalSub"></div>
+      </div>
+      <button class="kpi-modal-close" onclick="closeKpiModal(null)">✕</button>
+    </div>
+    <div class="kpi-modal-body">
+      <table class="kpi-tbl">
+        <thead id="kpiModalThead"></thead>
+        <tbody id="kpiModalTbody"></tbody>
+      </table>
+    </div>
+    <div class="kpi-modal-footer" id="kpiModalFooter"></div>
+  </div>
+</div>
+
+<!-- MODAL ISSUE DRILL-DOWN -->
+<div class="issue-modal-bg" id="issueModalBg" onclick="closeIssueModal(event)">
+  <div class="issue-modal">
+    <div class="issue-modal-hdr">
+      <div>
+        <div class="issue-modal-title" id="issueModalTitle"></div>
+        <div class="issue-modal-sub" id="issueModalSub"></div>
+      </div>
+      <button class="issue-modal-close" onclick="closeIssueModal(null)">✕</button>
+    </div>
+    <div class="issue-modal-body">
+      <div>
+        <div class="issue-modal-section">📅 Top fechas con este issue</div>
+        <table class="issue-modal-tbl">
+          <thead><tr><th>Fecha</th><th>Órdenes</th><th>Distribución</th></tr></thead>
+          <tbody id="issueModalFechas"></tbody>
+        </table>
+      </div>
+      <div>
+        <div class="issue-modal-section">🌎 Países involucrados</div>
+        <div class="issue-modal-chips" id="issueModalPaises"></div>
+      </div>
+      <div>
+        <div class="issue-modal-section">🏷️ Marcas involucradas</div>
+        <div class="issue-modal-chips" id="issueModalMarcas"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div><!-- /page-main -->
+
+<!-- ═══════════ PÁGINA SIN STOCK ═══════════ -->
+<div id="page-sinstock" class="tab-page">
+
+  <!-- Barra de filtros -->
+  <div style="background:#fff;border-bottom:1px solid #E2E8F0;padding:14px 24px;
+              display:flex;flex-wrap:wrap;align-items:center;gap:12px">
+    <!-- Botones País / General -->
+    <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">
+      <span style="font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.5px">País:</span>
+      <button class="ss-filter-btn active" data-pais="todas" onclick="setSsPais(this, 'todas')">🌎 Todas</button>
+      <button class="ss-filter-btn" data-pais="Chile" onclick="setSsPais(this,'Chile')"><img src="https://flagcdn.com/w20/cl.png" style="height:13px;vertical-align:middle;border-radius:2px;margin-right:4px"> Chile</button>
+      <button class="ss-filter-btn" data-pais="Colombia" onclick="setSsPais(this,'Colombia')"><img src="https://flagcdn.com/w20/co.png" style="height:13px;vertical-align:middle;border-radius:2px;margin-right:4px"> Colombia</button>
+      <button class="ss-filter-btn" data-pais="Guatemala" onclick="setSsPais(this,'Guatemala')"><img src="https://flagcdn.com/w20/gt.png" style="height:13px;vertical-align:middle;border-radius:2px;margin-right:4px"> Guatemala</button>
+      <button class="ss-filter-btn" data-pais="México" onclick="setSsPais(this,'México')"><img src="https://flagcdn.com/w20/mx.png" style="height:13px;vertical-align:middle;border-radius:2px;margin-right:4px"> México</button>
+      <button class="ss-filter-btn" data-pais="Panamá" onclick="setSsPais(this,'Panamá')"><img src="https://flagcdn.com/w20/pa.png" style="height:13px;vertical-align:middle;border-radius:2px;margin-right:4px"> Panamá</button>
+      <button class="ss-filter-btn" data-pais="Perú" onclick="setSsPais(this,'Perú')"><img src="https://flagcdn.com/w20/pe.png" style="height:13px;vertical-align:middle;border-radius:2px;margin-right:4px"> Perú</button>
+      <button class="ss-filter-btn" data-pais="Costa Rica" onclick="setSsPais(this,'Costa Rica')"><img src="https://flagcdn.com/w20/cr.png" style="height:13px;vertical-align:middle;border-radius:2px;margin-right:4px"> Costa Rica</button>
+      <button class="ss-filter-btn" data-pais="Uruguay" onclick="setSsPais(this,'Uruguay')"><img src="https://flagcdn.com/w20/uy.png" style="height:13px;vertical-align:middle;border-radius:2px;margin-right:4px"> Uruguay</button>
+      <button class="ss-filter-btn" data-pais="El Salvador" onclick="setSsPais(this,'El Salvador')"><img src="https://flagcdn.com/w20/sv.png" style="height:13px;vertical-align:middle;border-radius:2px;margin-right:4px"> El Salvador</button>
+    </div>
+
+    <div style="width:1px;height:28px;background:#E2E8F0"></div>
+
+    <!-- Selector marca -->
+    <div style="display:flex;gap:6px;align-items:center">
+      <span style="font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.5px">Marca:</span>
+      <select id="ssMarca" onchange="setSsMarca(this.value)"
+        style="padding:6px 10px;border-radius:8px;border:1px solid #CBD5E1;
+               background:#fff;color:#1E293B;font-size:12px;font-family:inherit;cursor:pointer;min-width:160px">
+        <option value="todas">Todas las marcas</option>
+      </select>
+    </div>
+
+    <div style="width:1px;height:28px;background:#E2E8F0"></div>
+
+    <!-- Selector mes -->
+    <div style="display:flex;gap:6px;align-items:center">
+      <span style="font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.5px">Mes:</span>
+      <select id="ssMes" onchange="renderSS()"
+        style="padding:6px 10px;border-radius:8px;border:1px solid #CBD5E1;
+               background:#fff;color:#1E293B;font-size:12px;font-family:inherit;cursor:pointer">
+        <option value="2026-05">Mayo 2026</option>
+        <option value="2026-06" selected>Junio 2026</option>
+      </select>
+    </div>
+
+    <!-- Total badge -->
+    <div style="margin-left:auto;background:#FEF3C7;border:1px solid #FDE68A;
+                border-radius:10px;padding:8px 18px;text-align:center">
+      <div style="font-size:10px;color:#92400E;font-weight:700;text-transform:uppercase">Total Sin Stock</div>
+      <div id="ss-total-badge" style="font-size:24px;font-weight:900;color:#D97706;line-height:1.1">—</div>
+    </div>
+  </div>
+
+  <!-- Contenido: tabla + gráfica -->
+  <div style="display:grid;grid-template-columns:300px 1fr;gap:16px;padding:20px 24px">
+
+    <!-- Tabla fechas -->
+    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);overflow:hidden;
+                max-height:520px;overflow-y:auto">
+      <div style="background:#E2E8F0;padding:10px 14px;position:sticky;top:0;z-index:1">
+        <div style="display:flex;justify-content:space-between;font-size:12px;font-weight:700;color:#1E293B">
+          <span>Fecha</span><span>Órdenes sin stock</span>
+        </div>
+      </div>
+      <table style="width:100%;border-collapse:collapse;font-size:12px">
+        <tbody id="ss-date-tbody"></tbody>
+        <tfoot>
+          <tr style="background:#1E293B;color:#fff;font-weight:700">
+            <td style="padding:8px 14px">Total</td>
+            <td id="ss-tbl-tot" style="padding:8px 14px;text-align:right">—</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <!-- Gráfica -->
+    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);padding:20px">
+      <div style="font-size:12px;font-weight:700;color:#475569;text-transform:uppercase;
+                  letter-spacing:.5px;margin-bottom:4px" id="ss-chart-title">
+        Órdenes sin stock por día
+      </div>
+      <div id="ss-subtitle" style="font-size:11px;color:#94A3B8;margin-bottom:14px"></div>
+      <div style="position:relative;height:280px">
+        <canvas id="chartSSDia"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tabla detalle completa -->
+  <div style="padding:0 24px 24px">
+    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);overflow:hidden">
+      <div style="padding:12px 18px;background:#F8FAFC;border-bottom:1px solid #E2E8F0;
+                  display:flex;align-items:center;justify-content:space-between">
+        <span style="font-size:13px;font-weight:700;color:#1E293B">📋 Detalle órdenes Sin Stock</span>
+        <span id="ss-det-count" style="font-size:11px;color:#64748B"></span>
+      </div>
+      <div style="overflow-x:auto;max-height:320px;overflow-y:auto">
+        <table class="ss-tbl">
+          <thead>
+            <tr>
+              <th>Fecha notif.</th>
+              <th>Marca</th>
+              <th>País</th>
+              <th>Acción OPS</th>
+              <th>Pendiente por</th>
+              <th>Estado</th>
+            </tr>
+          </thead>
+          <tbody id="ss-tbl-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function(){
+      var el = document.getElementById('page-sinstock');
+      if(!el) return;
+      var obs = new MutationObserver(function(muts){
+        muts.forEach(function(mut){
+          if(mut.type==='attributes' && mut.attributeName==='class'){
+            if(el.classList.contains('active')){
+              setTimeout(function(){ if(typeof doInitSS==='function') doInitSS(); }, 100);
+            }
+          }
+        });
+      });
+      obs.observe(el, {attributes:true});
+    })();
+  </script>
+
+</div><!-- /page-sinstock -->
+
+<!-- ═══════════ PÁGINA KRONOTIME ═══════════ -->
+<div id="page-kronotime" class="tab-page">
+
+  <!-- Barra de filtros -->
+  <div style="background:#fff;border-bottom:1px solid #E2E8F0;padding:14px 24px;
+              display:flex;flex-wrap:wrap;align-items:center;gap:16px">
+    <div style="display:flex;gap:6px;align-items:center">
+      <span style="font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.5px">Mes:</span>
+      <select id="krMes" onchange="renderKrono()"
+        style="padding:6px 10px;border-radius:8px;border:1px solid #CBD5E1;
+               background:#fff;color:#1E293B;font-size:12px;font-family:inherit;cursor:pointer">
+        <option value="2026-05">Mayo 2026</option>
+        <option value="2026-06" selected>Junio 2026</option>
+      </select>
+    </div>
+    <div style="display:flex;gap:10px;margin-left:auto">
+      <div style="background:#EDE9FE;border:1px solid #DDD6FE;border-radius:10px;padding:8px 18px;text-align:center">
+        <div style="font-size:10px;color:#5B21B6;font-weight:700;text-transform:uppercase">Total Mes</div>
+        <div id="kr-total-badge" style="font-size:22px;font-weight:900;color:#6D28D9;line-height:1.1">—</div>
+      </div>
+      <div style="background:#FEF9C3;border:1px solid #FEF08A;border-radius:10px;padding:8px 18px;text-align:center">
+        <div style="font-size:10px;color:#92400E;font-weight:700;text-transform:uppercase">Pendientes</div>
+        <div id="kr-pend-badge" style="font-size:22px;font-weight:900;color:#D97706;line-height:1.1">—</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenido: tabla resumen + gráfica -->
+  <div style="display:grid;grid-template-columns:340px 1fr;gap:16px;padding:20px 24px">
+    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);overflow:hidden">
+      <div style="background:#4C1D95;padding:10px 16px">
+        <span style="font-size:12px;font-weight:700;color:#fff;text-transform:uppercase;letter-spacing:.5px">
+          ⚠️ Órdenes por Error / Estado
+        </span>
+      </div>
+      <table style="width:100%;border-collapse:collapse">
+        <thead>
+          <tr style="background:#EDE9FE">
+            <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:left;font-weight:700">Error / Estado</th>
+            <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:right;font-weight:700">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody id="kr-sum-body"></tbody>
+        <tfoot>
+          <tr style="background:#1E293B">
+            <td style="padding:8px 12px;font-size:12px;color:#fff;font-weight:700">Total</td>
+            <td id="kr-sum-tot" style="padding:8px 12px;font-size:12px;color:#fff;font-weight:700;text-align:right">—</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);padding:20px">
+      <div style="font-size:12px;font-weight:700;color:#4C1D95;text-transform:uppercase;
+                  letter-spacing:.5px;margin-bottom:4px">Kronotime por fecha</div>
+      <div style="font-size:11px;color:#94A3B8;margin-bottom:14px">Órdenes por día del mes seleccionado</div>
+      <div style="position:relative;height:260px">
+        <canvas id="chartKronoDia"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tabla detalle -->
+  <div style="padding:0 24px 24px">
+    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);overflow:hidden">
+      <div style="padding:12px 18px;background:#F8FAFC;border-bottom:1px solid #E2E8F0;
+                  display:flex;align-items:center;justify-content:space-between">
+        <span style="font-size:13px;font-weight:700;color:#1E293B">📋 Detalle órdenes Kronotime</span>
+        <span id="kr-det-count" style="font-size:11px;color:#64748B"></span>
+      </div>
+      <div style="overflow-x:auto;max-height:340px;overflow-y:auto">
+        <table style="width:100%;border-collapse:collapse">
+          <thead style="position:sticky;top:0">
+            <tr style="background:#EDE9FE">
+              <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:left;font-weight:700;white-space:nowrap">Fecha</th>
+              <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:left;font-weight:700">Error / Estado</th>
+              <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:left;font-weight:700;white-space:nowrap">Acción OPS</th>
+              <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:left;font-weight:700;white-space:nowrap">Pendiente por</th>
+              <th style="padding:8px 12px;font-size:11px;color:#4C1D95;text-align:left;font-weight:700">Marca</th>
+            </tr>
+          </thead>
+          <tbody id="kr-tbl-body"></tbody>
+        </table>
+      </div>
+      <div style="padding:8px 14px;background:#F8FAFC;border-top:1px solid #E2E8F0;font-size:10px;color:#94A3B8">
+        🟡 Fila amarilla = orden actualmente escalada con Kronotime
+      </div>
+    </div>
+
+  </div><!-- /kronotime-inner -->
+
+  <script>
+    (function(){
+      var el=document.getElementById('page-kronotime');
+      if(!el) return;
+      var obs=new MutationObserver(function(muts){
+        muts.forEach(function(m){
+          if(m.type==='attributes'&&m.attributeName==='class'){
+            if(el.classList.contains('active')){doInitKrono();}
+          }
+        });
+      });
+      obs.observe(el,{attributes:true});
+    })();
+  </script>
+
+</div><!-- /page-kronotime -->
+
+<!-- page-jira está definido arriba (línea ~655) —  este bloque eliminado -->
+
+</body>
+</html>
