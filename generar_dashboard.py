@@ -255,10 +255,10 @@ def prerender_jira_html(content, records_jira):
     resueltos = sum(1 for r in records_jira if r.get('estado') == 'Resuelto')
     abiertos  = total - resueltos
 
-    # ── KPIs ──────────────────────────────────────────────────────────────────
-    content = re.sub(r'<div id="jkTotal">[^<]*</div>', f'<div id="jkTotal">{total}</div>', content)
-    content = re.sub(r'<div id="jkOpen">[^<]*</div>',  f'<div id="jkOpen">{abiertos}</div>', content)
-    content = re.sub(r'<div id="jkDone">[^<]*</div>',  f'<div id="jkDone">{resueltos}</div>', content)
+    # ── KPIs (id puede ir después de style u otros atributos) ─────────────────
+    content = re.sub(r'(<div[^>]+id="jkTotal"[^>]*>)[^<]*(</div>)', rf'\g<1>{total}\g<2>', content)
+    content = re.sub(r'(<div[^>]+id="jkOpen"[^>]*>)[^<]*(</div>)',  rf'\g<1>{abiertos}\g<2>', content)
+    content = re.sub(r'(<div[^>]+id="jkDone"[^>]*>)[^<]*(</div>)',  rf'\g<1>{resueltos}\g<2>', content)
 
     # ── Filas de tabla ─────────────────────────────────────────────────────────
     JIRA_BASE_URL = 'https://ixglobalit.atlassian.net/browse/'
@@ -276,7 +276,7 @@ def prerender_jira_html(content, records_jira):
         marca    = r.get('marca', '').replace('<', '&lt;').replace('>', '&gt;')
         rows_html.append(
             f'<tr style="border-bottom:1px solid #E2E8F0;background:{rowbg}">'
-            f'<td style="padding:8px 10px;white-space:nowrap"><a href="{JIRA_BASE_URL}{key}" target="_blank" style="color:#2563EB;font-weight:600;text-decoration:none">{key}</a></td>'
+            f'<td style="padding:8px 10px;white-space:nowrap;font-weight:700">{key}</td>'
             f'<td style="padding:8px 10px;max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="{resumen}">{res_disp}</td>'
             f'<td style="padding:8px 10px;white-space:nowrap"><span style="background:{color};color:#fff;padding:3px 10px;border-radius:9999px;font-size:11px;font-weight:700">{estado}</span></td>'
             f'<td style="padding:8px 10px;white-space:nowrap">{asignado}</td>'
@@ -314,6 +314,48 @@ def prerender_jira_html(content, records_jira):
     print(f"✅ Jira pre-renderizado en HTML: {total} tickets ({abiertos} abiertos, {resueltos} resueltos)")
     return content
 
+def mover_page_jira_fuera(content):
+    """Mueve page-jira fuera de page-main si está anidado dentro de él."""
+    pj_start = content.find('<div id="page-jira"')
+    pm_start = content.find('<div id="page-main"')
+    if pj_start == -1 or pm_start == -1:
+        return content
+    # Encontrar cierre de page-main
+    depth, j = 0, pm_start
+    while j < len(content):
+        if content[j:j+4] == '<div': depth += 1
+        elif content[j:j+6] == '</div>':
+            depth -= 1
+            if depth == 0: pm_end = j + 6; break
+        j += 1
+    if pj_start >= pm_end:
+        return content  # ya está fuera
+    # Extraer page-jira
+    depth, i = 0, pj_start
+    while i < len(content):
+        if content[i:i+4] == '<div': depth += 1
+        elif content[i:i+6] == '</div>':
+            depth -= 1
+            if depth == 0: pj_end = i + 6; break
+        i += 1
+    pj_html = content[pj_start:pj_end]
+    # Quitar de posición original
+    content2 = content.replace('\n' + pj_html, '', 1)
+    if len(content2) == len(content):
+        content2 = content2.replace(pj_html, '', 1)
+    # Recalcular cierre de page-main en el content sin page-jira
+    pm_start2 = content2.find('<div id="page-main"')
+    depth, j = 0, pm_start2
+    while j < len(content2):
+        if content2[j:j+4] == '<div': depth += 1
+        elif content2[j:j+6] == '</div>':
+            depth -= 1
+            if depth == 0: pm_end2 = j + 6; break
+        j += 1
+    content3 = content2[:pm_end2] + '\n\n' + pj_html + content2[pm_end2:]
+    print("✅ page-jira reubicado como hermano de page-main")
+    return content3
+
 def actualizar_html(records_main, records_ss, records_jira):
     if not os.path.exists(DASHBOARD):
         print(f"❌ No se encontró: {DASHBOARD}")
@@ -331,16 +373,19 @@ def actualizar_html(records_main, records_ss, records_jira):
     print(f"✅ RECORDS_JIRA actualizado con {len(records_jira)} tickets")
     # ── Pre-renderizar Jira en HTML (no depende de JS) ───────────────────────
     content = prerender_jira_html(content, records_jira)
-    # ── Corregir botón Jira: usar setTimeout como sinstock/kronotime ─────────
-    OLD_BTN1 = "onclick=\"switchTab('jira');setTimeout(function(){doInitJira();},150)\""
-    OLD_BTN2 = "onclick=\"switchTab('jira')\""
-    NEW_BTN  = "onclick=\"switchTab('jira');setTimeout(function(){if(typeof initJiraExcel==='function') initJiraExcel();},150)\""
-    if OLD_BTN1 in content:
-        content = content.replace(OLD_BTN1, NEW_BTN, 1)
-        print("✅ Botón Jira corregido (doInitJira -> initJiraExcel con setTimeout)")
-    elif OLD_BTN2 in content:
-        content = content.replace(OLD_BTN2, NEW_BTN, 1)
-        print("✅ Botón Jira actualizado (añadido setTimeout initJiraExcel)")
+    # ── Asegurar que page-jira es hermano de page-main (no hijo) ─────────────
+    content = mover_page_jira_fuera(content)
+    # ── Asegurar que switchTab llame initJiraExcel (igual que doInitSS/doInitKrono)
+    SWITCH_JIRA_MARKER = "if(tab==='jira'){\n    initJiraExcel();"
+    SWITCH_JIRA_BLOCK  = "  if(tab==='jira'){\n    initJiraExcel();\n  }"
+    SWITCH_KRONOTIME   = "  if(tab==='kronotime'){\n    doInitKrono();\n    setTimeout(function(){ if(chartKronoBar) chartKronoBar.resize(); }, 300);\n  }\n}"
+    if SWITCH_JIRA_MARKER not in content:
+        content = content.replace(
+            SWITCH_KRONOTIME,
+            SWITCH_KRONOTIME.rstrip('}') + '\n' + SWITCH_JIRA_BLOCK + '\n}',
+            1
+        )
+        print("✅ switchTab: agregado initJiraExcel() para tab jira")
     # ── Añadir MutationObserver para page-jira si aún no existe ─────────────
     JIRA_OBS_MARKER = "obs-jira-excel"
     JIRA_OBS_SCRIPT = (
