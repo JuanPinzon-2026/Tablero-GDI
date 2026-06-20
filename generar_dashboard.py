@@ -221,7 +221,7 @@ def init_jira_db():
 
 def consultar_jira(email, token, domain, jql, max_results=200):
     auth = base64.b64encode(f"{email}:{token}".encode()).decode()
-    url = f"https://{domain}.atlassian.net/rest/api/3/search"
+    url = f"https://{domain}.atlassian.net/rest/api/3/search/jql"
 
     # Usar POST (método recomendado por Jira Cloud para queries complejas)
     payload = json.dumps({
