@@ -33,6 +33,6 @@ git push origin main
 
 echo.
 echo ============================================
-echo   LISTO - https://dashboardgdi.netlify.app
+echo   LISTO - https://juanpinzon-2026.github.io/Tablero-GDI
 echo ============================================
 pause
