@@ -2419,11 +2419,10 @@ function renderJiraExcel() {
             <th style="padding:10px 12px;text-align:left;white-space:nowrap">Ticket Jira</th>
             <th style="padding:10px 12px;text-align:left;min-width:200px">Resumen</th>
             <th style="padding:10px 12px;text-align:left;white-space:nowrap">Estado Jira</th>
-            <th style="padding:10px 12px;text-align:left;white-space:nowrap">Acción OPS</th>
-            <th style="padding:10px 12px;text-align:left;white-space:nowrap">Comentario Orden</th>
+            <th style="padding:10px 12px;text-align:left;min-width:260px">Órdenes — OPS — Comentario</th>
             <th style="padding:10px 12px;text-align:left;white-space:nowrap">Marca</th>
             <th style="padding:10px 12px;text-align:left;white-space:nowrap">Asignado Jira</th>
-            <th style="padding:10px 12px;text-align:center;white-space:nowrap">⚠️ Alerta</th>
+            <th style="padding:10px 12px;text-align:center;white-space:nowrap">⚠️ Acción</th>
           </tr>
         </thead>
         <tbody id="nvBody">
@@ -2455,25 +2454,26 @@ function renderJiraExcel() {
       RECORDS_JIRA.forEach(function(j){ jiraMap[j.key] = j; });
 
       // Buscar órdenes con venta=jira key + ops != En revision CO-IT + jira abierto
-      var seen = {};   // evitar duplicados por clave jira
-      var alertas = [];
+      // Agrupar TODAS las órdenes por clave Jira (puede haber varias por ticket)
+      var grupos = {};  // key -> { jira, ordenes: [] }
 
       RECORDS.forEach(function(r){
         var key = (r.venta||'').trim();
         if(!key || key.indexOf('ITHD-') < 0) return;
-        if(isEnRevIT(r.ops)) return;          // ops = en revision → no aplica
+        if(isEnRevIT(r.ops)) return;
         var jira = jiraMap[key];
-        if(!jira) return;                     // no existe en Jira
-        if(jira.estado === 'Resuelto') return; // ya cerrado en Jira
-        if(seen[key]) return;                  // ya incluido
-        seen[key] = true;
-        alertas.push({ key: key, jira: jira, orden: r });
+        if(!jira) return;
+        if(jira.estado === 'Resuelto') return;
+        if(!grupos[key]) grupos[key] = { key: key, jira: jira, ordenes: [] };
+        grupos[key].ordenes.push({ ops: r.ops||'—', com: r.com||'—', est: r.est||'—', venta: r.venta||key, marca: r.marca||'' });
       });
 
-      // KPIs
-      var liberadas   = alertas.filter(function(a){ return (a.orden.ops||'').toLowerCase().indexOf('liberada')>=0||(a.orden.com||'').toLowerCase().indexOf('liberada')>=0; }).length;
-      var canceladas  = alertas.filter(function(a){ var o=(a.orden.ops||'').toLowerCase(); return o.indexOf('cancelad')>=0||o.indexOf('facturada')>=0; }).length;
-      var marcasSet   = new Set(alertas.map(function(a){ return (a.orden.marca||a.jira.marca||'').trim(); }).filter(Boolean));
+      var alertas = Object.values(grupos);
+
+      // KPIs (basados en primera orden de cada grupo)
+      var liberadas  = alertas.filter(function(a){ return a.ordenes.some(function(o){ return (o.ops||'').toLowerCase().indexOf('liberada')>=0||(o.com||'').toLowerCase().indexOf('liberada')>=0; }); }).length;
+      var canceladas = alertas.filter(function(a){ return a.ordenes.some(function(o){ var x=(o.ops||'').toLowerCase(); return x.indexOf('cancelad')>=0||x.indexOf('facturada')>=0; }); }).length;
+      var marcasSet  = new Set(alertas.map(function(a){ return (a.ordenes[0].marca||a.jira.marca||'').trim(); }).filter(Boolean));
       document.getElementById('nvTotal').textContent     = alertas.length;
       document.getElementById('nvLiberadas').textContent = liberadas;
       document.getElementById('nvCanceladas').textContent= canceladas;
@@ -2493,25 +2493,83 @@ function renderJiraExcel() {
       var JIRA_EST_COLORS_NV = NV_COLORS;
       var html = '';
       filtered.forEach(function(a){
-        var estColor = JIRA_EST_COLORS_NV[a.jira.estado] || '#64748B';
-        var ops = a.orden.ops || '—';
-        var com = (a.orden.com||'—').slice(0,50);
-        var marca = a.orden.marca || a.jira.marca || '—';
-        var asig = a.jira.asignado || '—';
-        var resumen = (a.jira.resumen||'').slice(0,70) + ((a.jira.resumen||'').length>70?'…':'');
-        html += '<tr style="border-bottom:1px solid #FEE2E2;background:#FFFBFB">'
+        var estColor  = JIRA_EST_COLORS_NV[a.jira.estado] || '#64748B';
+        var primeraOp = a.ordenes[0];
+        var marca     = primeraOp.marca || a.jira.marca || '—';
+        var asig      = a.jira.asignado || '—';
+        var resumen   = (a.jira.resumen||'').slice(0,70) + ((a.jira.resumen||'').length>70?'…':'');
+        // Resumen de órdenes para mostrar en la celda
+        var ordenesDisp = a.ordenes.map(function(o){
+          return '<div style="font-size:11px;color:#374151;white-space:nowrap">'
+            + '<b>' + o.venta + '</b>'
+            + ' — ' + (o.ops||'—')
+            + ' — ' + (o.com||'—').slice(0,40)
+            + '</div>';
+        }).join('');
+        // Guardar ordenes en data attribute del botón (evita problemas de encoding en onclick)
+        var rowId = 'nv-row-' + a.key.replace(/[^a-zA-Z0-9]/g,'-');
+        html += '<tr id="' + rowId + '" style="border-bottom:1px solid #FEE2E2;background:#FFFBFB">'
           + '<td style="padding:8px 12px;white-space:nowrap;font-weight:700;color:#1E293B">' + a.key + '</td>'
           + '<td style="padding:8px 12px;max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#374151" title="' + (a.jira.resumen||'') + '">' + resumen + '</td>'
           + '<td style="padding:8px 12px;white-space:nowrap"><span style="background:' + estColor + ';color:#fff;padding:3px 10px;border-radius:9999px;font-size:11px;font-weight:700">' + a.jira.estado + '</span></td>'
-          + '<td style="padding:8px 12px;white-space:nowrap;color:#0F172A;font-weight:600">' + ops + '</td>'
-          + '<td style="padding:8px 12px;font-size:11px;color:#475569">' + com + '</td>'
+          + '<td style="padding:8px 12px;min-width:200px">' + ordenesDisp + '</td>'
           + '<td style="padding:8px 12px;white-space:nowrap">' + marca + '</td>'
           + '<td style="padding:8px 12px;white-space:nowrap;color:#475569">' + asig + '</td>'
-          + '<td style="padding:8px 12px;text-align:center"><span style="background:#FEF2F2;border:1px solid #FCA5A5;color:#DC2626;padding:3px 10px;border-radius:9999px;font-size:11px;font-weight:700">CERRAR</span></td>'
+          + '<td style="padding:8px 12px;text-align:center">'
+          +   '<button class="nv-cerrar-btn"'
+          +     ' data-key="' + a.key + '"'
+          +     ' data-row="' + rowId + '"'
+          +     ' style="background:#DC2626;border:none;color:#fff;padding:5px 14px;border-radius:9999px;font-size:11px;font-weight:700;cursor:pointer">'
+          +     '🔴 Cerrar Jira'
+          +   '</button>'
+          + '</td>'
           + '</tr>';
+        // Guardar ordenes por key para usarlas al click
+        window._nvOrdenes = window._nvOrdenes || {};
+        window._nvOrdenes[a.key] = a.ordenes;
       });
       if(!html) html = '<tr><td colspan="8" style="text-align:center;padding:40px;color:#16A34A;font-size:13px;font-weight:600">✅ Sin alertas — todos los Jiras están correctamente actualizados</td></tr>';
-      document.getElementById('nvBody').innerHTML = html;
+      var nvBody = document.getElementById('nvBody');
+      nvBody.innerHTML = html;
+
+      // Delegar clicks — POST con JSON para evitar encoding roto en onclick+querystring
+      nvBody.addEventListener('click', function nvClickHandler(e){
+        var btn = e.target.closest('.nv-cerrar-btn');
+        if(!btn || btn.disabled) return;
+        var key    = btn.getAttribute('data-key');
+        var rowId  = btn.getAttribute('data-row');
+        var ordenes = (window._nvOrdenes && window._nvOrdenes[key]) || [];
+        console.log('[nvCerrar] key=' + key + ' ordenes=' + JSON.stringify(ordenes));
+        if(!confirm('¿Cerrar el ticket ' + key + ' en Jira?\n\nSe agregará comentario con ' + ordenes.length + ' orden(es) y se cerrará el ticket.')) return;
+        btn.disabled = true;
+        btn.textContent = '⏳ Cerrando...';
+        btn.style.background = '#94A3B8';
+        fetch('http://localhost:5001/cerrar-jira', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({ key: key, ordenes: ordenes })
+        })
+        .then(function(r){ return r.json(); })
+        .then(function(data){
+          if(data.ok){
+            var row = document.getElementById(rowId);
+            if(row) row.style.background = '#F0FDF4';
+            btn.textContent = '✅ Cerrado';
+            btn.style.background = '#16A34A';
+          } else {
+            btn.disabled = false;
+            btn.textContent = '🔴 Cerrar Jira';
+            btn.style.background = '#DC2626';
+            alert('Error al cerrar ' + key + ':\n' + data.error);
+          }
+        })
+        .catch(function(){
+          btn.disabled = false;
+          btn.textContent = '🔴 Cerrar Jira';
+          btn.style.background = '#DC2626';
+          alert('⚠️ No se pudo conectar con el servidor local.\n\nAsegúrate de ejecutar primero:\npython servidor_local.py\n\n(en la carpeta Dashboard)');
+        });
+      });
     };
 
     // Ejecutar cuando el tab se active (o si ya está activo al cargar)
