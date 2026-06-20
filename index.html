@@ -236,6 +236,26 @@ footer{text-align:center;color:#94A3B8;font-size:10px;padding:16px;letter-spacin
 .tab-btn.active{color:#fff;border-bottom:3px solid #F59E0B;background:rgba(255,255,255,.12)}
 .tab-page{display:none}
 .tab-page.active{display:block}
+/* ── PIN MODAL ── */
+.pin-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:99999;align-items:center;justify-content:center}
+.pin-overlay.open{display:flex}
+.pin-box{background:#fff;border-radius:20px;padding:36px 40px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.3);min-width:300px;animation:pinIn .2s ease}
+@keyframes pinIn{from{transform:scale(.85);opacity:0}to{transform:scale(1);opacity:1}}
+.pin-icon{font-size:40px;margin-bottom:8px}
+.pin-title{font-size:17px;font-weight:800;color:#1E293B;margin-bottom:4px}
+.pin-sub{font-size:12px;color:#64748B;margin-bottom:24px}
+.pin-dots{display:flex;gap:12px;justify-content:center;margin-bottom:24px}
+.pin-dot{width:14px;height:14px;border-radius:50%;border:2px solid #CBD5E1;background:#fff;transition:all .15s}
+.pin-dot.filled{background:#2563EB;border-color:#2563EB}
+.pin-dot.error{background:#DC2626;border-color:#DC2626}
+.pin-pad{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
+.pin-key{padding:14px;border-radius:12px;border:1.5px solid #E2E8F0;font-size:18px;font-weight:700;color:#1E293B;cursor:pointer;background:#F8FAFC;transition:background .1s}
+.pin-key:hover{background:#EFF6FF;border-color:#93C5FD}
+.pin-key:active{background:#DBEAFE}
+.pin-key.wide{grid-column:span 2}
+.pin-cancel{font-size:12px;color:#94A3B8;cursor:pointer;margin-top:4px;display:inline-block}
+.pin-cancel:hover{color:#64748B}
+.pin-err{font-size:12px;color:#DC2626;font-weight:600;min-height:16px;margin-bottom:8px}
 /* ── MULTI-SELECT INFORMADOR ── */
 /* ── TAB DROPDOWN ── */
 .tab-dropdown{position:relative;display:inline-block}
@@ -431,11 +451,11 @@ footer{text-align:center;color:#94A3B8;font-size:10px;padding:16px;letter-spacin
   <button class="tab-btn" onclick="switchTab('sinstock');setTimeout(function(){doInitSS();},150)">📦 Sin Stock</button>
   <button class="tab-btn" onclick="switchTab('kronotime');setTimeout(function(){doInitKrono();},150)">⚠️ Kronotime</button>
   <div class="tab-dropdown">
-    <button class="tab-btn" onclick="switchTab('jira');setTimeout(function(){if(typeof initJiraExcel==='function') initJiraExcel();},150)">🔵 Jira</button>
+    <button class="tab-btn" onclick="openJiraConPin()">🔵 Jira</button>
     <div class="tab-dropdown-menu">
-      <a onclick="switchTab('jira');setTimeout(function(){if(typeof initJiraExcel==='function') initJiraExcel();},150)">🎫 Tickets ITHD</a>
+      <a onclick="openJiraConPin()">🎫 Tickets ITHD</a>
       <hr class="sep">
-      <a onclick="switchTab('nueva')">📊 Nueva Vista</a>
+      <a onclick="switchTab('nueva')">⚠️ Jiras vs Excel OPS</a>
     </div>
   </div>
 </div>
@@ -1752,6 +1772,9 @@ function switchTab(tab) {
   if(tab==='jira'){
     initJiraExcel();
   }
+  if(tab==='nueva'){
+    if(typeof renderNuevaVista==='function') renderNuevaVista();
+  }
 }
 
 // ═══════════ SIN STOCK ═══════════
@@ -2350,26 +2373,161 @@ function renderJiraExcel() {
 
 <!-- ═══════════ PÁGINA SIN STOCK ═══════════ -->
 <div id="page-nueva" class="tab-page">
-  <div style="background:#1E293B;padding:14px 24px;display:flex;align-items:center;gap:12px">
-    <div style="color:#fff;font-size:15px;font-weight:700">📊 Nueva Vista</div>
-    <div style="color:#94A3B8;font-size:12px">IX Comercio — Tablero GDI</div>
-  </div>
-  <!-- KPIs -->
-  <div id="nuevaKpis" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;padding:20px 24px"></div>
-  <!-- Tabla -->
-  <div style="padding:0 24px 24px;overflow-x:auto">
-    <div style="background:#fff;border-radius:14px;box-shadow:0 2px 8px rgba(0,0,0,.07);overflow:hidden">
-      <div style="background:#1E293B;color:#fff;padding:12px 20px;font-size:14px;font-weight:700" id="nuevaTableTitle">📋 Datos</div>
-      <table style="width:100%;border-collapse:collapse;font-size:12px">
-        <thead id="nuevaHead"></thead>
-        <tbody id="nuevaBody">
-          <tr><td colspan="10" style="text-align:center;padding:60px 20px;color:#94A3B8;font-size:14px">
-            🏗️ Contenido en construcción — los datos se configurarán próximamente.
-          </td></tr>
-        </tbody>
-      </table>
+
+  <!-- Header -->
+  <div style="background:#1E293B;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px">
+    <div>
+      <div style="color:#fff;font-size:15px;font-weight:700">⚠️ Jiras Pendientes de Cierre</div>
+      <div style="color:#94A3B8;font-size:11px;margin-top:2px">Jiras abiertos cuyas órdenes ya fueron resueltas/liberadas en el Excel</div>
+    </div>
+    <div style="display:flex;gap:8px;align-items:center">
+      <input id="nvBuscar" oninput="renderNuevaVista()" placeholder="🔍 Buscar ticket, marca..."
+        style="font-size:12px;padding:6px 12px;border-radius:8px;border:1px solid #4B5563;background:#374151;color:#fff;outline:none;width:220px">
     </div>
   </div>
+
+  <!-- KPIs -->
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;padding:20px 24px">
+    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);padding:18px 20px;border-top:4px solid #DC2626;text-align:center">
+      <div style="font-size:32px;font-weight:900;color:#DC2626" id="nvTotal">—</div>
+      <div style="font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;margin-top:4px">Jiras a cerrar</div>
+    </div>
+    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);padding:18px 20px;border-top:4px solid #D97706;text-align:center">
+      <div style="font-size:32px;font-weight:900;color:#D97706" id="nvLiberadas">—</div>
+      <div style="font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;margin-top:4px">Órdenes liberadas</div>
+    </div>
+    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);padding:18px 20px;border-top:4px solid #64748B;text-align:center">
+      <div style="font-size:32px;font-weight:900;color:#64748B" id="nvCanceladas">—</div>
+      <div style="font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;margin-top:4px">Canceladas/Facturadas</div>
+    </div>
+    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);padding:18px 20px;border-top:4px solid #7C3AED;text-align:center">
+      <div style="font-size:32px;font-weight:900;color:#7C3AED" id="nvMarcas">—</div>
+      <div style="font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;margin-top:4px">Marcas afectadas</div>
+    </div>
+  </div>
+
+  <!-- Tabla -->
+  <div style="padding:0 24px 24px;overflow-x:auto">
+    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);overflow:hidden">
+      <div style="padding:12px 18px;background:#FEF2F2;border-bottom:2px solid #FCA5A5;display:flex;align-items:center;justify-content:space-between">
+        <span style="font-size:13px;font-weight:700;color:#991B1B">🔴 Jiras abiertos con órdenes ya resueltas — deben cerrarse</span>
+        <span id="nvCount" style="font-size:11px;color:#64748B"></span>
+      </div>
+      <table style="width:100%;border-collapse:collapse;font-size:12px">
+        <thead>
+          <tr style="background:#1E293B;color:#fff">
+            <th style="padding:10px 12px;text-align:left;white-space:nowrap">Ticket Jira</th>
+            <th style="padding:10px 12px;text-align:left;min-width:200px">Resumen</th>
+            <th style="padding:10px 12px;text-align:left;white-space:nowrap">Estado Jira</th>
+            <th style="padding:10px 12px;text-align:left;white-space:nowrap">Acción OPS</th>
+            <th style="padding:10px 12px;text-align:left;white-space:nowrap">Comentario Orden</th>
+            <th style="padding:10px 12px;text-align:left;white-space:nowrap">Marca</th>
+            <th style="padding:10px 12px;text-align:left;white-space:nowrap">Asignado Jira</th>
+            <th style="padding:10px 12px;text-align:center;white-space:nowrap">⚠️ Alerta</th>
+          </tr>
+        </thead>
+        <tbody id="nvBody">
+          <tr><td colspan="8" style="text-align:center;padding:40px;color:#94A3B8">Cargando...</td></tr>
+        </tbody>
+      </table>
+      <div style="padding:8px 14px;background:#FEF2F2;border-top:1px solid #FCA5A5;font-size:10px;color:#991B1B;font-weight:600">
+        ⚠️ Estos tickets Jira están abiertos pero sus órdenes ya tienen acción OPS diferente a "En revisión CO - IT". Deben cerrarse en Jira.
+      </div>
+    </div>
+  </div>
+
+  <script>
+  (function(){
+    // Colores por estado Jira
+    var NV_COLORS = {
+      'Nuevo':'#DC2626','En Nivel 1':'#2563EB','En atencion':'#0891B2',
+      'Pendiente de proveedor':'#D97706','En consulta a usuario':'#7C3AED','Categorizado':'#64748B'
+    };
+    // Normalizar ops para comparar
+    function nvNorm(s){ return (s||'').toLowerCase().replace(/á/g,'a').replace(/é/g,'e').replace(/í/g,'i').replace(/ó/g,'o').replace(/ú/g,'u').replace(/[\s\-]/g,''); }
+    function isEnRevIT(ops){ return nvNorm(ops)==='enrevisioncoit'; }
+
+    window.renderNuevaVista = function(){
+      if(typeof RECORDS==='undefined' || typeof RECORDS_JIRA==='undefined') return;
+
+      // Construir mapa: key Jira -> registro RECORDS_JIRA
+      var jiraMap = {};
+      RECORDS_JIRA.forEach(function(j){ jiraMap[j.key] = j; });
+
+      // Buscar órdenes con venta=jira key + ops != En revision CO-IT + jira abierto
+      var seen = {};   // evitar duplicados por clave jira
+      var alertas = [];
+
+      RECORDS.forEach(function(r){
+        var key = (r.venta||'').trim();
+        if(!key || key.indexOf('ITHD-') < 0) return;
+        if(isEnRevIT(r.ops)) return;          // ops = en revision → no aplica
+        var jira = jiraMap[key];
+        if(!jira) return;                     // no existe en Jira
+        if(jira.estado === 'Resuelto') return; // ya cerrado en Jira
+        if(seen[key]) return;                  // ya incluido
+        seen[key] = true;
+        alertas.push({ key: key, jira: jira, orden: r });
+      });
+
+      // KPIs
+      var liberadas   = alertas.filter(function(a){ return (a.orden.ops||'').toLowerCase().indexOf('liberada')>=0||(a.orden.com||'').toLowerCase().indexOf('liberada')>=0; }).length;
+      var canceladas  = alertas.filter(function(a){ var o=(a.orden.ops||'').toLowerCase(); return o.indexOf('cancelad')>=0||o.indexOf('facturada')>=0; }).length;
+      var marcasSet   = new Set(alertas.map(function(a){ return (a.orden.marca||a.jira.marca||'').trim(); }).filter(Boolean));
+      document.getElementById('nvTotal').textContent     = alertas.length;
+      document.getElementById('nvLiberadas').textContent = liberadas;
+      document.getElementById('nvCanceladas').textContent= canceladas;
+      document.getElementById('nvMarcas').textContent    = marcasSet.size;
+
+      // Filtro búsqueda
+      var q = (document.getElementById('nvBuscar').value||'').toLowerCase();
+      var filtered = q ? alertas.filter(function(a){
+        return a.key.toLowerCase().indexOf(q)>=0
+          || (a.jira.resumen||'').toLowerCase().indexOf(q)>=0
+          || (a.orden.marca||a.jira.marca||'').toLowerCase().indexOf(q)>=0
+          || (a.jira.asignado||'').toLowerCase().indexOf(q)>=0;
+      }) : alertas;
+
+      document.getElementById('nvCount').textContent = filtered.length + ' registros';
+
+      var JIRA_EST_COLORS_NV = NV_COLORS;
+      var html = '';
+      filtered.forEach(function(a){
+        var estColor = JIRA_EST_COLORS_NV[a.jira.estado] || '#64748B';
+        var ops = a.orden.ops || '—';
+        var com = (a.orden.com||'—').slice(0,50);
+        var marca = a.orden.marca || a.jira.marca || '—';
+        var asig = a.jira.asignado || '—';
+        var resumen = (a.jira.resumen||'').slice(0,70) + ((a.jira.resumen||'').length>70?'…':'');
+        html += '<tr style="border-bottom:1px solid #FEE2E2;background:#FFFBFB">'
+          + '<td style="padding:8px 12px;white-space:nowrap;font-weight:700;color:#1E293B">' + a.key + '</td>'
+          + '<td style="padding:8px 12px;max-width:220px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#374151" title="' + (a.jira.resumen||'') + '">' + resumen + '</td>'
+          + '<td style="padding:8px 12px;white-space:nowrap"><span style="background:' + estColor + ';color:#fff;padding:3px 10px;border-radius:9999px;font-size:11px;font-weight:700">' + a.jira.estado + '</span></td>'
+          + '<td style="padding:8px 12px;white-space:nowrap;color:#0F172A;font-weight:600">' + ops + '</td>'
+          + '<td style="padding:8px 12px;font-size:11px;color:#475569">' + com + '</td>'
+          + '<td style="padding:8px 12px;white-space:nowrap">' + marca + '</td>'
+          + '<td style="padding:8px 12px;white-space:nowrap;color:#475569">' + asig + '</td>'
+          + '<td style="padding:8px 12px;text-align:center"><span style="background:#FEF2F2;border:1px solid #FCA5A5;color:#DC2626;padding:3px 10px;border-radius:9999px;font-size:11px;font-weight:700">CERRAR</span></td>'
+          + '</tr>';
+      });
+      if(!html) html = '<tr><td colspan="8" style="text-align:center;padding:40px;color:#16A34A;font-size:13px;font-weight:600">✅ Sin alertas — todos los Jiras están correctamente actualizados</td></tr>';
+      document.getElementById('nvBody').innerHTML = html;
+    };
+
+    // Ejecutar cuando el tab se active (o si ya está activo al cargar)
+    var el = document.getElementById('page-nueva');
+    if(el){
+      new MutationObserver(function(muts){
+        muts.forEach(function(m){
+          if(m.attributeName==='class' && el.classList.contains('active')) renderNuevaVista();
+        });
+      }).observe(el, {attributes:true});
+      // Si ya está activo (p.ej. recarga con tab abierto)
+      if(el.classList.contains('active')) renderNuevaVista();
+    }
+  })();
+  </script>
+
 </div>
 
 <div id="page-sinstock" class="tab-page">
@@ -2609,6 +2767,102 @@ function renderJiraExcel() {
       }
     });
   }).observe(el,{attributes:true});
+})();
+</script>
+
+<!-- ══ PIN MODAL ══ -->
+<div class="pin-overlay" id="pinOverlay">
+  <div class="pin-box">
+    <div class="pin-icon">🔒</div>
+    <div class="pin-title">Acceso restringido</div>
+    <div class="pin-sub">Ingresa el PIN para ver Tickets ITHD</div>
+    <div class="pin-dots" id="pinDots">
+      <div class="pin-dot" id="pd0"></div>
+      <div class="pin-dot" id="pd1"></div>
+      <div class="pin-dot" id="pd2"></div>
+      <div class="pin-dot" id="pd3"></div>
+    </div>
+    <div class="pin-err" id="pinErr"></div>
+    <div class="pin-pad">
+      <button class="pin-key" onclick="pinKey('1')">1</button>
+      <button class="pin-key" onclick="pinKey('2')">2</button>
+      <button class="pin-key" onclick="pinKey('3')">3</button>
+      <button class="pin-key" onclick="pinKey('4')">4</button>
+      <button class="pin-key" onclick="pinKey('5')">5</button>
+      <button class="pin-key" onclick="pinKey('6')">6</button>
+      <button class="pin-key" onclick="pinKey('7')">7</button>
+      <button class="pin-key" onclick="pinKey('8')">8</button>
+      <button class="pin-key" onclick="pinKey('9')">9</button>
+      <button class="pin-key" onclick="pinKey('0')" style="grid-column:span 2">0</button>
+      <button class="pin-key" onclick="pinDel()">⌫</button>
+    </div>
+    <span class="pin-cancel" onclick="pinCancel()">Cancelar</span>
+  </div>
+</div>
+
+<script>
+(function(){
+  // ── PIN config ──
+  var _pinSecret   = atob('MjU4MA=='); // = "2580"
+  var _pinUnlocked = false;
+  var _pinBuffer   = '';
+
+  function updateDots(){
+    for(var i=0;i<4;i++){
+      var d=document.getElementById('pd'+i);
+      d.classList.remove('filled','error');
+      if(i<_pinBuffer.length) d.classList.add('filled');
+    }
+    document.getElementById('pinErr').textContent='';
+  }
+
+  window.pinKey=function(k){
+    if(_pinBuffer.length>=4) return;
+    _pinBuffer+=k;
+    updateDots();
+    if(_pinBuffer.length===4) setTimeout(checkPin,150);
+  };
+
+  window.pinDel=function(){
+    _pinBuffer=_pinBuffer.slice(0,-1);
+    updateDots();
+  };
+
+  function checkPin(){
+    if(_pinBuffer===_pinSecret){
+      _pinUnlocked=true;
+      document.getElementById('pinOverlay').classList.remove('open');
+      switchTab('jira');
+      setTimeout(function(){ if(typeof initJiraExcel==='function') initJiraExcel(); },150);
+    } else {
+      var dots=document.querySelectorAll('.pin-dot');
+      dots.forEach(function(d){ d.classList.add('error'); });
+      document.getElementById('pinErr').textContent='PIN incorrecto. Inténtalo de nuevo.';
+      setTimeout(function(){
+        _pinBuffer='';
+        updateDots();
+      },900);
+    }
+  }
+
+  window.pinCancel=function(){
+    _pinBuffer='';
+    updateDots();
+    document.getElementById('pinOverlay').classList.remove('open');
+  };
+
+  // ── Interceptar click en Tickets ITHD ──
+  window.openJiraConPin=function(){
+    if(_pinUnlocked){
+      switchTab('jira');
+      setTimeout(function(){ if(typeof initJiraExcel==='function') initJiraExcel(); },150);
+    } else {
+      _pinBuffer='';
+      updateDots();
+      document.getElementById('pinErr').textContent='';
+      document.getElementById('pinOverlay').classList.add('open');
+    }
+  };
 })();
 </script>
 
