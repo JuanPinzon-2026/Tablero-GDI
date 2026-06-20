@@ -221,15 +221,24 @@ def init_jira_db():
 
 def consultar_jira(email, token, domain, jql, max_results=200):
     auth = base64.b64encode(f"{email}:{token}".encode()).decode()
-    fields = "summary,status,assignee,priority,created,updated"
-    url = (
-        f"https://{domain}.atlassian.net/rest/api/3/search"
-        f"?jql={urllib.parse.quote(jql)}&maxResults={max_results}&fields={fields}"
+    url = f"https://{domain}.atlassian.net/rest/api/3/search"
+
+    # Usar POST (método recomendado por Jira Cloud para queries complejas)
+    payload = json.dumps({
+        "jql": jql,
+        "maxResults": max_results,
+        "fields": ["summary", "status", "assignee", "priority", "created", "updated"]
+    }).encode("utf-8")
+
+    req = urllib.request.Request(
+        url,
+        data=payload,
+        headers={
+            "Authorization": f"Basic {auth}",
+            "Accept": "application/json",
+            "Content-Type": "application/json"
+        }
     )
-    req = urllib.request.Request(url, headers={
-        "Authorization": f"Basic {auth}",
-        "Accept": "application/json"
-    })
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
             data = json.loads(resp.read().decode())
@@ -249,6 +258,10 @@ def consultar_jira(email, token, domain, jql, max_results=200):
             })
         print(f"  ✅ Jira: {len(issues)} tickets (total API: {data.get('total',0)})")
         return issues
+    except urllib.error.HTTPError as e:
+        body = e.read().decode("utf-8", errors="replace")
+        print(f"  ❌ Jira HTTP {e.code} {e.reason}: {body[:300]}")
+        return None
     except Exception as e:
         print(f"  ❌ Error consultando Jira: {e}")
         return None
