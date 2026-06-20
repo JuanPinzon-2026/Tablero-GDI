@@ -5,11 +5,11 @@ echo   Tablero GDI - Actualizar y Subir a GitHub
 echo ============================================
 echo.
 
-set "EXCEL_BASE=C:\Users\jpinz390\Software Broker\Nathalia Moreno - Ordenes incidentadas 2026"
 set "REPO=C:\Users\jpinz390\OneDrive - Software Broker\Dashboard"
 
 echo [1/3] Generando dashboard desde Excel...
-python "%EXCEL_BASE%\generar_dashboard.py"
+cd /d "%REPO%"
+python "%REPO%\generar_dashboard.py"
 if errorlevel 1 (
     echo ERROR: Fallo al generar el dashboard.
     pause
