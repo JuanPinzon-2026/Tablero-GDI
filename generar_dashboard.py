@@ -31,6 +31,8 @@ EXCELS_MAIN = [
     os.path.join(ORDENES_DIR, "Ordenes con novedad Junio - dic.xlsx"),
 ]
 
+EXCEL_JIRA = os.path.join(BASE, "Jira Tickets GDI.xlsx")
+
 EXCELS_SS = [
     os.path.join(ORDENES_DIR, "Ordenes con novedad Enero (1).xlsx"),
     os.path.join(ORDENES_DIR, "Ordenes con novedad Junio - dic.xlsx"),
@@ -183,7 +185,63 @@ def reemplazar_array(content, variable, records):
     new_json = json.dumps(records, ensure_ascii=False, separators=(",", ":"))
     return content[:start_bracket] + new_json + content[end_bracket + 1:]
 
-def actualizar_html(records_main, records_ss):
+def leer_jira_excel(path):
+    """Lee Jira Tickets GDI.xlsx y devuelve lista de dicts."""
+    if not os.path.exists(path):
+        print(f"  ⚠️  No se encontró: {path}")
+        return []
+    print(f"  Leyendo Jira Excel: {os.path.basename(path)}")
+    wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
+    ws = wb.active
+    rows = list(ws.iter_rows(values_only=True))
+    if not rows:
+        wb.close()
+        return []
+    # Mapeo de columnas conocidas
+    headers = [str(h).strip().lower() if h else '' for h in rows[0]]
+    def col(names):
+        for n in names:
+            for i, h in enumerate(headers):
+                if n in h:
+                    return i
+        return None
+    i_clave    = col(['clave'])
+    i_resumen  = col(['resumen'])
+    i_asignado = col(['persona asignada', 'asignada'])
+    i_estado   = col(['estado'])
+    i_prioridad= col(['prioridad'])
+    i_creada   = col(['creada'])
+    i_resuelta = col(['resuelta'])
+    i_marca    = col(['marcas', 'comerciales'])
+    i_canal    = col(['canal'])
+    records = []
+    for row in rows[1:]:
+        if not any(row):
+            continue
+        def gv(i):
+            if i is None or i >= len(row): return ''
+            v = row[i]
+            if isinstance(v, (datetime, date)): return v.strftime('%Y-%m-%d')
+            return str(v).strip() if v is not None else ''
+        clave = gv(i_clave)
+        if not clave:
+            continue
+        records.append({
+            'key':      clave,
+            'resumen':  gv(i_resumen),
+            'asignado': gv(i_asignado),
+            'estado':   gv(i_estado),
+            'prioridad':gv(i_prioridad),
+            'creada':   gv(i_creada),
+            'resuelta': gv(i_resuelta),
+            'marca':    gv(i_marca),
+            'canal':    gv(i_canal),
+        })
+    wb.close()
+    print(f"  -> {len(records)} tickets Jira leidos")
+    return records
+
+def actualizar_html(records_main, records_ss, records_jira):
     if not os.path.exists(DASHBOARD):
         print(f"❌ No se encontró: {DASHBOARD}")
         return False
@@ -195,6 +253,9 @@ def actualizar_html(records_main, records_ss):
     content = reemplazar_array(content, "RECORDS", records_main)
     if content is None: return False
     print(f"✅ RECORDS actualizado con {len(records_main)} registros")
+    content = reemplazar_array(content, "RECORDS_JIRA", records_jira)
+    if content is None: return False
+    print(f"✅ RECORDS_JIRA actualizado con {len(records_jira)} tickets")
     with open(DASHBOARD, "w", encoding="utf-8") as f:
         f.write(content)
     return True
@@ -352,7 +413,10 @@ if __name__ == "__main__":
         print("⚠️  Sin registros en archivo principal.")
         exit(1)
 
-    ok = actualizar_html(records_main, records_ss)
+    print("\n── Leyendo Jira Excel ───────────────────────────────────────────────")
+    records_jira = leer_jira_excel(EXCEL_JIRA)
+
+    ok = actualizar_html(records_main, records_ss, records_jira)
     if not ok:
         exit(1)
 
