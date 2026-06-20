@@ -272,10 +272,11 @@ def prerender_jira_html(content, records_jira):
         key      = r.get('key', '')
         resumen  = r.get('resumen', '').replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;').replace('"', '&quot;')
         res_disp = resumen[:80] + ('...' if len(resumen) > 80 else '')
-        asignado = r.get('asignado', '').replace('<', '&lt;').replace('>', '&gt;')
-        prioridad= r.get('prioridad', '').replace('<', '&lt;').replace('>', '&gt;')
-        creada   = r.get('creada', '')
-        marca    = r.get('marca', '').replace('<', '&lt;').replace('>', '&gt;')
+        asignado   = r.get('asignado', '').replace('<', '&lt;').replace('>', '&gt;')
+        prioridad  = r.get('prioridad', '').replace('<', '&lt;').replace('>', '&gt;')
+        creada     = r.get('creada', '')
+        informador = r.get('informador', '').replace('<', '&lt;').replace('>', '&gt;')
+        marca      = r.get('marca', '').replace('<', '&lt;').replace('>', '&gt;')
         rows_html.append(
             f'<tr style="border-bottom:1px solid #E2E8F0;background:{rowbg}">'
             f'<td style="padding:8px 10px;white-space:nowrap;font-weight:700">{key}</td>'
@@ -284,6 +285,7 @@ def prerender_jira_html(content, records_jira):
             f'<td style="padding:8px 10px;white-space:nowrap">{asignado}</td>'
             f'<td style="padding:8px 10px;white-space:nowrap">{prioridad}</td>'
             f'<td style="padding:8px 10px;white-space:nowrap">{creada}</td>'
+            f'<td style="padding:8px 10px;white-space:nowrap">{informador}</td>'
             f'<td style="padding:8px 10px;white-space:nowrap">{marca}</td>'
             f'</tr>'
         )
@@ -388,6 +390,34 @@ def actualizar_html(records_main, records_ss, records_jira):
             1
         )
         print("✅ switchTab: agregado initJiraExcel() para tab jira")
+    # ── Reparar tabla Sin Stock si quedó truncada (ss-tbl-body faltante) ───────
+    SS_TRUNCATED = '<th>Fecha notif.</th>'
+    SS_FULL_HDR  = (
+        '<th>Fecha notif.</th>\n'
+        '              <th>Marca</th>\n'
+        '              <th>País</th>\n'
+        '              <th>Acción OPS</th>\n'
+        '              <th>Pendiente por</th>\n'
+        '              <th>Estado / Error</th>\n'
+        '            </tr>\n'
+        '          </thead>\n'
+        '          <tbody id="ss-tbl-body"></tbody>\n'
+        '        </table>\n'
+        '      </div><!-- /overflow-x -->\n'
+        '    </div><!-- /card -->\n'
+        '  </div><!-- /padding -->\n'
+        '\n'
+        '</div><!-- /page-sinstock -->\n'
+    )
+    # Si el header truncado aparece SIN el tbody, lo reemplazamos completo
+    if SS_TRUNCATED in content and 'ss-tbl-body' not in content:
+        # Encontrar posición de la tabla truncada y reemplazar desde el th hasta el marcador kronotime
+        idx = content.find(SS_TRUNCATED)
+        krono_marker = '<!-- ═══ KRONOTIME ═══ -->'
+        idx2 = content.find(krono_marker, idx)
+        if idx2 > idx:
+            content = content[:idx] + SS_FULL_HDR + '\n' + content[idx2:]
+            print("✅ Tabla Sin Stock reparada (estaba truncada)")
     # ── Añadir MutationObserver para page-jira si aún no existe ─────────────
     JIRA_OBS_MARKER = "obs-jira-excel"
     JIRA_OBS_SCRIPT = (
