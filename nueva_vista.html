@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nueva Vista — Tablero GDI</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', sans-serif; background: #F1F5F9; color: #1E293B; }
+  .header {
+    background: #1E293B;
+    padding: 16px 28px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .header h1 { color: #fff; font-size: 16px; font-weight: 700; }
+  .header span { color: #94A3B8; font-size: 13px; }
+  .content {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 24px;
+  }
+  /* ── KPI CARDS ── */
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+  .kpi-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,.07);
+  }
+  .kpi-val { font-size: 36px; font-weight: 900; }
+  .kpi-lbl { font-size: 11px; font-weight: 700; color: #64748B; text-transform: uppercase; margin-top: 4px; }
+  /* ── TABLE ── */
+  .card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.07);
+    overflow: hidden;
+  }
+  .card-hdr {
+    background: #1E293B;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead tr { background: #F8FAFC; }
+  th { padding: 10px 14px; text-align: left; font-weight: 700; color: #475569; border-bottom: 2px solid #E2E8F0; white-space: nowrap; }
+  td { padding: 10px 14px; border-bottom: 1px solid #F1F5F9; }
+  tr:hover td { background: #F8FAFC; }
+  .placeholder {
+    text-align: center;
+    padding: 60px 20px;
+    color: #94A3B8;
+  }
+  .placeholder .icon { font-size: 48px; margin-bottom: 12px; }
+  .placeholder p { font-size: 14px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>📊 Nueva Vista — Tablero GDI</h1>
+  <span>IX Comercio</span>
+</div>
+
+<div class="content">
+
+  <!-- KPIs -->
+  <div class="kpi-grid" id="kpiGrid">
+    <!-- Se generan dinámicamente -->
+  </div>
+
+  <!-- Tabla principal -->
+  <div class="card">
+    <div class="card-hdr" id="tableTitle">📋 Datos</div>
+    <table>
+      <thead id="tableHead"></thead>
+      <tbody id="tableBody">
+        <tr>
+          <td colspan="10">
+            <div class="placeholder">
+              <div class="icon">🏗️</div>
+              <p>Contenido en construcción — los datos se configurarán próximamente.</p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+<script>
+// ── Datos y configuración se inyectarán aquí por generar_dashboard.py ──
+var RECORDS_NUEVA = [];
+var CONFIG = {
+  titulo: 'Nueva Vista',
+  kpis: [],   // { label, valor, color }
+  columnas: [] // { key, label }
+};
+
+// ── Render ──
+function render() {
+  // KPIs
+  var kg = document.getElementById('kpiGrid');
+  if (CONFIG.kpis.length > 0) {
+    kg.innerHTML = CONFIG.kpis.map(function(k) {
+      return '<div class="kpi-card"><div class="kpi-val" style="color:' + k.color + '">' + k.valor + '</div><div class="kpi-lbl">' + k.label + '</div></div>';
+    }).join('');
+  } else {
+    kg.style.display = 'none';
+  }
+
+  // Encabezado tabla
+  if (CONFIG.columnas.length > 0) {
+    document.getElementById('tableHead').innerHTML =
+      '<tr>' + CONFIG.columnas.map(function(c){ return '<th>' + c.label + '</th>'; }).join('') + '</tr>';
+  }
+
+  // Filas
+  var tbody = document.getElementById('tableBody');
+  if (RECORDS_NUEVA.length === 0) return;
+  tbody.innerHTML = RECORDS_NUEVA.map(function(r) {
+    return '<tr>' + CONFIG.columnas.map(function(c){ return '<td>' + (r[c.key] || '—') + '</td>'; }).join('') + '</tr>';
+  }).join('');
+}
+
+document.addEventListener('DOMContentLoaded', render);
+</script>
+</body>
+</html>
