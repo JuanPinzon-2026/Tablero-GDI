@@ -1,7 +1,7 @@
-# Credenciales Jira — nunca subir al repo
+# Credenciales — nunca subir al repo
 jira_config.py
 
-# Base de datos y datos locales
+# Datos locales y bases de datos
 jira_tickets.db
 jira_data.json
 Jira Tickets GDI.xlsx
@@ -10,6 +10,12 @@ Jira Tickets GDI.xlsx
 actualizar_y_subir.bat
 actualizar_dashboard.pyw
 
-# Python cache
+# Archivos eliminados de Jira
+servidor_local.py
+nueva_vista.html
+
+# Python cache — NUNCA rastrear
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
