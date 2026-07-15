@@ -47,7 +47,8 @@ COLUMN_MAP = {
     "marca": ["marca", "brand", "cliente", "tienda"],
     "pais":  ["marca pais", "pais", "pais", "marca_pais", "country"],
     "ops":   ["accion ops", "accion ops", "ops", "accion_ops", "accion", "accion"],
-    "venta": ["venta", "nro venta", "nro venta", "numero venta", "orden", "order", "nro orden", "numero de orden", "ticket"],
+    "ticket": ["ticket", "jira", "no jira", "numero jira", "ithd", "no ticket", "jira ticket"],
+    "venta": ["venta", "nro venta", "numero venta", "no. venta", "orden de venta", "orden", "order", "nro orden", "numero de orden"],
 }
 
 def normalizar(s):
@@ -140,7 +141,7 @@ def leer_excel(path):
                 continue
             records.append({"fo": fo, "fn": fn, "com": get("com"), "est": get("est"),
                             "pen": get("pen"), "marca": get("marca"), "pais": get("pais"),
-                            "ops": ops_val, "venta": get("venta")})
+                            "ops": ops_val, "venta": get("venta"), "ticket": get("ticket")})
     wb.close()
     print(f"  -> {len(records)} registros")
     return records
