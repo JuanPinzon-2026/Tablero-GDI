@@ -27,6 +27,9 @@ EXCELS_MAIN = [
     os.path.join(ORDENES_DIR, "Ordenes con novedad Junio - dic.xlsx"),
 ]
 
+# Excel IXC (Total ORs generadas en IX Comercio) — guardar con este nombre en la carpeta Dashboard
+IXC_EXCEL = os.path.join(BASE, "IXComercio.xlsx")
+
 EXCELS_SS = [
     os.path.join(ORDENES_DIR, "Ordenes con novedad Enero (1).xlsx"),
     os.path.join(ORDENES_DIR, "Ordenes con novedad Junio - dic.xlsx"),
@@ -177,6 +180,35 @@ def reemplazar_array(content, variable, records):
     new_json = json.dumps(records, ensure_ascii=False, separators=(",", ":"))
     return content[:start_bracket] + new_json + content[end_bracket + 1:]
 
+def leer_ixc_excel(path):
+    """Lee el Excel de IXC: col A=Fecha(DD/MM/YYYY), col E=Total. Devuelve {YYYY-MM-DD: total}."""
+    if not os.path.exists(path):
+        print(f"  INFO IXC Excel no encontrado: {os.path.basename(path)} (opcional)")
+        return {}
+    print(f"  Leyendo IXC: {os.path.basename(path)}")
+    wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
+    ws = wb.active
+    data = {}
+    for row in ws.iter_rows(min_row=2, values_only=True):
+        fecha_raw, _, _, _, total = (row[i] if i < len(row) else None for i in range(5))
+        if fecha_raw is None or total is None:
+            continue
+        # Parsear fecha
+        iso = ""
+        if isinstance(fecha_raw, (datetime, date)):
+            iso = fecha_raw.strftime("%Y-%m-%d")
+        elif isinstance(fecha_raw, str):
+            m = re.match(r"^(\d{2})/(\d{2})/(\d{4})$", fecha_raw.strip())
+            if m: iso = f"{m.group(3)}-{m.group(2)}-{m.group(1)}"
+        if iso and re.match(r"^\d{4}-\d{2}-\d{2}$", iso):
+            try:
+                data[iso] = int(total)
+            except (ValueError, TypeError):
+                pass
+    wb.close()
+    print(f"  -> {len(data)} fechas IXC")
+    return data
+
 def es_sin_stock(r):
     """Filtra solo registros cuyo comentario u ops contienen 'sin stock'."""
     com = r.get("com", "").lower()
@@ -184,7 +216,30 @@ def es_sin_stock(r):
     est = r.get("est", "").lower()
     return "sin stock" in com or "sin stock" in ops or "sin stock" in est
 
-def actualizar_html(records_main, records_ss):
+def reemplazar_objeto(content, variable, obj):
+    """Reemplaza VAR = {...} en el HTML."""
+    m = re.search(rf'(?<!\w){variable}\s*=\s*\{{', content)
+    if not m:
+        # No existe, insertar antes del primer uso
+        return None
+    start = m.end() - 1
+    depth = 0; in_str = False; i = start
+    while i < len(content):
+        c = content[i]
+        if in_str:
+            if c == '\\': i += 2; continue
+            elif c == '"': in_str = False
+        else:
+            if c == '"': in_str = True
+            elif c == '{': depth += 1
+            elif c == '}':
+                depth -= 1
+                if depth == 0: end = i; break
+        i += 1
+    new_json = json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
+    return content[:start] + new_json + content[end + 1:]
+
+def actualizar_html(records_main, records_ss, ixc_data=None):
     if not os.path.exists(DASHBOARD):
         print(f"ERROR No se encontro: {DASHBOARD}")
         return False
@@ -196,8 +251,18 @@ def actualizar_html(records_main, records_ss):
     content = reemplazar_array(content, "RECORDS", records_main)
     if content is None: return False
     print(f"OK RECORDS: {len(records_main)} registros")
+    if ixc_data:
+        new_content = reemplazar_objeto(content, "_ixcData", ixc_data)
+        if new_content:
+            content = new_content
+            print(f"OK _ixcData: {len(ixc_data)} fechas IXC")
+        else:
+            print("  INFO _ixcData no encontrado en HTML (se cargará manualmente)")
+    import os as _os
     with open(DASHBOARD, "w", encoding="utf-8") as f:
         f.write(content)
+        f.flush()
+        _os.fsync(f.fileno())
     return True
 
 # -- Main ---------------------------------------------------------------------
@@ -222,7 +287,9 @@ if __name__ == "__main__":
         print("WARNING Sin registros en archivo principal.")
         exit(1)
 
-    ok = actualizar_html(records_main, records_ss)
+    ixc_data = leer_ixc_excel(IXC_EXCEL)
+
+    ok = actualizar_html(records_main, records_ss, ixc_data)
     if not ok:
         exit(1)
 
