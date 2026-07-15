@@ -1190,7 +1190,9 @@ function doInitKrono() {
   // Poblar filtros la primera vez
   var _hoy = new Date();
   var _mesAct = _hoy.getFullYear()+'-'+(String(_hoy.getMonth()+1).padStart(2,'0'));
-  var mesesKr  = [...new Set(RECORDS.filter(r=>r.fn && /^\d{4}-\d{2}-\d{2}$/.test(r.fn)).map(r=>r.fn.slice(0,7)))].sort();
+  var mesesKr  = [...new Set(RECORDS.filter(r=>r.fn && /^\d{4}-\d{2}-\d{2}$/.test(r.fn)).map(r=>r.fn.slice(0,7)))];
+  if (mesesKr.indexOf(_mesAct) < 0) mesesKr.push(_mesAct);
+  mesesKr.sort();
   var marcasKr = [...new Set(RECORDS.map(r=>extractBrand(r.marca)).filter(Boolean))].sort();
   var selMesEl   = document.getElementById('krMesSelect');
   var selMarcaEl = document.getElementById('krMarcaSelect');
@@ -1202,6 +1204,7 @@ function doInitKrono() {
   }
 
   var mes = selMes || _mesAct;
+  if (selMesEl && !selMes) { selMesEl.value = _mesAct; }
   var recs = RECORDS.filter(r => r.fn && r.fn.slice(0,7) === mes);
   if (selMarca) recs = recs.filter(r => extractBrand(r.marca) === selMarca);
 
@@ -1386,7 +1389,9 @@ function setSsMarca(val){
 
 function renderSS(){
   var sel=document.getElementById('ssMes');
-  var ym=sel&&sel.value?sel.value:'2026-06';
+  var _hoyKr=new Date();
+  var _mesHoyKr=_hoyKr.getFullYear()+'-'+(String(_hoyKr.getMonth()+1).padStart(2,'0'));
+  var ym=sel&&sel.value?sel.value:_mesHoyKr;
   var p=ym.split('-'); var y=+p[0]; var mo=+p[1];
   var nDias=getDias(ym);
 
@@ -1670,35 +1675,11 @@ function renderKrono(){
         +'<td style="padding:8px 14px;text-align:center">'
         +'<span style="background:'+urgColor+';color:#fff;font-weight:700;font-size:11px;padding:3px 10px;border-radius:20px">'+dias+' días</span></td>'
         +'<td style="padding:8px 14px;font-size:11px;color:#475569;max-width:260px">'+est+'</td>'
-        +'<td style="padding:8px 14px;font-size:11px;color:#0F172A">'+pen+'</td>'
         +'</tr>';
     });
     cbEl.innerHTML = chHtml || '<tr><td colspan="6" style="text-align:center;padding:20px;color:#94A3B8">Sin registros Kronotime</td></tr>';
   }
 
-  // Tabla detalle
-  var sorted=KRmes.slice().sort(function(a,b){ return (b.fn||'').localeCompare(a.fn||''); });
-  var dc=document.getElementById('kr-det-count');
-  if(dc) dc.textContent=sorted.length+' registros';
-  var det=document.getElementById('kr-tbl-body');
-  if(det){
-    var html2='';
-    sorted.forEach(function(r){
-      var fn=r.fn?r.fn.split('-').reverse().join('/'):'—';
-      var est=(r.est||'—').length>70?(r.est||'').slice(0,70)+'…':(r.est||'—');
-      var ops=r.ops||'—';
-      var pen=r.pen||'—';
-      var marca=extractBrand(r.marca)||r.marca||'—';
-       var isPend=(r.com||'').toLowerCase().indexOf('escalado con kronotime')>=0;
-      html2+='<tr style="border-bottom:1px solid #F1F5F9'+(isPend?';background:#FEF9C3':'')+'">'
-        +'<td style="padding:6px 12px;font-size:12px;white-space:nowrap">'+fn+'</td>'
-        +'<td style="padding:6px 12px;font-size:11px;color:#475569;max-width:280px">'+est+'</td>'
-        +'<td style="padding:6px 12px;font-size:12px"><span style="background:#EDE9FE;color:#5B21B6;padding:2px 8px;border-radius:6px;font-size:11px;font-weight:600">'+ops+'</span></td>'
-        +'<td style="padding:6px 12px;font-size:12px;color:#0F172A">'+pen+'</td>'
-        +'<td style="padding:6px 12px;font-size:12px;color:#475569">'+marca+'</td></tr>';
-    });
-    det.innerHTML=html2||'<tr><td colspan="5" style="text-align:center;padding:20px;color:#94A3B8">Sin datos</td></tr>';
-  }
 }
 
 
@@ -2757,30 +2738,6 @@ function clearIssuesFilter() {
     </div>
   </div>
 
-  <div style="padding:0 24px 24px">
-    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);overflow:hidden">
-      <div style="padding:12px 18px;background:#F8FAFC;border-bottom:1px solid #E2E8F0;display:flex;align-items:center;justify-content:space-between">
-        <span style="font-size:13px;font-weight:700;color:#1E293B">Detalle de órdenes Kronotime</span>
-        <span id="kr-det-count" style="font-size:12px;color:#64748B;font-weight:600"></span>
-      </div>
-      <div style="overflow-x:auto">
-        <table style="width:100%;border-collapse:collapse;font-size:12px">
-          <thead>
-            <tr style="background:#F1F5F9;color:#475569;text-transform:uppercase;font-size:10px;letter-spacing:.5px">
-              <th style="padding:10px 14px;text-align:left;font-weight:700">Fecha notif.</th>
-              <th style="padding:10px 14px;text-align:left;font-weight:700">Estado / Error</th>
-              <th style="padding:10px 14px;text-align:left;font-weight:700">Acción OPS</th>
-              <th style="padding:10px 14px;text-align:left;font-weight:700">Pendiente por</th>
-              <th style="padding:10px 14px;text-align:left;font-weight:700">Marca</th>
-            </tr>
-          </thead>
-          <tbody id="kr-tbl-body"></tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-
-
 
   <!-- Consolidado Jiras Kronotime -->
   <div style="padding:0 24px 24px">
@@ -2793,12 +2750,11 @@ function clearIssuesFilter() {
         <table style="width:100%;border-collapse:collapse;font-size:12px">
           <thead>
             <tr style="background:#F8FAFC;border-bottom:2px solid #E2E8F0">
-              <th style="padding:10px 14px;text-align:left;color:#5B21B6;font-weight:700;white-space:nowrap">Nro. Orden</th>
+              <th style="padding:10px 14px;text-align:left;color:#5B21B6;font-weight:700;white-space:nowrap">Orden Afectada</th>
               <th style="padding:10px 14px;text-align:left;color:#5B21B6;font-weight:700;white-space:nowrap">Marca / País</th>
               <th style="padding:10px 14px;text-align:left;color:#5B21B6;font-weight:700;white-space:nowrap">Fecha Orden</th>
               <th style="padding:10px 14px;text-align:center;color:#5B21B6;font-weight:700;white-space:nowrap">Días Pendiente</th>
               <th style="padding:10px 14px;text-align:left;color:#5B21B6;font-weight:700">Estado / Error</th>
-              <th style="padding:10px 14px;text-align:left;color:#5B21B6;font-weight:700">Pendiente por</th>
             </tr>
           </thead>
           <tbody id="kr-cons-body"></tbody>
