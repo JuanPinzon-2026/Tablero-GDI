@@ -46,7 +46,8 @@ COLUMN_MAP = {
     "pen":   ["pendiente por:", "pendiente por", "pendiente", "pen", "pendiente x", "pend"],
     "marca": ["marca", "brand", "cliente", "tienda"],
     "pais":  ["marca pais", "pais", "pais", "marca_pais", "country"],
-        "ops":   ["accion ops", "accion_ops", "ops", "accion", "mitigacion", "estado de revision", "en revision", "accion de ops"],
+    "dup":   ["duplicado", "dup", "estado duplicado", "en revision"],
+    "ops":   ["accion ops", "accion_ops", "ops", "accion", "mitigacion", "estado de revision", "accion de ops"],
     "ticket": ["ticket", "jira", "no jira", "numero jira", "ithd", "no ticket", "jira ticket"],
     "venta": ["venta", "nro venta", "numero venta", "no. venta", "orden de venta", "orden", "order", "nro orden", "numero de orden"],
 }
@@ -141,7 +142,7 @@ def leer_excel(path):
                 continue
             records.append({"fo": fo, "fn": fn, "com": get("com"), "est": get("est"),
                             "pen": get("pen"), "marca": get("marca"), "pais": get("pais"),
-                            "ops": ops_val, "venta": get("venta"), "ticket": get("ticket")})
+                            "dup": get("dup"), "ops": ops_val, "venta": get("venta"), "ticket": get("ticket")})
     wb.close()
     print(f"  -> {len(records)} registros")
     return records
@@ -291,7 +292,4 @@ if __name__ == "__main__":
     ixc_data = leer_ixc_excel(IXC_EXCEL)
 
     ok = actualizar_html(records_main, records_ss, ixc_data)
-    if not ok:
-        exit(1)
-
-    print("\nOK Dashboard actualizado.")
+   
