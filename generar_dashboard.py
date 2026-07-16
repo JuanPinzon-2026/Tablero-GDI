@@ -46,7 +46,7 @@ COLUMN_MAP = {
     "pen":   ["pendiente por:", "pendiente por", "pendiente", "pen", "pendiente x", "pend"],
     "marca": ["marca", "brand", "cliente", "tienda"],
     "pais":  ["marca pais", "pais", "pais", "marca_pais", "country"],
-    "ops":   ["accion ops", "accion ops", "ops", "accion_ops", "accion", "accion"],
+        "ops":   ["accion ops", "accion_ops", "ops", "accion", "mitigacion", "estado de revision", "en revision", "accion de ops"],
     "ticket": ["ticket", "jira", "no jira", "numero jira", "ithd", "no ticket", "jira ticket"],
     "venta": ["venta", "nro venta", "numero venta", "no. venta", "orden de venta", "orden", "order", "nro orden", "numero de orden"],
 }
@@ -80,7 +80,7 @@ def detectar_columnas(headers):
                     best_col = i
         if best_col is not None:
             mapping[campo] = best_col
-    requeridos = {"fo", "fn", "com", "est", "pen", "marca", "ops"}
+    requeridos = {"fo", "fn", "com", "est", "pen", "marca"}
     faltantes = requeridos - set(mapping.keys())
     if faltantes:
         print(f"  WARNING Columnas no encontradas: {faltantes}")
