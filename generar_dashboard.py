@@ -292,4 +292,7 @@ if __name__ == "__main__":
     ixc_data = leer_ixc_excel(IXC_EXCEL)
 
     ok = actualizar_html(records_main, records_ss, ixc_data)
-   
+    if not ok:
+        exit(1)
+
+    print("\nOK Dashboard actualizado.")
