@@ -92,7 +92,12 @@ def fmt_fecha(val):
     if isinstance(val, (datetime, date)):
         return val.strftime("%Y-%m-%d")
     if isinstance(val, str) and val.strip():
-        return val.strip()[:10]
+        v = val.strip()
+        # Convertir DD/MM/YYYY → YYYY-MM-DD
+        m = re.match(r'^(\d{2})[/\-](\d{2})[/\-](\d{4})$', v)
+        if m:
+            return f"{m.group(3)}-{m.group(2)}-{m.group(1)}"
+        return v[:10]
     return ""
 
 def leer_excel(path):
