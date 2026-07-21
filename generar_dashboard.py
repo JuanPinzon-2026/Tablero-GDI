@@ -100,7 +100,21 @@ def leer_excel(path):
     if not os.path.exists(path):
         print(f"  ERROR No existe: {path}")
         return []
-    wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
+    # Copiar a temp para evitar PermissionError si el archivo está abierto en Excel
+    import tempfile, shutil
+    tmp = tempfile.NamedTemporaryFile(suffix=".xlsx", delete=False)
+    tmp.close()
+    try:
+        shutil.copy2(path, tmp.name)
+    except Exception as e:
+        print(f"  ERROR copiando archivo: {e}")
+        return []
+    try:
+        wb = openpyxl.load_workbook(tmp.name, read_only=True, data_only=True)
+    except Exception as e:
+        print(f"  ERROR abriendo Excel: {e}")
+        os.remove(tmp.name)
+        return []
     records = []
     sheets_to_read = wb.sheetnames
     priority = [s for s in wb.sheetnames if normalizar(s) in PRIORITY_SHEETS]
@@ -144,6 +158,7 @@ def leer_excel(path):
                             "pen": get("pen"), "marca": get("marca"), "pais": get("pais"),
                             "dup": get("dup"), "ops": ops_val, "venta": get("venta"), "ticket": get("ticket")})
     wb.close()
+    os.remove(tmp.name)
     print(f"  -> {len(records)} registros")
     return records
 
