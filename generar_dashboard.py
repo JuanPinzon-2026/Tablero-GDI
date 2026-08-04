@@ -12,6 +12,40 @@ import os
 import platform
 from datetime import datetime, date
 
+# -- Clave de cifrado ---------------------------------------------------------
+# Cambia esta clave antes de publicar. Compártela sólo con el equipo GDI.
+CLAVE_TABLERO = "GDI2026"
+
+# -- Cifrado AES-256-GCM ------------------------------------------------------
+def _asegurar_cryptography():
+    """Instala 'cryptography' automáticamente si no está disponible."""
+    try:
+        import cryptography  # noqa
+    except ImportError:
+        import subprocess, sys
+        print("  Libreria 'cryptography' no encontrada. Instalando automaticamente...")
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "cryptography"],
+                              stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        print("  Libreria instalada OK")
+
+def cifrar_datos(texto, clave):
+    """Cifra texto con AES-256-GCM + PBKDF2-SHA256. Compatible con Web Crypto API del navegador."""
+    import os as _os, base64
+    _asegurar_cryptography()
+    from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+    from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
+    from cryptography.hazmat.primitives import hashes
+    from cryptography.hazmat.backends import default_backend
+    salt = _os.urandom(16)
+    iv   = _os.urandom(12)   # 96 bits — recomendado para GCM
+    kdf  = PBKDF2HMAC(algorithm=hashes.SHA256(), length=32, salt=salt,
+                      iterations=100000, backend=default_backend())
+    key  = kdf.derive(clave.encode('utf-8'))
+    aesgcm     = AESGCM(key)
+    ciphertext = aesgcm.encrypt(iv, texto.encode('utf-8'), None)
+    # Formato: base64( salt[16] + iv[12] + ciphertext+tag )
+    return base64.b64encode(salt + iv + ciphertext).decode('utf-8')
+
 # -- Rutas --------------------------------------------------------------------
 BASE = os.path.dirname(os.path.abspath(__file__))
 DASHBOARD = os.path.join(BASE, "index.html")
@@ -167,6 +201,14 @@ def leer_excel(path):
     print(f"  -> {len(records)} registros")
     return records
 
+def reemplazar_string(content, variable, value):
+    """Reemplaza VAR="..." con el nuevo valor cifrado (base64)."""
+    m = re.search(rf'(?<!\w){re.escape(variable)}\s*=\s*"[^"]*"', content)
+    if not m:
+        print(f"ERROR No se encontro '{variable}' en index.html")
+        return None
+    return content[:m.start()] + f'{variable}="{value}"' + content[m.end():]
+
 def reemplazar_array(content, variable, records):
     m = re.search(rf'(?<!\w){variable}\s*=\s*\[', content)
     if not m:
@@ -267,19 +309,33 @@ def actualizar_html(records_main, records_ss, ixc_data=None):
         return False
     with open(DASHBOARD, "r", encoding="utf-8") as f:
         content = f.read()
-    content = reemplazar_array(content, "RECORDS_SS", records_ss)
+
+    # -- Cifrar datos antes de embeber ----------------------------------------
+    print(f"  Cifrando datos con clave configurada...")
+    json_ss   = json.dumps(records_ss,    ensure_ascii=False, separators=(",", ":"))
+    json_main = json.dumps(records_main,  ensure_ascii=False, separators=(",", ":"))
+    json_ixc  = json.dumps(ixc_data or {}, ensure_ascii=False, separators=(",", ":"))
+
+    enc_ss   = cifrar_datos(json_ss,   CLAVE_TABLERO)
+    enc_main = cifrar_datos(json_main, CLAVE_TABLERO)
+    enc_ixc  = cifrar_datos(json_ixc,  CLAVE_TABLERO)
+    print(f"  Cifrado OK: SS={len(enc_ss)} chars, MAIN={len(enc_main)} chars, IXC={len(enc_ixc)} chars")
+
+    # -- Insertar cifrado en el HTML ------------------------------------------
+    content = reemplazar_string(content, "RECORDS_SS_ENC", enc_ss)
     if content is None: return False
-    print(f"OK RECORDS_SS: {len(records_ss)} registros")
-    content = reemplazar_array(content, "RECORDS", records_main)
+    print(f"OK RECORDS_SS_ENC: {len(records_ss)} registros cifrados")
+
+    content = reemplazar_string(content, "RECORDS_ENC", enc_main)
     if content is None: return False
-    print(f"OK RECORDS: {len(records_main)} registros")
-    if ixc_data:
-        new_content = reemplazar_objeto(content, "_ixcData", ixc_data)
-        if new_content:
-            content = new_content
-            print(f"OK _ixcData: {len(ixc_data)} fechas IXC")
-        else:
-            print("  INFO _ixcData no encontrado en HTML (se cargará manualmente)")
+    print(f"OK RECORDS_ENC: {len(records_main)} registros cifrados")
+
+    content = reemplazar_string(content, "_ixcData_ENC", enc_ixc)
+    if content is None:
+        print("  INFO _ixcData_ENC no encontrado (se usara vacio en el tablero)")
+    else:
+        print(f"OK _ixcData_ENC: {len(ixc_data or {})} fechas IXC cifradas")
+
     import os as _os
     with open(DASHBOARD, "w", encoding="utf-8") as f:
         f.write(content)
