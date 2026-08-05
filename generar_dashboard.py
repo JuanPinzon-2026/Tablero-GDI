@@ -84,6 +84,7 @@ COLUMN_MAP = {
     "ops":   ["accion ops", "accion_ops", "ops", "accion", "mitigacion", "estado de revision", "accion de ops"],
     "ticket": ["ticket", "jira", "no jira", "numero jira", "ithd", "no ticket", "jira ticket"],
     "venta": ["venta", "nro venta", "numero venta", "no. venta", "orden de venta", "orden", "order", "nro orden", "numero de orden"],
+    "prov":  ["proveedor", "provider", "prov"],
 }
 
 def normalizar(s):
@@ -193,9 +194,12 @@ def leer_excel(path):
             ops_val = get("ops")
             if not fo and not fn and not ops_val:
                 continue
+            prov_raw = get("prov")
+            prov_norm = prov_raw.strip().title() if prov_raw else ""
             records.append({"fo": fo, "fn": fn, "com": get("com"), "est": get("est"),
                             "pen": get("pen"), "marca": get("marca"), "pais": get("pais"),
-                            "dup": get("dup"), "ops": ops_val, "venta": get("venta"), "ticket": get("ticket")})
+                            "dup": get("dup"), "ops": ops_val, "venta": get("venta"),
+                            "ticket": get("ticket"), "prov": prov_norm})
     wb.close()
     os.remove(tmp.name)
     print(f"  -> {len(records)} registros")
