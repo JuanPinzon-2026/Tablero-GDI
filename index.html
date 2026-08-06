@@ -1526,19 +1526,21 @@ function renderProveedorChart() {
   }
 }
 
-// ── Agrupación de errores similares ──────────────────────────────────────────
+// ── Agrupación de errores (keywords basados en datos reales del Excel) ───────
 var _ERR_GROUPS = [
-  { n:'Guía / Envío',          kw:['guia','guía','tracking','envio','envío','despacho','recolec','retiro','remision','remisión','sin numero de guia','numero de guia'] },
-  { n:'Sin Stock',             kw:['sin stock','stock'] },
-  { n:'Atributos / JSON',      kw:['atributo','json','obligatorio','faltante en el json'] },
-  { n:'Diferencia de Valores', kw:['diferencia','valor','pago','cobro','costo'] },
-  { n:'Liberada',              kw:['liberada'] },
-  { n:'Cancelada',             kw:['cancelad'] },
-  { n:'SKU / Catálogo',        kw:['sku','referencia','catalogo','catálogo'] },
-  { n:'Configuración / CAPA',  kw:['configuracion','configuración','parametro','parámetro','capa','jde'] },
-  { n:'Pendiente Respuesta',   kw:['pendiente respuesta','pendiente de respuesta','sin respuesta'] },
-  { n:'Duplicado',             kw:['duplicado'] },
-  { n:'Solicitud de Guía',     kw:['solicitud de guia','solicitud guia','solicitud de guía'] },
+  { n:'Orden no recibida en IX',     kw:['no ha llegado a ix','no llego a ix','no ha llegado','no llego'] },
+  { n:'Caída / Demora servidor',     kw:['caida de servidor','caída de servidor','demora de kronotime','demora en inyeccion','inyeccion de orden','servidor interno'] },
+  { n:'Tipo de servicio incorrecto', kw:['debio llegar','debió llegar','sameday','nextday'] },
+  { n:'Niveles geográficos',         kw:['niveles geograficos','niveles geográficos','bti kronotime'] },
+  { n:'Campo vacío / Datos',         kw:['campo firstname','campo lastname','campo servicetype','campo vacio','campo vacío','en null','firstname','lastname','servicetype'] },
+  { n:'Sin Stock',                   kw:['sin stock','stock'] },
+  { n:'Guía / Notificación',         kw:['guia','guía','id trax','trax'] },
+  { n:'Actualización Shopify',       kw:['shopify','actualizacion no se aplico','actualización no se aplicó'] },
+  { n:'Atributo JSON faltante',      kw:['atributo','faltante en el json','json'] },
+  { n:'Error de ID / Referencia',    kw:['customerid','documentid','entidad ya existe','ya existe','channel confirmed'] },
+  { n:'Descuento / Pago',            kw:['descuento','cupon','cupón','evento de pago'] },
+  { n:'Sin falla / Revisión',        kw:['sin falla','pendiente revision','pendiente movimiento'] },
+  { n:'Error técnico',               kw:['timeout','doble localidad','estandar','estándar'] },
 ];
 function _getErrGroup(est) {
   var s = (est||'').toLowerCase();
@@ -1557,15 +1559,15 @@ function _pmMesLabel(ym) {
     'Septiembre','Octubre','Noviembre','Diciembre'][+p[1]-1]+' '+p[0];
 }
 function _togglePmErr(idx) {
-  var datesRow=document.getElementById('_pmD'+idx);
   var arr=document.getElementById('_pmA'+idx);
-  if(!datesRow||!arr) return;
-  var open=datesRow.style.display!=='none';
-  document.querySelectorAll('[id^="_pmD"]').forEach(function(el){el.style.display='none';});
+  var isOpen=arr&&arr.textContent==='▼';
+  // Cerrar todos
   document.querySelectorAll('[id^="_pmA"]').forEach(function(el){el.textContent='▶';});
-  if(!open){
-    datesRow.style.display='table-row-group';
-    arr.textContent='▼';
+  document.querySelectorAll('[data-pmgroup]').forEach(function(el){el.style.display='none';});
+  // Abrir el seleccionado si estaba cerrado
+  if(!isOpen){
+    if(arr) arr.textContent='▼';
+    document.querySelectorAll('[data-pmgroup="'+idx+'"]').forEach(function(el){el.style.display='';});
   }
 }
 function _abrirProvModal(provIdx, mesSel) {
@@ -1584,7 +1586,7 @@ function _abrirProvModal(provIdx, mesSel) {
   // Agrupar por categoría de error
   var grupoMap={};
   recs.forEach(function(r){
-    var est=r.est||r.com||'(sin descripción)';
+    var est=r.est||r.com||'(sin descripci\xf3n)';
     var grupo=_getErrGroup(est);
     if(!grupoMap[grupo]) grupoMap[grupo]={count:0,dates:{}};
     grupoMap[grupo].count++;
@@ -1595,19 +1597,13 @@ function _abrirProvModal(provIdx, mesSel) {
   var grupos=Object.keys(grupoMap)
     .sort(function(a,b){return grupoMap[b].count-grupoMap[a].count;});
 
-  // Construir tabla
+  // Construir filas — usar <tr> normales (no <tbody> anidado)
   var rows='';
   grupos.forEach(function(gNombre,i){
     var g=grupoMap[gNombre];
     var pct=total>0?Math.round(g.count/total*100):0;
-    var datesHtml='';
-    Object.keys(g.dates).sort().forEach(function(d){
-      var fd=d.split('-').reverse().join('/');
-      datesHtml+='<tr style="background:#FAFAFA">'
-        +'<td style="padding:4px 14px 4px 44px;font-size:11px;color:#64748B">'+fd+'</td>'
-        +'<td style="padding:4px 10px;font-size:11px;font-weight:700;color:#1E293B;text-align:center">'+g.dates[d]+'</td>'
-        +'<td></td></tr>';
-    });
+
+    // Fila del grupo (clickeable)
     rows+='<tr style="cursor:pointer;background:#F8FAFC;border-top:1px solid #E2E8F0" onclick="_togglePmErr('+i+')">'
       +'<td style="padding:10px 12px;font-size:12px;color:#1E293B;font-weight:700">'
       +'<span id="_pmA'+i+'" style="margin-right:8px;font-size:9px;color:#94A3B8;display:inline-block;width:10px">▶</span>'+gNombre+'</td>'
@@ -1615,11 +1611,19 @@ function _abrirProvModal(provIdx, mesSel) {
       +'<span style="background:'+color+'22;color:'+color+';font-weight:800;font-size:12px;padding:3px 10px;border-radius:20px">'+g.count+'</span>'
       +'</td>'
       +'<td style="padding:10px 14px;text-align:right;width:60px;font-size:12px;font-weight:700;color:#64748B">'+pct+'%</td>'
-      +'</tr>'
-      +'<tbody id="_pmD'+i+'" style="display:none">'+datesHtml+'</tbody>';
+      +'</tr>';
+
+    // Filas de fechas (una <tr> por fecha, ocultas por defecto)
+    Object.keys(g.dates).sort().forEach(function(d){
+      var fd=d.split('-').reverse().join('/');
+      rows+='<tr data-pmgroup="'+i+'" style="display:none;background:#FAFAFA">'
+        +'<td style="padding:4px 14px 4px 44px;font-size:11px;color:#64748B">'+fd+'</td>'
+        +'<td style="padding:4px 10px;font-size:11px;font-weight:700;color:#1E293B;text-align:center">'+g.dates[d]+'</td>'
+        +'<td></td></tr>';
+    });
   });
 
-  document.getElementById('_provModalTitle').textContent=provNombre+(mesSel?' · '+_pmMesLabel(mesSel):'');
+  document.getElementById('_provModalTitle').textContent=provNombre+(mesSel?' \xb7 '+_pmMesLabel(mesSel):'');
   document.getElementById('_provModalBadge').textContent=total+' \xf3rdenes';
   document.getElementById('_provModalBadge').style.cssText='font-size:11px;font-weight:700;padding:4px 12px;border-radius:20px;background:'+color+'22;color:'+color+';border:1px solid '+color+'55';
   document.getElementById('_provErrCount').textContent=grupos.length+' categor\xedas de error';
