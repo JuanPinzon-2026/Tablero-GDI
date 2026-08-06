@@ -2635,7 +2635,7 @@ function renderMCI() {
     var prevTotalVal=prevTotalSaved!==null?prevTotalSaved:'';
     var SI2='width:70px;border:1px solid #93C5FD;border-radius:4px;padding:3px 5px;font-size:11px;font-weight:700;text-align:center;background:#EFF6FF;outline:none;font-family:inherit;';
     var tr='<tr>';
-    tr+='<td style="'+SL+'background:'+BG+'">Total ORs generadas en IX Comercio</td>';
+    tr+='<td style="'+SL+'background:'+BG+'">Total ORs generadas en IX</td>';
     tr+='<td style="'+SV+'background:#EFF6FF;border-right:2px solid #93C5FD">'
       +'<input type="number" min="0" style="'+SI2+'" value="'+prevTotalVal+'" placeholder="—"'
       +' id="ixc-prev-total-input"'
@@ -3260,7 +3260,7 @@ function clearIssuesFilter() {
   <div style="background:linear-gradient(135deg,#F8FAFC 0%,#EFF6FF 100%);border-bottom:1px solid #E2E8F0;padding:16px 28px;display:flex;align-items:center;gap:16px;flex-wrap:wrap">
     <div>
       <div style="font-weight:800;color:#1E40AF;font-size:15px;letter-spacing:-.2px">📈 MCI</div>
-      <div style="font-size:10px;color:#64748B;margin-top:2px">Métricas de Calidad de Incidentación · <span style="color:#10B981">●</span> Clic en IX Comercio para editar</div>
+      <div style="font-size:10px;color:#64748B;margin-top:2px">Métricas de Calidad de Incidentación · <span style="color:#10B981">●</span> Clic en IX para editar</div>
     </div>
     <div style="margin-left:auto;position:relative" id="mciMesWrap">
       <select id="mciMes" style="display:none" onchange="renderMCI()"></select>
@@ -3280,7 +3280,7 @@ function clearIssuesFilter() {
 
     <!-- Gráfica MCI% -->
     <div style="background:#fff;border:1px solid #E2E8F0;border-radius:12px;padding:16px 20px;margin-top:24px">
-      <div style="font-weight:700;color:#1E3A8A;font-size:12px;margin-bottom:12px">📈 MCI % diario — ORs Incidentadas / ORs IX Comercio</div>
+      <div style="font-weight:700;color:#1E3A8A;font-size:12px;margin-bottom:12px">📈 MCI % diario — ORs Incidentadas / ORs IX</div>
       <div style="position:relative;height:220px"><canvas id="chartMCI"></canvas></div>
     </div>
   </div>
