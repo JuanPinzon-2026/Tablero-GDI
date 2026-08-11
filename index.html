@@ -1347,7 +1347,6 @@ function _initGjFechaPicker() {
     mode: 'multiple',
     dateFormat: 'd/m/Y',
     disableMobile: true,
-    enable: fechasDisp,
     locale: {
       firstDayOfWeek:1,
       weekdays:{shorthand:['Do','Lu','Ma','Mi','Ju','Vi','Sa'],longhand:['Domingo','Lunes','Martes','Mi\xe9rcoles','Jueves','Viernes','S\xe1bado']},
@@ -1356,6 +1355,8 @@ function _initGjFechaPicker() {
     onDayCreate: function(dObj, dStr, fpi, dayElem){
       var iso = _gjIsoFecha(dayElem.dateObj);
       if(fechasDisp.indexOf(iso)!==-1){
+        dayElem.style.fontWeight='800';
+        dayElem.style.color='#5B21B6';
         dayElem.style.background='#EDE9FE';
         dayElem.style.borderRadius='50%';
         dayElem.title='Tiene registros';
