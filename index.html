@@ -1325,9 +1325,58 @@ function gjToggle(el) {
   renderJiras();
 }
 
+// ── Gestión Jiras — Filtro de fecha (Flatpickr multi-select) ─────────────────
+var _gjFp = null;
+function _gjIsoFecha(d) {
+  var y=d.getFullYear(), m=String(d.getMonth()+1).padStart(2,'0'), day=String(d.getDate()).padStart(2,'0');
+  return y+'-'+m+'-'+day;
+}
+function _initGjFechaPicker() {
+  var el = document.getElementById('gj-fil-fecha');
+  if(!el || _gjFp) return;
+  // Fechas disponibles (registros En Revisión CO-IT + Continuidad)
+  var fechasDisp = [];
+  var _seenF = {};
+  RECORDS.forEach(function(r){
+    if(isEnRevIT(r) && r.pen==='Continuidad' && r.fn && !_seenF[r.fn]){
+      _seenF[r.fn]=true; fechasDisp.push(r.fn);
+    }
+  });
+  fechasDisp.sort();
+  _gjFp = flatpickr(el, {
+    mode: 'multiple',
+    dateFormat: 'd/m/Y',
+    disableMobile: true,
+    enable: fechasDisp,
+    locale: {
+      firstDayOfWeek:1,
+      weekdays:{shorthand:['Do','Lu','Ma','Mi','Ju','Vi','Sa'],longhand:['Domingo','Lunes','Martes','Mi\xe9rcoles','Jueves','Viernes','S\xe1bado']},
+      months:{shorthand:['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'],longhand:['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre']}
+    },
+    onDayCreate: function(dObj, dStr, fpi, dayElem){
+      var iso = _gjIsoFecha(dayElem.dateObj);
+      if(fechasDisp.indexOf(iso)!==-1){
+        dayElem.style.background='#EDE9FE';
+        dayElem.style.borderRadius='50%';
+        dayElem.title='Tiene registros';
+      }
+    },
+    onChange: function(){ renderJiras(); }
+  });
+}
+function _gjLimpiarFiltros() {
+  document.getElementById('gj-fil-com').value='';
+  document.getElementById('gj-fil-dias').value='';
+  if(_gjFp) _gjFp.clear();
+  renderJiras();
+}
 function renderJiras() {
-  var comFil  = (document.getElementById('gj-fil-com')||{}).value  || '';
-  var diasFil = (document.getElementById('gj-fil-dias')||{}).value || '';
+  var comFil   = (document.getElementById('gj-fil-com')||{}).value  || '';
+  var diasFil  = (document.getElementById('gj-fil-dias')||{}).value || '';
+  // Inicializar picker de fecha si aún no existe
+  if(RECORDS.length && !_gjFp) _initGjFechaPicker();
+  var _gjFechas = (_gjFp && _gjFp.selectedDates.length)
+    ? _gjFp.selectedDates.map(_gjIsoFecha) : [];
 
   var _hoyMs = new Date().setHours(0,0,0,0);
 
@@ -1352,6 +1401,7 @@ function renderJiras() {
   var recsBase = RECORDS.filter(function(r){
     if(!isEnRevIT(r) || r.pen !== 'Continuidad') return false;
     if(comFil && (r.com||'') !== comFil) return false;
+    if(_gjFechas.length && _gjFechas.indexOf(r.fn||'') === -1) return false;
     return true;
   });
 
@@ -1679,6 +1729,7 @@ function switchTab(tab) {
   if(tab==='mci'){ renderMCI(); }
   if(tab==='jiras'){
     var gjLoaded = document.getElementById('gj-fil-com') && document.getElementById('gj-fil-com').options.length > 1;
+    if(RECORDS.length && !_gjFp) _initGjFechaPicker();
     if(!gjLoaded) poblarFiltrosJiras();
     renderJiras();
   }
@@ -3415,7 +3466,12 @@ function clearIssuesFilter() {
       <option value="10-15">10 – 15 días</option>
       <option value="15+">Mayor a 15 días</option>
     </select>
-    <button onclick="document.getElementById('gj-fil-com').value='';document.getElementById('gj-fil-dias').value='';renderJiras();"
+    <!-- Filtro Fecha notificación -->
+    <div style="position:relative">
+      <input id="gj-fil-fecha" placeholder="📅 Fecha de escalamiento..." readonly
+        style="padding:6px 10px;border-radius:8px;border:1px solid #CBD5E1;background:#fff;color:#1E293B;font-size:12px;font-family:inherit;cursor:pointer;min-width:200px">
+    </div>
+    <button onclick="_gjLimpiarFiltros();"
       style="padding:6px 12px;border-radius:8px;border:1px solid #CBD5E1;background:#F8FAFC;color:#475569;font-size:11px;font-weight:600;cursor:pointer">
       ✕ Limpiar
     </button>
