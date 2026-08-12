@@ -2237,7 +2237,7 @@ function populateMarcaDropdown() {
 }
 
 var _opsRecs = [];
-function updateIssuesChart(recs) {
+function updateIssuesChart(recs, ctxLabel) {
   if (!chartOps) return;
   recs = recs || RECORDS;
   _opsRecs = recs;
@@ -2251,7 +2251,11 @@ function updateIssuesChart(recs) {
   chartOps.data.datasets[0].data = top.map(function(x){ return x[1]; });
   try { chartOps.update(); } catch(e) { _showDebug("chartOps.update: "+e.message); }
   var hdr = document.getElementById('issuesHdr');
-  if (hdr) hdr.innerHTML = '<span>🔎 Top 10 Issues ('+recs.length+' órdenes)</span>';
+  if (hdr) hdr.innerHTML =
+    '<span>🔎 Top 10 Issues ('+recs.length+' órdenes'+(ctxLabel?' · '+ctxLabel:'')+') </span>'
+    +'<button onclick="_exportIssuesExcel()" style="margin-left:auto;background:#16A34A;border:none;color:#fff;'
+    +'font-size:11px;font-weight:700;padding:6px 14px;border-radius:8px;cursor:pointer;display:flex;align-items:center;gap:5px">'
+    +'📥 Exportar Excel</button>';
 }
 
 function updateMarcaChart() {
@@ -2306,8 +2310,13 @@ function updateMarcaChart() {
   }];
   try { chartMarca.update(); } catch(e) { _showDebug("chartMarca.update: "+e.message); }
 
-  // Issues con el mismo filtro
-  updateIssuesChart(recs);
+  // Issues filtrados por FECHA DE ORDEN (r.fo) para el mes seleccionado
+  var recsIssues = RECORDS.filter(function(r){
+    return r.fo && reDateValid.test(r.fo) && r.fo >= inicio && r.fo <= fin;
+  });
+  if (selMarca) recsIssues = recsIssues.filter(function(r){ return r.marca === selMarca; });
+  var _issCtx = selMarca || (selMes ? (MESES_N[+selMes.split('-')[1]]||selMes) : '');
+  updateIssuesChart(recsIssues, _issCtx);
 }
 
 function onMarcaChange() { updateMarcaChart(); }
@@ -3135,6 +3144,57 @@ function filterIssuesByDate() {
   panel.innerHTML = html;
   panel.style.display = 'flex';
 }
+function _exportIssuesExcel() {
+  if (!_opsRecs || !_opsRecs.length) { alert('No hay datos para exportar.'); return; }
+  var MESES_X = {1:'Enero',2:'Febrero',3:'Marzo',4:'Abril',5:'Mayo',6:'Junio',
+                 7:'Julio',8:'Agosto',9:'Septiembre',10:'Octubre',11:'Noviembre',12:'Diciembre'};
+
+  // ── Hoja 1: órdenes individuales ─────────────────────────────────────────
+  var h1 = [['Fecha Orden','Fecha Notif.','Marca','País','Problema / Estado','Venta','Ticket','Comentario']];
+  _opsRecs.forEach(function(r){
+    h1.push([
+      r.fo||'', r.fn||'', r.marca||'', r.pais||'',
+      (r.est||'').trim()||'Sin estado',
+      r.venta||'', r.ticket||'', r.com||''
+    ]);
+  });
+  var ws1 = XLSX.utils.aoa_to_sheet(h1);
+  ws1['!cols'] = [12,12,14,12,45,18,14,30].map(function(w){ return {wch:w}; });
+
+  // ── Hoja 2: resumen por problema ─────────────────────────────────────────
+  var counts2 = {};
+  _opsRecs.forEach(function(r){
+    var v = (r.est||'').trim()||'Sin estado';
+    counts2[v] = (counts2[v]||0)+1;
+  });
+  var sorted2 = Object.entries(counts2).sort(function(a,b){ return b[1]-a[1]; });
+  var total2  = _opsRecs.length;
+  var h2 = [['Problema / Estado','Cantidad','% del total']];
+  sorted2.forEach(function(x){
+    h2.push([x[0], x[1], (total2>0 ? (x[1]/total2*100).toFixed(1)+'%' : '0%')]);
+  });
+  h2.push(['','','']);
+  h2.push(['TOTAL', total2, '100%']);
+  var ws2 = XLSX.utils.aoa_to_sheet(h2);
+  ws2['!cols'] = [{wch:45},{wch:12},{wch:12}];
+
+  // Aplicar negrita al encabezado de hoja 2
+  ['A1','B1','C1'].forEach(function(addr){
+    if(ws2[addr]) ws2[addr].s = {font:{bold:true}};
+  });
+
+  // ── Construir nombre de archivo con contexto ──────────────────────────────
+  var selMes = (document.getElementById('selectMes')||{}).value||'';
+  var selMarca = (document.getElementById('selectMarca')||{}).value||'';
+  var mesNombre = selMes ? (MESES_X[+selMes.split('-')[1]]||selMes)+' '+(selMes.split('-')[0]||'') : 'TodosMeses';
+  var nombreArch = 'Top10Issues_'+mesNombre+(selMarca?'_'+selMarca:'')+'.xlsx';
+
+  var wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws1, 'Ordenes');
+  XLSX.utils.book_append_sheet(wb, ws2, 'Resumen');
+  XLSX.writeFile(wb, nombreArch);
+}
+
 function clearIssuesFilter() {
   document.getElementById('opsDateFrom').value = '';
   document.getElementById('opsDateTo').value   = '';
