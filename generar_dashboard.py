@@ -52,7 +52,10 @@ DASHBOARD = os.path.join(BASE, "index.html")
 
 # Detectar si corre en Linux (sandbox) o Windows
 if platform.system() == "Windows":
-    ORDENES_DIR = r"C:\Users\jpinz390\Software Broker\Nathalia Moreno - Ordenes incidentadas 2026"
+    # Usa el perfil del usuario actual — funciona en cualquier equipo con OneDrive sincronizado
+    ORDENES_DIR = os.path.join(os.environ.get('USERPROFILE', os.path.expanduser('~')),
+                               'Software Broker',
+                               'Nathalia Moreno - Ordenes incidentadas 2026')
 else:
     # Ruta de montaje en sandbox Linux
     ORDENES_DIR = "/sessions/affectionate-wonderful-fermat/mnt/Nathalia Moreno - Ordenes incidentadas 2026"
