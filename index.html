@@ -443,6 +443,7 @@ footer{text-align:center;color:#94A3B8;font-size:10px;padding:16px;letter-spacin
   <button class="tab-btn" onclick="switchTab('kronotime');setTimeout(function(){doInitKrono();},150)">⚠️ Kronotime</button>
   <button class="tab-btn" onclick="switchTab('mci')">📈 MCI</button>
   <button class="tab-btn" onclick="switchTab('jiras');setTimeout(function(){renderJiras();},150)">📋 Gestión de Jiras</button>
+  <button class="tab-btn" onclick="switchTab('horariosjbl')">🕐 Horarios JBL</button>
 </div>
 </div>
 
@@ -1728,7 +1729,7 @@ function exportarJirasExcel() {
 // ═══════════ TABS ═══════════
 function switchTab(tab) {
   document.querySelectorAll('.tab-btn').forEach(function(b,i){
-    b.classList.toggle('active',(tab==='main'&&i===0)||(tab==='sinstock'&&i===1)||(tab==='kronotime'&&i===2)||(tab==='mci'&&i===3)||(tab==='jiras'&&i===4));
+    b.classList.toggle('active',(tab==='main'&&i===0)||(tab==='sinstock'&&i===1)||(tab==='kronotime'&&i===2)||(tab==='mci'&&i===3)||(tab==='jiras'&&i===4)||(tab==='horariosjbl'&&i===5));
   });
   document.getElementById('page-main').classList.toggle('active', tab==='main');
   document.getElementById('page-sinstock').classList.toggle('active', tab==='sinstock');
@@ -1738,6 +1739,9 @@ function switchTab(tab) {
   if(pmci) pmci.classList.toggle('active', tab==='mci');
   var pjiras=document.getElementById('page-jiras');
   if(pjiras) pjiras.classList.toggle('active', tab==='jiras');
+  var pjbl=document.getElementById('page-horariosjbl');
+  if(pjbl) pjbl.classList.toggle('active', tab==='horariosjbl');
+  if(tab==='horariosjbl') _jblStartClock();
   if(tab==='mci'){ renderMCI(); }
   if(tab==='jiras'){
     var gjLoaded = document.getElementById('gj-fil-com') && document.getElementById('gj-fil-com').options.length > 1;
@@ -3579,6 +3583,458 @@ function clearIssuesFilter() {
   </div>
 </div><!-- /page-jiras -->
 
+<!-- ══════════════════════════════════════════════════════════ HORARIOS JBL -->
+<div id="page-horariosjbl" class="tab-page">
+<div style="max-width:960px;margin:0 auto;padding:24px 16px">
+
+  <!-- Header + reloj -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap;gap:12px">
+    <div>
+      <div style="font-size:22px;font-weight:800;color:#0F172A;letter-spacing:-0.5px">🕐 Horarios JBL</div>
+      <div style="font-size:13px;color:#64748B;margin-top:2px">Ejecución de Jobs y procesos por país</div>
+    </div>
+    <div style="background:#1E293B;border-radius:12px;padding:12px 22px;text-align:center;min-width:160px">
+      <div id="jbl-clock-time" style="font-size:28px;font-weight:800;color:#38BDF8;font-family:monospace;letter-spacing:2px">--:--:--</div>
+      <div id="jbl-clock-date" style="font-size:11px;color:#64748B;margin-top:2px;text-transform:uppercase;letter-spacing:1px">—</div>
+    </div>
+  </div>
+
+  <!-- FILTRO POR PAÍS -->
+  <div style="background:#F8FAFC;border:1px solid #E2E8F0;border-radius:14px;padding:14px 18px;margin-bottom:22px">
+    <div style="font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px">🌎 Filtrar por país</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px">
+      <button onclick="_jblFiltrar('ALL')" id="jbl-btn-ALL" class="jbl-country-btn active" style="background:#1E3A5F;color:#fff;border:none;border-radius:22px;padding:7px 16px;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px">🌎 Todos</button>
+      <button onclick="_jblFiltrar('GT')"  id="jbl-btn-GT"  class="jbl-country-btn" style="background:#fff;color:#374151;border:1.5px solid #E2E8F0;border-radius:22px;padding:7px 16px;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px"><img src="https://flagcdn.com/20x15/gt.png" style="border-radius:2px;vertical-align:middle;"> Guatemala</button>
+      <button onclick="_jblFiltrar('MX')"  id="jbl-btn-MX"  class="jbl-country-btn" style="background:#fff;color:#374151;border:1.5px solid #E2E8F0;border-radius:22px;padding:7px 16px;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px"><img src="https://flagcdn.com/20x15/mx.png" style="border-radius:2px;vertical-align:middle;"> México</button>
+      <button onclick="_jblFiltrar('CR')"  id="jbl-btn-CR"  class="jbl-country-btn" style="background:#fff;color:#374151;border:1.5px solid #E2E8F0;border-radius:22px;padding:7px 16px;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px"><img src="https://flagcdn.com/20x15/cr.png" style="border-radius:2px;vertical-align:middle;"> Costa Rica</button>
+      <button onclick="_jblFiltrar('CL')"  id="jbl-btn-CL"  class="jbl-country-btn" style="background:#fff;color:#374151;border:1.5px solid #E2E8F0;border-radius:22px;padding:7px 16px;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px"><img src="https://flagcdn.com/20x15/cl.png" style="border-radius:2px;vertical-align:middle;"> Chile</button>
+      <button onclick="_jblFiltrar('CO')"  id="jbl-btn-CO"  class="jbl-country-btn" style="background:#fff;color:#374151;border:1.5px solid #E2E8F0;border-radius:22px;padding:7px 16px;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px"><img src="https://flagcdn.com/20x15/co.png" style="border-radius:2px;vertical-align:middle;"> Colombia</button>
+      <button onclick="_jblFiltrar('PE')"  id="jbl-btn-PE"  class="jbl-country-btn" style="background:#fff;color:#374151;border:1.5px solid #E2E8F0;border-radius:22px;padding:7px 16px;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px"><img src="https://flagcdn.com/20x15/pe.png" style="border-radius:2px;vertical-align:middle;"> Perú</button>
+      <button onclick="_jblFiltrar('UY')"  id="jbl-btn-UY"  class="jbl-country-btn" style="background:#fff;color:#374151;border:1.5px solid #E2E8F0;border-radius:22px;padding:7px 16px;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px"><img src="https://flagcdn.com/20x15/uy.png" style="border-radius:2px;vertical-align:middle;"> Uruguay</button>
+    </div>
+  </div>
+
+  <!-- DIAGRAMA DE FLUJO -->
+  <div style="background:#fff;border:1px solid #E2E8F0;border-radius:16px;padding:20px;margin-bottom:22px;overflow-x:auto">
+    <div style="font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.8px;margin-bottom:16px">⚡ Flujo de procesos · Clic para navegar</div>
+    <div style="display:flex;align-items:center;gap:0;min-width:640px">
+
+      <!-- IWS -->
+      <div class="jbl-flow-node" data-key="iws" onclick="_jblFlowClick(this,'jbl-sec-iws')"
+        style="flex:1;cursor:pointer;border-radius:12px;border:2px solid #FCA5A5;background:#FFF7F7;padding:14px 10px;text-align:center;transition:all .2s;user-select:none">
+        <div style="font-size:22px;margin-bottom:4px">🏭</div>
+        <div style="font-weight:800;font-size:13px;color:#7C2D12">IWS</div>
+        <div style="font-size:10px;color:#9A3412;margin:3px 0">Actualización productos</div>
+        <div style="margin-top:8px;display:flex;flex-wrap:wrap;justify-content:center;gap:3px"><img src="https://flagcdn.com/24x18/gt.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/mx.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/cr.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/cl.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/co.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/pe.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/uy.png" style="border-radius:2px;vertical-align:middle;"></div>
+        <div style="font-size:10px;color:#9A3412;margin-top:4px;font-weight:600">02:00–03:00</div>
+      </div>
+
+      <!-- Flecha -->
+      <div style="flex:0 0 32px;text-align:center;color:#94A3B8;font-size:20px;font-weight:300">→</div>
+
+      <!-- CIXCS -->
+      <div class="jbl-flow-node" data-key="cixcs" onclick="_jblFlowClick(this,'jbl-sec-cixcs')"
+        style="flex:1;cursor:pointer;border-radius:12px;border:2px solid #C4B5FD;background:#F9F7FF;padding:14px 10px;text-align:center;transition:all .2s;user-select:none">
+        <div style="font-size:22px;margin-bottom:4px">⚙️</div>
+        <div style="font-weight:800;font-size:13px;color:#4C1D95">CIXCS</div>
+        <div style="font-size:10px;color:#6D28D9;margin:3px 0">Localpricefile</div>
+        <div style="margin-top:8px;display:flex;flex-wrap:wrap;justify-content:center;gap:3px"><img src="https://flagcdn.com/24x18/gt.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/mx.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/cr.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/cl.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/co.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/pe.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/uy.png" style="border-radius:2px;vertical-align:middle;"></div>
+        <div style="font-size:10px;color:#6D28D9;margin-top:4px;font-weight:600">5 ejecuciones</div>
+      </div>
+
+      <!-- Flecha -->
+      <div style="flex:0 0 32px;text-align:center;color:#94A3B8;font-size:20px;font-weight:300">→</div>
+
+      <!-- STG -->
+      <div class="jbl-flow-node" data-key="stg" onclick="_jblFlowClick(this,'jbl-sec-stg')"
+        style="flex:1;cursor:pointer;border-radius:12px;border:2px solid #93C5FD;background:#F0F7FF;padding:14px 10px;text-align:center;transition:all .2s;user-select:none">
+        <div style="font-size:22px;margin-bottom:4px">📡</div>
+        <div style="font-weight:800;font-size:13px;color:#1E3A5F">Lectura SFTP</div>
+        <div style="font-size:10px;color:#1D4ED8;margin:3px 0">→ STG</div>
+        <div style="margin-top:8px;display:flex;flex-wrap:wrap;justify-content:center;gap:3px"><img src="https://flagcdn.com/24x18/gt.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/mx.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/cr.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/cl.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/co.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/pe.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/uy.png" style="border-radius:2px;vertical-align:middle;"></div>
+        <div style="font-size:10px;color:#1D4ED8;margin-top:4px;font-weight:600">Cada hora</div>
+      </div>
+
+      <!-- Flecha -->
+      <div style="flex:0 0 32px;text-align:center;color:#94A3B8;font-size:20px;font-weight:300">→</div>
+
+      <!-- Reindexado -->
+      <div class="jbl-flow-node" data-key="reidx" onclick="_jblFlowClick(this,'jbl-sec-reidx')"
+        style="flex:1;cursor:pointer;border-radius:12px;border:2px solid #6EE7B7;background:#F0FFF8;padding:14px 10px;text-align:center;transition:all .2s;user-select:none">
+        <div style="font-size:22px;margin-bottom:4px">🔄</div>
+        <div style="font-weight:800;font-size:13px;color:#065F46">Reindexado</div>
+        <div style="font-size:10px;color:#047857;margin:3px 0">en sitio</div>
+        <div style="margin-top:8px;display:flex;flex-wrap:wrap;justify-content:center;gap:3px"><img src="https://flagcdn.com/24x18/mx.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/cr.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/gt.png" style="border-radius:2px;vertical-align:middle;"><span style="color:#CBD5E1;font-size:11px;align-self:center">·</span><img src="https://flagcdn.com/24x18/co.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/pe.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/cl.png" style="border-radius:2px;vertical-align:middle;"><img src="https://flagcdn.com/24x18/uy.png" style="border-radius:2px;vertical-align:middle;"></div>
+        <div style="font-size:10px;color:#047857;margin-top:4px;font-weight:600">9 ejecuciones</div>
+      </div>
+
+    </div>
+    <div id="jbl-flow-hint" style="font-size:11px;color:#94A3B8;text-align:center;margin-top:12px">Selecciona un proceso para resaltar su tabla</div>
+  </div>
+
+  <!-- ALERTA DE PIPELINE -->
+  <div style="background:#fff;border:1px solid #E2E8F0;border-radius:16px;overflow:hidden;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.06)">
+    <!-- Header -->
+    <div style="background:linear-gradient(90deg,#2563EB 0%,#7C3AED 100%);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px">
+      <div style="display:flex;align-items:center;gap:10px">
+        <span style="font-size:20px">🔔</span>
+        <div>
+          <div style="font-size:14px;font-weight:800;color:#fff">¿Cuándo se verá el precio actualizado en el front?</div>
+          <div style="font-size:11px;color:#BFDBFE;margin-top:2px">CIXCS actualiza SFTP → STG lee SFTP → Reindexado publica en front</div>
+        </div>
+      </div>
+      <div style="font-size:10px;color:#BFDBFE;font-style:italic">↻ Actualizado en tiempo real</div>
+    </div>
+    <!-- Filas -->
+    <div id="jbl-alert" style="display:flex;flex-direction:column;gap:0">
+      <div style="color:#94A3B8;font-size:12px;text-align:center;padding:16px">Cargando...</div>
+    </div>
+  </div>
+
+  <!-- 1. IWS -->
+  <div id="jbl-sec-iws" class="jbl-section" style="background:#fff;border-radius:16px;box-shadow:0 2px 12px rgba(0,0,0,0.08);overflow:hidden;margin-bottom:20px">
+    <div style="background:#7C2D12;padding:13px 20px;display:flex;align-items:center;gap:10px">
+      <span style="font-size:15px">🏭</span>
+      <span style="font-weight:700;font-size:14px;color:#fff">IWS</span>
+      <span style="font-size:12px;color:#FCA5A5;margin-left:4px">· Actualización de productos</span>
+    </div>
+    <table style="width:100%;border-collapse:collapse;font-size:13px;font-family:'Segoe UI',Arial,sans-serif">
+      <thead><tr style="background:#F8FAFC;border-bottom:2px solid #E2E8F0">
+        <th style="padding:11px 16px;text-align:left;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">País</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Ventana</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Estado</th>
+      </tr></thead>
+      <tbody>
+        <tr data-paises="GT MX CR CL CO PE UY" data-iws-start="02:00" data-iws-end="03:00">
+          <td style="padding:12px 16px;font-weight:600;color:#1E293B">🌎 Todos los países</td>
+          <td style="padding:12px 16px;text-align:center"><span style="background:#FEF2F2;color:#991B1B;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">02:00 – 03:00</span></td>
+          <td id="iws-status" style="padding:12px 16px;text-align:center">—</td>
+        </tr>
+      </tbody>
+    </table>
+    <div style="padding:9px 16px;background:#F8FAFC;border-top:1px solid #E2E8F0;font-size:11px;color:#94A3B8">🟢 Ejecutando si la hora actual está entre 02:00 y 03:00 AM</div>
+  </div>
+
+  <!-- 2. CIXCS -->
+  <div id="jbl-sec-cixcs" class="jbl-section" style="background:#fff;border-radius:16px;box-shadow:0 2px 12px rgba(0,0,0,0.08);overflow:hidden;margin-bottom:20px">
+    <div style="background:#4C1D95;padding:13px 20px;display:flex;align-items:center;gap:10px">
+      <span style="font-size:15px">⚙️</span>
+      <span style="font-weight:700;font-size:14px;color:#fff">CIXCS</span>
+      <span style="font-size:12px;color:#C4B5FD;margin-left:4px">· Tarea Localpricefile</span>
+    </div>
+    <table style="width:100%;border-collapse:collapse;font-size:13px;font-family:'Segoe UI',Arial,sans-serif">
+      <thead><tr style="background:#F8FAFC;border-bottom:2px solid #E2E8F0">
+        <th style="padding:11px 16px;text-align:left;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Tarea</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Hora</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Próxima</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Estado</th>
+      </tr></thead>
+      <tbody id="cixcs-tbody">
+        <tr data-paises="GT MX CR CL CO PE UY" data-hhmm="02:05"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9">Localpricefile</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#F5F3FF;color:#7C3AED;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">02:05</span></td><td class="cixcs-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="cixcs-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="GT MX CR CL CO PE UY" data-hhmm="03:05"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9">Localpricefile</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#F5F3FF;color:#7C3AED;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">03:05</span></td><td class="cixcs-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="cixcs-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="GT MX CR CL CO PE UY" data-hhmm="09:05"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9">Localpricefile</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#F5F3FF;color:#7C3AED;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">09:05</span></td><td class="cixcs-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="cixcs-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="GT MX CR CL CO PE UY" data-hhmm="11:05"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9">Localpricefile</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#F5F3FF;color:#7C3AED;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">11:05</span></td><td class="cixcs-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="cixcs-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="GT MX CR CL CO PE UY" data-hhmm="16:05"><td style="padding:12px 16px;font-weight:600;color:#1E293B">Localpricefile</td><td style="padding:12px 16px;text-align:center"><span style="background:#F5F3FF;color:#7C3AED;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">16:05</span></td><td class="cixcs-next" style="padding:12px 16px;text-align:center;font-weight:600;color:#0F172A">—</td><td class="cixcs-status" style="padding:12px 16px;text-align:center">—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 3. STG — Lectura SFTP → STG -->
+  <div id="jbl-sec-stg" class="jbl-section" style="background:#fff;border-radius:16px;box-shadow:0 2px 12px rgba(0,0,0,0.08);overflow:hidden;margin-bottom:20px">
+    <div style="background:#1E3A5F;padding:13px 20px;display:flex;align-items:center;gap:10px">
+      <span style="font-size:15px">📡</span>
+      <span style="font-weight:700;font-size:14px;color:#fff">Lectura SFTP → STG</span>
+      <span style="font-size:12px;color:#93C5FD;margin-left:4px">· Se ejecuta cada hora al minuto indicado</span>
+    </div>
+    <table style="width:100%;border-collapse:collapse;font-size:13px;font-family:'Segoe UI',Arial,sans-serif">
+      <thead><tr style="background:#F8FAFC;border-bottom:2px solid #E2E8F0">
+        <th style="padding:11px 16px;text-align:left;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">País</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Minuto</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Ej. 11:xx</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Ej. 12:xx</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Ej. 13:xx</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Próxima</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Estado</th>
+      </tr></thead>
+      <tbody id="jbl-tbody">
+        <tr data-paises="GT" data-min="28"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9"><img src="https://flagcdn.com/20x15/gt.png" style="border-radius:2px;vertical-align:middle;margin-right:6px"> Guatemala</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#EFF6FF;color:#2563EB;border-radius:20px;padding:3px 12px;font-weight:700;font-size:13px">:28</span></td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">11:28</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">12:28</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">13:28</td><td class="jbl-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="jbl-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="MX" data-min="3"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9"><img src="https://flagcdn.com/20x15/mx.png" style="border-radius:2px;vertical-align:middle;margin-right:6px"> México</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#EFF6FF;color:#2563EB;border-radius:20px;padding:3px 12px;font-weight:700;font-size:13px">:03</span></td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">11:03</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">12:03</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">13:03</td><td class="jbl-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="jbl-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="CR" data-min="29"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9"><img src="https://flagcdn.com/20x15/cr.png" style="border-radius:2px;vertical-align:middle;margin-right:6px"> Costa Rica</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#EFF6FF;color:#2563EB;border-radius:20px;padding:3px 12px;font-weight:700;font-size:13px">:29</span></td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">11:29</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">12:29</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">13:29</td><td class="jbl-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="jbl-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="CL" data-min="44"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9"><img src="https://flagcdn.com/20x15/cl.png" style="border-radius:2px;vertical-align:middle;margin-right:6px"> Chile</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#EFF6FF;color:#2563EB;border-radius:20px;padding:3px 12px;font-weight:700;font-size:13px">:44</span></td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">11:44</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">12:44</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">13:44</td><td class="jbl-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="jbl-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="CO" data-min="21"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9"><img src="https://flagcdn.com/20x15/co.png" style="border-radius:2px;vertical-align:middle;margin-right:6px"> Colombia</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#EFF6FF;color:#2563EB;border-radius:20px;padding:3px 12px;font-weight:700;font-size:13px">:21</span></td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">11:21</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">12:21</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">13:21</td><td class="jbl-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="jbl-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="PE" data-min="48"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9"><img src="https://flagcdn.com/20x15/pe.png" style="border-radius:2px;vertical-align:middle;margin-right:6px"> Perú</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#EFF6FF;color:#2563EB;border-radius:20px;padding:3px 12px;font-weight:700;font-size:13px">:48</span></td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">11:48</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">12:48</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">13:48</td><td class="jbl-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="jbl-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="UY" data-min="57"><td style="padding:12px 16px;font-weight:600;color:#1E293B"><img src="https://flagcdn.com/20x15/uy.png" style="border-radius:2px;vertical-align:middle;margin-right:6px"> Uruguay</td><td style="padding:12px 16px;text-align:center"><span style="background:#EFF6FF;color:#2563EB;border-radius:20px;padding:3px 12px;font-weight:700;font-size:13px">:57</span></td><td style="padding:12px 16px;text-align:center;color:#475569">11:57</td><td style="padding:12px 16px;text-align:center;color:#475569">12:57</td><td style="padding:12px 16px;text-align:center;color:#475569">13:57</td><td class="jbl-next" style="padding:12px 16px;text-align:center;font-weight:600;color:#0F172A">—</td><td class="jbl-status" style="padding:12px 16px;text-align:center">—</td></tr>
+      </tbody>
+    </table>
+    <div style="padding:9px 16px;background:#F8FAFC;border-top:1px solid #E2E8F0;font-size:11px;color:#94A3B8">⚡ Estado en tiempo real · 🟢 Ejecutando = minuto actual coincide · ⏳ Próximamente = menos de 5 min</div>
+  </div>
+
+  <!-- 4. From — Reindexado en sitio -->
+  <div id="jbl-sec-reidx" class="jbl-section" style="background:#fff;border-radius:16px;box-shadow:0 2px 12px rgba(0,0,0,0.08);overflow:hidden;margin-bottom:20px">
+    <div style="background:#065F46;padding:13px 20px;display:flex;align-items:center;gap:10px">
+      <span style="font-size:15px">🔄</span>
+      <span style="font-weight:700;font-size:14px;color:#fff">Reindexado en sitio</span>
+      <span style="font-size:12px;color:#6EE7B7;margin-left:4px">· Reindexado en el front</span>
+    </div>
+    <table style="width:100%;border-collapse:collapse;font-size:13px;font-family:'Segoe UI',Arial,sans-serif">
+      <thead><tr style="background:#F8FAFC;border-bottom:2px solid #E2E8F0">
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Horario</th>
+        <th style="padding:11px 16px;text-align:left;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Países</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Próxima</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Estado</th>
+      </tr></thead>
+      <tbody id="reidx-tbody">
+        <tr data-paises="MX CR GT" data-hhmm="02:15"><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#ECFDF5;color:#065F46;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">02:15</span></td><td style="padding:12px 16px;border-bottom:1px solid #F1F5F9"><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇲🇽</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇷</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600">🇬🇹</span></td><td class="reidx-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="reidx-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="MX CR GT" data-hhmm="03:45"><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#ECFDF5;color:#065F46;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">03:45</span></td><td style="padding:12px 16px;border-bottom:1px solid #F1F5F9"><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇲🇽</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇷</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600">🇬🇹</span></td><td class="reidx-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="reidx-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="CO PE CL UY" data-hhmm="05:45"><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#ECFDF5;color:#065F46;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">05:45</span></td><td style="padding:12px 16px;border-bottom:1px solid #F1F5F9"><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇴</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇵🇪</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇱</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600">🇺🇾</span></td><td class="reidx-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="reidx-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="CO PE CL UY" data-hhmm="06:15"><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#ECFDF5;color:#065F46;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">06:15</span></td><td style="padding:12px 16px;border-bottom:1px solid #F1F5F9"><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇴</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇵🇪</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇱</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600">🇺🇾</span></td><td class="reidx-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="reidx-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="MX CR GT" data-hhmm="09:45"><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#ECFDF5;color:#065F46;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">09:45</span></td><td style="padding:12px 16px;border-bottom:1px solid #F1F5F9"><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇲🇽</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇷</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600">🇬🇹</span></td><td class="reidx-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="reidx-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="CO PE CL UY" data-hhmm="11:45"><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#ECFDF5;color:#065F46;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">11:45</span></td><td style="padding:12px 16px;border-bottom:1px solid #F1F5F9"><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇴</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇵🇪</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇱</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600">🇺🇾</span></td><td class="reidx-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="reidx-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="MX CR GT" data-hhmm="12:30"><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#ECFDF5;color:#065F46;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">12:30</span></td><td style="padding:12px 16px;border-bottom:1px solid #F1F5F9"><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇲🇽</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇷</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600">🇬🇹</span></td><td class="reidx-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="reidx-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="CO PE CL UY" data-hhmm="15:30"><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#ECFDF5;color:#065F46;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">15:30</span></td><td style="padding:12px 16px;border-bottom:1px solid #F1F5F9"><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇴</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇵🇪</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇱</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600">🇺🇾</span></td><td class="reidx-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="reidx-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="MX CR GT" data-hhmm="21:45"><td style="padding:12px 16px;text-align:center"><span style="background:#ECFDF5;color:#065F46;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">21:45</span></td><td style="padding:12px 16px"><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇲🇽</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇷</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600">🇬🇹</span></td><td class="reidx-next" style="padding:12px 16px;text-align:center;font-weight:600;color:#0F172A">—</td><td class="reidx-status" style="padding:12px 16px;text-align:center">—</td></tr>
+      </tbody>
+    </table>
+    <div style="padding:9px 16px;background:#F8FAFC;border-top:1px solid #E2E8F0;font-size:11px;color:#94A3B8">🔵 Azul = MX · CR · GT &nbsp;|&nbsp; 🟡 Amarillo = CO · PE · CL · UY</div>
+  </div>
+
+</div>
+</div><!-- /page-horariosjbl -->
+
+<script>
+// ══════════════════════════════════════════════════ HORARIOS JBL
+
+
+// ── Pipeline alert ────────────────────────────────────────────────────────
+var _JBL_STG_MIN  = {GT:28, MX:3, CR:29, CL:44, CO:21, PE:48, UY:57};
+var _JBL_STG_FLAG = {
+  GT:'<img src="https://flagcdn.com/28x21/gt.png" style="border-radius:2px;vertical-align:middle;margin-right:6px">',
+  MX:'<img src="https://flagcdn.com/28x21/mx.png" style="border-radius:2px;vertical-align:middle;margin-right:6px">',
+  CR:'<img src="https://flagcdn.com/28x21/cr.png" style="border-radius:2px;vertical-align:middle;margin-right:6px">',
+  CL:'<img src="https://flagcdn.com/28x21/cl.png" style="border-radius:2px;vertical-align:middle;margin-right:6px">',
+  CO:'<img src="https://flagcdn.com/28x21/co.png" style="border-radius:2px;vertical-align:middle;margin-right:6px">',
+  PE:'<img src="https://flagcdn.com/28x21/pe.png" style="border-radius:2px;vertical-align:middle;margin-right:6px">',
+  UY:'<img src="https://flagcdn.com/28x21/uy.png" style="border-radius:2px;vertical-align:middle;margin-right:6px">'
+};
+var _JBL_STG_NAME = {GT:'Guatemala', MX:'México', CR:'Costa Rica', CL:'Chile', CO:'Colombia', PE:'Perú', UY:'Uruguay'};
+var _JBL_CIXCS_M  = [125,185,545,665,965];   // 02:05,03:05,09:05,11:05,16:05
+var _JBL_REIDX_G1 = [135,225,585,750,1305];  // 02:15,03:45,09:45,12:30,21:45 → MX CR GT
+var _JBL_REIDX_G2 = [345,375,705,930];        // 05:45,06:15,11:45,15:30 → CO PE CL UY
+var _JBL_GRP1 = ['MX','CR','GT'];
+
+function _jblFmt(mins) {
+  var h=Math.floor(mins/60)%24, m=mins%60;
+  return String(h).padStart(2,'0')+':'+String(m).padStart(2,'0');
+}
+
+function _jblNextVisible(country, nowMins) {
+  var stgMin = _JBL_STG_MIN[country];
+  var reidx  = _JBL_GRP1.indexOf(country)!==-1 ? _JBL_REIDX_G1 : _JBL_REIDX_G2;
+
+  // Next CIXCS after now
+  var cixcsAbs = null;
+  for(var i=0;i<_JBL_CIXCS_M.length;i++){
+    if(_JBL_CIXCS_M[i]>nowMins){cixcsAbs=_JBL_CIXCS_M[i];break;}
+  }
+  if(cixcsAbs===null) cixcsAbs=_JBL_CIXCS_M[0]+1440; // tomorrow
+
+  // Next STG after CIXCS
+  var baseH = Math.floor(cixcsAbs/60);
+  var baseMod = cixcsAbs%60;
+  var stgAbs = stgMin>baseMod ? baseH*60+stgMin : (baseH+1)*60+stgMin;
+
+  // Next Reindexado after STG
+  var dayBase = Math.floor(stgAbs/1440)*1440;
+  var reidxAbs = null;
+  for(var j=0;j<reidx.length;j++){
+    var c=dayBase+reidx[j];
+    if(c>stgAbs){reidxAbs=c;break;}
+  }
+  if(reidxAbs===null) reidxAbs=dayBase+1440+reidx[0]; // tomorrow
+
+  return {c:cixcsAbs, s:stgAbs, r:reidxAbs, w:reidxAbs-nowMins};
+}
+
+function _jblUpdateAlert(nowMins, activePais) {
+  var el=document.getElementById('jbl-alert');
+  if(!el) return;
+  var countries = activePais==='ALL'
+    ? ['GT','MX','CR','CL','CO','PE','UY']
+    : [activePais];
+  var html='';
+  countries.forEach(function(c,idx){
+    var v=_jblNextVisible(c,nowMins);
+    var urgent = v.w<=45;
+    var rowBg  = urgent ? '#FFFBEB' : (idx%2===0?'#F8FAFC':'#fff');
+    var wBg    = urgent ? '#D97706' : '#2563EB';
+    var wText  = v.w >= 1440 ? 'mañana' : (v.w>60 ? Math.floor(v.w/60)+'h '+v.w%60+'min' : v.w+' min');
+    var border = idx>0?'border-top:1px solid #F1F5F9':'';
+    html+='<div style="display:flex;align-items:center;gap:10px;padding:11px 16px;background:'+rowBg+';'+border+';flex-wrap:wrap">';
+    html+='<div style="display:flex;align-items:center;gap:7px;min-width:130px">';
+    html+=_JBL_STG_FLAG[c];
+    html+='<span style="font-weight:700;font-size:13px;color:#1E293B">'+_JBL_STG_NAME[c]+'</span>';
+    html+='</div>';
+    html+='<div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;flex:1">';
+    html+='<span style="background:#EDE9FE;color:#6D28D9;border-radius:6px;padding:3px 10px;font-size:11px;font-weight:700;white-space:nowrap">⚙️ CIXCS '+_jblFmt(v.c)+'</span>';
+    html+='<span style="color:#CBD5E1;font-size:14px">→</span>';
+    html+='<span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:3px 10px;font-size:11px;font-weight:700;white-space:nowrap">📡 STG '+_jblFmt(v.s)+'</span>';
+    html+='<span style="color:#CBD5E1;font-size:14px">→</span>';
+    html+='<span style="background:#DCFCE7;color:#15803D;border-radius:6px;padding:3px 10px;font-size:11px;font-weight:700;white-space:nowrap">🔄 Front '+_jblFmt(v.r)+'</span>';
+    html+='</div>';
+    html+='<span style="background:'+wBg+';color:#fff;border-radius:20px;padding:4px 12px;font-size:11px;font-weight:700;white-space:nowrap;margin-left:auto">⏱ '+wText+'</span>';
+    html+='</div>';
+  });
+  el.innerHTML=html;
+}
+
+var _jblActiveSection = null;
+function _jblFlowClick(nodeEl, sectionId) {
+  // Reset all nodes
+  document.querySelectorAll('.jbl-flow-node').forEach(function(n) {
+    n.style.transform = '';
+    n.style.boxShadow = '';
+    n.style.opacity = '0.6';
+  });
+  // Activate clicked node
+  nodeEl.style.transform = 'translateY(-4px)';
+  nodeEl.style.boxShadow = '0 8px 24px rgba(0,0,0,0.15)';
+  nodeEl.style.opacity = '1';
+  // Reset all sections
+  document.querySelectorAll('.jbl-section').forEach(function(s) {
+    s.style.opacity = '0.35';
+    s.style.transition = 'all .3s';
+    s.style.boxShadow = '0 2px 12px rgba(0,0,0,0.08)';
+  });
+  // Highlight target section
+  var sec = document.getElementById(sectionId);
+  if (sec) {
+    sec.style.opacity = '1';
+    sec.style.boxShadow = '0 0 0 3px #2563EB, 0 8px 28px rgba(37,99,235,0.25)';
+    setTimeout(function(){ sec.scrollIntoView({behavior:'smooth', block:'start'}); }, 100);
+  }
+  var hint = document.getElementById('jbl-flow-hint');
+  if (hint) hint.textContent = 'Haz clic en 🌎 Todos o en otro proceso para cambiar la selección';
+  _jblActiveSection = sectionId;
+}
+
+var _jblClockInterval = null;
+var _jblPaisActivo = 'ALL';
+var _JBL_DIAS = ['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
+var _JBL_MESES = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+
+function _jblFiltrar(codigo) {
+  _jblPaisActivo = codigo;
+  // Actualizar botones
+  document.querySelectorAll('.jbl-country-btn').forEach(function(b) {
+    var isActive = b.id === 'jbl-btn-' + codigo;
+    b.style.background = isActive ? '#1E3A5F' : '#fff';
+    b.style.color = isActive ? '#fff' : '#374151';
+    b.style.border = isActive ? '1.5px solid #1E3A5F' : '1.5px solid #E2E8F0';
+  });
+  // Filtrar filas con data-paises
+  document.querySelectorAll('tr[data-paises]').forEach(function(row) {
+    if (codigo === 'ALL') {
+      row.style.display = '';
+    } else {
+      var paises = row.getAttribute('data-paises').split(' ');
+      row.style.display = paises.indexOf(codigo) !== -1 ? '' : 'none';
+    }
+  });
+  _jblUpdateAlert(new Date().getHours()*60+new Date().getMinutes(), codigo);
+  // Si se selecciona "Todos", resetear resaltado del flujo
+  if (codigo === 'ALL') {
+    document.querySelectorAll('.jbl-flow-node').forEach(function(n) {
+      n.style.transform = '';
+      n.style.boxShadow = '';
+      n.style.opacity = '';
+    });
+    document.querySelectorAll('.jbl-section').forEach(function(s) {
+      s.style.opacity = '';
+      s.style.boxShadow = '0 2px 12px rgba(0,0,0,0.08)';
+    });
+    var hint = document.getElementById('jbl-flow-hint');
+    if (hint) hint.textContent = 'Selecciona un proceso para resaltar su tabla';
+  }
+}
+
+function _jblStartClock() {
+  _jblTickClock();
+  if (!_jblClockInterval) {
+    _jblClockInterval = setInterval(_jblTickClock, 1000);
+  }
+}
+
+function _jblTickClock() {
+  var now = new Date();
+  var h = String(now.getHours()).padStart(2,'0');
+  var m = String(now.getMinutes()).padStart(2,'0');
+  var s = String(now.getSeconds()).padStart(2,'0');
+  var el = document.getElementById('jbl-clock-time');
+  if (el) el.textContent = h + ':' + m + ':' + s;
+  var elD = document.getElementById('jbl-clock-date');
+  if (elD) elD.textContent = _JBL_DIAS[now.getDay()] + ' ' + now.getDate() + ' de ' + _JBL_MESES[now.getMonth()];
+
+  var nowMins = now.getHours() * 60 + now.getMinutes();
+
+  // IWS: ventana 02:00-03:00
+  var iwsSt = document.getElementById('iws-status');
+  if (iwsSt) {
+    if (nowMins >= 120 && nowMins < 180) {
+      iwsSt.innerHTML = '<span style="background:#16A34A;color:#fff;border-radius:20px;padding:3px 12px;font-size:11px;font-weight:700">🟢 Ejecutando</span>';
+    } else if (nowMins < 120) {
+      var minLeft = 120 - nowMins;
+      iwsSt.innerHTML = '<span style="background:#F1F5F9;color:#64748B;border-radius:20px;padding:3px 12px;font-size:11px;font-weight:600">⏱ En ' + minLeft + ' min</span>';
+    } else {
+      iwsSt.innerHTML = '<span style="background:#DCFCE7;color:#15803D;border-radius:20px;padding:3px 12px;font-size:11px;font-weight:700">✅ Ejecutado hoy</span>';
+    }
+  }
+
+  // STG: recurrente por minuto
+  var curMin = now.getMinutes();
+  document.querySelectorAll('#jbl-tbody tr[data-min]').forEach(function(row) {
+    var jobMin = parseInt(row.getAttribute('data-min'), 10);
+    var nextCell = row.querySelector('.jbl-next');
+    var statusCell = row.querySelector('.jbl-status');
+    if (!nextCell || !statusCell) return;
+    var diff = (jobMin - curMin + 60) % 60;
+    var totalMins = now.getHours() * 60 + now.getMinutes() + diff;
+    var nextStr = String(Math.floor(totalMins/60)%24).padStart(2,'0') + ':' + String(totalMins%60).padStart(2,'0');
+    if (diff === 0) {
+      row.style.background='#ECFDF5';
+      nextCell.textContent = nextStr;
+      statusCell.innerHTML='<span style="background:#16A34A;color:#fff;border-radius:20px;padding:3px 10px;font-size:11px;font-weight:700">🟢 Ejecutando</span>';
+    } else if (diff <= 5) {
+      row.style.background='#FFFBEB';
+      nextCell.textContent = nextStr + ' (en ' + diff + ' min)';
+      statusCell.innerHTML='<span style="background:#D97706;color:#fff;border-radius:20px;padding:3px 10px;font-size:11px;font-weight:700">⏳ En ' + diff + ' min</span>';
+    } else {
+      row.style.background='';
+      nextCell.textContent = nextStr + ' (en ' + diff + ' min)';
+      statusCell.innerHTML='<span style="background:#F1F5F9;color:#64748B;border-radius:20px;padding:3px 10px;font-size:11px;font-weight:600">⏱ ' + diff + ' min</span>';
+    }
+  });
+
+  // Tablas de horarios fijos (CIXCS y From)
+  function _tickFixed(tbodyId, nxtClass, stClass) {
+    document.querySelectorAll('#'+tbodyId+' tr[data-hhmm]').forEach(function(row) {
+      var p = row.getAttribute('data-hhmm').split(':');
+      var jobM = parseInt(p[0],10)*60+parseInt(p[1],10);
+      var diff = jobM - nowMins;
+      var nxt = row.querySelector('.'+nxtClass);
+      var st = row.querySelector('.'+stClass);
+      if(!nxt||!st) return;
+      var lbl = row.getAttribute('data-hhmm');
+      if(diff===0){row.style.background='#ECFDF5';nxt.textContent=lbl+' (ahora)';st.innerHTML='<span style="background:#16A34A;color:#fff;border-radius:20px;padding:3px 10px;font-size:11px;font-weight:700">🟢 Ejecutando</span>';}
+      else if(diff>0&&diff<=15){row.style.background='#FFFBEB';nxt.textContent=lbl+' (en '+diff+' min)';st.innerHTML='<span style="background:#D97706;color:#fff;border-radius:20px;padding:3px 10px;font-size:11px;font-weight:700">⏳ En '+diff+' min</span>';}
+      else if(diff>0){row.style.background='';nxt.textContent=lbl+' (en '+diff+' min)';st.innerHTML='<span style="background:#F1F5F9;color:#64748B;border-radius:20px;padding:3px 10px;font-size:11px;font-weight:600">⏱ '+diff+' min</span>';}
+      else{row.style.background='#F8FAFC';nxt.textContent='Mañana '+lbl;st.innerHTML='<span style="background:#DCFCE7;color:#15803D;border-radius:20px;padding:3px 10px;font-size:11px;font-weight:700">✅ Ejecutado</span>';}
+    });
+  }
+  _tickFixed('cixcs-tbody','cixcs-next','cixcs-status');
+  _tickFixed('reidx-tbody','reidx-next','reidx-status');
+  _jblUpdateAlert(nowMins, _jblPaisActivo);
+}
+</script>
 
 <div id="_gdi_lock" style="display:none;position:fixed;inset:0;background:rgba(15,23,42,0.94);z-index:99999;align-items:center;justify-content:center">
   <div style="background:#fff;border-radius:16px;padding:40px 48px;text-align:center;max-width:380px;width:90%;box-shadow:0 25px 50px rgba(0,0,0,0.5)">
