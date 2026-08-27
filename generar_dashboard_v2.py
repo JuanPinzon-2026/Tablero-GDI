@@ -192,11 +192,14 @@ def es_sin_stock(r):
     return any("sin stock" in (r.get(k, "")).lower() for k in ("com", "ops", "est"))
 
 def reemplazar_string(content, variable, value):
-    m = re.search(rf'(?<!\w){re.escape(variable)}\s*=\s*\'[^\']*\'', content)
+    # Busca tanto comilla doble como simple
+    m = re.search(rf'(?<!\w){re.escape(variable)}\s*=\s*"[^"]*"', content)
+    if not m:
+        m = re.search(rf'(?<!\w){re.escape(variable)}\s*=\s*\'[^\']*\'', content)
     if not m:
         print(f"  ERROR No se encontro '{variable}' en index_v2.html")
         return None
-    return content[:m.start()] + f"{variable}='{value}'" + content[m.end():]
+    return content[:m.start()] + f'{variable}="{value}"' + content[m.end():]
 
 def actualizar_html(records_main, records_ss, ixc_data):
     if not os.path.exists(DASHBOARD):
