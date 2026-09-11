@@ -185,3 +185,13 @@ C:\Users\jpinz390\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\open
 2026-09-11 09:44:02  INFO  ==================================================
 2026-09-11 09:44:02  INFO  Inicio de actualización automática
 2026-09-11 09:44:11  INFO  OK generar_dashboard.py — 32 líneas
+2026-09-11 09:44:14  INFO  WARN generar_dashboard_v2.py:
+Traceback (most recent call last):
+  File "C:\Users\jpinz390\OneDrive - Software Broker\Dashboard\generar_dashboard_v2.py", line 237, in <module>
+    records_main.extend(leer_excel(path))
+  File "C:\Users\jpinz390\OneDrive - Software Broker\Dashboard\generar_dashboard_v2.py", line 137, in leer_excel
+2026-09-11 09:44:28  INFO  OK push a GitHub Pages exitoso
+2026-09-11 09:44:28  INFO  Actualización completada
+2026-09-11 10:14:01  INFO  ==================================================
+2026-09-11 10:14:01  INFO  Inicio de actualización automática
+2026-09-11 10:14:07  INFO  OK generar_dashboard.py — 32 líneas
