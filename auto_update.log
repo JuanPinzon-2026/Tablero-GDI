@@ -348,3 +348,12 @@ C:\Users\jpinz390\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\open
 2026-09-12 07:04:44  INFO  ==================================================
 2026-09-12 07:04:44  INFO  Inicio de actualización automática
 2026-09-12 07:05:03  INFO  OK generar_dashboard.py — 32 líneas
+2026-09-12 07:05:12  INFO  WARN generar_dashboard_v2.py:
+C:\Users\jpinz390\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
+
+2026-09-12 08:43:08  INFO  OK push a GitHub Pages exitoso
+2026-09-12 08:43:08  INFO  Actualización completada
+2026-09-12 10:45:27  INFO  ==================================================
+2026-09-12 10:45:27  INFO  Inicio de actualización automática
+2026-09-12 10:46:12  INFO  OK generar_dashboard.py — 32 líneas
