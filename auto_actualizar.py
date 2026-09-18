@@ -29,10 +29,10 @@ def log(msg):
     except Exception:
         pass
 
-def run(cmd, **kwargs):
+def run(cmd, env=None, **kwargs):
     return subprocess.run(
         cmd, capture_output=True, text=True,
-        encoding="utf-8", errors="replace", cwd=BASE, **kwargs
+        encoding="utf-8", errors="replace", cwd=BASE, env=env, **kwargs
     )
 
 def main():
@@ -70,11 +70,20 @@ def main():
         log("Sin cambios nuevos — nada que subir")
         return
 
-    push = run(["git", "push", "origin", "main"])
+    # Push deshabilitando credential manager para evitar diálogos en segundo plano
+    git_env = os.environ.copy()
+    git_env["GIT_TERMINAL_PROMPT"] = "0"
+    git_env["GIT_ASKPASS"] = ""
+    push = run(
+        ["git", "-c", "credential.helper=", "push", "origin", "main"],
+        env=git_env
+    )
     if push.returncode == 0:
         log("OK push a GitHub Pages exitoso")
     else:
-        log(f"ERROR push:\n{push.stderr[:300]}")
+        import re as _re
+        err_safe = _re.sub(r'https://[^@]+@', 'https://***@', push.stderr[:400])
+        log(f"ERROR push:\n{err_safe}")
 
     log("Actualización completada")
 

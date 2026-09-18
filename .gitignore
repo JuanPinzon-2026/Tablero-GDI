@@ -19,3 +19,6 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Logs locales — pueden contener tokens en mensajes de error
+auto_update.log
