@@ -142,6 +142,15 @@ function renderAll() {
 
 /* ── Month selects (SinStock, Kronotime, MCI) ── */
 
+/* ── Mes presente o más reciente con datos ── */
+function getCurrentMes() {
+  var hoy  = new Date();
+  var mesHoy = hoy.getFullYear() + '-' + String(hoy.getMonth()+1).padStart(2,'0');
+  var meses  = getMonths(RECORDS); // ordenados desc
+  if (meses.indexOf(mesHoy) !== -1) return mesHoy;
+  return meses.length ? meses[0] : mesHoy; // fallback al más reciente
+}
+
 /* ── Month select helpers ── */
 function getMonths(recs) {
   const ms = [...new Set(recs.map(r => r.fecha.substring(0, 7)))].filter(Boolean).sort().reverse();
@@ -330,7 +339,6 @@ function renderOverview() {
   renderTendenciaDiaria();
   renderOverviewIssues();
   renderMarcaDia();
-  renderPaisChart();
 
   // Rellenar selects de mes y marca para Marca/Día
   buildMarcaMesSelects();
@@ -440,42 +448,70 @@ function onDatePickerChange(val) {
   renderEstadoDia(selectedDate);
 }
 
-/* ── Tendencia diaria (por fn — fecha notif JIRA) ── */
+/* ── Tendencia diaria (línea con valores en picos) ── */
 function renderTendenciaDiaria() {
+  var mesFilt = getCurrentMes();
   var byDay = {};
   RECORDS.forEach(function(r){
-    if (r.fn && /^\d{4}-\d{2}-\d{2}$/.test(r.fn)) byDay[r.fn] = (byDay[r.fn]||0)+1;
+    if (r.fecha && /^\d{4}-\d{2}-\d{2}$/.test(r.fecha) && r.fecha.startsWith(mesFilt)) {
+      byDay[r.fecha] = (byDay[r.fecha]||0)+1;
+    }
   });
   var dias = Object.keys(byDay).sort();
   var vals = dias.map(function(d){ return byDay[d]; });
-  var d = getChartDefaults();
+  var d    = getChartDefaults();
 
-  // Colores: día seleccionado en amarillo, resto en azul
-  var bgColors = dias.map(function(dia){
-    return (selectedDate && dia === selectedDate) ? '#f59e0b' : 'rgba(59,130,246,0.7)';
-  });
-  var borderColors = dias.map(function(dia){
+  // Registrar plugin datalabels si está disponible
+  if (window.ChartDataLabels) {
+    Chart.register(window.ChartDataLabels);
+  }
+
+  // Puntos: resaltar el día seleccionado
+  var pointColors = dias.map(function(dia){
     return (selectedDate && dia === selectedDate) ? '#f59e0b' : '#3b82f6';
   });
+  var pointRadii = dias.map(function(dia){
+    return (selectedDate && dia === selectedDate) ? 7 : 3;
+  });
 
-  var chart = makeChart('chartOverviewDia', {
-    type: 'bar',
+  makeChart('chartOverviewDia', {
+    type: 'line',
+    plugins: window.ChartDataLabels ? [window.ChartDataLabels] : [],
     data: {
       labels: dias.map(function(dia){ return dia.slice(8)+'/'+dia.slice(5,7); }),
       datasets: [{
         label: 'Órdenes',
         data: vals,
-        backgroundColor: bgColors,
-        borderColor: borderColors,
-        borderWidth: 1,
-        borderRadius: 3,
-        barThickness: Math.max(4, Math.min(16, Math.floor(800/Math.max(dias.length,1)))),
+        borderColor: '#3b82f6',
+        backgroundColor: 'rgba(59,130,246,0.07)',
+        fill: true,
+        tension: 0.35,
+        pointBackgroundColor: pointColors,
+        pointBorderColor: pointColors,
+        pointRadius: pointRadii,
+        pointHoverRadius: 7,
       }]
     },
     options: {
       responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { display: false },
-        tooltip: { callbacks: { title: function(items){ return dias[items[0].dataIndex]; } } }
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { title: function(items){ return dias[items[0].dataIndex]; } } },
+        datalabels: window.ChartDataLabels ? {
+          align: 'top',
+          anchor: 'end',
+          color: d.text,
+          font: { size: 9, weight: '600' },
+          formatter: function(v){ return v; },
+          // Solo mostrar el valor en los picos locales y el seleccionado
+          display: function(ctx){
+            var i = ctx.dataIndex, data = ctx.dataset.data;
+            if (selectedDate && dias[i] === selectedDate) return true;
+            var prev = i > 0 ? data[i-1] : 0;
+            var next = i < data.length-1 ? data[i+1] : 0;
+            return data[i] > prev && data[i] > next; // es un pico
+          }
+        } : false,
       },
       scales: {
         x: { ticks: { color: d.text, font: { size: 9 }, maxTicksLimit: 22 }, grid: { color: d.grid } },
@@ -483,23 +519,14 @@ function renderTendenciaDiaria() {
       },
       onClick: function(evt, elements) {
         if (elements && elements.length > 0) {
-          var idx  = elements[0].index;
-          var fecha = dias[idx];
-          if (selectedDate === fecha) {
-            // segundo click: deseleccionar
-            onDatePickerChange('');
-          } else {
-            onDatePickerChange(fecha);
-          }
+          var fecha = dias[elements[0].index];
+          onDatePickerChange(selectedDate === fecha ? '' : fecha);
         }
       },
-      onHover: function(evt) {
-        evt.native.target.style.cursor = 'pointer';
-      }
+      onHover: function(evt){ evt.native.target.style.cursor = 'pointer'; }
     }
   });
 
-  // Mostrar el día más reciente en el panel si no hay selección
   if (!selectedDate && dias.length > 0) {
     renderEstadoDia(dias[dias.length - 1]);
   } else {
@@ -521,7 +548,7 @@ function renderEstadoDia(fecha) {
     return;
   }
 
-  var recs = RECORDS.filter(function(r){ return r.fn === fecha; });
+  var recs = RECORDS.filter(function(r){ return r.fecha === fecha; });
   badge.textContent = fecha.slice(8) + '/' + fecha.slice(5,7) + '/' + fecha.slice(0,4);
   total.textContent = recs.length.toLocaleString('es-CO');
 
@@ -546,17 +573,16 @@ function renderEstadoDia(fecha) {
   }).join('');
 }
 
-/* ── Top 10 Issues (Comentario continuidad) ── */
+/* ── Top 10 Issues (Estado Caso) ── */
 function renderOverviewIssues() {
-  var from = document.getElementById('ov-date-from')?.value || '';
-  var to   = document.getElementById('ov-date-to')?.value   || '';
+  var selIssues = document.getElementById('sel-mes-issues');
+  var mes = selIssues ? selIssues.value : getCurrentMes();
+  if (!mes) mes = getCurrentMes();
 
-  var recs = RECORDS;
-  if (from) recs = recs.filter(function(r){ return r.fn >= from; });
-  if (to)   recs = recs.filter(function(r){ return r.fn <= to; });
+  var recs = RECORDS.filter(function(r){ return r.fecha && r.fecha.startsWith(mes); });
 
   var counts = {};
-  recs.forEach(function(r){ var k = r.com || 'Sin comentario'; counts[k]=(counts[k]||0)+1; });
+  recs.forEach(function(r){ var k = r.detalle || 'Sin estado'; counts[k]=(counts[k]||0)+1; });
   var top = topN(counts, 10);
 
   makeChart('chartIssues', horizontalBarConfig(
@@ -566,55 +592,83 @@ function renderOverviewIssues() {
   ));
 }
 
-function clearIssuesFilter() {
-  var f = document.getElementById('ov-date-from');
-  var t = document.getElementById('ov-date-to');
-  if (f) f.value = '';
-  if (t) t.value = '';
-  renderOverviewIssues();
-}
-
 /* ── Órdenes por Marca / Día ── */
 function buildMarcaMesSelects() {
-  var meses  = getMonths(RECORDS);
+  var anoActual = new Date().getFullYear().toString();
+  var meses  = getMonths(RECORDS).filter(function(m){ return m.startsWith(anoActual); });
   var marcas = [...new Set(RECORDS.map(function(r){ return r.marca; }).filter(Boolean))].sort();
+  var mesPres = getCurrentMes();
 
-  var selMes   = document.getElementById('sel-mes-overview');
+  // Select mes Marca/Día
+  var selMes = document.getElementById('sel-mes-overview');
+  if (selMes) {
+    var curMes = selMes.value || mesPres;
+    selMes.innerHTML = '';
+    meses.forEach(function(m){ var o=document.createElement('option'); o.value=m; o.textContent=fmtMonth(m); selMes.appendChild(o); });
+    selMes.value = (meses.indexOf(curMes) !== -1) ? curMes : (meses[0] || '');
+  }
+
+  // Select marca
   var selMarca = document.getElementById('sel-marca-overview');
-  if (!selMes || !selMarca) return;
+  if (selMarca) {
+    var curMarca = selMarca.value;
+    selMarca.innerHTML = '<option value="">Todas las marcas</option>';
+    marcas.forEach(function(m){ var o=document.createElement('option'); o.value=m; o.textContent=m; selMarca.appendChild(o); });
+    if (curMarca) selMarca.value = curMarca;
+  }
 
-  var curMes   = selMes.value;
-  var curMarca = selMarca.value;
-
-  selMes.innerHTML = '<option value="">Todos los meses</option>';
-  meses.forEach(function(m){ var o=document.createElement('option'); o.value=m; o.textContent=fmtMonth(m); selMes.appendChild(o); });
-  if (curMes) selMes.value = curMes;
-
-  selMarca.innerHTML = '<option value="">Todas las marcas</option>';
-  marcas.forEach(function(m){ var o=document.createElement('option'); o.value=m; o.textContent=m; selMarca.appendChild(o); });
-  if (curMarca) selMarca.value = curMarca;
+  // Select mes Issues
+  var selIssues = document.getElementById('sel-mes-issues');
+  if (selIssues) {
+    var curIssues = selIssues.value || mesPres;
+    selIssues.innerHTML = '';
+    meses.forEach(function(m){ var o=document.createElement('option'); o.value=m; o.textContent=fmtMonth(m); selIssues.appendChild(o); });
+    selIssues.value = (meses.indexOf(curIssues) !== -1) ? curIssues : (meses[0] || '');
+  }
 }
 
 function renderMarcaDia() {
-  var mes   = document.getElementById('sel-mes-overview')?.value  || '';
-  var marca = document.getElementById('sel-marca-overview')?.value || '';
+  var mes   = (document.getElementById('sel-mes-overview')?.value  || '').trim();
+  var marca = (document.getElementById('sel-marca-overview')?.value || '').trim();
 
   var recs = RECORDS;
-  if (mes)   recs = recs.filter(function(r){ return r.fecha && r.fecha.startsWith(mes); });
   if (marca) recs = recs.filter(function(r){ return r.marca === marca; });
 
-  // Agrupar por día
+  // Si hay mes seleccionado → mostrar todos los días del mes (día 1 al último)
+  // Si no hay mes → usar solo el mes más reciente disponible
+  var mesFinal = mes;
+  if (!mesFinal) {
+    var meses = getMonths(RECORDS);
+    mesFinal  = meses.length ? meses[0] : ''; // getMonths retorna desc, [0] = más reciente
+  }
+
+  // Generar todos los días del mes
+  var dias = [];
+  if (mesFinal) {
+    var year = parseInt(mesFinal.slice(0,4), 10);
+    var month= parseInt(mesFinal.slice(5,7), 10);
+    var lastDay = new Date(year, month, 0).getDate(); // día 0 del mes siguiente = último del mes
+    for (var d = 1; d <= lastDay; d++) {
+      dias.push(mesFinal + '-' + String(d).padStart(2,'0'));
+    }
+  }
+
+  // Contar por día (solo registros del mes)
   var byDay = {};
   recs.forEach(function(r){
-    if (r.fecha && /^\d{4}-\d{2}-\d{2}$/.test(r.fecha)) byDay[r.fecha]=(byDay[r.fecha]||0)+1;
+    if (r.fecha && /^\d{4}-\d{2}-\d{2}$/.test(r.fecha) && r.fecha.startsWith(mesFinal)) {
+      byDay[r.fecha] = (byDay[r.fecha]||0)+1;
+    }
   });
-  var dias = Object.keys(byDay).sort();
-  var vals = dias.map(function(d){ return byDay[d]; });
-  var d = getChartDefaults();
 
+  var vals = dias.map(function(dia){ return byDay[dia] || 0; });
+  var labels = dias.map(function(dia){ return dia.slice(8); }); // solo el número de día
+
+  var d = getChartDefaults();
   makeChart('chartMarcaDia', barConfig(
-    dias.map(function(d){ return d.slice(8)+'/'+d.slice(5,7); }),
-    [{ label: marca || 'Todas las marcas', data: vals, backgroundColor: '#3b82f6', borderRadius: 4, barThickness: 10 }]
+    labels,
+    [{ label: (marca || 'Todas las marcas') + ' — ' + fmtMonth(mesFinal),
+       data: vals, backgroundColor: '#3b82f6', borderRadius: 4, barThickness: 14 }]
   ));
 }
 
