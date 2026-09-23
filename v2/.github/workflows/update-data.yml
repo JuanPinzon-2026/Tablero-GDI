@@ -1,0 +1,48 @@
+name: Update Dashboard Data
+
+on:
+  schedule:
+    # Corre cada hora, lunes a viernes, entre 7am y 8pm (UTC-5 = COT)
+    # Aquí usamos UTC: 12:00 a 01:00 UTC = 07:00 a 20:00 COT
+    - cron: '0 12-23,0 * * 1-5'
+    - cron: '0 0-1 * * 2-6'
+  workflow_dispatch:   # Permite correrlo manualmente desde GitHub
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # Para hacer commit del data.json actualizado
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests openpyxl
+
+      - name: Generate data.json from SharePoint
+        env:
+          AZURE_TENANT_ID:     ${{ secrets.AZURE_TENANT_ID }}
+          AZURE_CLIENT_ID:     ${{ secrets.AZURE_CLIENT_ID }}
+          AZURE_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
+          SHAREPOINT_SITE_ID:  ${{ secrets.SHAREPOINT_SITE_ID }}
+          DRIVE_ID:            ${{ secrets.DRIVE_ID }}
+          FILE_INCIDENCIAS:    ${{ secrets.FILE_INCIDENCIAS }}
+          FILE_INGRESADAS:     ${{ secrets.FILE_INGRESADAS }}
+        run: python scripts/generate_data.py
+
+      - name: Commit & push data.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/data.json
+          git diff --staged --quiet || git commit -m "chore: auto-update data.json [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

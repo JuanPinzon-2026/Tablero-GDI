@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>GDI Dashboard · IX Comercio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════
+     SIDEBAR
+══════════════════════════════════════════════ -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-logo">
+    <div class="logo-mark">GDI</div>
+    <div class="logo-text">
+      <span class="logo-title">Tablero GDI</span>
+      <span class="logo-sub">IX Comercio</span>
+    </div>
+  </div>
+
+  <nav class="sidebar-nav">
+    <div class="nav-section-label">Principal</div>
+    <a class="nav-item active" data-tab="overview" onclick="switchTab('overview',this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg>
+      <span>Resumen General</span>
+    </a>
+    <a class="nav-item" data-tab="sinstock" onclick="switchTab('sinstock',this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2Z"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+      <span>Sin Stock</span>
+      <span class="nav-badge" id="badge-sinstock">0</span>
+    </a>
+    <a class="nav-item" data-tab="kronotime" onclick="switchTab('kronotime',this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      <span>Kronotime</span>
+      <span class="nav-badge nav-badge--amber" id="badge-kronotime">0</span>
+    </a>
+    <a class="nav-item" data-tab="mci" onclick="switchTab('mci',this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+      <span>MCI</span>
+    </a>
+    <a class="nav-item" data-tab="jiras" onclick="switchTab('jiras',this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+      <span>Jiras</span>
+    </a>
+    <div class="nav-section-label" style="margin-top:20px">Operaciones</div>
+    <a class="nav-item" data-tab="horarios" onclick="switchTab('horarios',this)">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      <span>Horarios JBL</span>
+    </a>
+  </nav>
+
+  <div class="sidebar-footer">
+    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="Cambiar tema">
+      <svg id="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      <svg id="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <span id="theme-label">Modo claro</span>
+    </button>
+    <div class="sidebar-update" id="lastUpdate">Actualizando...</div>
+  </div>
+</aside>
+
+<!-- ══════════════════════════════════════════════
+     MAIN CONTENT
+══════════════════════════════════════════════ -->
+<main class="main-content">
+
+  <!-- TOPBAR -->
+  <header class="topbar">
+    <button class="sidebar-toggle" onclick="toggleSidebar()" title="Menú">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <div class="topbar-title" id="pageTitle">Resumen General</div>
+    <div class="topbar-right">
+      <div class="live-clock" id="liveClock">--:--:--</div>
+      <div class="topbar-date" id="liveDate"></div>
+    </div>
+  </header>
+
+  <!-- LOADING -->
+  <div id="loadingScreen" class="loading-screen">
+    <div class="loading-spinner"></div>
+    <p>Cargando datos...</p>
+  </div>
+
+  <!-- ERROR -->
+  <div id="errorScreen" class="error-screen" style="display:none">
+    <div class="error-icon">⚠️</div>
+    <h3>Error al cargar datos</h3>
+    <p id="errorMsg">No se pudo leer data.json</p>
+    <button onclick="loadData()">Reintentar</button>
+  </div>
+
+  <!-- ── TAB: OVERVIEW ── -->
+  <section class="tab-content active" id="tab-overview">
+    <div class="page-header">
+      <h1>Resumen General</h1>
+      <p class="page-sub" id="sub-overview">Vista consolidada de órdenes incidentadas</p>
+    </div>
+
+    <!-- KPI ROW -->
+    <div class="kpi-grid" id="kpi-overview">
+      <div class="kpi-card kpi-blue">
+        <div class="kpi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/></svg></div>
+        <div class="kpi-body">
+          <div class="kpi-value" id="kpi-total-orders">—</div>
+          <div class="kpi-label">Total Órdenes</div>
+        </div>
+        <div class="kpi-trend" id="kpi-trend-orders"></div>
+      </div>
+      <div class="kpi-card kpi-red">
+        <div class="kpi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg></div>
+        <div class="kpi-body">
+          <div class="kpi-value" id="kpi-sinstock">—</div>
+          <div class="kpi-label">Sin Stock</div>
+        </div>
+      </div>
+      <div class="kpi-card kpi-amber">
+        <div class="kpi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+        <div class="kpi-body">
+          <div class="kpi-value" id="kpi-kronotime">—</div>
+          <div class="kpi-label">Kronotime Activos</div>
+        </div>
+      </div>
+      <div class="kpi-card kpi-green">
+        <div class="kpi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div class="kpi-body">
+          <div class="kpi-value" id="kpi-liberadas">—</div>
+          <div class="kpi-label">Liberadas</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CHARTS ROW -->
+    <div class="charts-grid">
+      <div class="chart-card chart-wide">
+        <div class="chart-header">
+          <div>
+            <div class="chart-title">Órdenes por Día</div>
+            <div class="chart-sub" id="chart-sub-month"></div>
+          </div>
+          <select class="chart-select" id="sel-mes-overview" onchange="renderOverviewChart()"></select>
+        </div>
+        <div class="chart-wrap" style="height:260px"><canvas id="chartOverviewDia"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-header"><div class="chart-title">Top Issues</div></div>
+        <div class="chart-wrap" style="height:260px"><canvas id="chartIssues"></canvas></div>
+      </div>
+    </div>
+
+    <!-- BOTTOM ROW -->
+    <div class="charts-grid">
+      <div class="chart-card">
+        <div class="chart-header"><div class="chart-title">Por País</div></div>
+        <div class="chart-wrap" style="height:220px"><canvas id="chartPais"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-header"><div class="chart-title">Por Proveedor</div></div>
+        <div class="chart-wrap" style="height:220px"><canvas id="chartProv"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-header"><div class="chart-title">Por Estado</div></div>
+        <div class="chart-wrap" style="height:220px"><canvas id="chartEstado"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TAB: SIN STOCK ── -->
+  <section class="tab-content" id="tab-sinstock">
+    <div class="page-header">
+      <h1>Sin Stock</h1>
+      <p class="page-sub">Órdenes incidentadas por falta de inventario</p>
+    </div>
+
+    <div class="filter-bar">
+      <select class="chart-select" id="ss-mes" onchange="renderSinStock()"></select>
+      <select class="chart-select" id="ss-pais" onchange="renderSinStock()">
+        <option value="">Todos los países</option>
+      </select>
+      <select class="chart-select" id="ss-marca" onchange="renderSinStock()">
+        <option value="">Todas las marcas</option>
+      </select>
+      <div class="filter-count"><span id="ss-count">0</span> órdenes</div>
+    </div>
+
+    <div class="kpi-grid kpi-grid--sm">
+      <div class="kpi-card kpi-red">
+        <div class="kpi-body"><div class="kpi-value" id="ss-kpi-total">—</div><div class="kpi-label">Sin Stock mes</div></div>
+      </div>
+      <div class="kpi-card kpi-blue">
+        <div class="kpi-body"><div class="kpi-value" id="ss-kpi-marcas">—</div><div class="kpi-label">Marcas afectadas</div></div>
+      </div>
+      <div class="kpi-card kpi-purple">
+        <div class="kpi-body"><div class="kpi-value" id="ss-kpi-paises">—</div><div class="kpi-label">Países</div></div>
+      </div>
+    </div>
+
+    <div class="charts-grid">
+      <div class="chart-card chart-wide">
+        <div class="chart-header"><div class="chart-title">Sin Stock por día</div></div>
+        <div class="chart-wrap" style="height:240px"><canvas id="chartSSDia"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-header"><div class="chart-title">Por Marca (Top 10)</div></div>
+        <div class="chart-wrap" style="height:240px"><canvas id="chartSSMarca"></canvas></div>
+      </div>
+    </div>
+
+    <div class="table-card">
+      <div class="table-header">
+        <div class="chart-title">Detalle de órdenes</div>
+        <input class="search-input" id="ss-search" placeholder="Buscar..." oninput="filterSSTable()" />
+      </div>
+      <div class="table-wrap">
+        <table class="data-table" id="ss-table">
+          <thead><tr><th>Fecha</th><th>Marca</th><th>País</th><th>Estado</th><th>Orden Venta</th></tr></thead>
+          <tbody id="ss-tbody"></tbody>
+        </table>
+      </div>
+      <div class="table-footer" id="ss-pagination"></div>
+    </div>
+  </section>
+
+  <!-- ── TAB: KRONOTIME ── -->
+  <section class="tab-content" id="tab-kronotime">
+    <div class="page-header">
+      <h1>Kronotime</h1>
+      <p class="page-sub">Escalados pendientes con proveedor Kronotime</p>
+    </div>
+
+    <div class="filter-bar">
+      <select class="chart-select" id="kr-mes" onchange="renderKrono()"></select>
+      <div class="filter-count"><span id="kr-count">0</span> escalados</div>
+    </div>
+
+    <div class="kpi-grid kpi-grid--sm">
+      <div class="kpi-card kpi-purple">
+        <div class="kpi-body"><div class="kpi-value" id="kr-kpi-total">—</div><div class="kpi-label">Escalados totales</div></div>
+      </div>
+      <div class="kpi-card kpi-amber">
+        <div class="kpi-body"><div class="kpi-value" id="kr-kpi-activos">—</div><div class="kpi-label">Activos (sin resolver)</div></div>
+      </div>
+      <div class="kpi-card kpi-green">
+        <div class="kpi-body"><div class="kpi-value" id="kr-kpi-resueltos">—</div><div class="kpi-label">Resueltos</div></div>
+      </div>
+    </div>
+
+    <div class="charts-grid">
+      <div class="chart-card chart-wide">
+        <div class="chart-header"><div class="chart-title">Escalados por día</div></div>
+        <div class="chart-wrap" style="height:240px"><canvas id="chartKronoDia"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-header"><div class="chart-title">Por Estado</div></div>
+        <div class="chart-wrap" style="height:240px"><canvas id="chartKronoEst"></canvas></div>
+      </div>
+    </div>
+
+    <div class="table-card">
+      <div class="table-header"><div class="chart-title">Consolidado Jiras Kronotime</div></div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th>Ticket</th><th>Marca / País</th><th>Fecha Orden</th><th>Días</th><th>Estado</th></tr></thead>
+          <tbody id="kr-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TAB: MCI ── -->
+  <section class="tab-content" id="tab-mci">
+    <div class="page-header">
+      <h1>MCI</h1>
+      <p class="page-sub">Métricas de Continuidad del Incidente</p>
+    </div>
+    <div class="filter-bar">
+      <select class="chart-select" id="mci-mes" onchange="renderMCI()"></select>
+    </div>
+    <div class="kpi-grid kpi-grid--sm">
+      <div class="kpi-card kpi-blue">
+        <div class="kpi-body"><div class="kpi-value" id="mci-kpi-ing">—</div><div class="kpi-label">ORs Ingresadas</div></div>
+      </div>
+      <div class="kpi-card kpi-red">
+        <div class="kpi-body"><div class="kpi-value" id="mci-kpi-inc">—</div><div class="kpi-label">ORs Incidentadas</div></div>
+      </div>
+      <div class="kpi-card kpi-green">
+        <div class="kpi-body"><div class="kpi-value" id="mci-kpi-pct">—</div><div class="kpi-label">MCI %</div></div>
+      </div>
+    </div>
+    <div class="charts-grid">
+      <div class="chart-card chart-full">
+        <div class="chart-header"><div class="chart-title">Ingresadas vs Incidentadas por día</div></div>
+        <div class="chart-wrap" style="height:280px"><canvas id="chartMCI"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TAB: JIRAS ── -->
+  <section class="tab-content" id="tab-jiras">
+    <div class="page-header">
+      <h1>Gestión de Jiras</h1>
+      <p class="page-sub">Seguimiento de tickets activos</p>
+    </div>
+    <div class="filter-bar">
+      <input class="search-input" id="jira-search" placeholder="Buscar ticket, marca, estado..." oninput="renderJiras()" />
+      <select class="chart-select" id="jira-estado" onchange="renderJiras()">
+        <option value="">Todos los estados</option>
+      </select>
+    </div>
+    <div class="table-card">
+      <div class="table-header">
+        <div class="chart-title">Tickets activos <span id="jira-count" class="count-badge">0</span></div>
+      </div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th>Ticket</th><th>Marca / País</th><th>Fecha</th><th>Días abierto</th><th>Estado</th><th>Pendiente</th></tr></thead>
+          <tbody id="jira-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TAB: HORARIOS JBL ── -->
+  <section class="tab-content" id="tab-horarios">
+    <div class="page-header">
+      <h1>Horarios JBL</h1>
+      <p class="page-sub">Consultor de visibilidad de precios y stock por país</p>
+    </div>
+
+    <div class="horarios-grid">
+      <div class="horarios-card" id="horarios-table-card">
+        <div class="chart-title" style="margin-bottom:16px">Pipeline de actualización</div>
+        <table class="data-table horarios-tbl">
+          <thead><tr><th>País</th><th>Precio front</th><th>Stock front</th><th>Estado</th></tr></thead>
+          <tbody id="horarios-tbody">
+            <tr><td>Colombia</td><td>10:04</td><td>Cada 15 min</td><td><span class="badge badge-green">Activo</span></td></tr>
+            <tr><td>Chile</td><td>10:04</td><td>Cada 15 min</td><td><span class="badge badge-green">Activo</span></td></tr>
+            <tr><td>México</td><td>10:04</td><td>Cada 15 min</td><td><span class="badge badge-green">Activo</span></td></tr>
+            <tr><td>Perú</td><td>10:04</td><td>Cada 15 min</td><td><span class="badge badge-green">Activo</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="horarios-chat-card">
+        <div class="chart-title" style="margin-bottom:4px">🤖 Consultor IA</div>
+        <div class="chat-sub">Consulta horarios de precios y stock por país</div>
+        <div class="chat-history" id="jbl-history">
+          <div class="chat-msg chat-msg--bot">👋 Hola, soy el consultor de horarios JBL.<br>Pregúntame sobre <strong>precios</strong> o <strong>stock</strong> por país.</div>
+        </div>
+        <div class="chat-input-row">
+          <input class="chat-input" id="jbl-input" placeholder="Ej: ¿A qué hora se actualiza el precio en Colombia?" onkeydown="if(event.key==='Enter') jblSend()" />
+          <button class="chat-send-btn" onclick="jblSend()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ══════════════════════════════════════════════
+     CHART.JS
+══════════════════════════════════════════════ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
