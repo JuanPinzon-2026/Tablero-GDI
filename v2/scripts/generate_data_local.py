@@ -90,9 +90,9 @@ def read_incidencias():
         marca_pais= clean(rec.get('Marca PAIS'))
         pais      = extract_pais(marca_pais, marca)
         fecha     = fmt_date(rec.get('fecha de orden'))
-        com       = clean(rec.get('Comentario continuidad'))
+        # estado Y com = 'Comentario continuidad'
+        com_cont  = clean(rec.get('Comentario continuidad'))
         ops       = clean(rec.get('Duplicado'))
-        estado    = clean(rec.get('Estado Caso'))
         ov        = clean(rec.get('VENTA'))
         ticket    = clean(rec.get('Ticket'))
         pendiente = clean(rec.get('Pendiente por:'))
@@ -104,16 +104,19 @@ def read_incidencias():
 
         records.append({
             'fecha':     fecha,
+            'fn':        fmt_date(rec.get('Fecha de notificacion JIRA')),  # fecha notif JIRA
             'marca':     marca,
             'pais':      pais,
-            'estado':    estado,
-            'com':       com,
-            'ops':       ops,
+            'estado':    com_cont,   # Comentario continuidad
+            'com':       com_cont,   # mismo — para filtros isSinStock / isKrono
+            'ops':       ops,        # Duplicado / Acción OPS (para isEnRevIT)
+            'pen':       clean(rec.get('Pendiente por:')),  # Pendiente por
             'ov':        ov,
             'ticket':    ticket,
             'pendiente': pendiente,
             'proveedor': proveedor,
             'canal':     canal,
+            'detalle':   clean(rec.get('Estado Caso')),
         })
 
     wb.close()
@@ -191,16 +194,25 @@ def main():
     }
 
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+
+    # Escribir data.json (para servidor HTTP / Azure)
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
+    # Escribir data.js (para abrir index.html directamente sin servidor)
+    js_path = OUTPUT_PATH.replace('.json', '.js')
+    with open(js_path, 'w', encoding='utf-8') as f:
+        f.write('// Generado automáticamente — no editar\n')
+        f.write('window.DASHBOARD_DATA = ')
+        json.dump(data, f, ensure_ascii=False)
+        f.write(';\n')
+
     size_kb = os.path.getsize(OUTPUT_PATH) / 1024
-    print(f'\n✓ data.json generado:')
-    print(f'  • {len(incidencias)} incidencias')
-    print(f'  • {len(ingresadas)} ingresadas')
-    print(f'  • {size_kb:.1f} KB')
-    print(f'  • {OUTPUT_PATH}')
-    print('\nAbre src/index.html en el navegador para ver el dashboard.')
+    print(f'\n✓ Archivos generados:')
+    print(f'  • {len(incidencias)} incidencias | {len(ingresadas)} ingresadas')
+    print(f'  • data.json  → {size_kb:.1f} KB')
+    print(f'  • data.js    → {os.path.getsize(js_path)/1024:.1f} KB')
+    print(f'\nAbre src/index.html directamente en el navegador.')
 
 if __name__ == '__main__':
     main()

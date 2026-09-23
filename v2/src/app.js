@@ -38,11 +38,22 @@ function startClock() {
 }
 
 async function loadData() {
-  const loadEl  = document.getElementById('loadingScreen');
-  const errEl   = document.getElementById('errorScreen');
+  const loadEl = document.getElementById('loadingScreen');
+  const errEl  = document.getElementById('errorScreen');
   loadEl.style.display = 'flex';
   errEl.style.display  = 'none';
 
+  // 1. Si generate_data_local.py generó data.js, usarlo directamente (funciona con file://)
+  if (window.DASHBOARD_DATA) {
+    DATA = window.DASHBOARD_DATA;
+    processData();
+    loadEl.style.display = 'none';
+    renderAll();
+    updateLastUpdate();
+    return;
+  }
+
+  // 2. Intentar fetch (funciona en servidor HTTP / Azure)
   try {
     const resp = await fetch('../data/data.json?_=' + Date.now());
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
@@ -52,16 +63,12 @@ async function loadData() {
     renderAll();
     updateLastUpdate();
   } catch (e) {
-    console.error('[loadData]', e);
+    console.warn('[loadData] No se pudo cargar data.json — usando datos demo:', e.message);
     loadEl.style.display = 'none';
-    errEl.style.display  = 'flex';
-    document.getElementById('errorMsg').textContent = e.message;
-    // For local dev: generate demo data
     DATA = buildDemoData();
     processData();
     renderAll();
     updateLastUpdate();
-    errEl.style.display = 'none';
   }
 }
 
@@ -92,14 +99,22 @@ function processData() {
 }
 
 function normalize(r) {
+  function s(v) { return (v || '').toString().trim(); }
   return {
-    fecha:    (r.fecha || r.Fecha || '').toString().trim(),
-    marca:    (r.marca || r.Marca || '').toString().trim(),
-    pais:     (r.pais  || r.País  || r.Pais || '').toString().trim(),
-    estado:   (r.estado || r.Estado || '').toString().trim(),
-    ops:      (r.ops   || r.Ops   || r.operador || '').toString().trim(),
-    com:      (r.com   || r.Com   || r.comentario || '').toString().trim(),
-    ov:       (r.ov    || r.OV    || '').toString().trim(),
+    fecha:    s(r.fecha),
+    fn:       s(r.fn),          // fecha notificacion JIRA
+    marca:    s(r.marca),
+    pais:     s(r.pais),
+    estado:   s(r.estado),      // Comentario continuidad
+    com:      s(r.com),         // Comentario continuidad (filtros)
+    ops:      s(r.ops),         // Duplicado / Acción OPS
+    pen:      s(r.pen),         // Pendiente por
+    ov:       s(r.ov),
+    ticket:   s(r.ticket),
+    pendiente:s(r.pendiente || r.pen),
+    proveedor:s(r.proveedor),
+    canal:    s(r.canal),
+    detalle:  s(r.detalle),
   };
 }
 
@@ -125,6 +140,8 @@ function renderAll() {
   renderJiras();
 }
 
+/* ── Month selects (SinStock, Kronotime, MCI) ── */
+
 /* ── Month select helpers ── */
 function getMonths(recs) {
   const ms = [...new Set(recs.map(r => r.fecha.substring(0, 7)))].filter(Boolean).sort().reverse();
@@ -137,7 +154,6 @@ function buildMonthSelects() {
   const msKR = getMonths(RECORDS_KR);
   const msI  = getMonths(RECORDS_MCI_ING.map(r => ({ fecha: r.fecha || '' })));
 
-  fillSelect('sel-mes-overview', ms);
   fillSelect('ss-mes', msSS.length ? msSS : ms);
   fillSelect('kr-mes', msKR.length ? msKR : ms);
   fillSelect('mci-mes', msI.length ? msI : ms);
@@ -273,80 +289,340 @@ function filterByMonth(arr, mes) {
 }
 
 /* ══════════════════════════════════
+   isEnRevIT — equivalente a v1
+══════════════════════════════════ */
+function isEnRevIT(r) {
+  var s = norm(r.ops || '').replace(/[\s\-]/g, '');
+  return s === 'enrevisioncoit' || s.includes('enrevisioncoit');
+}
+
+/* ══════════════════════════════════
    OVERVIEW TAB
 ══════════════════════════════════ */
 function renderOverview() {
-  const total   = RECORDS.length;
-  const ss      = RECORDS_SS.length;
-  const kr      = RECORDS_KR.length;
-  const lib     = RECORDS.filter(function (r) { return norm(r.estado).includes('liberada') || norm(r.estado).includes('cerrada'); }).length;
+  var enRevRecs = RECORDS.filter(isEnRevIT);
+  var total     = enRevRecs.length;
 
+  var penCount = {};
+  enRevRecs.forEach(function(r){ var p = r.pen || ''; penCount[p] = (penCount[p]||0)+1; });
+  var sol  = penCount['Operaciones Solucionado'] || 0;
+  var cont = penCount['Continuidad'] || 0;
+  var rev  = penCount['Operaciones Revision/Configuracion'] || 0;
+
+  // KPIs
   setKPI('kpi-total-orders', total);
-  setKPI('kpi-sinstock', ss);
-  setKPI('kpi-kronotime', kr);
-  setKPI('kpi-liberadas', lib);
-  renderOverviewChart();
-  renderIssuesChart();
+  setKPI('kpi-liberadas',    sol);
+  setKPI('kpi-kronotime',    cont);
+  setKPI('kpi-sinstock',     rev);
+
+  function pct(v) { return total ? ' (' + (v/total*100).toFixed(1) + '%)' : ''; }
+  setKPITrend('kpi-pct-sol',  pct(sol));
+  setKPITrend('kpi-pct-cont', pct(cont));
+  setKPITrend('kpi-pct-rev',  pct(rev));
+
+  // Barra progreso
+  renderProgBar(total, sol, cont, rev);
+
+  // Tabla dependencias
+  renderDependenciasTable(enRevRecs);
+
+  // Gráficas
+  renderTendenciaDiaria();
+  renderOverviewIssues();
+  renderMarcaDia();
   renderPaisChart();
-  renderProvChart();
-  renderEstadoChart();
+
+  // Rellenar selects de mes y marca para Marca/Día
+  buildMarcaMesSelects();
 }
 
 function setKPI(id, val) {
-  const el = document.getElementById(id);
+  var el = document.getElementById(id);
   if (el) el.textContent = typeof val === 'number' ? val.toLocaleString('es-CO') : val;
 }
-
-function renderOverviewChart() {
-  const mes = document.getElementById('sel-mes-overview')?.value;
-  const sub = document.getElementById('chart-sub-month');
-  if (sub && mes) sub.textContent = fmtMonth(mes);
-
-  const recs = filterByMonth(RECORDS, mes);
-  const byDay = countByDay(recs);
-  const labels = Object.keys(byDay).sort();
-  const values = labels.map(function (l) { return byDay[l]; });
-
-  makeChart('chartOverviewDia', barConfig(
-    labels.map(function (l) { return l.substring(8); }),
-    [{ label: 'Órdenes', data: values, backgroundColor: '#3b82f6', borderRadius: 5, barThickness: 12 }]
-  ));
+function setKPITrend(id, txt) {
+  var el = document.getElementById(id);
+  if (el) el.textContent = txt;
 }
 
-function renderIssuesChart() {
-  const cats = { 'Sin Stock': RECORDS_SS.length, 'Kronotime': RECORDS_KR.length };
-  RECORDS.forEach(function (r) {
-    const c = norm(r.com);
-    if (!isSinStock(r) && !isKrono(r)) {
-      const k = r.com || 'Otro';
-      cats[k] = (cats[k] || 0) + 1;
+/* ── Barra de progreso ── */
+function renderProgBar(total, sol, cont, rev) {
+  function setWidth(id, v) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    var p = total ? (v/total*100).toFixed(1) : 0;
+    el.style.width = p + '%';
+    el.textContent = (v > 0 && parseFloat(p) > 5) ? v : '';
+  }
+  setWidth('ov-ps-sol',  sol);
+  setWidth('ov-ps-cont', cont);
+  setWidth('ov-ps-rev',  rev);
+
+  function lbl(id, label, v) {
+    var el = document.getElementById(id);
+    if (el) el.textContent = label + ' (' + v.toLocaleString('es-CO') + ')';
+  }
+  lbl('ov-lbl-sol',  'Operaciones Solucionado', sol);
+  lbl('ov-lbl-cont', 'Continuidad',             cont);
+  lbl('ov-lbl-rev',  'Op. Rev./Config.',         rev);
+}
+
+/* ── Tabla Dependencias — Últimos 15 días ── */
+function renderDependenciasTable(enRevRecs) {
+  // Filter: isEnRevIT && pen === 'Continuidad'
+  var recsNotif = enRevRecs.filter(function(r){ return r.pen === 'Continuidad' && r.fn; });
+
+  // Fechas de notificación únicas, ordenadas
+  var dateRe = /^\d{4}-\d{2}-\d{2}$/;
+  var allFn  = [...new Set(recsNotif.map(function(r){ return r.fn; }).filter(function(f){ return dateRe.test(f); }))].sort();
+  var ult15  = allFn.slice(-15);
+
+  if (ult15.length > 0) {
+    var rng = document.getElementById('ov-tabla-rango');
+    if (rng) rng.textContent = ' — ' + ult15[0].slice(5).replace('-','/') + ' al ' + ult15[ult15.length-1].slice(5).replace('-','/');
+  }
+
+  // Agrupar por com → fn → count
+  var tblData  = {};
+  var histData = {};
+  recsNotif.forEach(function(r) {
+    if (!r.com) return;
+    if (!tblData[r.com])  tblData[r.com]  = {};
+    tblData[r.com][r.fn] = (tblData[r.com][r.fn] || 0) + 1;
+    histData[r.com]       = (histData[r.com] || 0) + 1;
+  });
+
+  // Comentarios ordenados por total histórico
+  var coms = Object.keys(tblData).sort(function(a,b){ return (histData[b]||0)-(histData[a]||0); });
+
+  // Thead
+  var thead = document.getElementById('ov-tblHead');
+  if (!thead) return;
+  var thHtml = '<tr><th style="min-width:180px;text-align:left">Comentario continuidad</th>';
+  ult15.forEach(function(f){ thHtml += '<th style="text-align:center">' + f.slice(5).replace('-','/') + '</th>'; });
+  thHtml += '<th class="dep-tot15" style="text-align:center">Tot 15d</th><th class="dep-toth" style="text-align:center">Tot Hist.</th></tr>';
+  thead.innerHTML = thHtml;
+
+  // Tbody — resaltar máximo de cada fila en rojo
+  var tbody = document.getElementById('ov-tblBody');
+  if (!tbody) return;
+  var bodyHtml = '';
+  coms.forEach(function(com) {
+    var rowVals = ult15.map(function(f){ return tblData[com][f] || 0; });
+    var tot15   = rowVals.reduce(function(a,b){ return a+b; }, 0);
+    var maxVal  = Math.max.apply(null, rowVals.filter(function(v){ return v > 0; })) || 0;
+
+    bodyHtml += '<tr><td style="max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="' + com + '">' + com + '</td>';
+    rowVals.forEach(function(v) {
+      if (v === 0)       bodyHtml += '<td class="dep-zero" style="text-align:center">·</td>';
+      else if (v===maxVal && maxVal>1) bodyHtml += '<td class="dep-max"  style="text-align:center">' + v + '</td>';
+      else               bodyHtml += '<td class="dep-val"  style="text-align:center">' + v + '</td>';
+    });
+    bodyHtml += '<td class="dep-tot15" style="text-align:center">' + tot15 + '</td>';
+    bodyHtml += '<td class="dep-toth"  style="text-align:center">' + (histData[com]||0) + '</td>';
+    bodyHtml += '</tr>';
+  });
+  tbody.innerHTML = bodyHtml || '<tr><td colspan="20" style="text-align:center;color:var(--text-muted);padding:20px">Sin registros de Continuidad</td></tr>';
+}
+
+/* ── Estado global de fecha seleccionada ── */
+var selectedDate = '';
+
+function onDatePickerChange(val) {
+  var picker = document.getElementById('ov-date-picker');
+  if (typeof val === 'string') {
+    selectedDate = val;
+    if (picker) picker.value = val;
+  } else {
+    selectedDate = picker ? picker.value : '';
+  }
+  renderTendenciaDiaria();
+  renderEstadoDia(selectedDate);
+}
+
+/* ── Tendencia diaria (por fn — fecha notif JIRA) ── */
+function renderTendenciaDiaria() {
+  var byDay = {};
+  RECORDS.forEach(function(r){
+    if (r.fn && /^\d{4}-\d{2}-\d{2}$/.test(r.fn)) byDay[r.fn] = (byDay[r.fn]||0)+1;
+  });
+  var dias = Object.keys(byDay).sort();
+  var vals = dias.map(function(d){ return byDay[d]; });
+  var d = getChartDefaults();
+
+  // Colores: día seleccionado en amarillo, resto en azul
+  var bgColors = dias.map(function(dia){
+    return (selectedDate && dia === selectedDate) ? '#f59e0b' : 'rgba(59,130,246,0.7)';
+  });
+  var borderColors = dias.map(function(dia){
+    return (selectedDate && dia === selectedDate) ? '#f59e0b' : '#3b82f6';
+  });
+
+  var chart = makeChart('chartOverviewDia', {
+    type: 'bar',
+    data: {
+      labels: dias.map(function(dia){ return dia.slice(8)+'/'+dia.slice(5,7); }),
+      datasets: [{
+        label: 'Órdenes',
+        data: vals,
+        backgroundColor: bgColors,
+        borderColor: borderColors,
+        borderWidth: 1,
+        borderRadius: 3,
+        barThickness: Math.max(4, Math.min(16, Math.floor(800/Math.max(dias.length,1)))),
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false },
+        tooltip: { callbacks: { title: function(items){ return dias[items[0].dataIndex]; } } }
+      },
+      scales: {
+        x: { ticks: { color: d.text, font: { size: 9 }, maxTicksLimit: 22 }, grid: { color: d.grid } },
+        y: { ticks: { color: d.text, font: { size: 10 } }, grid: { color: d.grid }, beginAtZero: true },
+      },
+      onClick: function(evt, elements) {
+        if (elements && elements.length > 0) {
+          var idx  = elements[0].index;
+          var fecha = dias[idx];
+          if (selectedDate === fecha) {
+            // segundo click: deseleccionar
+            onDatePickerChange('');
+          } else {
+            onDatePickerChange(fecha);
+          }
+        }
+      },
+      onHover: function(evt) {
+        evt.native.target.style.cursor = 'pointer';
+      }
     }
   });
-  const top = topN(cats, 8);
-  makeChart('chartIssues', doughnutConfig(top.map(function (t) { return t[0]; }), top.map(function (t) { return t[1]; })));
+
+  // Mostrar el día más reciente en el panel si no hay selección
+  if (!selectedDate && dias.length > 0) {
+    renderEstadoDia(dias[dias.length - 1]);
+  } else {
+    renderEstadoDia(selectedDate);
+  }
 }
 
-function renderPaisChart() {
-  const m = countBy(RECORDS, 'pais');
-  const top = topN(m, 8);
-  makeChart('chartPais', doughnutConfig(top.map(function (t) { return t[0]; }), top.map(function (t) { return t[1]; })));
+/* ── Estado del Día ── */
+function renderEstadoDia(fecha) {
+  var badge = document.getElementById('ov-dia-badge');
+  var total = document.getElementById('ov-dia-total');
+  var rows  = document.getElementById('ov-dia-rows');
+  if (!badge || !total || !rows) return;
+
+  if (!fecha) {
+    badge.textContent = '—';
+    total.textContent = '—';
+    rows.innerHTML = '<span style="color:var(--text-muted);font-size:12px">Selecciona un día en la gráfica</span>';
+    return;
+  }
+
+  var recs = RECORDS.filter(function(r){ return r.fn === fecha; });
+  badge.textContent = fecha.slice(8) + '/' + fecha.slice(5,7) + '/' + fecha.slice(0,4);
+  total.textContent = recs.length.toLocaleString('es-CO');
+
+  // Agrupar por Estado Caso (detalle)
+  var por_com = {};
+  recs.forEach(function(r){ var k = r.detalle || r.com || 'Sin estado'; por_com[k] = (por_com[k]||0)+1; });
+  var top = topN(por_com, 8);
+
+  var colores = ['var(--blue)','var(--green)','var(--amber)','var(--red)','var(--purple)','var(--blue)','var(--green)','var(--amber)'];
+
+  rows.innerHTML = top.map(function(t, i){
+    var pct = recs.length ? (t[1]/recs.length*100).toFixed(0) : 0;
+    return '<div style="display:flex;flex-direction:column;gap:3px">' +
+      '<div style="display:flex;justify-content:space-between;font-size:12px">' +
+        '<span style="color:var(--text-secondary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:70%">' + t[0] + '</span>' +
+        '<strong style="color:var(--text-primary)">' + t[1] + '</strong>' +
+      '</div>' +
+      '<div style="height:5px;background:var(--bg-base);border-radius:3px">' +
+        '<div style="height:100%;width:' + pct + '%;background:' + colores[i%colores.length] + ';border-radius:3px;transition:width .4s ease"></div>' +
+      '</div>' +
+    '</div>';
+  }).join('');
 }
 
-function renderProvChart() {
-  const m = countBy(RECORDS, 'marca');
-  const top = topN(m, 8);
-  makeChart('chartProv', doughnutConfig(
-    top.map(function (t) { return t[0]; }),
-    top.map(function (t) { return t[1]; }),
-    COLORS.slice(3)
+/* ── Top 10 Issues (Comentario continuidad) ── */
+function renderOverviewIssues() {
+  var from = document.getElementById('ov-date-from')?.value || '';
+  var to   = document.getElementById('ov-date-to')?.value   || '';
+
+  var recs = RECORDS;
+  if (from) recs = recs.filter(function(r){ return r.fn >= from; });
+  if (to)   recs = recs.filter(function(r){ return r.fn <= to; });
+
+  var counts = {};
+  recs.forEach(function(r){ var k = r.com || 'Sin comentario'; counts[k]=(counts[k]||0)+1; });
+  var top = topN(counts, 10);
+
+  makeChart('chartIssues', horizontalBarConfig(
+    top.map(function(t){ return t[0]; }),
+    top.map(function(t){ return t[1]; }),
+    COLORS
   ));
 }
 
-function renderEstadoChart() {
-  const m = countBy(RECORDS, 'estado');
-  const top = topN(m, 8);
-  const palette = top.map(function (_, i) { return COLORS[i % COLORS.length]; });
-  makeChart('chartEstado', doughnutConfig(top.map(function (t) { return t[0]; }), top.map(function (t) { return t[1]; }), palette));
+function clearIssuesFilter() {
+  var f = document.getElementById('ov-date-from');
+  var t = document.getElementById('ov-date-to');
+  if (f) f.value = '';
+  if (t) t.value = '';
+  renderOverviewIssues();
+}
+
+/* ── Órdenes por Marca / Día ── */
+function buildMarcaMesSelects() {
+  var meses  = getMonths(RECORDS);
+  var marcas = [...new Set(RECORDS.map(function(r){ return r.marca; }).filter(Boolean))].sort();
+
+  var selMes   = document.getElementById('sel-mes-overview');
+  var selMarca = document.getElementById('sel-marca-overview');
+  if (!selMes || !selMarca) return;
+
+  var curMes   = selMes.value;
+  var curMarca = selMarca.value;
+
+  selMes.innerHTML = '<option value="">Todos los meses</option>';
+  meses.forEach(function(m){ var o=document.createElement('option'); o.value=m; o.textContent=fmtMonth(m); selMes.appendChild(o); });
+  if (curMes) selMes.value = curMes;
+
+  selMarca.innerHTML = '<option value="">Todas las marcas</option>';
+  marcas.forEach(function(m){ var o=document.createElement('option'); o.value=m; o.textContent=m; selMarca.appendChild(o); });
+  if (curMarca) selMarca.value = curMarca;
+}
+
+function renderMarcaDia() {
+  var mes   = document.getElementById('sel-mes-overview')?.value  || '';
+  var marca = document.getElementById('sel-marca-overview')?.value || '';
+
+  var recs = RECORDS;
+  if (mes)   recs = recs.filter(function(r){ return r.fecha && r.fecha.startsWith(mes); });
+  if (marca) recs = recs.filter(function(r){ return r.marca === marca; });
+
+  // Agrupar por día
+  var byDay = {};
+  recs.forEach(function(r){
+    if (r.fecha && /^\d{4}-\d{2}-\d{2}$/.test(r.fecha)) byDay[r.fecha]=(byDay[r.fecha]||0)+1;
+  });
+  var dias = Object.keys(byDay).sort();
+  var vals = dias.map(function(d){ return byDay[d]; });
+  var d = getChartDefaults();
+
+  makeChart('chartMarcaDia', barConfig(
+    dias.map(function(d){ return d.slice(8)+'/'+d.slice(5,7); }),
+    [{ label: marca || 'Todas las marcas', data: vals, backgroundColor: '#3b82f6', borderRadius: 4, barThickness: 10 }]
+  ));
+}
+
+/* ── Por País ── */
+function renderPaisChart() {
+  var m = countBy(RECORDS, 'pais');
+  var top = topN(m, 8);
+  makeChart('chartPais', doughnutConfig(top.map(function(t){ return t[0]; }), top.map(function(t){ return t[1]; })));
 }
 
 /* ══════════════════════════════════
@@ -631,7 +907,7 @@ function switchTab(tab, el) {
   document.getElementById('pageTitle').textContent = TAB_TITLES[tab] || tab;
 
   // Re-render charts (Canvas needs to be visible)
-  if (tab === 'overview')   { renderOverviewChart(); renderIssuesChart(); }
+  if (tab === 'overview')   { renderOverview(); }
   if (tab === 'sinstock')   { renderSinStock(); }
   if (tab === 'kronotime')  { renderKrono(); }
   if (tab === 'mci')        { renderMCI(); }
@@ -692,37 +968,58 @@ function statusBadge(estado) {
    DEMO DATA (fallback local dev)
 ══════════════════════════════════ */
 function buildDemoData() {
-  const meses = ['2026-06','2026-07','2026-08','2026-09'];
-  const marcas = ['JBL','Harman','Samsung','AKG','Infinity'];
-  const paises = ['Colombia','Chile','México','Perú'];
-  const estados = ['En revisión','Pendiente proveedor','Liberada','Cancelada'];
-  const coms_ss = ['Sin stock en bodega', 'SIN STOCK', 'Sin Stock - proveedor'];
+  const meses  = ['2026-06','2026-07','2026-08','2026-09'];
+  const marcas = ['JBL','Harman','Samsung','AKG','Infinity','Dockers','Crocs','Lacoste'];
+  const paises = ['Colombia','Chile','México','Perú','Guatemala'];
+  const pens   = ['Operaciones Solucionado','Continuidad','Operaciones Revision/Configuracion'];
+  const coms_ss = ['Sin stock','Sin Stock ','SIN STOCK EN BODEGA'];
   const coms_kr = ['Escalado con Kronotime'];
-  const coms_other = ['Dirección incorrecta','Pago rechazado','Peso excedido'];
+  const coms_other = ['Liberada','Orden cancelada','Escalado con Customer Integration','Escalado operaciones','Escalado con Driver','Jira duplicado'];
 
   function rnd(arr){ return arr[Math.floor(Math.random()*arr.length)]; }
   function rndDate(m) {
     const d = new Date(m+'-01');
-    d.setDate(Math.floor(Math.random()*28)+1);
+    d.setDate(Math.floor(Math.random()*25)+1);
+    return d.toISOString().substring(0,10);
+  }
+  // fn es ~1-3 días después de fecha
+  function rndFn(fo) {
+    const d = new Date(fo);
+    d.setDate(d.getDate() + Math.floor(Math.random()*3)+1);
     return d.toISOString().substring(0,10);
   }
 
   const inc = [];
   // 999 sin stock
-  for (let i=0;i<999;i++) inc.push({ fecha: rndDate(rnd(meses)), marca: rnd(marcas), pais: rnd(paises), estado: rnd(estados), com: rnd(coms_ss), ops: '', ov: 'OV'+Math.floor(Math.random()*99999) });
+  for (let i=0;i<999;i++) {
+    const fo = rndDate(rnd(meses));
+    inc.push({ fecha:fo, fn:rndFn(fo), marca:rnd(marcas), pais:rnd(paises), estado:rnd(coms_ss), com:rnd(coms_ss), ops:'En revision CO - IT', pen:rnd(pens), ov:'OV'+Math.floor(Math.random()*99999) });
+  }
   // 98 kronotime
-  for (let i=0;i<98;i++) inc.push({ fecha: rndDate(rnd(meses)), marca: rnd(marcas), pais: rnd(paises), estado: rnd(estados), com: 'Escalado con Kronotime', ops: '', ov: 'OV'+Math.floor(Math.random()*99999) });
-  // 500 other
-  for (let i=0;i<500;i++) inc.push({ fecha: rndDate(rnd(meses)), marca: rnd(marcas), pais: rnd(paises), estado: rnd(estados), com: rnd(coms_other), ops: '', ov: 'OV'+Math.floor(Math.random()*99999) });
+  for (let i=0;i<98;i++) {
+    const fo = rndDate(rnd(meses));
+    inc.push({ fecha:fo, fn:rndFn(fo), marca:rnd(marcas), pais:rnd(paises), estado:'Escalado con Kronotime', com:'Escalado con Kronotime', ops:'En revision CO - IT', pen:rnd(pens), ov:'OV'+Math.floor(Math.random()*99999) });
+  }
+  // 4000 otros (En revision CO-IT con varios estados)
+  const coms_rev = ['Liberada','Orden cancelada','Escalado con Customer Integration','Escalado operaciones','Escalado con Driver','Jira duplicado','Escalado con IXLogistics','Marcha blanca'];
+  for (let i=0;i<4000;i++) {
+    const fo = rndDate(rnd(meses));
+    inc.push({ fecha:fo, fn:rndFn(fo), marca:rnd(marcas), pais:rnd(paises), estado:rnd(coms_rev), com:rnd(coms_rev), ops:'En revision CO - IT', pen:rnd(pens), ov:'OV'+Math.floor(Math.random()*99999) });
+  }
+  // 500 con otros ops (no en revisión)
+  for (let i=0;i<500;i++) {
+    const fo = rndDate(rnd(meses));
+    inc.push({ fecha:fo, fn:rndFn(fo), marca:rnd(marcas), pais:rnd(paises), estado:rnd(coms_other), com:rnd(coms_other), ops:'Facturada', pen:'Operaciones Solucionado', ov:'OV'+Math.floor(Math.random()*99999) });
+  }
 
   const ing = [];
-  for (let i=0;i<5000;i++) ing.push({ fecha: rndDate(rnd(meses)) });
+  for (let i=0;i<3000;i++) ing.push({ fecha: rndDate(rnd(meses)) });
 
   const jiras = [];
   for (let i=0;i<50;i++) {
-    const m = rnd(meses);
-    jiras.push({ ticket:'GDI-'+String(1000+i), marca: rnd(marcas), pais: rnd(paises), fecha: rndDate(m), estado: rnd(['Abierto','En progreso','Esperando respuesta','Resuelto']), pendiente: rnd(['IT','Proveedor','Cliente','—']) });
+    const m = rnd(meses); const fo = rndDate(m);
+    jiras.push({ ticket:'ITHD-'+String(94000+i), marca:rnd(marcas), pais:rnd(paises), fecha:fo, estado:rnd(['Abierto','En progreso','Esperando respuesta','Resuelto']), pendiente:rnd(['IT','Proveedor','Cliente','—']) });
   }
 
-  return { generatedAt: new Date().toISOString(), incidencias: inc, ingresadas: ing, jiras: jiras };
+  return { generatedAt: new Date().toISOString(), source:'demo', incidencias: inc, ingresadas: ing, jiras: jiras };
 }
