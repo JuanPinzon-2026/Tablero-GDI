@@ -458,6 +458,27 @@ function renderDependenciasTable(enRevRecs) {
     bodyHtml += '</tr>';
   });
   tbody.innerHTML = bodyHtml || '<tr><td colspan="20" style="text-align:center;color:var(--text-muted);padding:20px">Sin registros de Continuidad</td></tr>';
+
+  // Tfoot — fila de totales por columna
+  var tfoot = document.getElementById('ov-tblFoot');
+  if (tfoot) {
+    // Sumar cada fecha de los últimos 15 días
+    var colTotals = ult15.map(function(f){
+      return coms.reduce(function(acc, com){ return acc + (tblData[com][f] || 0); }, 0);
+    });
+    var grandTot15 = colTotals.reduce(function(a,b){ return a+b; }, 0);
+    var grandHist  = coms.reduce(function(acc, com){ return acc + (histData[com]||0); }, 0);
+
+    var tfHtml = '<tr style="font-weight:700;background:var(--bg-card);border-top:2px solid var(--border)">';
+    tfHtml += '<td style="text-align:left;color:var(--text-primary)">Total</td>';
+    colTotals.forEach(function(v){
+      tfHtml += '<td style="text-align:center;color:var(--blue)">' + (v || '·') + '</td>';
+    });
+    tfHtml += '<td class="dep-tot15" style="text-align:center">' + grandTot15 + '</td>';
+    tfHtml += '<td class="dep-toth"  style="text-align:center">' + grandHist  + '</td>';
+    tfHtml += '</tr>';
+    tfoot.innerHTML = tfHtml;
+  }
 }
 
 /* ── Estado global de fecha seleccionada ── */
