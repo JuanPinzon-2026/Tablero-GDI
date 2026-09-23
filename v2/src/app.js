@@ -227,6 +227,9 @@ function barConfig(labels, datasets, opts) {
         datalabels: window.ChartDataLabels ? {
           anchor: 'end', align: 'top',
           color: '#ffffff',
+          backgroundColor: '#3b82f6',
+          borderRadius: 4,
+          padding: { top: 2, bottom: 2, left: 5, right: 5 },
           font: { size: 11, weight: '700' },
           formatter: function(v){ return v > 0 ? v : ''; },
           display: function(ctx){ return ctx.dataset.data[ctx.dataIndex] > 0; }
@@ -281,6 +284,9 @@ function horizontalBarConfig(labels, values, color, opts) {
         datalabels: window.ChartDataLabels ? {
           anchor: 'end', align: 'right',
           color: '#ffffff',
+          backgroundColor: '#3b82f6',
+          borderRadius: 4,
+          padding: { top: 2, bottom: 2, left: 6, right: 6 },
           font: { size: 12, weight: '700' },
           formatter: function(v){ return v; },
         } : false,
@@ -527,6 +533,9 @@ function renderTendenciaDiaria() {
           align: 'top',
           anchor: 'end',
           color: '#ffffff',
+          backgroundColor: '#3b82f6',
+          borderRadius: 4,
+          padding: { top: 2, bottom: 2, left: 5, right: 5 },
           font: { size: 10, weight: '700' },
           formatter: function(v){ return v > 0 ? v : ''; },
           display: function(ctx){ return ctx.dataset.data[ctx.dataIndex] > 0; }
