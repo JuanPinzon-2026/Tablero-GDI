@@ -215,12 +215,23 @@ function makeChart(id, config) {
 
 function barConfig(labels, datasets, opts) {
   const d = getChartDefaults();
+  if (window.ChartDataLabels) Chart.register(window.ChartDataLabels);
   return {
     type: 'bar',
+    plugins: window.ChartDataLabels ? [window.ChartDataLabels] : [],
     data: { labels, datasets },
     options: Object.assign({
       responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { display: datasets.length > 1, labels: { color: d.text, font: { size: 11 }, boxWidth: 12, padding: 12 } } },
+      plugins: {
+        legend: { display: datasets.length > 1, labels: { color: d.text, font: { size: 11 }, boxWidth: 12, padding: 12 } },
+        datalabels: window.ChartDataLabels ? {
+          anchor: 'end', align: 'top',
+          color: '#ffffff',
+          font: { size: 11, weight: '700' },
+          formatter: function(v){ return v > 0 ? v : ''; },
+          display: function(ctx){ return ctx.dataset.data[ctx.dataIndex] > 0; }
+        } : false,
+      },
       scales: {
         x: { ticks: { color: d.text, font: { size: 10 } }, grid: { color: d.grid } },
         y: { ticks: { color: d.text, font: { size: 10 } }, grid: { color: d.grid }, beginAtZero: true },
@@ -255,15 +266,25 @@ function doughnutConfig(labels, values, colors) {
 
 function horizontalBarConfig(labels, values, color, opts) {
   const d = getChartDefaults();
+  if (window.ChartDataLabels) Chart.register(window.ChartDataLabels);
   return {
     type: 'bar',
+    plugins: window.ChartDataLabels ? [window.ChartDataLabels] : [],
     data: {
       labels,
-      datasets: [{ data: values, backgroundColor: color || '#3b82f6', borderRadius: 4, barThickness: 14 }]
+      datasets: [{ data: values, backgroundColor: color || '#3b82f6', borderRadius: 4, barThickness: 18 }]
     },
     options: Object.assign({
       responsive: true, maintainAspectRatio: false, indexAxis: 'y',
-      plugins: { legend: { display: false } },
+      plugins: {
+        legend: { display: false },
+        datalabels: window.ChartDataLabels ? {
+          anchor: 'end', align: 'right',
+          color: '#ffffff',
+          font: { size: 12, weight: '700' },
+          formatter: function(v){ return v; },
+        } : false,
+      },
       scales: {
         x: { ticks: { color: d.text, font: { size: 10 } }, grid: { color: d.grid }, beginAtZero: true },
         y: { ticks: { color: d.text, font: { size: 10 } }, grid: { color: 'transparent' } },
@@ -450,15 +471,19 @@ function onDatePickerChange(val) {
 
 /* ── Tendencia diaria (línea con valores en picos) ── */
 function renderTendenciaDiaria() {
-  var mesFilt = getCurrentMes();
-  var byDay = {};
+  // Mes actual, días 1 al hoy (igual que V1)
+  var ordPorDia = {};
   RECORDS.forEach(function(r){
-    if (r.fecha && /^\d{4}-\d{2}-\d{2}$/.test(r.fecha) && r.fecha.startsWith(mesFilt)) {
-      byDay[r.fecha] = (byDay[r.fecha]||0)+1;
-    }
+    if (r.fn && /^\d{4}-\d{2}-\d{2}$/.test(r.fn)) ordPorDia[r.fn] = (ordPorDia[r.fn]||0)+1;
   });
-  var dias = Object.keys(byDay).sort();
-  var vals = dias.map(function(d){ return byDay[d]; });
+  var hoy       = new Date();
+  var mesActual = hoy.getFullYear() + '-' + String(hoy.getMonth()+1).padStart(2,'0');
+  var diaHoy    = mesActual + '-' + String(hoy.getDate()).padStart(2,'0');
+  var dias      = [];
+  for (var _d = 1; _d <= hoy.getDate(); _d++) {
+    dias.push(mesActual + '-' + String(_d).padStart(2,'0'));
+  }
+  var vals = dias.map(function(d){ return ordPorDia[d] || 0; });
   var d    = getChartDefaults();
 
   // Registrar plugin datalabels si está disponible
@@ -466,12 +491,13 @@ function renderTendenciaDiaria() {
     Chart.register(window.ChartDataLabels);
   }
 
-  // Puntos: resaltar el día seleccionado
+  // Puntos: resaltar día seleccionado o día de hoy
+  var highlightDate = selectedDate || diaHoy;
   var pointColors = dias.map(function(dia){
-    return (selectedDate && dia === selectedDate) ? '#f59e0b' : '#3b82f6';
+    return dia === highlightDate ? '#ef4444' : '#3b82f6';
   });
   var pointRadii = dias.map(function(dia){
-    return (selectedDate && dia === selectedDate) ? 7 : 3;
+    return dia === highlightDate ? 7 : 3;
   });
 
   makeChart('chartOverviewDia', {
@@ -500,17 +526,10 @@ function renderTendenciaDiaria() {
         datalabels: window.ChartDataLabels ? {
           align: 'top',
           anchor: 'end',
-          color: d.text,
-          font: { size: 9, weight: '600' },
-          formatter: function(v){ return v; },
-          // Solo mostrar el valor en los picos locales y el seleccionado
-          display: function(ctx){
-            var i = ctx.dataIndex, data = ctx.dataset.data;
-            if (selectedDate && dias[i] === selectedDate) return true;
-            var prev = i > 0 ? data[i-1] : 0;
-            var next = i < data.length-1 ? data[i+1] : 0;
-            return data[i] > prev && data[i] > next; // es un pico
-          }
+          color: '#ffffff',
+          font: { size: 10, weight: '700' },
+          formatter: function(v){ return v > 0 ? v : ''; },
+          display: function(ctx){ return ctx.dataset.data[ctx.dataIndex] > 0; }
         } : false,
       },
       scales: {
@@ -528,7 +547,7 @@ function renderTendenciaDiaria() {
   });
 
   if (!selectedDate && dias.length > 0) {
-    renderEstadoDia(dias[dias.length - 1]);
+    renderEstadoDia(diaHoy);
   } else {
     renderEstadoDia(selectedDate);
   }
@@ -576,10 +595,12 @@ function renderEstadoDia(fecha) {
 /* ── Top 10 Issues (Estado Caso) ── */
 function renderOverviewIssues() {
   var selIssues = document.getElementById('sel-mes-issues');
-  var mes = selIssues ? selIssues.value : getCurrentMes();
+  var mes   = selIssues ? selIssues.value : getCurrentMes();
   if (!mes) mes = getCurrentMes();
+  var marca = (document.getElementById('sel-marca-overview')?.value || '').trim();
 
   var recs = RECORDS.filter(function(r){ return r.fecha && r.fecha.startsWith(mes); });
+  if (marca) recs = recs.filter(function(r){ return r.marca === marca; });
 
   var counts = {};
   recs.forEach(function(r){ var k = r.detalle || 'Sin estado'; counts[k]=(counts[k]||0)+1; });
@@ -631,38 +652,40 @@ function renderMarcaDia() {
   var mes   = (document.getElementById('sel-mes-overview')?.value  || '').trim();
   var marca = (document.getElementById('sel-marca-overview')?.value || '').trim();
 
-  var recs = RECORDS;
-  if (marca) recs = recs.filter(function(r){ return r.marca === marca; });
-
-  // Si hay mes seleccionado → mostrar todos los días del mes (día 1 al último)
-  // Si no hay mes → usar solo el mes más reciente disponible
+  // Si no hay mes → usar el más reciente (por r.fn igual que V1)
   var mesFinal = mes;
   if (!mesFinal) {
-    var meses = getMonths(RECORDS);
-    mesFinal  = meses.length ? meses[0] : ''; // getMonths retorna desc, [0] = más reciente
+    var _meses = [...new Set(RECORDS.map(function(r){ return r.fn ? r.fn.slice(0,7) : ''; }).filter(Boolean))].sort().reverse();
+    mesFinal = _meses[0] || '';
   }
 
-  // Generar todos los días del mes
-  var dias = [];
+  // Rango: día 1 al último del mes, pero cap al día de hoy (igual que V1)
+  var hoy    = new Date();
+  var hoyISO = hoy.getFullYear() + '-' + String(hoy.getMonth()+1).padStart(2,'0') + '-' + String(hoy.getDate()).padStart(2,'0');
+  var dias   = [];
   if (mesFinal) {
-    var year = parseInt(mesFinal.slice(0,4), 10);
-    var month= parseInt(mesFinal.slice(5,7), 10);
-    var lastDay = new Date(year, month, 0).getDate(); // día 0 del mes siguiente = último del mes
-    for (var d = 1; d <= lastDay; d++) {
-      dias.push(mesFinal + '-' + String(d).padStart(2,'0'));
+    var yr  = parseInt(mesFinal.slice(0,4), 10);
+    var mo  = parseInt(mesFinal.slice(5,7), 10);
+    var finMes = mesFinal + '-' + String(new Date(yr, mo, 0).getDate()).padStart(2,'0');
+    var fin    = finMes < hoyISO ? finMes : hoyISO;
+    var cur = new Date(mesFinal + '-01T00:00:00');
+    var end = new Date(fin   + 'T00:00:00');
+    while (cur <= end) {
+      dias.push(cur.getFullYear() + '-' + String(cur.getMonth()+1).padStart(2,'0') + '-' + String(cur.getDate()).padStart(2,'0'));
+      cur.setDate(cur.getDate()+1);
     }
   }
 
-  // Contar por día (solo registros del mes)
+  // Contar por r.fn (igual que V1)
   var byDay = {};
-  recs.forEach(function(r){
-    if (r.fecha && /^\d{4}-\d{2}-\d{2}$/.test(r.fecha) && r.fecha.startsWith(mesFinal)) {
-      byDay[r.fecha] = (byDay[r.fecha]||0)+1;
+  RECORDS.forEach(function(r){
+    if (r.fn && /^\d{4}-\d{2}-\d{2}$/.test(r.fn) && r.fn.startsWith(mesFinal)) {
+      if (!marca || r.marca === marca) byDay[r.fn] = (byDay[r.fn]||0)+1;
     }
   });
 
-  var vals = dias.map(function(dia){ return byDay[dia] || 0; });
-  var labels = dias.map(function(dia){ return dia.slice(8); }); // solo el número de día
+  var vals   = dias.map(function(dia){ return byDay[dia] || 0; });
+  var labels = dias.map(function(dia){ return dia.slice(8); }); // número de día
 
   var d = getChartDefaults();
   makeChart('chartMarcaDia', barConfig(
