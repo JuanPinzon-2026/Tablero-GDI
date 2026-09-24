@@ -101,41 +101,8 @@
       <p class="page-sub" id="sub-overview">Órdenes en Revisión CO - IT</p>
     </div>
 
-    <!-- KPI ROW — En Revisión CO-IT -->
-    <div class="kpi-grid" id="kpi-overview">
-      <div class="kpi-card kpi-blue">
-        <div class="kpi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/></svg></div>
-        <div class="kpi-body">
-          <div class="kpi-value" id="kpi-total-orders">—</div>
-          <div class="kpi-label">En Revisión CO-IT</div>
-          <div class="kpi-trend" id="kpi-trend-orders"></div>
-        </div>
-      </div>
-      <div class="kpi-card kpi-green">
-        <div class="kpi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
-        <div class="kpi-body">
-          <div class="kpi-value" id="kpi-liberadas">—</div>
-          <div class="kpi-label">Operaciones Solucionado</div>
-          <div class="kpi-trend" id="kpi-pct-sol"></div>
-        </div>
-      </div>
-      <div class="kpi-card kpi-amber">
-        <div class="kpi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
-        <div class="kpi-body">
-          <div class="kpi-value" id="kpi-kronotime">—</div>
-          <div class="kpi-label">Continuidad</div>
-          <div class="kpi-trend" id="kpi-pct-cont"></div>
-        </div>
-      </div>
-      <div class="kpi-card kpi-purple">
-        <div class="kpi-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
-        <div class="kpi-body">
-          <div class="kpi-value" id="kpi-sinstock">—</div>
-          <div class="kpi-label">Op. Rev./Configuración</div>
-          <div class="kpi-trend" id="kpi-pct-rev"></div>
-        </div>
-      </div>
-    </div>
+    <!-- KPI ROW — En Revisión CO-IT (renderizado dinámico) -->
+    <div id="kpi-overview" style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;padding:0 28px"></div>
 
     <!-- BARRA DE PROGRESO — Distribución Pendiente Por -->
     <div style="padding:16px 28px 0">
@@ -357,22 +324,34 @@
       </div>
     </div>
     <!-- Extremos MCI -->
-    <div id="mci-extremos" style="display:flex;gap:16px;padding:16px 24px 0;flex-wrap:wrap"></div>
+    <div id="mci-extremos" style="display:flex;gap:16px;padding:20px 24px 0;flex-wrap:wrap"></div>
 
-    <div style="padding:16px 24px;overflow-x:auto">
-      <table style="border-collapse:collapse;font-size:11px;min-width:900px;width:100%;margin-bottom:24px">
-        <thead><tr id="mci-dow1"></tr><tr id="mci-day1"></tr></thead>
-        <tbody id="mci-body1"></tbody>
-      </table>
-      <!-- Gráfica MCI% -->
-      <div style="background:#fff;border:1px solid #E2E8F0;border-radius:12px;padding:16px 20px;margin-top:24px">
-        <div style="font-weight:700;color:#1E3A8A;font-size:12px;margin-bottom:12px">📈 MCI % diario — ORs Incidentadas / ORs IX</div>
-        <div style="position:relative;height:220px"><canvas id="chartMCI"></canvas></div>
+    <!-- Tabla -->
+    <div style="padding:20px 24px 0">
+      <div style="background:#fff;border:1px solid #E2E8F0;border-radius:14px;box-shadow:0 2px 8px rgba(0,0,0,.05);overflow:hidden">
+        <div style="padding:12px 18px;border-bottom:1px solid #F1F5F9;display:flex;align-items:center;gap:8px">
+          <span style="font-size:13px">📋</span>
+          <span style="font-weight:700;color:#1E3A8A;font-size:12px">Detalle diario del mes</span>
+        </div>
+        <div style="overflow-x:auto;-webkit-overflow-scrolling:touch">
+          <table style="border-collapse:collapse;font-size:11px;min-width:1100px;width:max-content">
+            <thead><tr id="mci-dow1"></tr><tr id="mci-day1"></tr></thead>
+            <tbody id="mci-body1"></tbody>
+          </table>
+        </div>
       </div>
-
-      <!-- Top 5 problemas recurrentes -->
-      <div id="mci-top5" style="margin-top:20px"></div>
     </div>
+
+    <!-- Gráfica MCI% -->
+    <div style="padding:20px 24px 0">
+      <div style="background:#fff;border:1px solid #E2E8F0;border-radius:14px;box-shadow:0 2px 8px rgba(0,0,0,.05);padding:18px 22px">
+        <div style="font-weight:700;color:#1E3A8A;font-size:12px;margin-bottom:14px">📈 MCI % diario — ORs Incidentadas / ORs IX</div>
+        <div style="position:relative;height:230px"><canvas id="chartMCI"></canvas></div>
+      </div>
+    </div>
+
+    <!-- Top 5 problemas recurrentes -->
+    <div id="mci-top5" style="padding:20px 24px 24px"></div>
   </section>
 
   <!-- Tooltip MCI -->
@@ -380,66 +359,386 @@
 
   <!-- ── TAB: JIRAS ── -->
   <section class="tab-content" id="tab-jiras">
-    <div class="page-header">
-      <h1>Gestión de Jiras</h1>
-      <p class="page-sub">Seguimiento de tickets activos</p>
+
+  <!-- Barra superior: título + filtros + export -->
+  <div style="background:#fff;border-bottom:1px solid #E2E8F0;padding:14px 24px;display:flex;flex-wrap:wrap;align-items:center;gap:12px">
+    <div style="display:flex;align-items:center;gap:10px">
+      <span style="font-size:14px;font-weight:800;color:#0F172A">📋 Gestión de Jiras</span>
+      <span style="font-size:11px;color:#64748B">En Revisión CO-IT · Continuidad</span>
     </div>
-    <div class="filter-bar">
-      <input class="search-input" id="jira-search" placeholder="Buscar ticket, marca, estado..." oninput="renderJiras()" />
-      <select class="chart-select" id="jira-estado" onchange="renderJiras()">
-        <option value="">Todos los estados</option>
-      </select>
+    <!-- Filtro Área Escalada -->
+    <select id="gj-fil-com" onchange="renderJiras()"
+      style="padding:6px 10px;border-radius:8px;border:1px solid #CBD5E1;background:#fff;color:#1E293B;font-size:12px;font-family:inherit;cursor:pointer;min-width:200px">
+      <option value="">Todas las áreas</option>
+    </select>
+    <!-- Filtro Días Pendiente -->
+    <select id="gj-fil-dias" onchange="renderJiras()"
+      style="padding:6px 10px;border-radius:8px;border:1px solid #CBD5E1;background:#fff;color:#1E293B;font-size:12px;font-family:inherit;cursor:pointer;min-width:160px">
+      <option value="">Todos los días</option>
+      <option value="0-5">0 – 5 días</option>
+      <option value="6-9">6 – 9 días</option>
+      <option value="10-15">10 – 15 días</option>
+      <option value="15+">Mayor a 15 días</option>
+    </select>
+    <!-- Filtro Fecha notificación -->
+    <div style="position:relative">
+      <input id="gj-fil-fecha" placeholder="📅 Fecha de escalamiento..." readonly
+        style="padding:6px 10px;border-radius:8px;border:1px solid #CBD5E1;background:#fff;color:#1E293B;font-size:12px;font-family:inherit;cursor:pointer;min-width:200px">
     </div>
-    <div class="table-card">
-      <div class="table-header">
-        <div class="chart-title">Tickets activos <span id="jira-count" class="count-badge">0</span></div>
-      </div>
-      <div class="table-wrap">
-        <table class="data-table">
-          <thead><tr><th>Ticket</th><th>Marca / País</th><th>Fecha</th><th>Días abierto</th><th>Estado</th><th>Pendiente</th></tr></thead>
-          <tbody id="jira-tbody"></tbody>
+    <button onclick="_gjLimpiarFiltros();"
+      style="padding:6px 12px;border-radius:8px;border:1px solid #CBD5E1;background:#F8FAFC;color:#475569;font-size:11px;font-weight:600;cursor:pointer">
+      ✕ Limpiar
+    </button>
+    <div style="margin-left:auto;display:flex;gap:10px;align-items:center">
+      <span id="gj-count" style="background:#EDE9FE;border:1px solid #C4B5FD;color:#5B21B6;font-size:11px;font-weight:700;padding:6px 16px;border-radius:20px">—</span>
+      <button onclick="exportarJirasExcel()" style="background:#16A34A;border:none;color:#fff;font-size:11px;font-weight:700;padding:7px 14px;border-radius:8px;cursor:pointer;display:flex;align-items:center;gap:5px;transition:background .2s" onmouseover="this.style.background='#15803D'" onmouseout="this.style.background='#16A34A'">📥 Exportar Excel</button>
+    </div>
+  </div>
+
+  <div style="padding:20px 24px">
+    <!-- Tarjetas KPI días pendiente -->
+    <div id="gj-kpi-row" style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:20px"></div>
+
+    <div style="background:#fff;border-radius:14px;box-shadow:var(--shadow);overflow:hidden">
+      <div style="overflow-x:auto">
+        <table style="width:100%;border-collapse:collapse;font-size:12px">
+          <thead>
+            <tr style="background:#1E293B;color:#fff">
+              <th style="padding:10px 14px;text-align:center;white-space:nowrap;font-weight:700">Revisado por GDI</th>
+              <th style="padding:10px 14px;text-align:left;white-space:nowrap;font-weight:700">Ticket Jira</th>
+              <th style="padding:10px 14px;text-align:left;white-space:nowrap;font-weight:700">Marca / País</th>
+              <th style="padding:10px 14px;text-align:left;white-space:nowrap;font-weight:700">Área Escalada</th>
+              <th style="padding:10px 14px;text-align:left;white-space:nowrap;font-weight:700">Fecha Escalamiento</th>
+              <th style="padding:10px 14px;text-align:center;white-space:nowrap;font-weight:700">Días Pendiente</th>
+              <th style="padding:10px 14px;text-align:left;white-space:nowrap;font-weight:700">Orden Afectada</th>
+              <th style="padding:10px 14px;text-align:left;font-weight:700">Estado / Error</th>
+            </tr>
+          </thead>
+          <tbody id="gj-body"></tbody>
         </table>
       </div>
     </div>
+  </div>
   </section>
 
   <!-- ── TAB: HORARIOS JBL ── -->
   <section class="tab-content" id="tab-horarios">
-    <div class="page-header">
-      <h1>Horarios JBL</h1>
-      <p class="page-sub">Consultor de visibilidad de precios y stock por país</p>
-    </div>
 
-    <div class="horarios-grid">
-      <div class="horarios-card" id="horarios-table-card">
-        <div class="chart-title" style="margin-bottom:16px">Pipeline de actualización</div>
-        <table class="data-table horarios-tbl">
-          <thead><tr><th>País</th><th>Precio front</th><th>Stock front</th><th>Estado</th></tr></thead>
-          <tbody id="horarios-tbody">
-            <tr><td>Colombia</td><td>10:04</td><td>Cada 15 min</td><td><span class="badge badge-green">Activo</span></td></tr>
-            <tr><td>Chile</td><td>10:04</td><td>Cada 15 min</td><td><span class="badge badge-green">Activo</span></td></tr>
-            <tr><td>México</td><td>10:04</td><td>Cada 15 min</td><td><span class="badge badge-green">Activo</span></td></tr>
-            <tr><td>Perú</td><td>10:04</td><td>Cada 15 min</td><td><span class="badge badge-green">Activo</span></td></tr>
-          </tbody>
-        </table>
+<div style="max-width:960px;margin:0 auto;padding:24px 16px">
+
+  <!-- Header + reloj -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap;gap:12px">
+    <div>
+      <div style="font-size:22px;font-weight:800;color:#0F172A;letter-spacing:-0.5px">🕐 Horarios JBL</div>
+      <div style="font-size:13px;color:#64748B;margin-top:2px">Ejecución de Jobs y procesos por país</div>
+    </div>
+    <div style="background:#1E293B;border-radius:12px;padding:12px 22px;text-align:center;min-width:160px">
+      <div id="jbl-clock-time" style="font-size:28px;font-weight:800;color:#38BDF8;font-family:monospace;letter-spacing:2px">--:--:--</div>
+      <div id="jbl-clock-date" style="font-size:11px;color:#64748B;margin-top:2px;text-transform:uppercase;letter-spacing:1px">—</div>
+    </div>
+  </div>
+
+  <!-- FILTRO POR PAÍS -->
+  <div style="background:#F8FAFC;border:1px solid #E2E8F0;border-radius:14px;padding:14px 18px;margin-bottom:22px">
+    <div style="font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px">🌎 Filtrar por país</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px">
+      <button onclick="_jblFiltrar('ALL')" id="jbl-btn-ALL" class="jbl-country-btn active" style="background:#1E3A5F;color:#fff;border:none;border-radius:22px;padding:7px 16px;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px">🌎 Todos</button>
+      <button onclick="_jblFiltrar('GT')"  id="jbl-btn-GT"  class="jbl-country-btn" style="background:#fff;color:#374151;border:1.5px solid #E2E8F0;border-radius:22px;padding:7px 16px;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px"><img src="https://flagcdn.com/20x15/gt.png" style="border-radius:2px;vertical-align:middle;"> Guatemala</button>
+      <button onclick="_jblFiltrar('MX')"  id="jbl-btn-MX"  class="jbl-country-btn" style="background:#fff;color:#374151;border:1.5px solid #E2E8F0;border-radius:22px;padding:7px 16px;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px"><img src="https://flagcdn.com/20x15/mx.png" style="border-radius:2px;vertical-align:middle;"> México</button>
+      <button onclick="_jblFiltrar('CR')"  id="jbl-btn-CR"  class="jbl-country-btn" style="background:#fff;color:#374151;border:1.5px solid #E2E8F0;border-radius:22px;padding:7px 16px;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px"><img src="https://flagcdn.com/20x15/cr.png" style="border-radius:2px;vertical-align:middle;"> Costa Rica</button>
+      <button onclick="_jblFiltrar('CL')"  id="jbl-btn-CL"  class="jbl-country-btn" style="background:#fff;color:#374151;border:1.5px solid #E2E8F0;border-radius:22px;padding:7px 16px;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px"><img src="https://flagcdn.com/20x15/cl.png" style="border-radius:2px;vertical-align:middle;"> Chile</button>
+      <button onclick="_jblFiltrar('CO')"  id="jbl-btn-CO"  class="jbl-country-btn" style="background:#fff;color:#374151;border:1.5px solid #E2E8F0;border-radius:22px;padding:7px 16px;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px"><img src="https://flagcdn.com/20x15/co.png" style="border-radius:2px;vertical-align:middle;"> Colombia</button>
+      <button onclick="_jblFiltrar('PE')"  id="jbl-btn-PE"  class="jbl-country-btn" style="background:#fff;color:#374151;border:1.5px solid #E2E8F0;border-radius:22px;padding:7px 16px;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px"><img src="https://flagcdn.com/20x15/pe.png" style="border-radius:2px;vertical-align:middle;"> Perú</button>
+      <button onclick="_jblFiltrar('UY')"  id="jbl-btn-UY"  class="jbl-country-btn" style="background:#fff;color:#374151;border:1.5px solid #E2E8F0;border-radius:22px;padding:7px 16px;font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:6px"><img src="https://flagcdn.com/20x15/uy.png" style="border-radius:2px;vertical-align:middle;"> Uruguay</button>
+    </div>
+  </div>
+
+  <!-- DIAGRAMA DE FLUJO -->
+  <div style="background:#fff;border:1px solid #E2E8F0;border-radius:16px;padding:20px;margin-bottom:22px;overflow-x:auto">
+    <div style="font-size:11px;font-weight:700;color:#64748B;text-transform:uppercase;letter-spacing:.8px;margin-bottom:16px">⚡ Flujo de procesos · Clic para navegar</div>
+    <div style="display:flex;align-items:center;gap:0;min-width:640px">
+
+      <!-- IWS -->
+      <div class="jbl-flow-node" data-key="iws" onclick="_jblFlowClick(this,'jbl-sec-iws')"
+        style="flex:1;cursor:pointer;border-radius:12px;border:2px solid #FCA5A5;background:#FFF7F7;padding:14px 10px;text-align:center;transition:all .2s;user-select:none">
+        <div style="font-size:22px;margin-bottom:4px">🏭</div>
+        <div style="font-size:10px;font-weight:700;color:#9A3412;margin-bottom:4px">1)</div>
+        <div style="font-weight:800;font-size:13px;color:#7C2D12">IWS</div>
+        <div style="font-size:10px;color:#9A3412;margin:3px 0">Actualización productos</div>
+        
+        <div style="font-size:10px;color:#9A3412;margin-top:4px;font-weight:600">02:00–03:00</div>
+        <div id="jbl-flow-badge-iws" style="margin-top:6px;min-height:20px"></div>
       </div>
 
-      <div class="horarios-chat-card">
-        <div class="chart-title" style="margin-bottom:4px">🤖 Consultor IA</div>
-        <div class="chat-sub">Consulta horarios de precios y stock por país</div>
-        <div class="chat-history" id="jbl-history">
-          <div class="chat-msg chat-msg--bot">👋 Hola, soy el consultor de horarios JBL.<br>Pregúntame sobre <strong>precios</strong> o <strong>stock</strong> por país.</div>
-        </div>
-        <div class="chat-input-row">
-          <input class="chat-input" id="jbl-input" placeholder="Ej: ¿A qué hora se actualiza el precio en Colombia?" onkeydown="if(event.key==='Enter') jblSend()" />
-          <button class="chat-send-btn" onclick="jblSend()">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
-          </button>
+      <!-- Flecha -->
+      <div style="flex:0 0 32px;text-align:center;color:#94A3B8;font-size:20px;font-weight:300">→</div>
+
+      <!-- Cron Driver -->
+      <div class="jbl-flow-node" data-key="crondriver" onclick="_jblFlowClick(this,'jbl-sec-crondriver')"
+        style="flex:1;cursor:pointer;border-radius:12px;border:2px solid #C4B5FD;background:#F9F7FF;padding:14px 10px;text-align:center;transition:all .2s;user-select:none">
+        <div style="font-size:22px;margin-bottom:4px">⚙️</div>
+        <div style="font-size:10px;font-weight:700;color:#6D28D9;margin-bottom:4px">2)</div>
+        <div style="font-weight:800;font-size:13px;color:#4C1D95">Cron Driver</div>
+        <div style="font-size:10px;color:#6D28D9;margin:3px 0">ejecución cada 2 horas</div>
+
+        <div style="font-size:10px;color:#6D28D9;margin-top:4px;font-weight:600">cada 2 horas</div>
+        <div id="jbl-flow-badge-crondriver" style="margin-top:6px;min-height:20px"></div>
+      </div>
+
+      <!-- Flecha -->
+      <div style="flex:0 0 32px;text-align:center;color:#94A3B8;font-size:20px;font-weight:300">→</div>
+
+      <!-- STG -->
+      <div class="jbl-flow-node" data-key="stg" onclick="_jblFlowClick(this,'jbl-sec-stg')"
+        style="flex:1;cursor:pointer;border-radius:12px;border:2px solid #93C5FD;background:#F0F7FF;padding:14px 10px;text-align:center;transition:all .2s;user-select:none">
+        <div style="font-size:22px;margin-bottom:4px">📡</div>
+        <div style="font-size:10px;font-weight:700;color:#1D4ED8;margin-bottom:4px">3)</div>
+        <div style="font-weight:800;font-size:13px;color:#1E3A5F">Lectura SFTP</div>
+        <div style="font-size:10px;color:#1D4ED8;margin:3px 0">→ STG</div>
+        
+        <div style="font-size:10px;color:#1D4ED8;margin-top:4px;font-weight:600">Cada hora</div>
+        <div id="jbl-flow-badge-stg" style="margin-top:6px;min-height:20px"></div>
+      </div>
+
+      <!-- Flecha -->
+      <div style="flex:0 0 32px;text-align:center;color:#94A3B8;font-size:20px;font-weight:300">→</div>
+
+      <!-- Reindexado -->
+      <div class="jbl-flow-node" data-key="reidx" onclick="_jblFlowClick(this,'jbl-sec-reidx')"
+        style="flex:1;cursor:pointer;border-radius:12px;border:2px solid #6EE7B7;background:#F0FFF8;padding:14px 10px;text-align:center;transition:all .2s;user-select:none">
+        <div style="font-size:22px;margin-bottom:4px">🔄</div>
+        <div style="font-size:10px;font-weight:700;color:#047857;margin-bottom:4px">4)</div>
+        <div style="font-weight:800;font-size:13px;color:#065F46">Reindexado</div>
+        <div style="font-size:10px;color:#047857;margin:3px 0;font-weight:800">en sitio</div>
+        
+        <div style="font-size:10px;color:#047857;margin-top:4px;font-weight:600">9 ejecuciones</div>
+        <div id="jbl-flow-badge-reidx" style="margin-top:6px;min-height:20px"></div>
+      </div>
+
+    </div>
+    <div id="jbl-flow-hint" style="font-size:11px;color:#94A3B8;text-align:center;margin-top:12px">Selecciona un proceso para resaltar su tabla</div>
+  </div>
+
+  <!-- ALERTA DE PIPELINE -->
+  <div style="background:#fff;border:1px solid #E2E8F0;border-radius:16px;overflow:hidden;margin-bottom:20px;box-shadow:0 2px 12px rgba(0,0,0,0.06)">
+    <!-- Header -->
+    <div style="background:linear-gradient(90deg,#2563EB 0%,#7C3AED 100%);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px">
+      <div style="display:flex;align-items:center;gap:10px">
+        <span style="font-size:20px">🔔</span>
+        <div>
+          <div style="font-size:14px;font-weight:800;color:#fff">¿Cuándo se verá el precio actualizado en el front?</div>
+          <div style="font-size:11px;color:#BFDBFE;margin-top:2px">Cron Driver actualiza SFTP → STG lee SFTP → Reindexado publica en front</div>
         </div>
       </div>
+      <div style="font-size:10px;color:#BFDBFE;font-style:italic">↻ Actualizado en tiempo real</div>
     </div>
+    <!-- Filas -->
+    <div id="jbl-alert" style="display:flex;flex-direction:column;gap:0">
+      <div style="color:#94A3B8;font-size:12px;text-align:center;padding:16px">Cargando...</div>
+    </div>
+  </div>
+
+  <!-- 1. IWS -->
+  <div id="jbl-sec-iws" class="jbl-section" style="background:#fff;border-radius:16px;box-shadow:0 2px 12px rgba(0,0,0,0.08);overflow:hidden;margin-bottom:20px">
+    <div style="background:#7C2D12;padding:13px 20px;display:flex;align-items:center;gap:10px">
+      <span style="font-size:15px">🏭</span>
+      <span style="font-weight:700;font-size:14px;color:#fff">1) IWS</span>
+      <span style="font-size:12px;color:#FCA5A5;margin-left:4px">· Actualización de productos y precios</span>
+    </div>
+    <table style="width:100%;border-collapse:collapse;font-size:13px;font-family:'Segoe UI',Arial,sans-serif">
+      <thead><tr style="background:#F8FAFC;border-bottom:2px solid #E2E8F0">
+        <th style="padding:11px 16px;text-align:left;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">País</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Ventana</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Estado</th>
+      </tr></thead>
+      <tbody>
+        <tr data-paises="GT MX CR CL CO PE UY" data-iws-start="02:00" data-iws-end="03:00">
+          <td style="padding:12px 16px;font-weight:600;color:#1E293B">🌎 Todos los países</td>
+          <td style="padding:12px 16px;text-align:center"><span style="background:#FEF2F2;color:#991B1B;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">02:00 – 03:00</span></td>
+          <td id="iws-status" style="padding:12px 16px;text-align:center">—</td>
+        </tr>
+      </tbody>
+    </table>
+    <div style="padding:9px 16px;background:#F8FAFC;border-top:1px solid #E2E8F0;font-size:11px;color:#94A3B8">🟢 Ejecutando si la hora actual está entre 02:00 y 03:00 AM</div>
+    <div style="margin:12px 16px 16px;background:#FFFBEB;border:1.5px solid #F59E0B;border-radius:10px;padding:12px 16px;display:flex;align-items:flex-start;gap:10px">
+      <span style="font-size:18px;flex-shrink:0">⚠️</span>
+      <div>
+        <div style="font-size:12px;font-weight:800;color:#92400E;margin-bottom:3px">Stock JBL — Consumo independiente</div>
+        <div style="font-size:11px;color:#78350F;line-height:1.5">El stock de JBL se consume <strong>cada 15 minutos</strong>, de forma independiente a los horarios de actualización de precios. Una actualización de precios no implica una actualización de stock.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Cron Driver -->
+  <div id="jbl-sec-crondriver" class="jbl-section" style="background:#fff;border-radius:16px;box-shadow:0 2px 12px rgba(0,0,0,0.08);overflow:hidden;margin-bottom:20px">
+    <div style="background:#4C1D95;padding:13px 20px;display:flex;align-items:center;gap:10px">
+      <span style="font-size:15px">⚙️</span>
+      <span style="font-weight:700;font-size:14px;color:#fff">2) Cron Driver</span>
+      <span style="font-size:12px;color:#C4B5FD;margin-left:4px">· ejecución cada 2 horas</span>
+    </div>
+    <table style="width:100%;border-collapse:collapse;font-size:13px;font-family:'Segoe UI',Arial,sans-serif">
+      <thead><tr style="background:#F8FAFC;border-bottom:2px solid #E2E8F0">
+        <th style="padding:11px 16px;text-align:left;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Tarea</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Hora</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Próxima</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Estado</th>
+      </tr></thead>
+      <tbody id="crondriver-tbody">
+        <tr data-paises="GT MX CR CL CO PE UY" data-hhmm="01:04"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9">Cron Driver</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#F5F3FF;color:#7C3AED;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">01:04</span></td><td class="crondriver-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="crondriver-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="GT MX CR CL CO PE UY" data-hhmm="03:04"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9">Cron Driver</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#F5F3FF;color:#7C3AED;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">03:04</span></td><td class="crondriver-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="crondriver-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="GT MX CR CL CO PE UY" data-hhmm="05:04"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9">Cron Driver</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#F5F3FF;color:#7C3AED;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">05:04</span></td><td class="crondriver-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="crondriver-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="GT MX CR CL CO PE UY" data-hhmm="07:04"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9">Cron Driver</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#F5F3FF;color:#7C3AED;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">07:04</span></td><td class="crondriver-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="crondriver-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="GT MX CR CL CO PE UY" data-hhmm="09:04"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9">Cron Driver</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#F5F3FF;color:#7C3AED;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">09:04</span></td><td class="crondriver-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="crondriver-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="GT MX CR CL CO PE UY" data-hhmm="11:04"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9">Cron Driver</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#F5F3FF;color:#7C3AED;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">11:04</span></td><td class="crondriver-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="crondriver-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="GT MX CR CL CO PE UY" data-hhmm="13:04"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9">Cron Driver</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#F5F3FF;color:#7C3AED;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">13:04</span></td><td class="crondriver-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="crondriver-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="GT MX CR CL CO PE UY" data-hhmm="15:04"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9">Cron Driver</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#F5F3FF;color:#7C3AED;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">15:04</span></td><td class="crondriver-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="crondriver-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="GT MX CR CL CO PE UY" data-hhmm="17:04"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9">Cron Driver</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#F5F3FF;color:#7C3AED;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">17:04</span></td><td class="crondriver-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="crondriver-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="GT MX CR CL CO PE UY" data-hhmm="19:04"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9">Cron Driver</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#F5F3FF;color:#7C3AED;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">19:04</span></td><td class="crondriver-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="crondriver-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="GT MX CR CL CO PE UY" data-hhmm="21:04"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9">Cron Driver</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#F5F3FF;color:#7C3AED;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">21:04</span></td><td class="crondriver-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="crondriver-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="GT MX CR CL CO PE UY" data-hhmm="23:04"><td style="padding:12px 16px;font-weight:600;color:#1E293B">Cron Driver</td><td style="padding:12px 16px;text-align:center"><span style="background:#F5F3FF;color:#7C3AED;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">23:04</span></td><td class="crondriver-next" style="padding:12px 16px;text-align:center;font-weight:600;color:#0F172A">—</td><td class="crondriver-status" style="padding:12px 16px;text-align:center">—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 3. STG — Lectura SFTP → STG -->
+  <div id="jbl-sec-stg" class="jbl-section" style="background:#fff;border-radius:16px;box-shadow:0 2px 12px rgba(0,0,0,0.08);overflow:hidden;margin-bottom:20px">
+    <div style="background:#1E3A5F;padding:13px 20px;display:flex;align-items:center;gap:10px">
+      <span style="font-size:15px">📡</span>
+      <span style="font-weight:700;font-size:14px;color:#fff">3) Lectura SFTP → STG</span>
+      <span style="font-size:12px;color:#93C5FD;margin-left:4px">· Se ejecuta cada hora al minuto indicado</span>
+    </div>
+    <table style="width:100%;border-collapse:collapse;font-size:13px;font-family:'Segoe UI',Arial,sans-serif">
+      <thead><tr style="background:#F8FAFC;border-bottom:2px solid #E2E8F0">
+        <th style="padding:11px 16px;text-align:left;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">País</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Minuto</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Ej. 11:xx</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Ej. 12:xx</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Ej. 13:xx</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Próxima</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Estado</th>
+      </tr></thead>
+      <tbody id="jbl-tbody">
+        <tr data-paises="GT" data-min="28"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9"><img src="https://flagcdn.com/20x15/gt.png" style="border-radius:2px;vertical-align:middle;margin-right:6px"> Guatemala</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#EFF6FF;color:#2563EB;border-radius:20px;padding:3px 12px;font-weight:700;font-size:13px">:28</span></td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">11:28</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">12:28</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">13:28</td><td class="jbl-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="jbl-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="MX" data-min="3"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9"><img src="https://flagcdn.com/20x15/mx.png" style="border-radius:2px;vertical-align:middle;margin-right:6px"> México</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#EFF6FF;color:#2563EB;border-radius:20px;padding:3px 12px;font-weight:700;font-size:13px">:03</span></td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">11:03</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">12:03</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">13:03</td><td class="jbl-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="jbl-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="CR" data-min="29"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9"><img src="https://flagcdn.com/20x15/cr.png" style="border-radius:2px;vertical-align:middle;margin-right:6px"> Costa Rica</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#EFF6FF;color:#2563EB;border-radius:20px;padding:3px 12px;font-weight:700;font-size:13px">:29</span></td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">11:29</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">12:29</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">13:29</td><td class="jbl-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="jbl-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="CL" data-min="44"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9"><img src="https://flagcdn.com/20x15/cl.png" style="border-radius:2px;vertical-align:middle;margin-right:6px"> Chile</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#EFF6FF;color:#2563EB;border-radius:20px;padding:3px 12px;font-weight:700;font-size:13px">:44</span></td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">11:44</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">12:44</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">13:44</td><td class="jbl-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="jbl-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="CO" data-min="21"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9"><img src="https://flagcdn.com/20x15/co.png" style="border-radius:2px;vertical-align:middle;margin-right:6px"> Colombia</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#EFF6FF;color:#2563EB;border-radius:20px;padding:3px 12px;font-weight:700;font-size:13px">:21</span></td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">11:21</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">12:21</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">13:21</td><td class="jbl-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="jbl-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="PE" data-min="48"><td style="padding:12px 16px;font-weight:600;color:#1E293B;border-bottom:1px solid #F1F5F9"><img src="https://flagcdn.com/20x15/pe.png" style="border-radius:2px;vertical-align:middle;margin-right:6px"> Perú</td><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#EFF6FF;color:#2563EB;border-radius:20px;padding:3px 12px;font-weight:700;font-size:13px">:48</span></td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">11:48</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">12:48</td><td style="padding:12px 16px;text-align:center;color:#475569;border-bottom:1px solid #F1F5F9">13:48</td><td class="jbl-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="jbl-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="UY" data-min="57"><td style="padding:12px 16px;font-weight:600;color:#1E293B"><img src="https://flagcdn.com/20x15/uy.png" style="border-radius:2px;vertical-align:middle;margin-right:6px"> Uruguay</td><td style="padding:12px 16px;text-align:center"><span style="background:#EFF6FF;color:#2563EB;border-radius:20px;padding:3px 12px;font-weight:700;font-size:13px">:57</span></td><td style="padding:12px 16px;text-align:center;color:#475569">11:57</td><td style="padding:12px 16px;text-align:center;color:#475569">12:57</td><td style="padding:12px 16px;text-align:center;color:#475569">13:57</td><td class="jbl-next" style="padding:12px 16px;text-align:center;font-weight:600;color:#0F172A">—</td><td class="jbl-status" style="padding:12px 16px;text-align:center">—</td></tr>
+      </tbody>
+    </table>
+    <div style="padding:9px 16px;background:#F8FAFC;border-top:1px solid #E2E8F0;font-size:11px;color:#94A3B8">⚡ Estado en tiempo real · 🟢 Ejecutando = minuto actual coincide · ⏳ Próximamente = menos de 5 min</div>
+  </div>
+
+  <!-- 4. From — Reindexado en sitio -->
+  <div id="jbl-sec-reidx" class="jbl-section" style="background:#fff;border-radius:16px;box-shadow:0 2px 12px rgba(0,0,0,0.08);overflow:hidden;margin-bottom:20px">
+    <div style="background:#065F46;padding:13px 20px;display:flex;align-items:center;gap:10px">
+      <span style="font-size:15px">🔄</span>
+      <span style="font-weight:700;font-size:14px;color:#fff">4) Reindexado en sitio</span>
+      <span style="font-size:12px;color:#6EE7B7;margin-left:4px">· Reindexado en el front</span>
+    </div>
+    <table style="width:100%;border-collapse:collapse;font-size:13px;font-family:'Segoe UI',Arial,sans-serif">
+      <thead><tr style="background:#F8FAFC;border-bottom:2px solid #E2E8F0">
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Horario</th>
+        <th style="padding:11px 16px;text-align:left;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Países</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Próxima</th>
+        <th style="padding:11px 16px;text-align:center;color:#475569;font-weight:700;text-transform:uppercase;font-size:10px;letter-spacing:.5px">Estado</th>
+      </tr></thead>
+      <tbody id="reidx-tbody">
+        <tr data-paises="MX CR GT" data-hhmm="02:15"><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#ECFDF5;color:#065F46;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">02:15</span></td><td style="padding:12px 16px;border-bottom:1px solid #F1F5F9"><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇲🇽</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇷</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600">🇬🇹</span></td><td class="reidx-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="reidx-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="MX CR GT" data-hhmm="03:45"><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#ECFDF5;color:#065F46;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">03:45</span></td><td style="padding:12px 16px;border-bottom:1px solid #F1F5F9"><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇲🇽</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇷</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600">🇬🇹</span></td><td class="reidx-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="reidx-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="CO PE CL UY" data-hhmm="05:45"><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#ECFDF5;color:#065F46;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">05:45</span></td><td style="padding:12px 16px;border-bottom:1px solid #F1F5F9"><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇴</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇵🇪</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇱</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600">🇺🇾</span></td><td class="reidx-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="reidx-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="CO PE CL UY" data-hhmm="06:15"><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#ECFDF5;color:#065F46;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">06:15</span></td><td style="padding:12px 16px;border-bottom:1px solid #F1F5F9"><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇴</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇵🇪</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇱</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600">🇺🇾</span></td><td class="reidx-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="reidx-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="MX CR GT" data-hhmm="09:45"><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#ECFDF5;color:#065F46;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">09:45</span></td><td style="padding:12px 16px;border-bottom:1px solid #F1F5F9"><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇲🇽</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇷</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600">🇬🇹</span></td><td class="reidx-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="reidx-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="CO PE CL UY" data-hhmm="11:45"><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#ECFDF5;color:#065F46;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">11:45</span></td><td style="padding:12px 16px;border-bottom:1px solid #F1F5F9"><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇴</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇵🇪</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇱</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600">🇺🇾</span></td><td class="reidx-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="reidx-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="MX CR GT" data-hhmm="12:30"><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#ECFDF5;color:#065F46;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">12:30</span></td><td style="padding:12px 16px;border-bottom:1px solid #F1F5F9"><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇲🇽</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇷</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600">🇬🇹</span></td><td class="reidx-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="reidx-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="CO PE CL UY" data-hhmm="15:30"><td style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9"><span style="background:#ECFDF5;color:#065F46;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">15:30</span></td><td style="padding:12px 16px;border-bottom:1px solid #F1F5F9"><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇴</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇵🇪</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇱</span><span style="background:#FEF3C7;color:#92400E;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600">🇺🇾</span></td><td class="reidx-next" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9;font-weight:600;color:#0F172A">—</td><td class="reidx-status" style="padding:12px 16px;text-align:center;border-bottom:1px solid #F1F5F9">—</td></tr>
+        <tr data-paises="MX CR GT" data-hhmm="21:45"><td style="padding:12px 16px;text-align:center"><span style="background:#ECFDF5;color:#065F46;border-radius:20px;padding:3px 14px;font-weight:700;font-size:13px;font-family:monospace">21:45</span></td><td style="padding:12px 16px"><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇲🇽</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600;margin-right:4px">🇨🇷</span><span style="background:#DBEAFE;color:#1D4ED8;border-radius:6px;padding:2px 8px;font-size:12px;font-weight:600">🇬🇹</span></td><td class="reidx-next" style="padding:12px 16px;text-align:center;font-weight:600;color:#0F172A">—</td><td class="reidx-status" style="padding:12px 16px;text-align:center">—</td></tr>
+      </tbody>
+    </table>
+    <div style="padding:9px 16px;background:#F8FAFC;border-top:1px solid #E2E8F0;font-size:11px;color:#94A3B8">🔵 Azul = MX · CR · GT &nbsp;|&nbsp; 🟡 Amarillo = CO · PE · CL · UY</div>
+  </div>
+
+
+</div>
+</div><!-- /page-horariosjbl -->
+
+
+
+<div id="_gdi_lock" style="display:none;position:fixed;inset:0;background:rgba(15,23,42,0.94);z-index:99999;align-items:center;justify-content:center">
+  <div style="background:#fff;border-radius:16px;padding:40px 48px;text-align:center;max-width:380px;width:90%;box-shadow:0 25px 50px rgba(0,0,0,0.5)">
+    <div style="font-size:36px;margin-bottom:8px">🔐</div>
+    <div style="font-weight:700;font-size:20px;color:#1E293B;margin-bottom:4px">Tablero GDI</div>
+    <div style="font-size:13px;color:#64748B;margin-bottom:28px">Ingresa la clave de acceso para continuar</div>
+    <input id="_gdi_pwd_input" type="password" placeholder="Clave de acceso"
+      style="width:100%;padding:11px 14px;border:1.5px solid #CBD5E1;border-radius:8px;font-size:14px;outline:none;box-sizing:border-box;margin-bottom:6px;transition:border-color .2s"
+      onfocus="this.style.borderColor='#2563EB'" onblur="this.style.borderColor='#CBD5E1'">
+    <div id="_gdi_pwd_err" style="color:#DC2626;font-size:12px;min-height:18px;margin-bottom:10px;text-align:left;padding-left:2px"></div>
+    <button id="_gdi_pwd_btn"
+      style="width:100%;padding:11px;background:#1D4ED8;color:#fff;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;transition:background .2s"
+      onmouseover="this.style.background='#1e40af'" onmouseout="this.style.background='#1D4ED8'">
+      Ingresar
+    </button>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════ WIDGET FLOTANTE CONSULTOR JBL -->
+<div id="jbl-widget-wrap" style="display:none;position:fixed;bottom:24px;right:24px;z-index:9999;display:flex;flex-direction:column;align-items:flex-end;gap:10px">
+
+  <!-- Panel de chat (oculto por defecto) -->
+  <div id="jbl-widget-panel" style="display:none;width:360px;background:#fff;border-radius:16px;box-shadow:0 8px 32px rgba(0,0,0,0.18);overflow:hidden;flex-direction:column">
+    <!-- Header -->
+    <div style="background:#1E293B;padding:13px 16px;display:flex;align-items:center;gap:10px">
+      <span style="font-size:15px">💬</span>
+      <div style="flex:1">
+        <div style="font-weight:700;font-size:13px;color:#fff">Consultor de visibilidad de precios</div>
+        <div style="font-size:11px;color:#94A3B8;margin-top:1px">Calcula cuándo se verá en el front</div>
+      </div>
+      <button onclick="_jblWidgetToggle()"
+        style="background:transparent;border:none;color:#94A3B8;font-size:18px;cursor:pointer;line-height:1;padding:0"
+        onmouseover="this.style.color='#fff'" onmouseout="this.style.color='#94A3B8'">✕</button>
+    </div>
+    <!-- Historial -->
+    <div id="jbl-chat-history" style="padding:14px;min-height:100px;max-height:300px;overflow-y:auto;display:flex;flex-direction:column;gap:10px;background:#F8FAFC">
+      <div style="background:#F0F9FF;border:1px solid #BAE6FD;border-radius:10px;padding:10px 14px;font-size:12px;color:#0369A1;max-width:90%">
+        👋 Hola, soy el consultor de horarios JBL. Puedo ayudarte con:<br><br>
+        💲 <strong>Precios</strong> — cuándo se verá el precio en el front:<br>
+        <em>"Subí el precio del SKU123 a IWS hoy para Colombia"</em><br><br>
+        📦 <strong>Stock</strong> — cuándo se actualizará el inventario:<br>
+        <em>"Subí stock del SKU123 para México a las 10:40"</em>
+      </div>
+    </div>
+    <!-- Input -->
+    <div style="border-top:1px solid #E2E8F0;padding:10px 12px;display:flex;gap:8px;align-items:center;background:#fff">
+      <input id="jbl-chat-input" type="text" placeholder="Ej: Subí precio SKU123 a IWS para Colombia..."
+        style="flex:1;padding:8px 14px;border:1.5px solid #E2E8F0;border-radius:22px;font-size:12px;font-family:'Segoe UI',sans-serif;outline:none;transition:border .15s"
+        onfocus="this.style.borderColor='#6366F1'" onblur="this.style.borderColor='#E2E8F0'"
+        onkeydown="if(event.key==='Enter') _jblChatEnviar()">
+      <button onclick="_jblChatEnviar()"
+        style="background:#1E293B;color:#fff;border:none;border-radius:22px;padding:8px 16px;font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap;transition:background .15s"
+        onmouseover="this.style.background='#334155'" onmouseout="this.style.background='#1E293B'">
+        →
+      </button>
+    </div>
+  </div>
+
+  <!-- Burbuja de bienvenida -->
+  <div id="jbl-widget-bubble" onclick="_jblBubbleDismiss()"
+    style="background:#1E293B;color:#fff;border-radius:12px 12px 2px 12px;padding:10px 14px;font-size:12px;font-weight:600;white-space:nowrap;box-shadow:0 4px 16px rgba(0,0,0,0.22);cursor:pointer;display:flex;align-items:center;gap:8px;animation:jblBubblePop .35s ease">
+    <span style="font-size:14px">🤖</span>
+    Consulta con IA los horarios por país
+    <span style="font-size:10px;color:#94A3B8;margin-left:2px">✕</span>
+  </div>
+
+  <!-- Botón flotante -->
+  <button id="jbl-widget-btn" onclick="_jblWidgetToggle()"
+    style="width:56px;height:56px;border-radius:50%;background:#1E293B;border:none;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,0.25);display:flex;align-items:center;justify-content:center;font-size:24px;transition:background .15s;position:relative"
+    onmouseover="this.style.background='#334155'" onmouseout="this.style.background='#1E293B'"
+    title="Consultor de visibilidad de precios">
+    💬
+    <span id="jbl-widget-badge" style="display:none;position:absolute;top:4px;right:4px;width:10px;height:10px;background:#EF4444;border-radius:50%;border:2px solid #fff"></span>
+  </button>
   </section>
-
 </main>
 
 <!-- ══════════════════════════════════════════════
@@ -447,6 +746,10 @@
 ══════════════════════════════════════════════ -->
 <!-- data.js se genera con generate_data_local.py — permite abrir sin servidor HTTP -->
 <script src="../data/data.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/es.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
 <script src="app.js"></script>
