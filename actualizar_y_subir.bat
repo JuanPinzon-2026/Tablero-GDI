@@ -43,7 +43,7 @@ if errorlevel 1 (
 
 REM ── 4. Publicar ───────────────────────────────
 echo [4/4] Publicando en GitHub Pages...
-git push origin main
+git -c http.postBuffer=524288000 push origin main
 if errorlevel 1 (
     echo ERROR: Fallo el push. Verifica conexion y credenciales de GitHub.
     pause

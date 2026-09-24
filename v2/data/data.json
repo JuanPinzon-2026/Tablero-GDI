@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T20:39:24.870050+00:00",
+  "generatedAt": "2026-09-24T20:45:05.533259+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -149168,6 +149168,22 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
+      "detalle": ""
+    },
+    {
+      "fecha": "23/09/26",
+      "fn": "2026-09-24",
+      "marca": "Crocs",
+      "pais": "Panama",
+      "estado": "",
+      "com": "",
+      "ops": "",
+      "pen": "",
+      "ov": "2236-CROCS_PAN",
+      "ticket": "",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
       "detalle": ""
     }
   ],

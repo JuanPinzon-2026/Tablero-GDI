@@ -75,7 +75,9 @@ def main():
     git_env["GIT_TERMINAL_PROMPT"] = "0"
     git_env["GIT_ASKPASS"] = ""
     push = run(
-        ["git", "-c", "credential.helper=", "push", "origin", "main"],
+        ["git", "-c", "credential.helper=",
+               "-c", "http.postBuffer=524288000",
+               "push", "origin", "main"],
         env=git_env
     )
     if push.returncode == 0:
