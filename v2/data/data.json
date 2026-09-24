@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T22:39:10.342155+00:00",
+  "generatedAt": "2026-09-24T22:44:38.738575+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -149616,6 +149616,38 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-21",
+      "fn": "2026-09-24",
+      "marca": "Crocs",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "5292-CROCS_GTQ_CCSGTWL180",
+      "ticket": "ITHD-96928",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-21",
+      "fn": "2026-09-24",
+      "marca": "Crocs",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "5293-CROCS_GTQ_CCSGTWL180",
+      "ticket": "ITHD-96928",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
       "detalle": ""
     }
   ],
