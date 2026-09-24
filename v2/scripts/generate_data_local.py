@@ -8,7 +8,7 @@ Ejecutar con doble clic o: python scripts/generate_data_local.py
 No requiere Azure ni SharePoint — usa las rutas locales.
 """
 
-import os, sys, json, glob
+import os, sys, json, glob, shutil, tempfile
 from datetime import datetime, timezone
 
 try:
@@ -67,13 +67,24 @@ def extract_pais(marca_pais, marca):
 
 
 # ─── Leer incidencias ────────────────────────────────────────────────────────
+def open_workbook(path):
+    """Abre el Excel copiándolo a un temp para evitar PermissionError si está abierto."""
+    tmp = tempfile.NamedTemporaryFile(suffix='.xlsx', delete=False)
+    tmp.close()
+    try:
+        shutil.copy2(path, tmp.name)
+        return openpyxl.load_workbook(tmp.name, read_only=True, data_only=True)
+    except Exception:
+        os.unlink(tmp.name)
+        raise
+
 def read_incidencias():
     print(f'\nLeyendo: {EXCEL_INCIDENCIAS}')
     if not os.path.exists(EXCEL_INCIDENCIAS):
         print(f'  [ERROR] No existe: {EXCEL_INCIDENCIAS}')
         return []
 
-    wb = openpyxl.load_workbook(EXCEL_INCIDENCIAS, read_only=True, data_only=True)
+    wb = open_workbook(EXCEL_INCIDENCIAS)
     ws = wb.active
     records = []
     headers = None
@@ -135,7 +146,7 @@ def read_ingresadas():
     for fpath in sorted(files):
         fname = os.path.basename(fpath)
         try:
-            wb = openpyxl.load_workbook(fpath, read_only=True, data_only=True)
+            wb = open_workbook(fpath)
             ws = wb.active
             headers = None
             for i, row in enumerate(ws.iter_rows(values_only=True)):

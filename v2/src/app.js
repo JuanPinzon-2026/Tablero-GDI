@@ -182,7 +182,7 @@ function buildMonthSelects() {
 
   fillSelect('ss-mes', msSS.length ? msSS : ms);
   fillSelect('kr-mes', msKR.length ? msKR : ms);
-  fillSelect('mci-mes', msI.length ? msI : ms);
+  // MCI month select is self-populated in renderMCI()
 }
 
 function fillSelect(id, months) {
@@ -834,13 +834,46 @@ function renderSinStock() {
   setKPI('ss-kpi-marcas', new Set(recs.map(function(r){return r.marca;})).size);
   setKPI('ss-kpi-paises', new Set(recs.map(function(r){return r.pais; })).size);
 
-  // Chart: por día (del mes seleccionado)
+  // Chart: por día — línea
   const byDay = countByDay(recs);
   const days  = Object.keys(byDay).sort();
-  makeChart('chartSSDia', barConfig(
-    days.map(function(d){return d.substring(8);}),
-    [{ label: 'Sin Stock', data: days.map(function(d){return byDay[d];}), backgroundColor: '#ef4444', borderRadius: 4, barThickness: 11 }]
-  ));
+  if (window.ChartDataLabels) Chart.register(window.ChartDataLabels);
+  makeChart('chartSSDia', {
+    type: 'line',
+    plugins: window.ChartDataLabels ? [window.ChartDataLabels] : [],
+    data: {
+      labels: days.map(function(d){ return d.substring(8); }),
+      datasets: [{
+        label: 'Sin Stock',
+        data: days.map(function(d){ return byDay[d]; }),
+        borderColor: '#ef4444',
+        backgroundColor: 'rgba(239,68,68,0.07)',
+        fill: true, tension: 0.35,
+        pointBackgroundColor: '#ef4444', pointRadius: 4, pointHoverRadius: 7,
+      }]
+    },
+    options: (function(){
+      var d = getChartDefaults();
+      return {
+        responsive: true, maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          datalabels: window.ChartDataLabels ? {
+            align: 'top', anchor: 'end',
+            color: '#ffffff', backgroundColor: '#ef4444',
+            borderRadius: 4, padding: { top:2, bottom:2, left:5, right:5 },
+            font: { size: 10, weight: '700' },
+            formatter: function(v){ return v > 0 ? v : ''; },
+            display: function(ctx){ return ctx.dataset.data[ctx.dataIndex] > 0; }
+          } : false,
+        },
+        scales: {
+          x: { ticks: { color: d.text, font: { size: 9 }, maxTicksLimit: 31 }, grid: { color: d.grid } },
+          y: { ticks: { color: d.text }, grid: { color: d.grid }, beginAtZero: true },
+        }
+      };
+    })()
+  });
 
   // Chart: por marca (un color por marca)
   const topMarca = topN(countBy(recs, 'marca'), 10);
@@ -940,32 +973,387 @@ function calcDias(fecha) {
 /* ══════════════════════════════════
    MCI TAB
 ══════════════════════════════════ */
+/* ── MCI helpers ── */
+var chartMCI = null;
+
+function toggleMciDrop() {
+  var btn  = document.getElementById('mciMesBtn');
+  var drop = document.getElementById('mciMesDrop');
+  if (!btn || !drop) return;
+  var open = drop.classList.toggle('open');
+  btn.classList.toggle('open', open);
+  if (open) {
+    document.addEventListener('click', function closeDrop(e) {
+      var wrap = document.getElementById('mciMesWrap');
+      if (wrap && !wrap.contains(e.target)) {
+        drop.classList.remove('open');
+        btn.classList.remove('open');
+        document.removeEventListener('click', closeDrop);
+      }
+    });
+  }
+}
+
+function selectMciMes(ym) {
+  var sel   = document.getElementById('mciMes');
+  var drop  = document.getElementById('mciMesDrop');
+  var btn   = document.getElementById('mciMesBtn');
+  var label = document.getElementById('mciMesLabel');
+  if (sel) sel.value = ym;
+  if (drop) {
+    drop.querySelectorAll('.mci-mes-item').forEach(function(it) {
+      it.classList.toggle('active', it.dataset.ym === ym);
+    });
+    drop.classList.remove('open');
+  }
+  if (btn)  btn.classList.remove('open');
+  if (label) {
+    var MESES_ESP = ['','Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+    var p = ym.split('-');
+    label.textContent = MESES_ESP[+p[1]] + ' ' + p[0];
+  }
+  renderMCI();
+}
+
+function saveIXCPrevTotal(input) {
+  var sel = document.getElementById('mciMes');
+  if (!sel || !sel.value) return;
+  var ymCur = sel.value, p = ymCur.split('-'), yr = +p[0], mo = +p[1];
+  var ymP = mo === 1 ? (yr-1) + '-12' : yr + '-' + (mo-1 < 10 ? '0' : '') + (mo-1);
+  var key = 'ixc_total_' + ymP;
+  var val = input.value !== '' ? parseInt(input.value, 10) : '';
+  if (val !== '') localStorage.setItem(key, val);
+  else localStorage.removeItem(key);
+  renderMCI();
+}
+
+function saveIXC(input) {
+  var iso  = input.dataset.iso;
+  var key  = input.dataset.key;
+  var val  = input.value !== '' ? parseInt(input.value, 10) : '';
+  var saved = {};
+  try { saved = JSON.parse(localStorage.getItem(key) || '{}'); } catch(e) {}
+  if (val !== '') saved[iso] = val; else delete saved[iso];
+  localStorage.setItem(key, JSON.stringify(saved));
+  var total = Object.values(saved).reduce(function(s, v) { return s + (+v || 0); }, 0);
+  var t = document.getElementById('ixc-row-total');
+  if (t) t.textContent = total || '—';
+}
+
 function renderMCI() {
-  const mes = document.getElementById('mci-mes')?.value || '';
-  const ing = RECORDS_MCI_ING.filter(function(r){ return !mes || (r.fecha||'').startsWith(mes); });
-  const inc = filterByMonth(RECORDS, mes);
+  var sel = document.getElementById('mciMes');
+  if (!sel) return;
+  var MESES_ESP = ['','Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
 
-  const totalIng = ing.length;
-  const totalInc = inc.length;
-  const pct = totalIng > 0 ? ((totalInc / totalIng) * 100).toFixed(1) + '%' : '—';
+  // Populate month selector once
+  if (!sel.dataset.loaded) {
+    var todosLosMeses = [];
+    RECORDS.filter(function(r) { return r.fn && /^\d{4}-\d{2}-\d{2}$/.test(r.fn); })
+           .forEach(function(r) {
+             var ym0 = r.fn.slice(0, 7);
+             if (todosLosMeses.indexOf(ym0) < 0) todosLosMeses.push(ym0);
+           });
+    todosLosMeses.sort();
+    var meses = todosLosMeses.slice().reverse();
+    sel.innerHTML = meses.map(function(m) {
+      var p = m.split('-');
+      return '<option value="' + m + '">' + MESES_ESP[+p[1]] + ' ' + p[0] + '</option>';
+    }).join('');
+    // Default: current month or most recent
+    var _hoyYM = (new Date()).getFullYear() + '-' + String((new Date()).getMonth() + 1).padStart(2, '0');
+    sel.value = (meses.indexOf(_hoyYM) !== -1 ? _hoyYM : meses[0]) || '';
+    sel.dataset.loaded = '1';
 
-  setKPI('mci-kpi-ing', totalIng);
-  setKPI('mci-kpi-inc', totalInc);
-  setKPI('mci-kpi-pct', pct);
+    // Populate custom dropdown
+    var drop  = document.getElementById('mciMesDrop');
+    var label = document.getElementById('mciMesLabel');
+    if (drop) {
+      drop.innerHTML = meses.map(function(m) {
+        var p = m.split('-');
+        var nombre = MESES_ESP[+p[1]] + ' ' + p[0];
+        return '<div class="mci-mes-item active" data-ym="' + m + '" onclick="selectMciMes(this.dataset.ym)">'
+             + '<span style="font-size:11px;color:#94A3B8;margin-right:6px">🗓️</span>' + nombre + '</div>';
+      }).join('');
+    }
+    if (label) {
+      var p0 = sel.value.split('-');
+      label.textContent = MESES_ESP[+p0[1]] + ' ' + p0[0];
+    }
+  }
 
-  // Chart
-  const ingByDay = {};
-  ing.forEach(function(r){ const d = (r.fecha||'').substring(0,10); ingByDay[d] = (ingByDay[d]||0)+1; });
-  const incByDay = countByDay(inc);
-  const allDays  = [...new Set([...Object.keys(ingByDay), ...Object.keys(incByDay)])].sort();
+  var ym = sel.value; if (!ym) return;
+  var p0 = ym.split('-'), yr = +p0[0], mo = +p0[1];
+  var nDias = new Date(yr, mo, 0).getDate();
+  var dias = [];
+  for (var d = 1; d <= nDias; d++) dias.push(ym + '-' + (d < 10 ? '0' : '') + d);
 
-  makeChart('chartMCI', lineConfig(
-    allDays.map(function(d){return d.substring(8);}),
-    [
-      { label: 'Ingresadas', data: allDays.map(function(d){return ingByDay[d]||0;}), borderColor: '#3b82f6', backgroundColor: 'rgba(59,130,246,0.1)', fill: true, tension: 0.4, pointRadius: 3 },
-      { label: 'Incidentadas', data: allDays.map(function(d){return incByDay[d]||0;}), borderColor: '#ef4444', backgroundColor: 'rgba(239,68,68,0.1)', fill: true, tension: 0.4, pointRadius: 3 },
-    ]
-  ));
+  var hoy    = new Date();
+  var hoyISO = hoy.getFullYear() + '-' + String(hoy.getMonth()+1).padStart(2,'0') + '-' + String(hoy.getDate()).padStart(2,'0');
+
+  // Previous month
+  var ymPrev = mo === 1 ? (yr-1) + '-12' : yr + '-' + (mo-1 < 10 ? '0' : '') + (mo-1);
+  var nDiasPrev = new Date(+ymPrev.split('-')[0], +ymPrev.split('-')[1], 0).getDate();
+  var diasPrev = [];
+  for (var d2 = 1; d2 <= nDiasPrev; d2++) diasPrev.push(ymPrev + '-' + (d2 < 10 ? '0' : '') + d2);
+
+  var cntFnPrev = {};
+  RECORDS.filter(function(r) { return r.fn && r.fn.slice(0,7) === ymPrev; })
+         .forEach(function(r) { cntFnPrev[r.fn] = (cntFnPrev[r.fn]||0) + 1; });
+  var ingPrev = diasPrev.reduce(function(s, d) { return s + (cntFnPrev[d]||0); }, 0);
+
+  var keyPrev    = 'ixc_' + ymPrev;
+  var savedPrev  = {};
+  try { savedPrev = JSON.parse(localStorage.getItem(keyPrev) || '{}'); } catch(e) {}
+  var ixcPrevDiario = diasPrev.reduce(function(s, d) { return s + (+savedPrev[d] || 0); }, 0);
+  var ixcPrevTotalKey = 'ixc_total_' + ymPrev;
+  var ixcPrevTotalSaved = localStorage.getItem(ixcPrevTotalKey);
+  var ixcPrev = ixcPrevTotalSaved !== null ? parseInt(ixcPrevTotalSaved, 10) : ixcPrevDiario;
+  var mciPrev = ixcPrev > 0 ? (ingPrev / ixcPrev * 100).toFixed(2) + '%' : '—';
+
+  var DOW = ['D','L','M','M','J','V','S'];
+  function dow(iso) { var p = iso.split('-'); return DOW[new Date(+p[0], +p[1]-1, +p[2]).getDay()]; }
+  function isWE(iso) { var p = iso.split('-'); var w = new Date(+p[0], +p[1]-1, +p[2]).getDay(); return w===0||w===6; }
+  function isFut(iso) { return iso > hoyISO; }
+
+  // Current month ORs by r.fn
+  var cntFn = {};
+  RECORDS.filter(function(r) { return r.fn && r.fn.slice(0,7) === ym; })
+         .forEach(function(r) { cntFn[r.fn] = (cntFn[r.fn]||0) + 1; });
+  var totalIng = dias.reduce(function(s, d) { return s + (cntFn[d]||0); }, 0);
+
+  var SH = 'padding:7px 8px;text-align:center;font-weight:700;border:1px solid #E2E8F0;white-space:nowrap;font-size:10.5px;';
+  var SL = 'padding:8px 12px;text-align:left;border:1px solid #E2E8F0;font-weight:600;min-width:200px;font-size:11px;';
+  var SV = 'padding:7px 8px;text-align:center;border:1px solid #E2E8F0;white-space:nowrap;font-size:11px;';
+  var CH = 'background:#EFF6FF;color:#1E40AF;';
+  var CW = 'background:#F8FAFC;color:#CBD5E1;';
+  var CF = 'background:#FAFAFA;color:#E2E8F0;';
+
+  function cs(iso, bg) {
+    if (iso === hoyISO) return SV + 'background:#FEF9C3;';
+    if (isFut(iso))     return SV + CF;
+    if (isWE(iso))      return SV + CW;
+    return SV + 'background:' + bg + ';';
+  }
+
+  function buildHeader(d1, d2) {
+    var de = document.getElementById(d1), dy = document.getElementById(d2);
+    if (!de || !dy) return;
+    var hd = '<th style="' + SH + 'background:#DBEAFE;color:#1E3A8A;min-width:200px;font-weight:800">Métrica</th>'
+           + '<th style="' + SH + 'background:#DBEAFE;color:#1E3A8A;border-right:2px solid #93C5FD">Total Mes<br>Anterior</th>';
+    var hn = '<th style="' + SH + 'background:#EFF6FF;color:#1E40AF"></th>'
+           + '<th style="' + SH + 'background:#EFF6FF;color:#1E40AF;border-right:2px solid #93C5FD"></th>';
+    dias.forEach(function(iso) {
+      var we = isWE(iso), fut = isFut(iso), esHoy = iso === hoyISO;
+      var bg  = esHoy ? '#FEF9C3' : (fut ? '#F8FAFC' : (we ? '#F1F5F9' : '#1E3A8A'));
+      var col = esHoy ? '#92400E' : (fut || we ? '#94A3B8' : '#fff');
+      hd += '<th style="' + SH + 'background:' + bg + ';color:' + col + '">' + dow(iso) + '</th>';
+      hn += '<th style="' + SH + 'background:' + bg + ';color:' + col + '">' + parseInt(iso.slice(8), 10) + '</th>';
+    });
+    hd += '<th style="' + SH + CH + '">Total Mes</th>';
+    hn += '<th style="' + SH + CH + '"></th>';
+    de.innerHTML = hd; dy.innerHTML = hn;
+  }
+
+  function buildRow(label, prevVal, totalVal, vals, bg) {
+    var tr = '<tr>';
+    tr += '<td style="' + SL + 'background:' + bg + '">' + label + '</td>';
+    tr += '<td style="' + SV + 'background:#EFF6FF;font-weight:700;border-right:2px solid #93C5FD">' + prevVal + '</td>';
+    dias.forEach(function(iso, i) {
+      var v = vals ? vals[i] : null;
+      var disp = (v === null || v === undefined) ? '' : (isFut(iso) ? '' : (isWE(iso) && !v ? '' : v));
+      tr += '<td style="' + cs(iso, bg) + '">' + disp + '</td>';
+    });
+    var s = vals ? vals.reduce(function(a, b) { return a + (typeof b === 'number' ? b : 0); }, 0) : '—';
+    tr += '<td style="' + SV + 'background:' + bg + ';font-weight:700">' + (typeof s === 'number' ? s : '—') + '</td>';
+    return tr + '</tr>';
+  }
+
+  function buildIXCRow() {
+    var BG  = '#F0FDF4';
+    var SI  = 'width:52px;border:1px solid #CBD5E1;border-radius:4px;padding:2px 4px;font-size:11px;text-align:center;background:transparent;outline:none;font-family:inherit;';
+    var SI2 = 'width:70px;border:1px solid #93C5FD;border-radius:4px;padding:3px 5px;font-size:11px;font-weight:700;text-align:center;background:#EFF6FF;outline:none;font-family:inherit;';
+    var key  = 'ixc_' + ym;
+    var saved = {};
+    try { saved = JSON.parse(localStorage.getItem(key) || '{}'); } catch(e) {}
+    var mesTotal = dias.reduce(function(s, iso) { return s + (+saved[iso] || 0); }, 0);
+
+    var keyPrevTotal  = 'ixc_total_' + ymPrev;
+    var prevTotalSaved = localStorage.getItem(keyPrevTotal);
+    var prevTotalVal   = prevTotalSaved !== null ? prevTotalSaved : '';
+
+    var tr = '<tr>';
+    tr += '<td style="' + SL + 'background:' + BG + '">Total ORs generadas en IX</td>';
+    tr += '<td style="' + SV + 'background:#EFF6FF;border-right:2px solid #93C5FD">'
+        + '<input type="number" min="0" style="' + SI2 + '" value="' + prevTotalVal + '" placeholder="—"'
+        + ' id="ixc-prev-total-input" onchange="saveIXCPrevTotal(this)" oninput="saveIXCPrevTotal(this)"></td>';
+    dias.forEach(function(iso) {
+      var tdS = cs(iso, BG);
+      if (isFut(iso) || isWE(iso)) {
+        tr += '<td style="' + tdS + '"></td>';
+      } else {
+        var v = saved[iso] !== undefined ? saved[iso] : '';
+        tr += '<td style="' + tdS + '"><input type="number" min="0" style="' + SI + '" value="' + v + '" placeholder="—"'
+           + ' data-iso="' + iso + '" data-key="' + key + '" onchange="saveIXC(this)" oninput="saveIXC(this)"></td>';
+      }
+    });
+    tr += '<td id="ixc-row-total" style="' + SV + 'background:' + BG + ';font-weight:700">' + (mesTotal || '—') + '</td>';
+    return tr + '</tr>';
+  }
+
+  function buildMCIRow() {
+    var BG  = '#ECFEFF';
+    var key = 'ixc_' + ym;
+    var saved = {};
+    try { saved = JSON.parse(localStorage.getItem(key) || '{}'); } catch(e) {}
+    var ixcTotal = dias.reduce(function(s, iso) { return s + (+saved[iso] || 0); }, 0);
+    var ingTotal = dias.reduce(function(s, iso) { return s + (cntFn[iso] || 0); }, 0);
+    var pctTotal = ixcTotal > 0 ? (ingTotal / ixcTotal * 100).toFixed(2) + '%' : '—';
+    var tr = '<tr>';
+    tr += '<td style="' + SL + 'background:' + BG + '">MCI: % ORs Incidentadas en el día</td>';
+    tr += '<td style="' + SV + 'background:#EFF6FF;font-weight:700;border-right:2px solid #93C5FD">' + mciPrev + '</td>';
+    dias.forEach(function(iso) {
+      var ixc = +saved[iso] || 0;
+      var inc = cntFn[iso] || 0;
+      var pct = (!isWE(iso) && !isFut(iso) && ixc > 0) ? (inc / ixc * 100).toFixed(2) + '%' : '';
+      var bg  = iso === hoyISO ? '#FEF9C3' : (isFut(iso) ? '#F8FAFC' : (isWE(iso) ? '#F1F5F9' : BG));
+      tr += '<td style="' + SV + 'background:' + bg + ';font-weight:700">' + pct + '</td>';
+    });
+    tr += '<td style="' + SV + 'background:' + BG + ';font-weight:700">' + pctTotal + '</td>';
+    return tr + '</tr>';
+  }
+
+  function topTip(records, max) {
+    var cnt = {};
+    records.forEach(function(r) { if (r.detalle) { cnt[r.detalle] = (cnt[r.detalle]||0) + 1; } });
+    var sorted = Object.keys(cnt).sort(function(a,b) { return cnt[b] - cnt[a]; });
+    var n = sorted.length >= 5 ? max : Math.min(3, sorted.length);
+    if (n === 0) return '';
+    return sorted.slice(0, n).map(function(e, i) { return (i+1) + '. ' + e + ' (' + cnt[e] + ')'; }).join('\n');
+  }
+
+  function buildIngRow() {
+    var BG = '#EFF6FF';
+    var recsMes  = RECORDS.filter(function(r) { return r.fn && r.fn.slice(0,7) === ym; });
+    var recsPrev = RECORDS.filter(function(r) { return r.fn && r.fn.slice(0,7) === ymPrev; });
+    var tipPrev  = topTip(recsPrev, 5);
+    var tipTotal = topTip(recsMes, 5);
+    var tr = '<tr>';
+    tr += '<td style="' + SL + 'background:' + BG + '">ORs Ingresadas en el día actual</td>';
+    var prevCell = ingPrev ? String(ingPrev) : '—';
+    tr += '<td style="' + SV + 'background:#EFF6FF;font-weight:700;border-right:2px solid #93C5FD'
+        + (tipPrev ? '" class="mci-tip" data-tip="' + tipPrev.replace(/"/g, '&quot;') : '')
+        + '">' + prevCell + '</td>';
+    dias.forEach(function(iso) {
+      var v = cntFn[iso] || 0;
+      var disp = isFut(iso) ? '' : (isWE(iso) && !v ? '' : v);
+      var style = cs(iso, BG);
+      if (!isFut(iso) && !isWE(iso) && v > 0) {
+        var recsDay = RECORDS.filter(function(r) { return r.fn === iso; });
+        var tip = topTip(recsDay, 5);
+        tr += '<td style="' + style + '" class="mci-tip" data-tip="' + tip.replace(/"/g, '&quot;') + '">' + disp + '</td>';
+      } else {
+        tr += '<td style="' + style + '">' + disp + '</td>';
+      }
+    });
+    tr += '<td style="' + SV + 'background:' + BG + ';font-weight:700'
+        + (tipTotal ? '" class="mci-tip" data-tip="' + tipTotal.replace(/"/g, '&quot;') : '')
+        + '">' + (totalIng || '—') + '</td>';
+    return tr + '</tr>';
+  }
+
+  // Build table
+  buildHeader('mci-dow1', 'mci-day1');
+  var ingVals = dias.map(function(iso) { return cntFn[iso] || 0; });
+  var b1 = document.getElementById('mci-body1');
+  if (b1) b1.innerHTML = [
+    buildIngRow(),
+    buildRow('OR Realmente Incidentadas', ingPrev, totalIng, ingVals, '#F0FDF4'),
+    buildIXCRow(),
+    buildMCIRow(),
+  ].join('');
+
+  // Line chart MCI%
+  var key2   = 'ixc_' + ym;
+  var saved2 = {};
+  try { saved2 = JSON.parse(localStorage.getItem(key2) || '{}'); } catch(e) {}
+  var chartLabels = [], chartVals = [], chartColors = [];
+  dias.forEach(function(iso) {
+    if (isWE(iso) || isFut(iso)) return;
+    var ixc = +saved2[iso] || 0;
+    var inc = cntFn[iso] || 0;
+    if (ixc === 0) return;
+    var pct = parseFloat((inc / ixc * 100).toFixed(2));
+    chartLabels.push(parseInt(iso.slice(8), 10));
+    chartVals.push(pct);
+    chartColors.push(iso === hoyISO ? '#F59E0B' : (pct >= 80 ? '#22C55E' : (pct >= 50 ? '#3B82F6' : '#EF4444')));
+  });
+
+  var cvs = document.getElementById('chartMCI');
+  if (cvs && typeof Chart !== 'undefined') {
+    if (chartMCI) { chartMCI.destroy(); chartMCI = null; }
+    chartMCI = new Chart(cvs, {
+      type: 'line',
+      data: {
+        labels: chartLabels,
+        datasets: [{
+          label: 'MCI %',
+          data: chartVals,
+          borderColor: '#3B82F6',
+          backgroundColor: 'rgba(59,130,246,0.06)',
+          pointBackgroundColor: chartColors,
+          pointBorderColor: chartColors,
+          pointRadius: 6,
+          pointHoverRadius: 8,
+          borderWidth: 2.5,
+          tension: 0.3,
+          fill: true,
+          datalabels: { display: false }
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        layout: { padding: { top: 22, right: 36 } },
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              label: function(ctx) { return 'MCI: ' + ctx.parsed.y + '%'; }
+            }
+          }
+        },
+        scales: {
+          x: { title: { display: true, text: 'Día del mes', font: { size: 10 } }, grid: { color: 'rgba(0,0,0,0.04)' } },
+          y: { min: 0, title: { display: true, text: '% MCI', font: { size: 10 } }, suggestedMax: 20,
+               ticks: { callback: function(v) { return v + '%'; }, stepSize: 10 },
+               grid: { color: 'rgba(0,0,0,0.06)' } }
+        }
+      },
+      plugins: [ChartDataLabels, {
+        id: 'mciPointLabels',
+        afterDatasetsDraw: function(chart) {
+          var ds   = chart.data.datasets[0];
+          if (!ds) return;
+          var meta = chart.getDatasetMeta(0);
+          var ctx2 = chart.ctx;
+          meta.data.forEach(function(point, i) {
+            var val = ds.data[i];
+            if (val === null || val === undefined) return;
+            var color  = chartColors[i] || '#3B82F6';
+            var x = point.x, y = point.y;
+            var offsetY = (y - 18) < chart.chartArea.top ? 18 : -10;
+            ctx2.save();
+            ctx2.font = 'bold 10px "Segoe UI",sans-serif';
+            ctx2.fillStyle = color;
+            ctx2.textAlign = 'center';
+            ctx2.textBaseline = 'middle';
+            ctx2.fillText(val + '%', x, y + offsetY);
+            ctx2.restore();
+          });
+        }
+      }]
+    });
+  }
 }
 
 /* ══════════════════════════════════
