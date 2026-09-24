@@ -121,7 +121,7 @@ function normalize(r) {
 function norm(s) { return (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
 
 function isSinStock(r) {
-  return norm(r.com).includes('sin stock') || norm(r.ops).includes('sin stock');
+  return norm(r.com).includes('sin stock');
 }
 
 function isKrono(r) {
@@ -744,6 +744,62 @@ function renderSinStock() {
   const pais  = document.getElementById('ss-pais')?.value || '';
   const marca = document.getElementById('ss-marca')?.value || '';
 
+  // ── Consolidado mensual (sin filtro de mes, aplica país/marca si están) ──
+  var recsAll = RECORDS_SS;
+  if (pais)  recsAll = recsAll.filter(function(r){ return r.pais  === pais;  });
+  if (marca) recsAll = recsAll.filter(function(r){ return r.marca === marca; });
+
+  var mesRe = /^\d{4}-\d{2}$/;
+  var byMes = {};
+  recsAll.forEach(function(r){
+    var m = (r.fecha || '').slice(0, 7);
+    if (mesRe.test(m)) byMes[m] = (byMes[m] || 0) + 1;
+  });
+  var mesesAll = Object.keys(byMes).sort();
+  if (window.ChartDataLabels) Chart.register(window.ChartDataLabels);
+  makeChart('chartSSMes', {
+    type: 'bar',
+    plugins: window.ChartDataLabels ? [window.ChartDataLabels] : [],
+    data: {
+      labels: mesesAll.map(fmtMonth),
+      datasets: [{
+        label: 'Sin Stock',
+        data: mesesAll.map(function(m){ return byMes[m]; }),
+        backgroundColor: mesesAll.map(function(m){ return m === mes ? '#ef4444' : 'rgba(239,68,68,0.55)'; }),
+        borderRadius: 5, barThickness: 32,
+      }]
+    },
+    options: (function(){
+      var d = getChartDefaults();
+      return {
+        responsive: true, maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          datalabels: window.ChartDataLabels ? {
+            anchor: 'end', align: 'top',
+            color: '#ffffff', backgroundColor: '#ef4444',
+            borderRadius: 4, padding: { top:2, bottom:2, left:5, right:5 },
+            font: { size: 12, weight: '700' },
+            formatter: function(v){ return v > 0 ? v : ''; },
+          } : false,
+        },
+        scales: {
+          x: { ticks: { color: d.text, font: { size: 11 } }, grid: { color: d.grid } },
+          y: { ticks: { color: d.text }, grid: { color: d.grid }, beginAtZero: true },
+        },
+        onClick: function(evt, elements) {
+          if (elements && elements.length > 0) {
+            var selM = mesesAll[elements[0].index];
+            var el = document.getElementById('ss-mes');
+            if (el) { el.value = (el.value === selM) ? '' : selM; renderSinStock(); }
+          }
+        },
+        onHover: function(evt){ evt.native.target.style.cursor = 'pointer'; }
+      };
+    })()
+  });
+
+  // ── Filtros por mes para detalle ──
   let recs = filterByMonth(RECORDS_SS, mes);
   if (pais)  recs = recs.filter(function (r) { return r.pais  === pais; });
   if (marca) recs = recs.filter(function (r) { return r.marca === marca; });
@@ -758,7 +814,7 @@ function renderSinStock() {
   setKPI('ss-kpi-marcas', new Set(recs.map(function(r){return r.marca;})).size);
   setKPI('ss-kpi-paises', new Set(recs.map(function(r){return r.pais; })).size);
 
-  // Chart: por día
+  // Chart: por día (del mes seleccionado)
   const byDay = countByDay(recs);
   const days  = Object.keys(byDay).sort();
   makeChart('chartSSDia', barConfig(

@@ -259,14 +259,22 @@
       </div>
     </div>
 
+    <!-- Consolidado por mes (siempre visible, sin filtro) -->
+    <div class="chart-card" style="margin-bottom:20px">
+      <div class="chart-header">
+        <div class="chart-title">Consolidado Mensual — Sin Stock</div>
+      </div>
+      <div class="chart-wrap" style="height:260px"><canvas id="chartSSMes"></canvas></div>
+    </div>
+
     <div class="charts-grid">
       <div class="chart-card chart-wide">
-        <div class="chart-header"><div class="chart-title">Sin Stock por día</div></div>
-        <div class="chart-wrap" style="height:240px"><canvas id="chartSSDia"></canvas></div>
+        <div class="chart-header"><div class="chart-title">Sin Stock por día</div><span style="font-size:11px;color:var(--text-muted)">(según mes seleccionado)</span></div>
+        <div class="chart-wrap" style="height:220px"><canvas id="chartSSDia"></canvas></div>
       </div>
       <div class="chart-card">
         <div class="chart-header"><div class="chart-title">Por Marca (Top 10)</div></div>
-        <div class="chart-wrap" style="height:240px"><canvas id="chartSSMarca"></canvas></div>
+        <div class="chart-wrap" style="height:220px"><canvas id="chartSSMarca"></canvas></div>
       </div>
     </div>
 
