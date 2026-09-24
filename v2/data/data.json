@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T20:37:21.189848+00:00",
+  "generatedAt": "2026-09-24T20:39:24.870050+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -149153,6 +149153,22 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Validacion de estado de orden"
+    },
+    {
+      "fecha": "2026-09-07",
+      "fn": "2026-09-24",
+      "marca": "Dockers",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "7689_DOCCLWL180",
+      "ticket": "ITHD-96922",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": ""
     }
   ],
   "ingresadas": [

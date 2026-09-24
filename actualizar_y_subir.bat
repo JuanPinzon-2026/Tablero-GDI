@@ -6,33 +6,43 @@ echo ============================================
 echo.
 
 set "REPO=C:\Users\jpinz390\OneDrive - Software Broker\Dashboard"
-
-echo [1/3] Generando dashboard desde Excel...
 cd /d "%REPO%"
+
+REM ── 1. Generar V1 ─────────────────────────────
+echo [1/4] Generando dashboard V1...
 python "%REPO%\generar_dashboard.py"
 if errorlevel 1 (
-    echo ERROR: Fallo al generar el dashboard.
+    echo ERROR: Fallo al generar el dashboard V1.
     pause
     exit /b 1
 )
-echo     Dashboard generado OK
+echo     V1 OK
 
-echo [2/3] Guardando en git...
-cd /d "%REPO%"
+REM ── 2. Generar V2 ─────────────────────────────
+echo [2/4] Generando dashboard V2...
+python "%REPO%\generar_dashboard_v2.py"
+if errorlevel 1 (
+    echo WARN: Fallo la generacion de V2, continuando...
+) else (
+    echo     V2 OK
+)
+
+REM ── 3. Guardar en git ─────────────────────────
+echo [3/4] Guardando en git...
 
 REM Limpiar lock files si existen
 if exist ".git\index.lock" del /f /q ".git\index.lock"
 if exist ".git\HEAD.lock" del /f /q ".git\HEAD.lock"
 if exist ".git\refs\heads\main.lock" del /f /q ".git\refs\heads\main.lock"
 
-git add -f index.html generar_dashboard.py .gitignore
-git add .github\workflows\pages.yml
+git add .
 git commit -m "GDI-Dashboard %date% %time:~0,8%"
 if errorlevel 1 (
     echo     Sin cambios nuevos para commitear.
 )
 
-echo [3/3] Publicando en GitHub Pages...
+REM ── 4. Publicar ───────────────────────────────
+echo [4/4] Publicando en GitHub Pages...
 git push origin main
 if errorlevel 1 (
     echo ERROR: Fallo el push. Verifica conexion y credenciales de GitHub.
@@ -42,9 +52,9 @@ if errorlevel 1 (
 
 echo.
 echo ============================================
-echo   LISTO
-echo   - Tablero local: index.html
-echo   - GitHub Pages: en construccion (~2 min)
-echo   - URL: https://^<tu-usuario^>.github.io/^<repo^>
+echo   LISTO - Ambas versiones actualizadas
+echo   - V1 local : index.html
+echo   - V2 local : v2\src\index.html
+echo   - GitHub Pages: actualizado (~2 min)
 echo ============================================
 pause
