@@ -356,7 +356,10 @@
         <div class="mci-mes-drop" id="mciMesDrop"></div>
       </div>
     </div>
-    <div style="padding:20px 24px;overflow-x:auto">
+    <!-- Extremos MCI -->
+    <div id="mci-extremos" style="display:flex;gap:16px;padding:16px 24px 0;flex-wrap:wrap"></div>
+
+    <div style="padding:16px 24px;overflow-x:auto">
       <table style="border-collapse:collapse;font-size:11px;min-width:900px;width:100%;margin-bottom:24px">
         <thead><tr id="mci-dow1"></tr><tr id="mci-day1"></tr></thead>
         <tbody id="mci-body1"></tbody>
@@ -366,6 +369,9 @@
         <div style="font-weight:700;color:#1E3A8A;font-size:12px;margin-bottom:12px">📈 MCI % diario — ORs Incidentadas / ORs IX</div>
         <div style="position:relative;height:220px"><canvas id="chartMCI"></canvas></div>
       </div>
+
+      <!-- Top 5 problemas recurrentes -->
+      <div id="mci-top5" style="margin-top:20px"></div>
     </div>
   </section>
 

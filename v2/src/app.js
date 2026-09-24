@@ -1104,10 +1104,17 @@ function renderMCI() {
   var keyPrev    = 'ixc_' + ymPrev;
   var savedPrev  = {};
   try { savedPrev = JSON.parse(localStorage.getItem(keyPrev) || '{}'); } catch(e) {}
-  var ixcPrevDiario = diasPrev.reduce(function(s, d) { return s + (+savedPrev[d] || 0); }, 0);
+  var ixcEmailPrev = (DATA && DATA.ixcData) || {};
+  var ixcPrevDiario = diasPrev.reduce(function(s, d) {
+    var v = savedPrev[d] !== undefined ? savedPrev[d] : (ixcEmailPrev[d] !== undefined ? ixcEmailPrev[d] : 0);
+    return s + (+v || 0);
+  }, 0);
   var ixcPrevTotalKey = 'ixc_total_' + ymPrev;
   var ixcPrevTotalSaved = localStorage.getItem(ixcPrevTotalKey);
-  var ixcPrev = ixcPrevTotalSaved !== null ? parseInt(ixcPrevTotalSaved, 10) : ixcPrevDiario;
+  var ixcMesAccGlobal = (DATA && DATA.ixcMes) || {};
+  var ixcPrev = ixcPrevTotalSaved !== null
+    ? parseInt(ixcPrevTotalSaved, 10)
+    : (ixcMesAccGlobal[ymPrev] !== undefined ? ixcMesAccGlobal[ymPrev] : ixcPrevDiario);
   var mciPrev = ixcPrev > 0 ? (ingPrev / ixcPrev * 100).toFixed(2) + '%' : '—';
 
   var DOW = ['D','L','M','M','J','V','S'];
@@ -1120,6 +1127,19 @@ function renderMCI() {
   RECORDS.filter(function(r) { return r.fn && r.fn.slice(0,7) === ym; })
          .forEach(function(r) { cntFn[r.fn] = (cntFn[r.fn]||0) + 1; });
   var totalIng = dias.reduce(function(s, d) { return s + (cntFn[d]||0); }, 0);
+
+  // Datos IX compartidos por todas las sub-funciones
+  var _ixcEmail  = (DATA && DATA.ixcData) || {};
+  var _ixcMesAcc = (DATA && DATA.ixcMes)  || {};
+  var _ixcKey    = 'ixc_' + ym;
+  var _ixcSaved  = {};
+  try { _ixcSaved = JSON.parse(localStorage.getItem(_ixcKey) || '{}'); } catch(e) {}
+  // localStorage primero (override manual), luego dato del correo
+  function ixcVal(iso) {
+    if (_ixcSaved[iso] !== undefined) return _ixcSaved[iso];
+    if (_ixcEmail[iso] !== undefined) return _ixcEmail[iso];
+    return '';
+  }
 
   var SH = 'padding:7px 8px;text-align:center;font-weight:700;border:1px solid #E2E8F0;white-space:nowrap;font-size:10.5px;';
   var SL = 'padding:8px 12px;text-align:left;border:1px solid #E2E8F0;font-weight:600;min-width:200px;font-size:11px;';
@@ -1172,14 +1192,15 @@ function renderMCI() {
     var BG  = '#F0FDF4';
     var SI  = 'width:52px;border:1px solid #CBD5E1;border-radius:4px;padding:2px 4px;font-size:11px;text-align:center;background:transparent;outline:none;font-family:inherit;';
     var SI2 = 'width:70px;border:1px solid #93C5FD;border-radius:4px;padding:3px 5px;font-size:11px;font-weight:700;text-align:center;background:#EFF6FF;outline:none;font-family:inherit;';
-    var key  = 'ixc_' + ym;
-    var saved = {};
-    try { saved = JSON.parse(localStorage.getItem(key) || '{}'); } catch(e) {}
-    var mesTotal = dias.reduce(function(s, iso) { return s + (+saved[iso] || 0); }, 0);
 
-    var keyPrevTotal  = 'ixc_total_' + ymPrev;
+    var mesTotal = dias.reduce(function(s, iso) { return s + (+ixcVal(iso) || 0); }, 0);
+
+    // Mes anterior: localStorage override > acumulado del email > vacío
+    var keyPrevTotal   = 'ixc_total_' + ymPrev;
     var prevTotalSaved = localStorage.getItem(keyPrevTotal);
-    var prevTotalVal   = prevTotalSaved !== null ? prevTotalSaved : '';
+    var prevTotalVal   = prevTotalSaved !== null
+      ? prevTotalSaved
+      : (_ixcMesAcc[ymPrev] !== undefined ? String(_ixcMesAcc[ymPrev]) : '');
 
     var tr = '<tr>';
     tr += '<td style="' + SL + 'background:' + BG + '">Total ORs generadas en IX</td>';
@@ -1191,9 +1212,13 @@ function renderMCI() {
       if (isFut(iso) || isWE(iso)) {
         tr += '<td style="' + tdS + '"></td>';
       } else {
-        var v = saved[iso] !== undefined ? saved[iso] : '';
-        tr += '<td style="' + tdS + '"><input type="number" min="0" style="' + SI + '" value="' + v + '" placeholder="—"'
-           + ' data-iso="' + iso + '" data-key="' + key + '" onchange="saveIXC(this)" oninput="saveIXC(this)"></td>';
+        var v       = ixcVal(iso);
+        var deEmail = _ixcSaved[iso] === undefined && _ixcEmail[iso] !== undefined;
+        var extraStyle = deEmail ? 'background:#EFF6FF;' : '';
+        tr += '<td style="' + tdS + extraStyle + '">'
+           + '<input type="number" min="0" style="' + SI + '" value="' + v + '" placeholder="—"'
+           + ' data-iso="' + iso + '" data-key="' + _ixcKey + '" onchange="saveIXC(this)" oninput="saveIXC(this)"'
+           + (deEmail ? ' title="Dato cargado desde correo Outlook"' : '') + '></td>';
       }
     });
     tr += '<td id="ixc-row-total" style="' + SV + 'background:' + BG + ';font-weight:700">' + (mesTotal || '—') + '</td>';
@@ -1201,18 +1226,15 @@ function renderMCI() {
   }
 
   function buildMCIRow() {
-    var BG  = '#ECFEFF';
-    var key = 'ixc_' + ym;
-    var saved = {};
-    try { saved = JSON.parse(localStorage.getItem(key) || '{}'); } catch(e) {}
-    var ixcTotal = dias.reduce(function(s, iso) { return s + (+saved[iso] || 0); }, 0);
+    var BG       = '#ECFEFF';
+    var ixcTotal = dias.reduce(function(s, iso) { return s + (+ixcVal(iso) || 0); }, 0);
     var ingTotal = dias.reduce(function(s, iso) { return s + (cntFn[iso] || 0); }, 0);
     var pctTotal = ixcTotal > 0 ? (ingTotal / ixcTotal * 100).toFixed(2) + '%' : '—';
     var tr = '<tr>';
     tr += '<td style="' + SL + 'background:' + BG + '">MCI: % ORs Incidentadas en el día</td>';
     tr += '<td style="' + SV + 'background:#EFF6FF;font-weight:700;border-right:2px solid #93C5FD">' + mciPrev + '</td>';
     dias.forEach(function(iso) {
-      var ixc = +saved[iso] || 0;
+      var ixc = +ixcVal(iso) || 0;
       var inc = cntFn[iso] || 0;
       var pct = (!isWE(iso) && !isFut(iso) && ixc > 0) ? (inc / ixc * 100).toFixed(2) + '%' : '';
       var bg  = iso === hoyISO ? '#FEF9C3' : (isFut(iso) ? '#F8FAFC' : (isWE(iso) ? '#F1F5F9' : BG));
@@ -1261,6 +1283,56 @@ function renderMCI() {
     return tr + '</tr>';
   }
 
+  // ── Extremos MCI (mayor y menor % del mes) ──────────────────────────────
+  (function renderExtremosBlock() {
+    var extremos = document.getElementById('mci-extremos');
+    if (!extremos) return;
+
+    var MESES_ESP2 = ['','Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+
+    // Calcular MCI% por día para los días con datos completos
+    var puntos = [];
+    dias.forEach(function(iso) {
+      if (isWE(iso) || isFut(iso)) return;
+      var ixc = +ixcVal(iso) || 0;
+      if (ixc === 0) return;
+      var inc = cntFn[iso] || 0;
+      puntos.push({ iso: iso, inc: inc, ixc: ixc, pct: inc / ixc * 100 });
+    });
+
+    if (puntos.length === 0) {
+      extremos.innerHTML = '<p style="font-size:12px;color:#94A3B8;padding:8px 0">Sin datos IX para calcular extremos este mes.</p>';
+      return;
+    }
+
+    puntos.sort(function(a, b) { return b.pct - a.pct; });
+    var mayor = puntos[0];
+    var menor = puntos[puntos.length - 1];
+
+    function fmtFecha(iso) {
+      var p = iso.split('-');
+      return parseInt(p[2], 10) + ' ' + MESES_ESP2[+p[1]];
+    }
+
+    function card(tipo, punto, colorBg, colorBorder, colorText, emoji) {
+      var pctStr = punto.pct.toFixed(2) + '%';
+      var label  = tipo === 'mayor' ? 'Mayor MCI del mes' : 'Menor MCI del mes';
+      return '<div style="flex:1;min-width:220px;background:' + colorBg + ';border:1.5px solid ' + colorBorder
+           + ';border-radius:12px;padding:16px 20px;display:flex;flex-direction:column;gap:4px">'
+           + '<div style="font-size:10px;font-weight:700;color:' + colorText + ';text-transform:uppercase;letter-spacing:.5px">'
+           + emoji + ' ' + label + '</div>'
+           + '<div style="font-size:28px;font-weight:800;color:' + colorText + ';line-height:1.1">' + pctStr + '</div>'
+           + '<div style="font-size:12px;font-weight:600;color:' + colorText + ';opacity:.85">' + fmtFecha(punto.iso) + '</div>'
+           + '<div style="font-size:11px;color:' + colorText + ';opacity:.7;margin-top:2px">'
+           + punto.inc + ' incidentadas / ' + punto.ixc + ' IX</div>'
+           + '</div>';
+    }
+
+    extremos.innerHTML =
+      card('mayor', mayor, '#FEF2F2', '#FECACA', '#991B1B', '🔴') +
+      card('menor', menor, '#F0FDF4', '#BBF7D0', '#166534', '🟢');
+  })();
+
   // Build table
   buildHeader('mci-dow1', 'mci-day1');
   var ingVals = dias.map(function(iso) { return cntFn[iso] || 0; });
@@ -1273,13 +1345,10 @@ function renderMCI() {
   ].join('');
 
   // Line chart MCI%
-  var key2   = 'ixc_' + ym;
-  var saved2 = {};
-  try { saved2 = JSON.parse(localStorage.getItem(key2) || '{}'); } catch(e) {}
   var chartLabels = [], chartVals = [], chartColors = [];
   dias.forEach(function(iso) {
     if (isWE(iso) || isFut(iso)) return;
-    var ixc = +saved2[iso] || 0;
+    var ixc = +ixcVal(iso) || 0;
     var inc = cntFn[iso] || 0;
     if (ixc === 0) return;
     var pct = parseFloat((inc / ixc * 100).toFixed(2));
@@ -1354,6 +1423,69 @@ function renderMCI() {
       }]
     });
   }
+
+  // ── Top 5 problemas recurrentes del mes ─────────────────────────────────
+  (function renderTop5() {
+    var el = document.getElementById('mci-top5');
+    if (!el) return;
+
+    // Agrupar por detalle (Estado Caso): contar en cuántos días distintos apareció
+    var diasPorDetalle = {};   // detalle -> Set de fechas
+    var totalPorDetalle = {};  // detalle -> conteo total de ORs
+
+    RECORDS.filter(function(r) {
+      return r.fn && r.fn.slice(0, 7) === ym && r.detalle;
+    }).forEach(function(r) {
+      var d = r.detalle.trim();
+      if (!diasPorDetalle[d]) { diasPorDetalle[d] = {}; totalPorDetalle[d] = 0; }
+      diasPorDetalle[d][r.fn] = true;
+      totalPorDetalle[d]++;
+    });
+
+    // Ordenar por cantidad de días distintos desc, luego por total desc
+    var ranking = Object.keys(diasPorDetalle).map(function(d) {
+      return {
+        detalle: d,
+        dias:    Object.keys(diasPorDetalle[d]).length,
+        total:   totalPorDetalle[d]
+      };
+    }).sort(function(a, b) {
+      return b.dias !== a.dias ? b.dias - a.dias : b.total - a.total;
+    }).slice(0, 5);
+
+    if (ranking.length === 0) {
+      el.innerHTML = '';
+      return;
+    }
+
+    var maxDias = ranking[0].dias;
+    var MEDAL   = ['🥇','🥈','🥉','4️⃣','5️⃣'];
+    var COLORS  = ['#DC2626','#EA580C','#D97706','#65A30D','#0284C7'];
+
+    var rows = ranking.map(function(item, i) {
+      var barPct = maxDias > 0 ? Math.round(item.dias / maxDias * 100) : 0;
+      var color  = COLORS[i];
+      return '<div style="display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid #F1F5F9">'
+           + '<span style="font-size:16px;width:24px;text-align:center;flex-shrink:0">' + MEDAL[i] + '</span>'
+           + '<div style="flex:1;min-width:0">'
+           +   '<div style="font-size:12px;font-weight:600;color:#1E293B;white-space:nowrap;overflow:hidden;text-overflow:ellipsis" title="' + item.detalle + '">' + item.detalle + '</div>'
+           +   '<div style="margin-top:5px;height:6px;background:#F1F5F9;border-radius:3px;overflow:hidden">'
+           +     '<div style="height:100%;width:' + barPct + '%;background:' + color + ';border-radius:3px;transition:width .4s"></div>'
+           +   '</div>'
+           + '</div>'
+           + '<div style="text-align:right;flex-shrink:0">'
+           +   '<div style="font-size:13px;font-weight:800;color:' + color + '">' + item.dias + ' días</div>'
+           +   '<div style="font-size:10px;color:#94A3B8">' + item.total + ' ORs</div>'
+           + '</div>'
+           + '</div>';
+    }).join('');
+
+    el.innerHTML = '<div style="background:#fff;border:1px solid #E2E8F0;border-radius:12px;padding:16px 20px">'
+      + '<div style="font-weight:700;color:#1E3A8A;font-size:12px;margin-bottom:4px">🔁 Top 5 — Problemas más recurrentes del mes</div>'
+      + '<div style="font-size:10px;color:#94A3B8;margin-bottom:12px">Ordenados por cantidad de días distintos en que aparecieron</div>'
+      + rows
+      + '</div>';
+  })();
 }
 
 /* ══════════════════════════════════
