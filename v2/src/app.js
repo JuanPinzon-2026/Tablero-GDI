@@ -21,6 +21,14 @@ const CHARTS = {};
    BOOTSTRAP
 ══════════════════════════════════ */
 document.addEventListener('DOMContentLoaded', function () {
+  // Forzar modo claro siempre al cargar
+  document.documentElement.setAttribute('data-theme', 'light');
+  var sunEl   = document.getElementById('icon-sun');
+  var moonEl  = document.getElementById('icon-moon');
+  var lblEl   = document.getElementById('theme-label');
+  if (sunEl)  sunEl.style.display  = 'none';
+  if (moonEl) moonEl.style.display = 'block';
+  if (lblEl)  lblEl.textContent    = 'Modo oscuro';
   startClock();
   loadData();
 });
@@ -98,11 +106,19 @@ function processData() {
   document.getElementById('badge-kronotime').textContent = RECORDS_KR.length;
 }
 
+function fmtDateISO(v) {
+  var raw = (v || '').toString().trim();
+  if (/^\d{4}-\d{2}-\d{2}$/.test(raw)) return raw;                         // ya YYYY-MM-DD
+  var m = raw.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{4})$/);
+  if (m) return m[3] + '-' + m[2].padStart(2,'0') + '-' + m[1].padStart(2,'0'); // DD/MM/YYYY
+  return raw.slice(0, 10);                                                  // fallback
+}
+
 function normalize(r) {
   function s(v) { return (v || '').toString().trim(); }
   return {
-    fecha:    s(r.fecha),
-    fn:       s(r.fn),          // fecha notificacion JIRA
+    fecha:    fmtDateISO(r.fecha),
+    fn:       fmtDateISO(r.fn),  // fecha notificacion JIRA
     marca:    s(r.marca),
     pais:     s(r.pais),
     estado:   s(r.estado),      // Comentario continuidad
@@ -153,7 +169,8 @@ function getCurrentMes() {
 
 /* ── Month select helpers ── */
 function getMonths(recs) {
-  const ms = [...new Set(recs.map(r => r.fecha.substring(0, 7)))].filter(Boolean).sort().reverse();
+  const mesRe = /^\d{4}-\d{2}$/;
+  const ms = [...new Set(recs.map(r => (r.fecha||'').substring(0, 7)).filter(m => mesRe.test(m)))].sort().reverse();
   return ms;
 }
 
@@ -284,7 +301,10 @@ function horizontalBarConfig(labels, values, color, opts) {
         datalabels: window.ChartDataLabels ? {
           anchor: 'end', align: 'right',
           color: '#ffffff',
-          backgroundColor: '#3b82f6',
+          backgroundColor: function(ctx){
+            var bg = ctx.dataset.backgroundColor;
+            return Array.isArray(bg) ? bg[ctx.dataIndex] : (bg || '#3b82f6');
+          },
           borderRadius: 4,
           padding: { top: 2, bottom: 2, left: 6, right: 6 },
           font: { size: 12, weight: '700' },
@@ -597,7 +617,7 @@ function renderEstadoDia(fecha) {
     return;
   }
 
-  var recs = RECORDS.filter(function(r){ return r.fecha === fecha; });
+  var recs = RECORDS.filter(function(r){ return r.fn === fecha; });
   badge.textContent = fecha.slice(8) + '/' + fecha.slice(5,7) + '/' + fecha.slice(0,4);
   total.textContent = recs.length.toLocaleString('es-CO');
 
@@ -610,13 +630,13 @@ function renderEstadoDia(fecha) {
 
   rows.innerHTML = top.map(function(t, i){
     var pct = recs.length ? (t[1]/recs.length*100).toFixed(0) : 0;
-    return '<div style="display:flex;flex-direction:column;gap:3px">' +
-      '<div style="display:flex;justify-content:space-between;font-size:12px">' +
-        '<span style="color:var(--text-secondary);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:70%">' + t[0] + '</span>' +
-        '<strong style="color:var(--text-primary)">' + t[1] + '</strong>' +
+    return '<div style="display:flex;flex-direction:column;gap:6px;padding:10px 0;border-bottom:1px solid var(--border)">' +
+      '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:32px;font-size:13px;line-height:1.4">' +
+        '<span style="color:var(--text-secondary);word-break:break-word;flex:1">' + t[0] + '</span>' +
+        '<strong style="color:var(--text-primary);font-size:15px;flex-shrink:0;min-width:32px;text-align:right">' + t[1] + '</strong>' +
       '</div>' +
-      '<div style="height:5px;background:var(--bg-base);border-radius:3px">' +
-        '<div style="height:100%;width:' + pct + '%;background:' + colores[i%colores.length] + ';border-radius:3px;transition:width .4s ease"></div>' +
+      '<div style="height:7px;background:var(--bg-base);border-radius:4px">' +
+        '<div style="height:100%;width:' + pct + '%;background:' + colores[i%colores.length] + ';border-radius:4px;transition:width .4s ease"></div>' +
       '</div>' +
     '</div>';
   }).join('');
@@ -822,12 +842,12 @@ function renderSinStock() {
     [{ label: 'Sin Stock', data: days.map(function(d){return byDay[d];}), backgroundColor: '#ef4444', borderRadius: 4, barThickness: 11 }]
   ));
 
-  // Chart: por marca
+  // Chart: por marca (un color por marca)
   const topMarca = topN(countBy(recs, 'marca'), 10);
   makeChart('chartSSMarca', horizontalBarConfig(
     topMarca.map(function(t){return t[0];}),
     topMarca.map(function(t){return t[1];}),
-    '#3b82f6'
+    topMarca.map(function(_,i){return COLORS[i % COLORS.length];}),
   ));
 
   // Table

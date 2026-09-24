@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" data-theme="dark">
+<html lang="es" data-theme="light">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -171,8 +171,8 @@
     </div>
 
     <!-- SELECTOR DE FECHA + ESTADO DEL DÍA -->
-    <div class="charts-grid" style="padding-top:16px">
-      <div class="chart-card chart-wide">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;padding:16px 0 0">
+      <div class="chart-card">
         <div class="chart-header">
           <div>
             <div class="chart-title">Tendencia Diaria — Órdenes por Día</div>
@@ -188,14 +188,14 @@
         </div>
         <div class="chart-wrap" style="height:240px"><canvas id="chartOverviewDia"></canvas></div>
       </div>
-      <div class="chart-card" id="ov-estado-dia">
+      <div class="chart-card" id="ov-estado-dia" style="padding:20px 24px">
         <div class="chart-header">
           <div class="chart-title">Estado del Día</div>
           <span class="badge badge-blue" id="ov-dia-badge">—</span>
         </div>
         <div id="ov-dia-total" style="font-size:28px;font-weight:800;color:var(--text-primary);margin-bottom:4px">—</div>
         <div style="font-size:12px;color:var(--text-muted);margin-bottom:14px">órdenes notificadas</div>
-        <div id="ov-dia-rows" style="display:flex;flex-direction:column;gap:8px"></div>
+        <div id="ov-dia-rows" style="display:flex;flex-direction:column;gap:0"></div>
       </div>
     </div>
 
