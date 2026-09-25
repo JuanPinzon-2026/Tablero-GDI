@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T15:14:52.343820+00:00",
+  "generatedAt": "2026-09-25T16:14:44.416218+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -129815,16 +129815,16 @@
       "fn": "2026-09-14",
       "marca": "LC",
       "pais": "Colombia",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Sin stock",
+      "com": "Sin stock",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "8530-LACOSTE_COL",
       "ticket": "ITHD-96648",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden llego sin niveles geograficos en Json"
+      "detalle": "Sin inventario en IXL"
     },
     {
       "fecha": "2026-09-11",
@@ -134183,8 +134183,8 @@
       "fn": "2026-09-17",
       "marca": "Kenneth Cole",
       "pais": "Costa Rica",
-      "estado": "Escalado con la Capa",
-      "com": "Escalado con la Capa",
+      "estado": "Escalado con la marca",
+      "com": "Escalado con la marca",
       "ops": "En revision CO - IT",
       "pen": "Continuidad",
       "ov": "1063_KENCRWL180",
@@ -134192,7 +134192,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Sin generacion evento Payment"
+      "detalle": "Con descuento sin promocodes"
     },
     {
       "fecha": "2026-09-10",
@@ -143479,8 +143479,8 @@
       "fn": "2026-09-21",
       "marca": "Kenneth Cole",
       "pais": "Costa Rica",
-      "estado": "Escalado con la Capa",
-      "com": "Escalado con la Capa",
+      "estado": "Escalado con la marca",
+      "com": "Escalado con la marca",
       "ops": "En revision CO - IT",
       "pen": "Continuidad",
       "ov": "1064_KENCRWL180",
@@ -143488,7 +143488,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Sin generacion evento payment"
+      "detalle": "Con descuento sin promocodes"
     },
     {
       "fecha": "2026-09-11",
@@ -147975,13 +147975,13 @@
       "fn": "2026-09-22",
       "marca": "Motorola",
       "pais": "Peru",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "584296",
       "ticket": "ITHD-96861",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Solicitud de placeorder"
@@ -149159,8 +149159,8 @@
       "fn": "2026-09-24",
       "marca": "Dockers",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Escalado con Driver",
+      "com": "Escalado con Driver",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "7689_DOCCLWL180",
@@ -149168,7 +149168,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Orden llego a tienda inicial"
     },
     {
       "fecha": "23/09/26",
