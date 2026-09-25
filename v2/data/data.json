@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T14:44:36.384503+00:00",
+  "generatedAt": "2026-09-25T15:14:52.343820+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -135895,13 +135895,13 @@
       "fn": "2026-09-18",
       "marca": "JBL",
       "pais": "MEXICO",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00273444_JBLMXWL180",
       "ticket": "ITHD-96794",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Usuario esta en Credit Hold"
@@ -148999,16 +148999,16 @@
       "fn": "2026-09-24",
       "marca": "Dockers",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Sin stock",
+      "com": "Sin stock",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "8019_DOCCLWL180",
       "ticket": "ITHD-96912",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Orden sin stock Dockers CL"
     },
     {
       "fecha": "2026-09-24",
@@ -149095,8 +149095,8 @@
       "fn": "2026-09-24",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Escalado con Driver",
+      "com": "Escalado con Driver",
       "ops": "En revision CO - IT",
       "pen": "Continuidad",
       "ov": "R1_42847-CROCS_COL_CCSCOWL180",
@@ -149104,7 +149104,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Orden R1 sin generacion de guia"
     },
     {
       "fecha": "2026-09-24",
