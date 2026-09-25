@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T16:14:44.416218+00:00",
+  "generatedAt": "2026-09-25T16:44:58.676763+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -143703,13 +143703,13 @@
       "fn": "2026-09-21",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "Escalado con Kronotime",
-      "com": "Escalado con Kronotime",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "R1_42791-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-96828",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Envio de evento PICKUP_READY para generacion de guia"
@@ -147799,13 +147799,13 @@
       "fn": "2026-09-22",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "Escalado con Kronotime",
-      "com": "Escalado con Kronotime",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "13963-ON_COL",
       "ticket": "ITHD-96856",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Kronotime no ha enviado la guia"
@@ -147815,13 +147815,13 @@
       "fn": "2026-09-22",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "Escalado con Kronotime",
-      "com": "Escalado con Kronotime",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "14090-ON_COL",
       "ticket": "ITHD-96856",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Kronotime no ha enviado la guia"
@@ -147847,13 +147847,13 @@
       "fn": "2026-09-22",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "Escalado con Kronotime",
-      "com": "Escalado con Kronotime",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "14212-ON_COL",
       "ticket": "ITHD-96856",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Kronotime no ha enviado la guia"
@@ -149191,8 +149191,8 @@
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4877392",
@@ -149200,15 +149200,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4844338",
@@ -149216,15 +149216,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4847937",
@@ -149232,15 +149232,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4854727",
@@ -149248,15 +149248,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4877280",
@@ -149264,15 +149264,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4843031",
@@ -149280,15 +149280,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4850535",
@@ -149296,15 +149296,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4839873",
@@ -149312,15 +149312,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4745983",
@@ -149328,15 +149328,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4727253",
@@ -149344,15 +149344,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4877404",
@@ -149360,15 +149360,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4727419",
@@ -149376,15 +149376,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4728665",
@@ -149392,15 +149392,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4729084",
@@ -149408,15 +149408,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4745214",
@@ -149424,15 +149424,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4839321",
@@ -149440,15 +149440,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4844173",
@@ -149456,15 +149456,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4735384",
@@ -149472,15 +149472,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4744758",
@@ -149488,15 +149488,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4844318",
@@ -149504,15 +149504,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4844360",
@@ -149520,15 +149520,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4732144",
@@ -149536,15 +149536,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4877648",
@@ -149552,15 +149552,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "23/09/26",
       "fn": "2026-09-24",
       "marca": "wl",
       "pais": "Mexico",
-      "estado": "Escalado operaciones",
-      "com": "Escalado operaciones",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4850245",
@@ -149568,7 +149568,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Se solicito preguntar cual customerID ya que ticeket no indica"
+      "detalle": "Orden cancelada por solicitud de sponsor"
     },
     {
       "fecha": "2026-09-24",
