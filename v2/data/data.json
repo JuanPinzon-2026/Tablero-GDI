@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T14:15:33.290380+00:00",
+  "generatedAt": "2026-09-25T14:44:36.384503+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -149697,6 +149697,134 @@
       "proveedor": "",
       "canal": "",
       "detalle": ""
+    },
+    {
+      "fecha": "2026-09-24",
+      "fn": "2026-09-25",
+      "marca": "Motorola",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "679286",
+      "ticket": "ITHD-96937",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-24",
+      "fn": "2026-09-25",
+      "marca": "Motorola",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "679334",
+      "ticket": "ITHD-96937",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-24",
+      "fn": "2026-09-25",
+      "marca": "Motorola",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "679340",
+      "ticket": "ITHD-96937",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-24",
+      "fn": "2026-09-25",
+      "marca": "Motorola",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "679364",
+      "ticket": "ITHD-96937",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-24",
+      "fn": "2026-09-25",
+      "marca": "Motorola",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "679374",
+      "ticket": "ITHD-96937",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-24",
+      "fn": "2026-09-25",
+      "marca": "Motorola",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "679376",
+      "ticket": "ITHD-96937",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-24",
+      "fn": "2026-09-25",
+      "marca": "Motorola",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "679378",
+      "ticket": "ITHD-96937",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-25",
+      "fn": "2026-09-25",
+      "marca": "Motorola",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "679382",
+      "ticket": "ITHD-96937",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
     }
   ],
   "ingresadas": [
@@ -178865,6 +178993,414 @@
       "ov": "4561",
       "pais": "CHILE",
       "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-09-17",
+      "ov": "JB-MX00273444",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-23",
+      "ov": "HK-MX00069142",
+      "pais": "KARDON",
+      "marca": "Har"
+    },
+    {
+      "fecha": "2026-09-23",
+      "ov": "JB-MX00274133",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-23",
+      "ov": "JB-MX00274258",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "JB-MX00274201",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "JB-CR00046314",
+      "pais": "RICA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "14349-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "14325-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "14323-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "2000018615491172_JBLUYMKMEL",
+      "pais": "URUGUAY",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "2000018622362214_JBLUYMKMEL",
+      "pais": "URUGUAY",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "1172_RUNGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "RB"
+    },
+    {
+      "fecha": "2026-09-12",
+      "ov": "6617-CROCS_CRC_CCSCRWL180",
+      "pais": "RICA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-12",
+      "ov": "6621-CROCS_CRC_CCSCRWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-14",
+      "ov": "IX-28000056366",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-15",
+      "ov": "IX-28000056402",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-15",
+      "ov": "IX-28000056498",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-15",
+      "ov": "IX-28000056507",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-15",
+      "ov": "IX-46000015623",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-15",
+      "ov": "IX-28000056504",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-15",
+      "ov": "IX-28000056510",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-16",
+      "ov": "IX-28000056576",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-17",
+      "ov": "IX-28000056636",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "JB-GT00062355",
+      "pais": "GUATEMALA",
+      "marca": "JB"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "14244-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "14277-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "14326-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "8019_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "IX-43000023726",
+      "pais": "PERU",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "IX-40000057449",
+      "pais": "COLOMBIA",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "2000018618925370",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "8835-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "8884-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-09-08",
+      "ov": "R1_42847-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "43460-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "43473-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "43489-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-07",
+      "ov": "7689_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "2236-CROCS_PAN",
+      "pais": "PANAMA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4877392",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4844338",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4847937",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4854727",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4877280",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4843031",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4850535",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4839873",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4745983",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4727253",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4877404",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4727419",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4728665",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4729084",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4745214",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4839321",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4844173",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4735384",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4744758",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4844318",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4844360",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4732144",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4877648",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4850245",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "JB-GT00062379",
+      "pais": "GUATEMALA",
+      "marca": "JB"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "JB-GT00062469",
+      "pais": "GUATEMALA",
+      "marca": "JB"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "JB-GT00062383",
+      "pais": "GUATEMALA",
+      "marca": "JB"
+    },
+    {
+      "fecha": "2026-09-21",
+      "ov": "5292-CROCS_GTQ_CCSGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-21",
+      "ov": "5293-CROCS_GTQ_CCSGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "Crocs"
     },
     {
       "fecha": "2026-08-25",
