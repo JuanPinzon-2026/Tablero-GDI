@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T17:14:51.846518+00:00",
+  "generatedAt": "2026-09-25T17:44:54.432953+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -149575,8 +149575,8 @@
       "fn": "2026-09-24",
       "marca": "JB",
       "pais": "L Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-GT00062379",
@@ -149584,15 +149584,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Retenida por tipo de servicio"
     },
     {
       "fecha": "2026-09-24",
       "fn": "2026-09-24",
       "marca": "JB",
       "pais": "L Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-GT00062469",
@@ -149600,15 +149600,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Medidas no disponibles para tipo de servicio"
     },
     {
       "fecha": "2026-09-24",
       "fn": "2026-09-24",
       "marca": "JB",
       "pais": "L Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-GT00062383",
@@ -149616,15 +149616,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Medidas no disponibles para tipo de servicio"
     },
     {
       "fecha": "2026-09-21",
       "fn": "2026-09-24",
       "marca": "Crocs",
       "pais": "Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "5292-CROCS_GTQ_CCSGTWL180",
@@ -149632,15 +149632,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-09-21",
       "fn": "2026-09-24",
       "marca": "Crocs",
       "pais": "Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "5293-CROCS_GTQ_CCSGTWL180",
@@ -149648,7 +149648,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-09-24",
