@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T19:15:10.292289+00:00",
+  "generatedAt": "2026-09-25T19:44:50.810933+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -149703,8 +149703,8 @@
       "fn": "2026-09-25",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679286",
@@ -149712,15 +149712,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Niveles geograficos"
     },
     {
       "fecha": "2026-09-24",
       "fn": "2026-09-25",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679334",
@@ -149728,15 +149728,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Niveles geograficos"
     },
     {
       "fecha": "2026-09-24",
       "fn": "2026-09-25",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679340",
@@ -149744,15 +149744,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Niveles geograficos"
     },
     {
       "fecha": "2026-09-24",
       "fn": "2026-09-25",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679364",
@@ -149760,15 +149760,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Niveles geograficos"
     },
     {
       "fecha": "2026-09-24",
       "fn": "2026-09-25",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679374",
@@ -149776,15 +149776,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Niveles geograficos"
     },
     {
       "fecha": "2026-09-24",
       "fn": "2026-09-25",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679376",
@@ -149792,15 +149792,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Niveles geograficos"
     },
     {
       "fecha": "2026-09-24",
       "fn": "2026-09-25",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679378",
@@ -149808,15 +149808,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Niveles geograficos"
     },
     {
       "fecha": "2026-09-25",
       "fn": "2026-09-25",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679382",
@@ -149824,19 +149824,51 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Niveles geograficos"
     },
     {
       "fecha": "2026-09-25",
       "fn": "2026-09-25",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Kronotime",
+      "com": "Escalado con Kronotime",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "43521-CROCS_COL",
       "ticket": "ITHD-96941",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente envio de guia Kronotime"
+    },
+    {
+      "fecha": "25/09/26",
+      "fn": "2026-09-25",
+      "marca": "Dockers",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "8036_DOCCLWL180",
+      "ticket": "ITHD-96943",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "25/09/26",
+      "fn": "25/09/26",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3330",
+      "ticket": "ITHD-96944",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
