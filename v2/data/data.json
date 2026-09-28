@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T14:14:41.409969+00:00",
+  "generatedAt": "2026-09-28T14:44:55.978825+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -150000,7 +150000,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Error 503 Mienvio"
     },
     {
       "fecha": "25/09/26",
@@ -150016,7 +150016,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Error 503 Mienvio"
     },
     {
       "fecha": "25/09/26",
@@ -150032,7 +150032,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Error 503 Mienvio"
     },
     {
       "fecha": "25/09/26",
@@ -150048,7 +150048,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Error 503 Mienvio"
     },
     {
       "fecha": "25/09/26",
@@ -150064,7 +150064,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Error 503 Mienvio"
     },
     {
       "fecha": "25/09/26",
@@ -150509,6 +150509,54 @@
       "pen": "",
       "ov": "1180_RUNGTWL180",
       "ticket": "ITHD-96969",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-27",
+      "fn": "2026-09-28",
+      "marca": "CROCS",
+      "pais": "PANAMÁ",
+      "estado": "",
+      "com": "",
+      "ops": "",
+      "pen": "",
+      "ov": "2238-CROCS_PAN_CCSPAWL180",
+      "ticket": "",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-27",
+      "fn": "2026-09-28",
+      "marca": "CROCS",
+      "pais": "PANAMÁ",
+      "estado": "",
+      "com": "",
+      "ops": "",
+      "pen": "",
+      "ov": "2240-CROCS_PAN_CCSPAWL180",
+      "ticket": "",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-27",
+      "fn": "2026-09-28",
+      "marca": "CROCS",
+      "pais": "PANAMÁ",
+      "estado": "",
+      "com": "",
+      "ops": "",
+      "pen": "",
+      "ov": "2239-CROCS_PAN_CCSPAWL180",
+      "ticket": "",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
