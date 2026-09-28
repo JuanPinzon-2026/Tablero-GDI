@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T15:45:01.318524+00:00",
+  "generatedAt": "2026-09-28T16:14:56.371553+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -150231,8 +150231,8 @@
       "fn": "2026-09-28",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "42905-CROCS_COL_CCSCOWL180",
@@ -150240,7 +150240,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": ""
+      "detalle": "Orden sin guia- Envio de estado Pickup"
     },
     {
       "fecha": "2026-09-11",
@@ -150311,8 +150311,8 @@
       "fn": "2026-09-28",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "Liberada",
-      "com": "Liberada",
+      "estado": "",
+      "com": "",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "R1_42568-CROCS_COL_CCSCOWL180",
@@ -150320,7 +150320,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Orden sin guia- Envio de estado Pickup"
+      "detalle": ""
     },
     {
       "fecha": "2026-09-23",
@@ -150407,8 +150407,8 @@
       "fn": "2026-09-28",
       "marca": "LC",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "8920-LACOSTE_COL_LACCOWL180",
@@ -150416,15 +150416,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Niveles geograficos Kronotime"
     },
     {
       "fecha": "2026-09-28",
       "fn": "2026-09-28",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "14670-ON_COL_ONRCOWL180",
@@ -150439,8 +150439,8 @@
       "fn": "2026-09-28",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "14680-ON_COL_ONRCOWL180",
@@ -150560,6 +150560,38 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-28",
+      "fn": "2026-09-28",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "14494-ON_COL",
+      "ticket": "ITHD-96975",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-27",
+      "fn": "2026-09-28",
+      "marca": "Dockers",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "8050_DOCCLWL180",
+      "ticket": "ITHD-96976",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
       "detalle": ""
     }
   ],
@@ -184427,6 +184459,366 @@
       "ov": "1188_NEBSVWL180",
       "pais": "SALVADOR",
       "marca": "New Balance"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4877392",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4844338",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4847937",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4854727",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4877280",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4843031",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4850535",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4839873",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4745983",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4727253",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4877404",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4727419",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4728665",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4729084",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4745214",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4839321",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4844173",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4735384",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4744758",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4844318",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4844360",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4732144",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4877648",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "23/09/26",
+      "ov": "4850245",
+      "pais": "MEXICO",
+      "marca": "wl"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "JB-GT00062379",
+      "pais": "GUATEMALA",
+      "marca": "JB"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "JB-GT00062469",
+      "pais": "GUATEMALA",
+      "marca": "JB"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "JB-GT00062383",
+      "pais": "GUATEMALA",
+      "marca": "JB"
+    },
+    {
+      "fecha": "2026-09-21",
+      "ov": "5292-CROCS_GTQ_CCSGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-21",
+      "ov": "5293-CROCS_GTQ_CCSGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "593720",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "593718",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "1173_RUNGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "RB"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "679286",
+      "pais": "CHILE",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "679334",
+      "pais": "CHILE",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "679340",
+      "pais": "CHILE",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "679364",
+      "pais": "CHILE",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "679374",
+      "pais": "CHILE",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "679376",
+      "pais": "CHILE",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "679378",
+      "pais": "CHILE",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-25",
+      "ov": "679382",
+      "pais": "CHILE",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-25",
+      "ov": "43521-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "25/09/26",
+      "ov": "8036_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-09-06",
+      "ov": "R1_42750-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-05",
+      "ov": "R1_42707-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-20",
+      "ov": "R1_43349-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-21",
+      "ov": "43405-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-15",
+      "ov": "R1_43129-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-08",
+      "ov": "R1_42841-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-20",
+      "ov": "43333-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-11",
+      "ov": "42922-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "42905-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-11",
+      "ov": "42929-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-12",
+      "ov": "42969-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-12",
+      "ov": "42976-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-12",
+      "ov": "42972-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-02",
+      "ov": "R1_42568-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-23",
+      "ov": "43451-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-03",
+      "ov": "R1_42595-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-08",
+      "ov": "R1_42819-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-03",
+      "ov": "R1_42615-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
     },
     {
       "fecha": "2026-05-12",
