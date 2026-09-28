@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T20:44:57.887117+00:00",
+  "generatedAt": "2026-09-28T21:14:50.076193+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -134167,13 +134167,13 @@
       "fn": "2026-09-16",
       "marca": "LC",
       "pais": "Colombia",
-      "estado": "Escalado con finanzas",
-      "com": "Escalado con finanzas",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "6256_LACOSTE_COL",
       "ticket": "ITHD-96749",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores en el FullunitPrice Lacoste CO"
@@ -149033,7 +149033,7 @@
       "pais": "Colombia",
       "estado": "Escalado operaciones",
       "com": "Escalado operaciones",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Operaciones Revision/Configuracion",
       "ov": "IX-40000057449",
       "ticket": "ITHD-96910",
@@ -150112,7 +150112,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Anexo de guia de orden reasignada"
+      "detalle": "Sin generacion de guia orden reasignada"
     },
     {
       "fecha": "2026-09-05",
@@ -150128,7 +150128,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Anexo de guia de orden reasignada"
+      "detalle": "Sin generacion de guia orden reasignada"
     },
     {
       "fecha": "2026-09-20",
@@ -150144,7 +150144,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Anexo de guia de orden reasignada"
+      "detalle": "Sin generacion de guia orden reasignada"
     },
     {
       "fecha": "2026-09-21",
@@ -150176,7 +150176,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Anexo de guia de orden reasignada"
+      "detalle": "Sin generacion de guia orden reasignada"
     },
     {
       "fecha": "2026-09-08",
@@ -150192,7 +150192,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Anexo de guia de orden reasignada"
+      "detalle": "Sin generacion de guia orden reasignada"
     },
     {
       "fecha": "2026-09-20",
@@ -150352,7 +150352,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Sin generacion de guia orden reenviada"
+      "detalle": "Sin generacion de guia orden reasignada"
     },
     {
       "fecha": "2026-09-08",
@@ -150368,7 +150368,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Sin generacion de guia orden reenviada"
+      "detalle": "Sin generacion de guia orden reasignada"
     },
     {
       "fecha": "2026-09-03",
@@ -150384,7 +150384,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Sin generacion de guia orden reenviada"
+      "detalle": "Sin generacion de guia orden reasignada"
     },
     {
       "fecha": "2026-09-25",
@@ -150567,13 +150567,13 @@
       "fn": "2026-09-28",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "Escalado con Driver",
-      "com": "Escalado con Driver",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "14494-ON_COL",
       "ticket": "ITHD-96975",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Error 500 Kronotime- Pickup"
@@ -150880,7 +150880,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Anexo de guia de orden reasignada"
+      "detalle": "Sin generacion de guia orden reasignada"
     },
     {
       "fecha": "2026-09-15",
@@ -150896,7 +150896,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Anexo de guia de orden reasignada"
+      "detalle": "Sin generacion de guia orden reasignada"
     },
     {
       "fecha": "2026-09-02",
@@ -150912,7 +150912,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Anexo de guia de orden reasignada"
+      "detalle": "Sin generacion de guia orden reasignada"
     },
     {
       "fecha": "2026-09-28",
@@ -151073,6 +151073,38 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Orden Dockers CL sin stock"
+    },
+    {
+      "fecha": "2026-09-28",
+      "fn": "2026-09-28",
+      "marca": "Distelsa",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "63001037795-A",
+      "ticket": "ITHD-96990",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-28",
+      "fn": "2026-09-28",
+      "marca": "Distelsa",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "63001038152-A",
+      "ticket": "ITHD-96990",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
     }
   ],
   "ingresadas": [
