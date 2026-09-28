@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T17:14:44.005569+00:00",
+  "generatedAt": "2026-09-28T17:50:29.339485+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -147285,7 +147285,7 @@
     {
       "fecha": "2026-09-17",
       "fn": "2026-09-21",
-      "marca": "ITHD-96624",
+      "marca": "MKP",
       "pais": "Colombia FULL",
       "estado": "Liberada",
       "com": "Liberada",
@@ -150528,7 +150528,7 @@
       "pendiente": "0",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden con promoCode sin descuento"
     },
     {
       "fecha": "2026-09-27",
