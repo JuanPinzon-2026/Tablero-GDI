@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T15:14:44.545867+00:00",
+  "generatedAt": "2026-09-28T15:45:01.318524+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -150215,8 +150215,8 @@
       "fn": "2026-09-28",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "42922-CROCS_COL_CCSCOWL180",
@@ -150224,7 +150224,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": ""
+      "detalle": "Orden sin guia- Envio de estado Pickup"
     },
     {
       "fecha": "2026-09-10",
@@ -150247,8 +150247,8 @@
       "fn": "2026-09-28",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "42929-CROCS_COL_CCSCOWL180",
@@ -150256,15 +150256,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": ""
+      "detalle": "Orden sin guia- Envio de estado Pickup"
     },
     {
       "fecha": "2026-09-12",
       "fn": "2026-09-28",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "42969-CROCS_COL_CCSCOWL180",
@@ -150272,15 +150272,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": ""
+      "detalle": "Orden sin guia- Envio de estado Pickup"
     },
     {
       "fecha": "2026-09-12",
       "fn": "2026-09-28",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "42976-CROCS_COL_CCSCOWL180",
@@ -150288,15 +150288,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": ""
+      "detalle": "Orden sin guia- Envio de estado Pickup"
     },
     {
       "fecha": "2026-09-12",
       "fn": "2026-09-28",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "42972-CROCS_COL_CCSCOWL180",
@@ -150304,15 +150304,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": ""
+      "detalle": "Orden sin guia- Envio de estado Pickup"
     },
     {
       "fecha": "2026-09-02",
       "fn": "2026-09-28",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "R1_42568-CROCS_COL_CCSCOWL180",
@@ -150320,15 +150320,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": ""
+      "detalle": "Orden sin guia- Envio de estado Pickup"
     },
     {
       "fecha": "2026-09-23",
       "fn": "2026-09-28",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "43451-CROCS_COL_CCSCOWL180",
@@ -150336,7 +150336,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": ""
+      "detalle": "Orden sin guia- Envio de estado Pickup"
     },
     {
       "fecha": "2026-09-03",
@@ -150391,8 +150391,8 @@
       "fn": "2026-09-28",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "14510-ON_COL_ONRCOWL180",
@@ -150400,7 +150400,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Niveles geograficos Kronotime"
     },
     {
       "fecha": "2026-09-28",
@@ -150432,7 +150432,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Niveles geograficos Kronotime"
     },
     {
       "fecha": "2026-09-28",
@@ -150448,7 +150448,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Niveles geograficos Kronotime"
     },
     {
       "fecha": "2026-09-26",
