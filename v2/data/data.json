@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T17:44:50.694929+00:00",
+  "generatedAt": "2026-09-29T19:17:36.234018+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -151393,6 +151393,70 @@
       "proveedor": "",
       "canal": "",
       "detalle": ""
+    },
+    {
+      "fecha": "2026-09-29",
+      "fn": "2026-09-29",
+      "marca": "JBL",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-PE00207332",
+      "ticket": "ITHD-97008",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-29",
+      "fn": "2026-09-29",
+      "marca": "JBL",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-PE00207362",
+      "ticket": "ITHD-97008",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-29",
+      "fn": "2026-09-29",
+      "marca": "JBL",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-PE00206606_JBLPEWL180",
+      "ticket": "ITHD-97009",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-29",
+      "fn": "2026-09-29",
+      "marca": "JBL",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-PE00207024_JBLPEWL180",
+      "ticket": "ITHD-97009",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
     }
   ],
   "ingresadas": [
@@ -187845,6 +187909,408 @@
       "ov": "1998-CROCS_PAN_CCSPAWL180",
       "pais": "PANAMÁ",
       "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-06",
+      "ov": "R1_42750-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-05",
+      "ov": "R1_42707-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-20",
+      "ov": "R1_43349-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-21",
+      "ov": "43405-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-15",
+      "ov": "R1_43129-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-08",
+      "ov": "R1_42841-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-20",
+      "ov": "43333-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-11",
+      "ov": "42922-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "42905-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-11",
+      "ov": "42929-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-12",
+      "ov": "42969-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-12",
+      "ov": "42976-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-12",
+      "ov": "42972-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-02",
+      "ov": "R1_42568-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-23",
+      "ov": "43451-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-03",
+      "ov": "R1_42595-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-08",
+      "ov": "R1_42819-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-03",
+      "ov": "R1_42615-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-25",
+      "ov": "14510-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "8920-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "14670-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "14680-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-26",
+      "ov": "1176_RUNGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "RB"
+    },
+    {
+      "fecha": "2026-09-27",
+      "ov": "1178_RUNGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "RB"
+    },
+    {
+      "fecha": "2026-09-27",
+      "ov": "1179_RUNGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "RB"
+    },
+    {
+      "fecha": "2026-09-27",
+      "ov": "1180_RUNGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "RB"
+    },
+    {
+      "fecha": "2026-09-27",
+      "ov": "2238-CROCS_PAN_CCSPAWL180",
+      "pais": "PANAMÁ",
+      "marca": "CROCS"
+    },
+    {
+      "fecha": "2026-09-27",
+      "ov": "2240-CROCS_PAN_CCSPAWL180",
+      "pais": "PANAMÁ",
+      "marca": "CROCS"
+    },
+    {
+      "fecha": "2026-09-27",
+      "ov": "2239-CROCS_PAN_CCSPAWL180",
+      "pais": "PANAMÁ",
+      "marca": "CROCS"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "14494-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-27",
+      "ov": "8050_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "43524-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "CROCS"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "43547-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "CROCS"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "43571-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "CROCS"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "43572-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "CROCS"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "43585-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "CROCS"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "43624-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "CROCS"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "2000015197232581_CCSCOMKMEL",
+      "pais": "COLOMBIA",
+      "marca": "CROCS"
+    },
+    {
+      "fecha": "2026-09-25",
+      "ov": "JB-CR00046426",
+      "pais": "RICA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-25",
+      "ov": "JB-CL00178612",
+      "pais": "CHILE",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-26",
+      "ov": "JB-MX00274564",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-27",
+      "ov": "JB-CR00046445",
+      "pais": "RICA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-27",
+      "ov": "JB-CR00046450",
+      "pais": "RICA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-27",
+      "ov": "JB-MX00274854",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-27",
+      "ov": "JB-MX00274944",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "JB-MX00275019",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "JB-MX00274958",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-25",
+      "ov": "HO3330",
+      "pais": "CHILE",
+      "marca": "Honor"
+    },
+    {
+      "fecha": "2026-09-23",
+      "ov": "R1_43460-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-15",
+      "ov": "R1_43133-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-02",
+      "ov": "R1_42565-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "4715600",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "4714510",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "4736175",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "4741332",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "4741352",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "4741492",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "4737079",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "4740941",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "4741166",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-26",
+      "ov": "8046_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "63001037795-A",
+      "pais": "GUATEMALA",
+      "marca": "Distelsa"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "63001038152-A",
+      "pais": "GUATEMALA",
+      "marca": "Distelsa"
+    },
+    {
+      "fecha": "2026-09-06",
+      "ov": "R1_42724-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "2242-CROCS_PAN",
+      "pais": "PANAMA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "679402",
+      "pais": "CHILE",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "JB-GT00062603",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
     },
     {
       "fecha": "2026-07-26",
