@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T19:17:36.234018+00:00",
+  "generatedAt": "2026-09-29T19:44:54.267781+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -151335,8 +151335,8 @@
       "fn": "2026-09-29",
       "marca": "JBL",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-CO00245762",
@@ -151344,15 +151344,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Envio de evento Payment complete"
     },
     {
       "fecha": "2026-09-29",
       "fn": "2026-09-29",
       "marca": "JBL",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-CO00245947",
@@ -151360,7 +151360,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Envio de evento Payment complete"
     },
     {
       "fecha": "2026-09-29",
@@ -151383,8 +151383,8 @@
       "fn": "2026-09-29",
       "marca": "JBL",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-CO00246159",
@@ -151392,15 +151392,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Envio de evento Payment complete"
     },
     {
       "fecha": "2026-09-29",
       "fn": "2026-09-29",
       "marca": "JBL",
       "pais": "Peru",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-PE00207332",
@@ -151408,15 +151408,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Producto mal configurado"
     },
     {
       "fecha": "2026-09-29",
       "fn": "2026-09-29",
       "marca": "JBL",
       "pais": "Peru",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-PE00207362",
@@ -151424,15 +151424,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Error en Updateorder"
     },
     {
       "fecha": "2026-09-29",
       "fn": "2026-09-29",
       "marca": "JBL",
       "pais": "Peru",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Driver",
+      "com": "Escalado con Driver",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-PE00206606_JBLPEWL180",
@@ -151440,15 +151440,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin facturar en NS"
     },
     {
       "fecha": "2026-09-29",
       "fn": "2026-09-29",
       "marca": "JBL",
       "pais": "Peru",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Driver",
+      "com": "Escalado con Driver",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-PE00207024_JBLPEWL180",
@@ -151456,7 +151456,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin facturar en NS"
     }
   ],
   "ingresadas": [
