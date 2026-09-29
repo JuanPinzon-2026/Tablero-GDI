@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T15:44:50.536928+00:00",
+  "generatedAt": "2026-09-29T16:14:58.579310+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -151276,7 +151276,7 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-MX00275139",
-      "ticket": "ITHD-97004",
+      "ticket": "ITHD-97003",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
@@ -151292,7 +151292,7 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-MX00275145",
-      "ticket": "ITHD-97005",
+      "ticket": "ITHD-97003",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
@@ -151312,7 +151312,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Invalid sales order (error 30 novedad en respuesta TRAX -IWS)"
     },
     {
       "fecha": "2026-09-28",
@@ -151324,6 +151324,22 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "HO3350",
+      "ticket": "ITHD-97005",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-29",
+      "fn": "2026-09-29",
+      "marca": "JB",
+      "pais": "L Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-GT00062678",
       "ticket": "ITHD-97005",
       "pendiente": "",
       "proveedor": "",
