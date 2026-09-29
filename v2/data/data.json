@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T14:46:04.370642+00:00",
+  "generatedAt": "2026-09-29T15:15:10.228241+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -151233,6 +151233,86 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Sin inventario en IXL"
+    },
+    {
+      "fecha": "2026-09-28",
+      "fn": "2026-09-29",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3350",
+      "ticket": "ITHD-97002",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-28",
+      "fn": "2026-09-29",
+      "marca": "Har",
+      "pais": "man Kardon",
+      "estado": "",
+      "com": "",
+      "ops": "",
+      "pen": "",
+      "ov": "HK-MX00069252",
+      "ticket": "",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-29",
+      "fn": "2026-09-29",
+      "marca": "JBL",
+      "pais": "MEXICO",
+      "estado": "",
+      "com": "",
+      "ops": "",
+      "pen": "",
+      "ov": "JB-MX00275139",
+      "ticket": "",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-29",
+      "fn": "2026-09-29",
+      "marca": "JBL",
+      "pais": "MEXICO",
+      "estado": "",
+      "com": "",
+      "ops": "",
+      "pen": "",
+      "ov": "JB-MX00275145",
+      "ticket": "",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-29",
+      "fn": "2026-09-29",
+      "marca": "JBL",
+      "pais": "CHILE",
+      "estado": "",
+      "com": "",
+      "ops": "",
+      "pen": "",
+      "ov": "JB-CL00178641",
+      "ticket": "",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
     }
   ],
   "ingresadas": [
