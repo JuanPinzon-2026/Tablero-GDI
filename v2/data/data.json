@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T20:50:12.353227+00:00",
+  "generatedAt": "2026-09-30T21:24:11.572863+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -152545,6 +152545,54 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS-Lacoste CO"
+    },
+    {
+      "fecha": "2026-09-30",
+      "fn": "2026-09-30",
+      "marca": "RB",
+      "pais": "Running balboa Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "0",
+      "ov": "1184_RUNGTWL180",
+      "ticket": "ITHD-97051",
+      "pendiente": "0",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-30",
+      "fn": "2026-09-30",
+      "marca": "Crocs",
+      "pais": "Panama",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2247-CROCS_PAN",
+      "ticket": "ITHD-97052",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-25",
+      "fn": "2026-09-30",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "R1_43536-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97053",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": ""
     }
   ],
   "ingresadas": [
