@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T16:15:16.474777+00:00",
+  "generatedAt": "2026-09-30T16:44:51.090913+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -152199,8 +152199,8 @@
       "fn": "2026-09-30",
       "marca": "RB",
       "pais": "Running balboa Guatemala",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Escalado con Driver",
+      "com": "Escalado con Driver",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "1182_RUNGTWL180",
@@ -152208,7 +152208,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Campo lastname en null"
     },
     {
       "fecha": "2026-09-30",
@@ -152269,6 +152269,54 @@
       "pen": "",
       "ov": "JB-CO00246344_JBLCOWL180",
       "ticket": "ITHD-97038",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-30",
+      "fn": "2026-09-30",
+      "marca": "Crocs Panamá",
+      "pais": "Panamá",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2247-CROCS_PAN_CCSPAWL180",
+      "ticket": "ITHD-97041",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-30",
+      "fn": "2026-09-30",
+      "marca": "Crocs Panamá",
+      "pais": "Panamá",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2245-CROCS_PAN_CCSPAWL180",
+      "ticket": "ITHD-97041",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-30",
+      "fn": "2026-09-30",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "43677-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97044",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
