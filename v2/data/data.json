@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T14:15:25.444555+00:00",
+  "generatedAt": "2026-09-30T14:44:55.888152+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -151671,8 +151671,8 @@
       "fn": "2026-09-30",
       "marca": "EPSON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "cancelada",
+      "com": "cancelada",
       "ops": "cancelada",
       "pen": "",
       "ov": "IX-40000058178",
@@ -151680,7 +151680,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "cancelada"
     },
     {
       "fecha": "2026-09-30",
