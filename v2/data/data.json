@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T17:14:51.023703+00:00",
+  "generatedAt": "2026-10-01T17:45:32.610160+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -152631,8 +152631,8 @@
       "fn": "2026-09-30",
       "marca": "RB",
       "pais": "Running balboa Guatemala",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Escalado con la Capa",
+      "com": "Escalado con la Capa",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "1170_RUNGTWL180",
@@ -152640,7 +152640,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin facturar en NS"
+      "detalle": "Orden superior a 2500 Q"
     },
     {
       "fecha": "2026-09-30",
@@ -152769,22 +152769,6 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar"
-    },
-    {
-      "fecha": "2026-09-30",
-      "fn": "2026-10-01",
-      "marca": "MKP",
-      "pais": "URUGUAY",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
-      "ops": "En revision CO - IT",
-      "pen": "",
-      "ov": "2000018716293260_JBLUYMKMEL",
-      "ticket": "",
-      "pendiente": "",
-      "proveedor": "",
-      "canal": "",
-      "detalle": ""
     },
     {
       "fecha": "2026-09-11",
