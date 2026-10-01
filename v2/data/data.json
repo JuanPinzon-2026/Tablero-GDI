@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T17:45:32.610160+00:00",
+  "generatedAt": "2026-10-01T18:14:50.437402+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -152861,6 +152861,22 @@
       "pen": "",
       "ov": "2251-CROCS_PAN",
       "ticket": "ITHD-97072",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-01",
+      "fn": "2026-10-01",
+      "marca": "HP",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "204300002320291",
+      "ticket": "",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
