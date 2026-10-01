@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T18:14:50.437402+00:00",
+  "generatedAt": "2026-10-01T18:44:49.946638+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -152876,7 +152876,23 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "204300002320291",
-      "ticket": "",
+      "ticket": "ITHD-97075",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-01",
+      "fn": "2026-10-01",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-CO00246303",
+      "ticket": "ITHD-97077",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
@@ -192039,6 +192055,402 @@
       "ov": "5092_DOCCLWL180",
       "pais": "CHILE",
       "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-09-29",
+      "ov": "61001040984-A",
+      "pais": "GUATEMALA",
+      "marca": "Distelsa"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "IX-40000058178",
+      "pais": "COLOMBIA",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1665400593952-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1664130593732-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1665320593940-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1664090593722-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1665310593938-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1664080593720-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1664820593830-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1665280593924-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1665270593922-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1664080593718-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1664780593814-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1665270593918-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1664050593714-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1664720593806-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1664480593776-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1665090593878-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1663850593676-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1665240593910-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1664380593772-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1665200593898-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1663810593666-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1663790593660-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1664280593756-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1664140593740-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1664130593734-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1665080593874-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1665070593870-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1665070593868-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1665070593866-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1665040593858-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1665000593850-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1664960593842-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-29",
+      "ov": "1182_RUNGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "RB"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "14876-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "14877-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "14875-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "JB-CO00246344_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "2247-CROCS_PAN_CCSPAWL180",
+      "pais": "PANAMÁ",
+      "marca": "Crocs Panamá"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "2245-CROCS_PAN_CCSPAWL180",
+      "pais": "PANAMÁ",
+      "marca": "Crocs Panamá"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "43677-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-27",
+      "ov": "IX-46000015896",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-27",
+      "ov": "IX-28000057344",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-27",
+      "ov": "IX-28000057437",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-27",
+      "ov": "IX-28000057488",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-27",
+      "ov": "IX-28000057521",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-27",
+      "ov": "IX-28000057539",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-29",
+      "ov": "IX-28000057752",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-29",
+      "ov": "IX-28000057755",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "14726-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "14761-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "14777-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "14783-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "14884-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "8900-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "1184_RUNGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "RB"
+    },
+    {
+      "fecha": "2026-09-25",
+      "ov": "R1_43536-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-23",
+      "ov": "8019-2_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-09-17",
+      "ov": "IX-28000056225",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "42929-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-21",
+      "ov": "1170_RUNGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "RB"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "Dctos Dockers PE",
+      "pais": "PERU",
+      "marca": "DK"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "JB-GT00062634",
+      "pais": "GUATEMALA",
+      "marca": "JB"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "JB-GT00062738",
+      "pais": "GUATEMALA",
+      "marca": "JB"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "JB-GT00062711",
+      "pais": "GUATEMALA",
+      "marca": "JB"
     },
     {
       "fecha": "2026-08-30",
