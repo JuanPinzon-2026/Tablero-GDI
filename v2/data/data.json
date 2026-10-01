@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T20:44:47.577768+00:00",
+  "generatedAt": "2026-10-01T21:14:50.648045+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -152599,8 +152599,8 @@
       "fn": "2026-09-30",
       "marca": "EPSON",
       "pais": "Mexico Whitelabel 360",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Escalado con Mienvio",
+      "com": "Escalado con Mienvio",
       "ops": "En revision CO - IT",
       "pen": "Continuidad",
       "ov": "IX-28000056225",
@@ -152608,7 +152608,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Error 500 mienvio"
     },
     {
       "fecha": "2026-09-10",
@@ -152889,7 +152889,7 @@
       "pais": "Colombia",
       "estado": "Liberada",
       "com": "Liberada",
-      "ops": "En revision CO - IT",
+      "ops": "Facturada",
       "pen": "Operaciones Solucionado",
       "ov": "JB-CO00246303",
       "ticket": "ITHD-97077",
@@ -152903,8 +152903,8 @@
       "fn": "2026-10-01",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "14977-ON_COL_ONRCOWL180",
@@ -152912,7 +152912,39 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Niveles geograficos erroneos en NS"
+    },
+    {
+      "fecha": "2026-10-01",
+      "fn": "2026-10-01",
+      "marca": "Epson",
+      "pais": "Peru",
+      "estado": "Liberada",
+      "com": "Liberada",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "IX-43000023969",
+      "ticket": "ITHD-97079",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Servicio no disponible cuando orden llego"
+    },
+    {
+      "fecha": "2026-10-01",
+      "fn": "2026-10-01",
+      "marca": "MKP",
+      "pais": "Guatemala",
+      "estado": "Liberada",
+      "com": "Liberada",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "6001042559-A",
+      "ticket": "ITHD-97080",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Orden con Payment Failed"
     }
   ],
   "ingresadas": [
