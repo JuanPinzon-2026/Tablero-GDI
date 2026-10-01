@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T15:14:54.753047+00:00",
+  "generatedAt": "2026-10-01T15:45:03.411943+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -152583,8 +152583,8 @@
       "fn": "2026-09-30",
       "marca": "Dockers",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "8019-2_DOCCLWL180",
@@ -152592,7 +152592,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tiendas",
-      "detalle": ""
+      "detalle": "Orden con campo tipo de servicio vacio"
     },
     {
       "fecha": "2026-09-17",
@@ -152737,6 +152737,54 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Niveles geograficos erroneos en NS"
+    },
+    {
+      "fecha": "2026-09-30",
+      "fn": "2026-10-01",
+      "marca": "Har",
+      "pais": "man Kardon",
+      "estado": "Sin stock",
+      "com": "Sin stock",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HK-MX00069256",
+      "ticket": "ITHD-97070",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Sin stock HK MX"
+    },
+    {
+      "fecha": "2026-01-10",
+      "fn": "2026-10-01",
+      "marca": "JBL",
+      "pais": "COSTA RICA",
+      "estado": "Liberada",
+      "com": "Liberada",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-CR00046479",
+      "ticket": "ITHD-97069",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Sin falla al revisar"
+    },
+    {
+      "fecha": "2026-09-30",
+      "fn": "2026-10-01",
+      "marca": "MKP",
+      "pais": "URUGUAY",
+      "estado": "",
+      "com": "",
+      "ops": "",
+      "pen": "",
+      "ov": "2000018716293260_JBLUYMKMEL",
+      "ticket": "",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
     }
   ],
   "ingresadas": [
