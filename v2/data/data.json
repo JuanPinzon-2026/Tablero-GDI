@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T14:44:54.658545+00:00",
+  "generatedAt": "2026-10-01T15:14:54.753047+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -152279,13 +152279,13 @@
       "fn": "2026-09-30",
       "marca": "Crocs Panamá",
       "pais": "Panamá",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2247-CROCS_PAN_CCSPAWL180",
       "ticket": "ITHD-97041",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden con promoCode sin descuento"
@@ -152551,16 +152551,16 @@
       "fn": "2026-09-30",
       "marca": "RB",
       "pais": "Running balboa Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Driver",
+      "com": "Escalado con Driver",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "1184_RUNGTWL180",
       "ticket": "ITHD-97051",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden con campo Lastname en null"
     },
     {
       "fecha": "2026-09-25",
@@ -152647,8 +152647,8 @@
       "fn": "2026-09-30",
       "marca": "DK",
       "pais": "Peru",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con la marca",
+      "com": "Escalado con la marca",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "Dctos Dockers PE",
@@ -152656,15 +152656,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Descuentos no se aplican en compra -Dockers PE"
     },
     {
       "fecha": "2026-09-30",
       "fn": "2026-09-30",
       "marca": "JB",
       "pais": "L Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-GT00062634",
@@ -152672,15 +152672,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Medidas no disponibles para tipo de servicio"
     },
     {
       "fecha": "2026-09-30",
       "fn": "2026-09-30",
       "marca": "JB",
       "pais": "L Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-GT00062738",
@@ -152688,15 +152688,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Medidas no disponibles para tipo de servicio"
     },
     {
       "fecha": "2026-09-30",
       "fn": "2026-09-30",
       "marca": "JB",
       "pais": "L Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-GT00062711",
@@ -152704,15 +152704,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Medidas no disponibles para tipo de servicio"
     },
     {
       "fecha": "2026-09-30",
       "fn": "2026-10-01",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "14936-ON_COL_ONRCOWL180",
@@ -152720,15 +152720,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Niveles geograficos erroneos en NS"
     },
     {
       "fecha": "2026-09-30",
       "fn": "2026-10-01",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "14944-ON_COL_ONRCOWL180",
@@ -152736,7 +152736,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Niveles geograficos erroneos en NS"
     }
   ],
   "ingresadas": [
