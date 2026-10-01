@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T19:45:11.930759+00:00",
+  "generatedAt": "2026-10-01T20:15:11.742216+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -152775,8 +152775,8 @@
       "fn": "2026-10-01",
       "marca": "DK",
       "pais": "Peru",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2985_DOCPEWL180",
@@ -152784,15 +152784,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Envio de evento PICKUP_READY para generacion de facturacion"
     },
     {
       "fecha": "2026-09-11",
       "fn": "2026-10-01",
       "marca": "DK",
       "pais": "Peru",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3017_DOCPEWL180",
@@ -152800,15 +152800,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Envio de evento PICKUP_READY para generacion de facturacion"
     },
     {
       "fecha": "2026-09-27",
       "fn": "2026-10-01",
       "marca": "DK",
       "pais": "Peru",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3149_DOCPEWL180",
@@ -152816,15 +152816,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-01-10",
       "fn": "2026-10-01",
       "marca": "Crocs",
       "pais": "Costa Rica",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Kronotime",
+      "com": "Escalado con Kronotime",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "6721-CROCS_CRC",
@@ -152832,15 +152832,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Diferencia  de valores desde Kronotime"
     },
     {
       "fecha": "2026-01-10",
       "fn": "2026-10-01",
       "marca": "Crocs",
       "pais": "Costa Rica",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Kronotime",
+      "com": "Escalado con Kronotime",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "6722-CROCS_CRC",
@@ -152848,7 +152848,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Diferencia  de valores desde Kronotime"
     },
     {
       "fecha": "2026-01-10",
@@ -152871,8 +152871,8 @@
       "fn": "2026-10-01",
       "marca": "HP",
       "pais": "Peru",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "204300002320291",
@@ -152880,15 +152880,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Envio de released"
     },
     {
       "fecha": "2026-10-01",
       "fn": "2026-10-01",
       "marca": "JBL",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-CO00246303",
