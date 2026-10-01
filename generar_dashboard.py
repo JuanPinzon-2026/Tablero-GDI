@@ -131,10 +131,14 @@ def fmt_fecha(val):
         return val.strftime("%Y-%m-%d")
     if isinstance(val, str) and val.strip():
         v = val.strip()
-        # Convertir DD/MM/YYYY → YYYY-MM-DD
-        m = re.match(r'^(\d{2})[/\-](\d{2})[/\-](\d{4})$', v)
+        # YYYY-MM-DD o YYYY-M-D (con o sin hora)
+        m = re.match(r'^(\d{4})[/\-](\d{1,2})[/\-](\d{1,2})', v)
         if m:
-            return f"{m.group(3)}-{m.group(2)}-{m.group(1)}"
+            return f"{m.group(1)}-{m.group(2).zfill(2)}-{m.group(3).zfill(2)}"
+        # DD/MM/YYYY o D/M/YYYY
+        m = re.match(r'^(\d{1,2})[/\-](\d{1,2})[/\-](\d{4})$', v)
+        if m:
+            return f"{m.group(3)}-{m.group(2).zfill(2)}-{m.group(1).zfill(2)}"
         return v[:10]
     return ""
 
