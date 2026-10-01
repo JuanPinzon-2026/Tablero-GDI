@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T19:15:02.107236+00:00",
+  "generatedAt": "2026-10-01T19:45:11.930759+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -150695,13 +150695,13 @@
       "fn": "2026-09-28",
       "marca": "CROCS",
       "pais": "Colombia",
-      "estado": "Escalado Claudia Peñaloza",
-      "com": "Escalado Claudia Peñaloza",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000015197232581_CCSCOMKMEL",
       "ticket": "ITHD-96979",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Consulta de orden sin facturar"
@@ -152631,8 +152631,8 @@
       "fn": "2026-09-30",
       "marca": "RB",
       "pais": "Running balboa Guatemala",
-      "estado": "Escalado con la Capa",
-      "com": "Escalado con la Capa",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "1170_RUNGTWL180",
@@ -152855,8 +152855,8 @@
       "fn": "2026-10-01",
       "marca": "Crocs",
       "pais": "Panama",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2251-CROCS_PAN",
@@ -152864,7 +152864,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-01",
@@ -152896,7 +152896,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Medidas no disponibles para tipo de servicio"
     }
   ],
   "ingresadas": [
