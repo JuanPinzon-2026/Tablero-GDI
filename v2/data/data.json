@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T21:14:50.648045+00:00",
+  "generatedAt": "2026-10-01T21:45:02.437628+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -152759,13 +152759,13 @@
       "fn": "2026-10-01",
       "marca": "JBL",
       "pais": "COSTA RICA",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CR00046479",
       "ticket": "ITHD-97069",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar"
@@ -152945,6 +152945,38 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Orden con Payment Failed"
+    },
+    {
+      "fecha": "2026-10-01",
+      "fn": "2026-10-01",
+      "marca": "JBL",
+      "pais": "URUGUY",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-UY-00039293",
+      "ticket": "ITHD-97082",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-01",
+      "fn": "2026-10-01",
+      "marca": "Crocs",
+      "pais": "Costa Rica",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "6722-CROCS_CRC_CCSCRWL180",
+      "ticket": "ITHD-97083",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": ""
     }
   ],
   "ingresadas": [
