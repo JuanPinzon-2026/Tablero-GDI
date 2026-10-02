@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T17:14:57.861446+00:00",
+  "generatedAt": "2026-10-02T17:45:09.947122+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -153879,8 +153879,8 @@
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "URUGUAY",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Cristian V",
+      "com": "Escalado con Cristian V",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000015299877041_JBLUYMKMEL",
@@ -153888,15 +153888,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Guia no se importo desde Meli- Celigo"
     },
     {
       "fecha": "2026-10-01",
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "URUGUAY",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Cristian V",
+      "com": "Escalado con Cristian V",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000015301909245_JBLUYMKMEL",
@@ -153904,15 +153904,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Guia no se importo desde Meli- Celigo"
     },
     {
       "fecha": "2026-10-01",
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "URUGUAY",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Cristian V",
+      "com": "Escalado con Cristian V",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000015311462433_JBLUYMKMEL",
@@ -153920,7 +153920,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Guia no se importo desde Meli- Celigo"
     },
     {
       "fecha": "2026-10-01",
@@ -154032,6 +154032,70 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-02",
+      "fn": "2026-10-02",
+      "marca": "MKP",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000018749207452",
+      "ticket": "ITHD-97102",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-02",
+      "fn": "2026-10-02",
+      "marca": "MKP",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000018751511198",
+      "ticket": "ITHD-97102",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-02",
+      "fn": "2026-10-02",
+      "marca": "MKP",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000018756127290",
+      "ticket": "ITHD-97102",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-02",
+      "fn": "2026-10-02",
+      "marca": "MKP",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000018758491014",
+      "ticket": "ITHD-97102",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
       "detalle": ""
     }
   ],
