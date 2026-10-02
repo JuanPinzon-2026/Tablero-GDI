@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T19:44:59.618083+00:00",
+  "generatedAt": "2026-10-02T20:14:48.780356+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -154112,6 +154112,70 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-02",
+      "fn": "2026-10-02",
+      "marca": "EPSON",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "IX-43000024008",
+      "ticket": "ITHD-97104",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-02",
+      "fn": "2026-10-02",
+      "marca": "MKP",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "62001043192-A",
+      "ticket": "ITHD-97105",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-02",
+      "fn": "2026-10-02",
+      "marca": "MKP",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "6001043360-A",
+      "ticket": "ITHD-97105",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-02",
+      "fn": "2026-10-02",
+      "marca": "JBL",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-GT00062734",
+      "ticket": "ITHD-97106",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
       "detalle": ""
     }
   ],
