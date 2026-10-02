@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T20:14:48.780356+00:00",
+  "generatedAt": "2026-10-02T20:45:10.129480+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -153879,8 +153879,8 @@
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "URUGUAY",
-      "estado": "Escalado con Cristian V",
-      "com": "Escalado con Cristian V",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000015299877041_JBLUYMKMEL",
@@ -153895,8 +153895,8 @@
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "URUGUAY",
-      "estado": "Escalado con Cristian V",
-      "com": "Escalado con Cristian V",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000015301909245_JBLUYMKMEL",
@@ -153911,8 +153911,8 @@
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "URUGUAY",
-      "estado": "Escalado con Cristian V",
-      "com": "Escalado con Cristian V",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000015311462433_JBLUYMKMEL",
@@ -153927,8 +153927,8 @@
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "Mexico",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "702-1439408-0632262_MMAMXMKAMA",
@@ -153936,15 +153936,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-01",
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3253715177_MMACLMKFAL",
@@ -153952,15 +153952,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-01",
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3253816889_MMACLMKFAL",
@@ -153968,31 +153968,31 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-02",
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "Peru",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Driver",
+      "com": "Escalado con Driver",
       "ops": "En revision CO - IT",
       "pen": "",
-      "ov": "2000018709388562",
+      "ov": "2000018709388562_MMAPEMKMEL",
       "ticket": "ITHD-97095",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin facturar en NS MKP"
     },
     {
       "fecha": "2026-10-01",
       "fn": "2026-10-02",
       "marca": "JBL",
       "pais": "Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-GT00062718",
@@ -154000,15 +154000,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Medidas no disponibles para tipo de servicio"
     },
     {
       "fecha": "2026-10-01",
       "fn": "2026-10-02",
       "marca": "JBL",
       "pais": "Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-GT00062720",
@@ -154016,15 +154016,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Medidas no disponibles para tipo de servicio"
     },
     {
       "fecha": "2026-09-28",
       "fn": "2026-10-02",
       "marca": "Cubitt",
       "pais": "Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "GT1364_CUBGTWL180",
@@ -154032,15 +154032,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-02",
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado operaciones",
+      "com": "Escalado operaciones",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000018749207452",
@@ -154048,15 +154048,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Store disabled"
     },
     {
       "fecha": "2026-10-02",
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado operaciones",
+      "com": "Escalado operaciones",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000018751511198",
@@ -154064,15 +154064,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Store disabled"
     },
     {
       "fecha": "2026-10-02",
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado operaciones",
+      "com": "Escalado operaciones",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000018756127290",
@@ -154080,15 +154080,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Store disabled"
     },
     {
       "fecha": "2026-10-02",
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado operaciones",
+      "com": "Escalado operaciones",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000018758491014",
@@ -154096,15 +154096,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Store disabled"
     },
     {
       "fecha": "2026-09-26",
       "fn": "2026-10-02",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "43579-CROCS_COL_CCSCOWL180",
@@ -154112,7 +154112,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-02",
