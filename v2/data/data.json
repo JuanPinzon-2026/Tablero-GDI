@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T21:27:05.798199+00:00",
+  "generatedAt": "2026-10-02T21:45:16.139140+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -154119,13 +154119,13 @@
       "fn": "2026-10-02",
       "marca": "EPSON",
       "pais": "Peru",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "IX-43000024008",
       "ticket": "ITHD-97104",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Pago"
