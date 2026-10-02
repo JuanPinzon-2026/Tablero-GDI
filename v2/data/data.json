@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T22:15:54.174320+00:00",
+  "generatedAt": "2026-10-02T14:15:27.680692+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -153073,6 +153073,38 @@
       "proveedor": "",
       "canal": "",
       "detalle": ""
+    },
+    {
+      "fecha": "2026-09-28",
+      "fn": "2026-10-01",
+      "marca": "Motorola",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "679408",
+      "ticket": "ITHD-97087",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-29",
+      "fn": "2026-10-01",
+      "marca": "Motorola",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "679412",
+      "ticket": "ITHD-97087",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
     }
   ],
   "ingresadas": [
@@ -167487,6 +167519,156 @@
       "ov": "4091",
       "pais": "GUATEMALA",
       "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "14936-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "14944-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "HK-MX00069256",
+      "pais": "KARDON",
+      "marca": "Har"
+    },
+    {
+      "fecha": "2026-01-10",
+      "ov": "JB-CR00046479",
+      "pais": "RICA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-11",
+      "ov": "2985_DOCPEWL180",
+      "pais": "PERU",
+      "marca": "DK"
+    },
+    {
+      "fecha": "2026-09-11",
+      "ov": "3017_DOCPEWL180",
+      "pais": "PERU",
+      "marca": "DK"
+    },
+    {
+      "fecha": "2026-09-27",
+      "ov": "3149_DOCPEWL180",
+      "pais": "PERU",
+      "marca": "DK"
+    },
+    {
+      "fecha": "2026-01-10",
+      "ov": "6721-CROCS_CRC",
+      "pais": "RICA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-01-10",
+      "ov": "6722-CROCS_CRC",
+      "pais": "RICA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-01-10",
+      "ov": "2251-CROCS_PAN",
+      "pais": "PANAMA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "204300002320291",
+      "pais": "PERU",
+      "marca": "HP"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "JB-CO00246303",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14977-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "IX-43000023969",
+      "pais": "PERU",
+      "marca": "Epson"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "6001042559-A",
+      "pais": "GUATEMALA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "JB-UY-00039293",
+      "pais": "URUGUY",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "6722-CROCS_CRC_CCSCRWL180",
+      "pais": "RICA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "43749-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "43751-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "43753-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "43754-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "IX-28000057884",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "IX-46000016094",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "679408",
+      "pais": "CHILE",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-09-29",
+      "ov": "679412",
+      "pais": "CHILE",
+      "marca": "Motorola"
     },
     {
       "fecha": "2026-08-25",
@@ -203983,6 +204165,7 @@
   ],
   "jiras": [],
   "ixcData": {
+    "2026-10-01": 783,
     "2026-09-01": 1114,
     "2026-09-02": 934,
     "2026-09-03": 1108,
@@ -204199,6 +204382,7 @@
     "2026-03-31": 1597
   },
   "ixcMes": {
+    "2026-10": 783,
     "2026-09": 28618,
     "2026-08": 35523,
     "2026-07": 38348,
