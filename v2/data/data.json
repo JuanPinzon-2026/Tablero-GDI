@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T16:45:13.110683+00:00",
+  "generatedAt": "2026-10-02T17:14:57.861446+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -153079,8 +153079,8 @@
       "fn": "2026-10-01",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679408",
@@ -153088,15 +153088,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Niveles geograficos Motorola CL"
     },
     {
       "fecha": "2026-09-29",
       "fn": "2026-10-01",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679412",
@@ -153104,7 +153104,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Niveles geograficos Motorola CL"
     },
     {
       "fecha": "2026-10-01",
@@ -153639,8 +153639,8 @@
       "fn": "2026-10-02",
       "marca": "LC",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado Claudia Peñaloza",
+      "com": "Escalado Claudia Peñaloza",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "8900-LACOSTE_COL_LACCOWL180",
@@ -153648,23 +153648,23 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin facturar en NS"
     },
     {
       "fecha": "2026-10-01",
       "fn": "2026-10-02",
       "marca": "LC",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado Claudia Peñaloza",
+      "com": "Escalado Claudia Peñaloza",
       "ops": "En revision CO - IT",
       "pen": "",
-      "ov": "8956-LACOSTE_COL_LACCOWL180",
+      "ov": "8956-LACOSTE_COL",
       "ticket": "ITHD-97089",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin facturar en NS"
     },
     {
       "fecha": "2026-10-01",
@@ -153799,8 +153799,8 @@
       "fn": "2026-10-02",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15024-ON_COL_ONRCOWL180",
@@ -153808,7 +153808,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Niveles geograficos erroneos en NS"
     },
     {
       "fecha": "2026-10-02",
@@ -153863,8 +153863,8 @@
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "URUGUAY",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000018716293260_JBLUYMKMEL",
@@ -153872,7 +153872,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-01",
