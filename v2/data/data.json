@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T17:45:09.947122+00:00",
+  "generatedAt": "2026-10-02T19:00:19.840045+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -154096,6 +154096,22 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-26",
+      "fn": "2026-10-02",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "43579-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97103",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
       "detalle": ""
     }
   ],
