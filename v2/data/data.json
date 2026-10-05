@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T13:44:54.853409+00:00",
+  "generatedAt": "2026-10-05T14:14:50.257164+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -152759,13 +152759,13 @@
       "fn": "2026-10-01",
       "marca": "JBL",
       "pais": "COSTA RICA",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CR00046479",
       "ticket": "ITHD-97069",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar"
@@ -153047,16 +153047,16 @@
       "fn": "2026-10-01",
       "marca": "EPSON",
       "pais": "Mexico Whitelabel 360",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "IX-28000057884",
       "ticket": "ITHD-97085",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Error en tarifas"
+      "detalle": "Orden sin cobertura"
     },
     {
       "fecha": "2026-10-01",
@@ -153831,24 +153831,24 @@
       "fn": "2026-10-02",
       "marca": "JBL",
       "pais": "COSTA RICA",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Sin stock",
+      "com": "Sin stock",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CR00046481",
       "ticket": "ITHD-97094",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Orden sin stock JBL"
     },
     {
       "fecha": "2026-01-10",
       "fn": "2026-10-02",
       "marca": "JBL",
       "pais": "CHILE",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Escalado con Mienvio",
+      "com": "Escalado con Mienvio",
       "ops": "En revision CO - IT",
       "pen": "Continuidad",
       "ov": "JB-CL00178663",
@@ -153856,7 +153856,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Error interno Mienvio"
     },
     {
       "fecha": "2026-10-01",
@@ -154039,8 +154039,8 @@
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "Colombia",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Escalado con Driver",
+      "com": "Escalado con Driver",
       "ops": "En revision CO - IT",
       "pen": "Continuidad",
       "ov": "2000018749207452",
@@ -154048,15 +154048,15 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Etiquetas de estado monitor"
     },
     {
       "fecha": "2026-10-02",
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "Colombia",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Escalado con Driver",
+      "com": "Escalado con Driver",
       "ops": "En revision CO - IT",
       "pen": "Continuidad",
       "ov": "2000018751511198",
@@ -154064,15 +154064,15 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Etiquetas de estado monitor"
     },
     {
       "fecha": "2026-10-02",
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "Colombia",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Escalado con Driver",
+      "com": "Escalado con Driver",
       "ops": "En revision CO - IT",
       "pen": "Continuidad",
       "ov": "2000018756127290",
@@ -154080,15 +154080,15 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Etiquetas de estado monitor"
     },
     {
       "fecha": "2026-10-02",
       "fn": "2026-10-02",
       "marca": "MKP",
       "pais": "Colombia",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Escalado con Driver",
+      "com": "Escalado con Driver",
       "ops": "En revision CO - IT",
       "pen": "Continuidad",
       "ov": "2000018758491014",
@@ -154096,7 +154096,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Etiquetas de estado monitor"
     },
     {
       "fecha": "2026-09-26",
@@ -154119,16 +154119,16 @@
       "fn": "2026-10-02",
       "marca": "EPSON",
       "pais": "Peru",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "IX-43000024008",
       "ticket": "ITHD-97104",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pago"
+      "detalle": "Timeout Mienvio"
     },
     {
       "fecha": "2026-10-02",
@@ -154183,8 +154183,8 @@
       "fn": "2026-10-02",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Escalado Claudia Peñaloza",
+      "com": "Escalado Claudia Peñaloza",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "14808-ON_COL_ONRCOWL180",
@@ -154192,7 +154192,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Orden sin facturar en NS"
     },
     {
       "fecha": "2026-09-30",
@@ -154231,8 +154231,8 @@
       "fn": "2026-10-02",
       "marca": "JBL",
       "pais": "Guatemala",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-GT00062849",
@@ -154240,7 +154240,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Medidas no disponibles para tipo de servicio"
     },
     {
       "fecha": "2026-10-01",
