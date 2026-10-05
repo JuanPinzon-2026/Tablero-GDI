@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T20:44:33.785637+00:00",
+  "generatedAt": "2026-10-05T21:14:49.547672+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -153815,8 +153815,8 @@
       "fn": "2026-10-02",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "En revision GDI",
+      "com": "En revision GDI",
       "ops": "En revision CO - IT",
       "pen": "Continuidad",
       "ov": "3253776716",
@@ -155687,8 +155687,8 @@
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Ecuador",
-      "estado": "Liberada",
-      "com": "Liberada",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000018798831954_JBLECMKMEL",
@@ -155719,8 +155719,8 @@
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4782632000035_MMACLMKWAL",
@@ -155728,15 +155728,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4782635000603_MMACLMKWAL",
@@ -155744,15 +155744,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "8442659000895_MMACLMKWAL",
@@ -155760,15 +155760,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4782635002026_MMACLMKWAL",
@@ -155776,15 +155776,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4782635001968_MMACLMKWAL",
@@ -155792,15 +155792,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "8442660000348_MMACLMKWAL",
@@ -155808,15 +155808,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "8442660000518_MMACLMKWAL",
@@ -155824,15 +155824,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4782636000533_MMACLMKWAL",
@@ -155840,15 +155840,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4782635002689_MMACLMKWAL",
@@ -155856,15 +155856,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4782636001426_MMACLMKWAL",
@@ -155872,15 +155872,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4782635002576_MMACLMKWAL",
@@ -155888,15 +155888,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "8442660002287_MMACLMKWAL",
@@ -155904,15 +155904,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4382638000399_MMACLMKWAL",
@@ -155920,15 +155920,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3254390706_MMACLMKFAL",
@@ -155936,15 +155936,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4782636003745_MMACLMKWAL",
@@ -155952,15 +155952,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4782636003576_MMACLMKWAL",
@@ -155968,15 +155968,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "8442661003379_MMACLMKWAL",
@@ -155984,15 +155984,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3146024880_MMACLMKPAR",
@@ -156000,15 +156000,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3146093821_JBLCLMKPAR",
@@ -156016,15 +156016,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3146149940_JBLCLMKPAR",
@@ -156032,15 +156032,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3146155071_JBLCLMKPAR",
@@ -156048,15 +156048,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3146185940_MMACLMKPAR",
@@ -156064,15 +156064,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3146196890_MMACLMKPAR",
@@ -156080,15 +156080,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3146216230_MMACLMKPAR",
@@ -156096,15 +156096,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3146233213_MMACLMKPAR",
@@ -156112,15 +156112,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3146236120_JBLCLMKPAR",
@@ -156128,15 +156128,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4782638003878_MMACLMKWAL",
@@ -156144,15 +156144,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3146240760_MMACLMKPAR",
@@ -156160,15 +156160,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3146248912_JBLCLMKPAR",
@@ -156176,15 +156176,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3146255940_MMACLMKPAR",
@@ -156192,15 +156192,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3146287040_MMACLMKPAR",
@@ -156208,15 +156208,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000018804821960_MMACLMKMEL",
@@ -156224,15 +156224,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4782627001322_MMACLMKWAL",
@@ -156240,15 +156240,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4782639005436_MMACLMKWAL",
@@ -156256,15 +156256,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "8442664001305_MMACLMKWAL",
@@ -156272,15 +156272,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4132642003066_MMACLMKWAL",
@@ -156288,15 +156288,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "4782639003317_MMACLMKWAL",
@@ -156304,15 +156304,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "8442664002086_MMACLMKWAL",
@@ -156320,7 +156320,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-05",
@@ -156336,7 +156336,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin stock Crocs CO - varias localidades"
     },
     {
       "fecha": "2026-10-05",
@@ -156352,7 +156352,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin stock Crocs CO - varias localidades"
     },
     {
       "fecha": "2026-10-05",
@@ -156368,7 +156368,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin stock Crocs CO - varias localidades"
     },
     {
       "fecha": "2026-10-05",
@@ -156384,7 +156384,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin stock Crocs CO - varias localidades"
     },
     {
       "fecha": "2026-10-05",
@@ -156400,7 +156400,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin stock Crocs CO - varias localidades"
     },
     {
       "fecha": "2026-10-05",
@@ -156432,7 +156432,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin stock Crocs CO - varias localidades"
     },
     {
       "fecha": "2026-10-05",
@@ -156448,7 +156448,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin stock Crocs CO - varias localidades"
     },
     {
       "fecha": "2026-10-05",
@@ -156464,7 +156464,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin stock Crocs CO - varias localidades"
     },
     {
       "fecha": "2026-10-05",
@@ -156560,7 +156560,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin stock Crocs CO - varias localidades"
     },
     {
       "fecha": "2026-10-05",
@@ -156592,7 +156592,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin stock Crocs CO - varias localidades"
     },
     {
       "fecha": "2026-10-05",
@@ -156624,7 +156624,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin stock Crocs CO - varias localidades"
     },
     {
       "fecha": "2026-10-02",
@@ -156637,6 +156637,134 @@
       "pen": "",
       "ov": "JB-GT00062734",
       "ticket": "ITHD-97158",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-04-10",
+      "fn": "2026-10-05",
+      "marca": "Crocs",
+      "pais": "Panama",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2256-CROCS_PAN",
+      "ticket": "ITHD-97159",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-05-10",
+      "fn": "2026-10-05",
+      "marca": "Crocs",
+      "pais": "Panama",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2257-CROCS_PAN",
+      "ticket": "ITHD-97159",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-05",
+      "marca": "MKP",
+      "pais": "Guatelama",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "62001046201-A",
+      "ticket": "ITHD-97161",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-05",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9068-LACOSTE_COL",
+      "ticket": "",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-05",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9069-LACOSTE_COL",
+      "ticket": "",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-05",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9084-LACOSTE_COL",
+      "ticket": "",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-05",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9089-LACOSTE_COL",
+      "ticket": "",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-05",
+      "marca": "",
+      "pais": "",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "",
+      "ticket": "",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
