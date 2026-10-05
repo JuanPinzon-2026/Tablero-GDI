@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T15:14:53.656675+00:00",
+  "generatedAt": "2026-10-05T15:45:04.745894+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -154528,7 +154528,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Niveles geograficos Kronotime"
     },
     {
       "fecha": "2026-10-05",
@@ -154576,7 +154576,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Niveles geograficos Kronotime"
     },
     {
       "fecha": "2026-09-03",
@@ -154749,6 +154749,70 @@
       "pen": "",
       "ov": "IX-40000058622",
       "ticket": "ITHD-97141",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-05",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-CO00246777",
+      "ticket": "ITHD-97143",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-05",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-CO00246793",
+      "ticket": "ITHD-97143",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-05",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-CO00246794",
+      "ticket": "ITHD-97143",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-03",
+      "fn": "2026-10-05",
+      "marca": "RB",
+      "pais": "Running balboa Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1187_RUNGTWL180",
+      "ticket": "ITHD-97142",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
