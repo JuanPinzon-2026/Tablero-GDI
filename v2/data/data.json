@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T16:14:35.716993+00:00",
+  "generatedAt": "2026-10-05T16:44:49.249950+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -154535,8 +154535,8 @@
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Colombia",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000018796346422_MMACOMKMEL",
@@ -154544,7 +154544,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "niveles geograficos"
+      "detalle": "niveles geografico MKP"
     },
     {
       "fecha": "2026-10-05",
@@ -154583,8 +154583,8 @@
       "fn": "2026-10-05",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Driver",
+      "com": "Escalado con Driver",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "R1_42633-CROCS_COL_CCSCOWL180",
@@ -154592,15 +154592,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": ""
+      "detalle": "Revision de ordenes reenviadas"
     },
     {
       "fecha": "2026-09-07",
       "fn": "2026-10-05",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Driver",
+      "com": "Escalado con Driver",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "R1_42790-CROCS_COL_CCSCOWL180",
@@ -154608,15 +154608,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": ""
+      "detalle": "Revision de ordenes reenviadas"
     },
     {
       "fecha": "2026-09-25",
       "fn": "2026-10-05",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Kronotime",
+      "com": "Escalado con Kronotime",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "43543-CROCS_COL_CCSCOWL180",
@@ -154624,7 +154624,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": ""
+      "detalle": "No se ha generado guia"
     },
     {
       "fecha": "2026-10-04",
@@ -154832,6 +154832,38 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-04",
+      "fn": "2026-10-05",
+      "marca": "Dockers",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "8108_DOCCLWL180",
+      "ticket": "ITHD-97147",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-04",
+      "fn": "2026-10-05",
+      "marca": "Dockers",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "8405_DOCCLWL180",
+      "ticket": "ITHD-97147",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
       "detalle": ""
     }
   ],
