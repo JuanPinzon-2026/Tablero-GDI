@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T22:45:02.003534+00:00",
+  "generatedAt": "2026-10-05T23:14:52.760304+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -157079,8 +157079,8 @@
       "fn": "2026-10-05",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679478",
@@ -157088,15 +157088,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679486",
@@ -157104,15 +157104,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679488",
@@ -157120,15 +157120,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679490",
@@ -157136,15 +157136,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679502",
@@ -157152,15 +157152,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-04",
       "fn": "2026-10-05",
       "marca": "Dockers",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "8201_DOCCLWL180",
@@ -157168,15 +157168,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": ""
+      "detalle": "Pendiente revision CO"
     },
     {
       "fecha": "2026-09-17",
       "fn": "2026-10-05",
       "marca": "CROCS",
       "pais": "PANAMÁ",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2229-CROCS_PAN",
@@ -157184,15 +157184,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Pendiente revision CO"
     },
     {
       "fecha": "2026-09-09",
       "fn": "2026-10-05",
       "marca": "CROCS",
       "pais": "COSTA RICA",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "6601-CROCS_CRC",
@@ -157200,15 +157200,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "EPSON",
       "pais": "Chile Whitelabel 360",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "IX-46000016272",
@@ -157216,15 +157216,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "EPSON",
       "pais": "Chile Whitelabel 360",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "IX-46000016281",
@@ -157232,7 +157232,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Pendiente revision CO"
     }
   ],
   "ingresadas": [
