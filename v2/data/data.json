@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T15:45:04.745894+00:00",
+  "generatedAt": "2026-10-05T16:14:35.716993+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -154519,8 +154519,8 @@
       "fn": "2026-10-05",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15230-ON_COL_ONRCOWL180",
@@ -154544,7 +154544,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "niveles geograficos"
     },
     {
       "fecha": "2026-10-05",
@@ -154567,8 +154567,8 @@
       "fn": "2026-10-05",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15246-ON_COL_ONRCOWL180",
@@ -154816,6 +154816,22 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-05",
+      "marca": "Dockers",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "8300-2_DOCCLWL180",
+      "ticket": "ITHD-97145",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
       "detalle": ""
     }
   ],
