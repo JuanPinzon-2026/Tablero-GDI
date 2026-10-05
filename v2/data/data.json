@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T19:14:56.535488+00:00",
+  "generatedAt": "2026-10-05T19:44:56.088326+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -154551,8 +154551,8 @@
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Colombia",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3254151500_MMACOMKFAL",
@@ -154560,7 +154560,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Lastname con mas de 32 caracteres para la capa"
     },
     {
       "fecha": "2026-10-05",
@@ -154839,8 +154839,8 @@
       "fn": "2026-10-05",
       "marca": "Dockers",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "8108_DOCCLWL180",
@@ -154848,15 +154848,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Reenvio desde driver"
     },
     {
       "fecha": "2026-10-04",
       "fn": "2026-10-05",
       "marca": "Dockers",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Maria F Godoy",
+      "com": "Escalado con Maria F Godoy",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "8405_DOCCLWL180",
@@ -154864,7 +154864,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden con campo Lastname en null"
     },
     {
       "fecha": "2026-10-05",
@@ -155031,8 +155031,8 @@
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Peru",
-      "estado": "Escalado con Yuju",
-      "com": "Escalado con Yuju",
+      "estado": "Escalado operaciones",
+      "com": "Escalado operaciones",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3253825971_MMAPEMKFAL",
@@ -155040,7 +155040,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden no ha generado Guia en Yuju"
+      "detalle": "Kits with price zero detected. Please check Trax configuration."
     },
     {
       "fecha": "2026-10-05",
@@ -155479,8 +155479,8 @@
       "fn": "2026-10-05",
       "marca": "Honor",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "HO3404",
@@ -155488,15 +155488,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Error Availability 3 Cloudflare"
     },
     {
       "fecha": "2026-05-10",
       "fn": "2026-10-05",
       "marca": "Honor",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "HO3405",
@@ -155504,15 +155504,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Error Availability 3 Cloudflare"
     },
     {
       "fecha": "2026-05-10",
       "fn": "2026-10-05",
       "marca": "Honor",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "HO3406",
@@ -155520,15 +155520,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Error Availability 3 Cloudflare"
     },
     {
       "fecha": "2026-05-10",
       "fn": "2026-10-05",
       "marca": "Honor",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "HO3407",
@@ -155536,15 +155536,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Error Availability 3 Cloudflare"
     },
     {
       "fecha": "2026-05-10",
       "fn": "2026-10-05",
       "marca": "Honor",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "HO3408",
@@ -155552,15 +155552,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Error Availability 3 Cloudflare"
     },
     {
       "fecha": "2026-05-10",
       "fn": "2026-10-05",
       "marca": "Honor",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "HO3409",
@@ -155568,15 +155568,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Error Availability 3 Cloudflare"
     },
     {
       "fecha": "2026-05-10",
       "fn": "2026-10-05",
       "marca": "Honor",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "HO3410",
@@ -155584,15 +155584,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Error Availability 3 Cloudflare"
     },
     {
       "fecha": "2026-05-10",
       "fn": "2026-10-05",
       "marca": "Honor",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "HO3411",
@@ -155600,7 +155600,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Error Availability 3 Cloudflare"
     },
     {
       "fecha": "2026-01-10",
@@ -155616,7 +155616,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden llego por fuera del corte de servicio"
     },
     {
       "fecha": "2026-05-10",
@@ -155632,7 +155632,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Medidas no disponibles para tipo de servicio"
     },
     {
       "fecha": "2026-05-10",
@@ -155648,7 +155648,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Medidas no disponibles para tipo de servicio"
     },
     {
       "fecha": "2026-05-10",
@@ -193827,6 +193827,462 @@
       "ov": "4069",
       "pais": "CHILE",
       "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14925-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14936-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14944-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14952-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14955-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14958-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14959-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14960-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14961-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14962-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14963-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14964-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14965-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14966-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14967-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14968-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14969-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14970-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14971-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14972-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14973-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14974-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14975-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14976-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14978-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14979-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14980-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14981-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14982-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14983-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14984-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14985-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "14993-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "8900-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "8956-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "9007-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "9008-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "9009-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "9010-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "9011-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "9012-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "9013-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "9016-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-02",
+      "ov": "15024-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-02",
+      "ov": "3253776716",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-01-10",
+      "ov": "JB-CR00046481",
+      "pais": "RICA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-01-10",
+      "ov": "JB-CL00178663",
+      "pais": "CHILE",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "2000018716293260_JBLUYMKMEL",
+      "pais": "URUGUAY",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "2000015299877041_JBLUYMKMEL",
+      "pais": "URUGUAY",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "2000015301909245_JBLUYMKMEL",
+      "pais": "URUGUAY",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "2000015311462433_JBLUYMKMEL",
+      "pais": "URUGUAY",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "702-1439408-0632262_MMAMXMKAMA",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "3253715177_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "3253816889_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-02",
+      "ov": "2000018709388562_MMAPEMKMEL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "JB-GT00062718",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "JB-GT00062720",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "GT1364_CUBGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "Cubitt"
+    },
+    {
+      "fecha": "2026-10-02",
+      "ov": "2000018749207452",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-02",
+      "ov": "2000018751511198",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-02",
+      "ov": "2000018756127290",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-02",
+      "ov": "2000018758491014",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-09-26",
+      "ov": "43579-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-02",
+      "ov": "IX-43000024008",
+      "pais": "PERU",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-10-02",
+      "ov": "62001043192-A",
+      "pais": "GUATEMALA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-02",
+      "ov": "6001043360-A",
+      "pais": "GUATEMALA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-02",
+      "ov": "JB-GT00062734",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-02",
+      "ov": "14808-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "43734-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-30",
+      "ov": "43737-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-02",
+      "ov": "JB-GT00062849",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "GT1372_CUBGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "Cubitt"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "R1_GT1365_CUBGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "Cubitt"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "GT1373_CUBGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "Cubitt"
+    },
+    {
+      "fecha": "2026-09-19",
+      "ov": "43280-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-29",
+      "ov": "5344-CROCS_GTQ_CCSGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "Crocs"
     },
     {
       "fecha": "2026-09-01",
