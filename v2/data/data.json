@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T15:15:03.895623+00:00",
+  "generatedAt": "2026-10-06T15:45:03.505784+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -154503,13 +154503,13 @@
       "fn": "2026-10-05",
       "marca": "Honor",
       "pais": "Chile",
-      "estado": "Escalado con Mienvio",
-      "com": "Escalado con Mienvio",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "HO3398",
       "ticket": "ITHD-97123",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Error 500 mienvio"
@@ -154631,32 +154631,32 @@
       "fn": "2026-10-05",
       "marca": "Dockers",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "8198_DOCCLWL180",
       "ticket": "ITHD-97133",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-04",
       "fn": "2026-10-05",
       "marca": "Dockers",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "8228_DOCCLWL180",
       "ticket": "ITHD-97135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Orden sin niveles geograficos"
     },
     {
       "fecha": "2026-10-04",
@@ -157079,8 +157079,8 @@
       "fn": "2026-10-05",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679478",
@@ -157088,15 +157088,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Niveles geograficos Motorola CL"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679486",
@@ -157104,7 +157104,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Niveles geograficos Motorola CL"
     },
     {
       "fecha": "2026-10-05",
@@ -157127,8 +157127,8 @@
       "fn": "2026-10-05",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679490",
@@ -157136,15 +157136,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Niveles geograficos Motorola CL"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-05",
       "marca": "Motorola",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "679502",
@@ -157152,7 +157152,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Niveles geograficos Motorola CL"
     },
     {
       "fecha": "2026-10-04",
@@ -157207,8 +157207,8 @@
       "fn": "2026-10-05",
       "marca": "EPSON",
       "pais": "Chile Whitelabel 360",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Escalado con Driver",
+      "com": "Escalado con Driver",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "IX-46000016272",
@@ -157216,7 +157216,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Invalid request data: orderNumber and attachments are required."
     },
     {
       "fecha": "2026-10-05",
