@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T13:45:09.039412+00:00",
+  "generatedAt": "2026-10-06T14:15:02.787960+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -155111,13 +155111,13 @@
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Peru",
-      "estado": "Escalado con Yuju",
-      "com": "Escalado con Yuju",
+      "estado": "Orden cancelada",
+      "com": "Orden cancelada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018766082966_MMAPEMKMEL",
       "ticket": "ITHD-97150",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden no ha generado Guia en Yuju"
@@ -157233,6 +157233,54 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-09-28",
+      "fn": "2026-10-06",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "R1_43626-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97181",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-06",
+      "marca": "MKP",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000018818330524_MMACOMKMEL",
+      "ticket": "ITHD-97182",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-06",
+      "marca": "MKP",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000146606-A",
+      "ticket": "ITHD-97183",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
     }
   ],
   "ingresadas": [
