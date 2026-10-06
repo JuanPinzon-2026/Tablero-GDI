@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T17:47:20.850187+00:00",
+  "generatedAt": "2026-10-06T19:10:45.326389+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -155991,16 +155991,16 @@
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Liberada",
-      "com": "Liberada",
+      "estado": "Escalado operaciones",
+      "com": "Escalado operaciones",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3146024880_MMACLMKPAR",
       "ticket": "ITHD-97157",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sin falla al revisar -Pendiente validacion OPS"
+      "detalle": "Producto sin activar en PIM"
     },
     {
       "fecha": "2026-10-05",
@@ -156215,16 +156215,16 @@
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Liberada",
-      "com": "Liberada",
+      "estado": "Escalado operaciones",
+      "com": "Escalado operaciones",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018804821960_MMACLMKMEL",
       "ticket": "ITHD-97157",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sin falla al revisar -Pendiente validacion OPS"
+      "detalle": "Producto sin activar en PIM"
     },
     {
       "fecha": "2026-10-05",
@@ -158080,6 +158080,54 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-28",
+      "fn": "2026-10-06",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "R1_43653-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97197",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-05",
+      "fn": "2026-10-06",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "R1_42684-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97197",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-02",
+      "fn": "2026-10-06",
+      "marca": "Cubitt",
+      "pais": "Guatemal",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "GT1376_CUBGTWL180",
+      "ticket": "ITHD-97198",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
       "detalle": ""
     }
   ],
