@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T13:49:55.103034+00:00",
+  "generatedAt": "2026-10-07T14:44:53.837406+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -134183,13 +134183,13 @@
       "fn": "2026-09-17",
       "marca": "Kenneth Cole",
       "pais": "Costa Rica",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "1063_KENCRWL180",
       "ticket": "ITHD-96750",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Con descuento sin promocodes"
@@ -143479,13 +143479,13 @@
       "fn": "2026-09-21",
       "marca": "Kenneth Cole",
       "pais": "Costa Rica",
-      "estado": "Escalado con Driver",
-      "com": "Escalado con Driver",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "1064_KENCRWL180",
       "ticket": "ITHD-96815",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Con descuento sin promocodes"
@@ -156679,16 +156679,16 @@
       "fn": "2026-10-05",
       "marca": "MKP",
       "pais": "Guatelama",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "62001046201-A",
       "ticket": "ITHD-97161",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Orden sin release"
     },
     {
       "fecha": "2026-10-05",
@@ -157063,16 +157063,16 @@
       "fn": "2026-10-05",
       "marca": "Dockers",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "8651_DOCCLWL180",
       "ticket": "ITHD-97163",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-10-04",
@@ -157159,16 +157159,16 @@
       "fn": "2026-10-05",
       "marca": "Dockers",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "8201_DOCCLWL180",
       "ticket": "ITHD-97165",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Sin falla al revisar"
     },
     {
       "fecha": "2026-09-17",
@@ -157194,10 +157194,10 @@
       "estado": "Pendiente revision CO",
       "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "6601-CROCS_CRC",
       "ticket": "ITHD-97170",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Pendiente revision CO"
@@ -157543,11 +157543,59 @@
       "fn": "2026-10-06",
       "marca": "MKP",
       "pais": "Chile",
+      "estado": "Liberada",
+      "com": "Liberada",
+      "ops": "En revision CO - IT",
+      "pen": "Operaciones Solucionado",
+      "ov": "3145655950_MMACLMKPAR",
+      "ticket": "ITHD-97195",
+      "pendiente": "Operaciones Solucionado",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Sin falla al revisar -Pendiente validacion OPS"
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-06",
+      "marca": "MKP",
+      "pais": "Chile",
+      "estado": "Liberada",
+      "com": "Liberada",
+      "ops": "En revision CO - IT",
+      "pen": "Operaciones Revision/Configuracion",
+      "ov": "8442663000618_MMACLMKWAL",
+      "ticket": "ITHD-97195",
+      "pendiente": "Operaciones Revision/Configuracion",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Sin falla al revisar -Pendiente validacion OPS"
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-06",
+      "marca": "MKP",
+      "pais": "Chile",
+      "estado": "Liberada",
+      "com": "Liberada",
+      "ops": "En revision CO - IT",
+      "pen": "Operaciones Solucionado",
+      "ov": "4782639004648_MMACLMKWAL",
+      "ticket": "ITHD-97195",
+      "pendiente": "Operaciones Solucionado",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Sin falla al revisar -Pendiente validacion OPS"
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-06",
+      "marca": "MKP",
+      "pais": "Chile",
       "estado": "Pendiente revision CO",
       "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "Operaciones Solucionado",
-      "ov": "3145655950_MMACLMKPAR",
+      "ov": "2000018805583498_MMACLMKMEL",
       "ticket": "ITHD-97195",
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
@@ -157559,72 +157607,24 @@
       "fn": "2026-10-06",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "",
+      "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
-      "ov": "8442663000618_MMACLMKWAL",
-      "ticket": "ITHD-97195",
-      "pendiente": "Operaciones Revision/Configuracion",
-      "proveedor": "",
-      "canal": "",
-      "detalle": "Pendiente revision CO"
-    },
-    {
-      "fecha": "2026-10-05",
-      "fn": "2026-10-06",
-      "marca": "MKP",
-      "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
-      "ov": "4782639004648_MMACLMKWAL",
-      "ticket": "ITHD-97195",
-      "pendiente": "Continuidad",
-      "proveedor": "",
-      "canal": "",
-      "detalle": "Pendiente revision CO"
-    },
-    {
-      "fecha": "2026-10-05",
-      "fn": "2026-10-06",
-      "marca": "MKP",
-      "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
-      "ov": "2000018805583498_MMACLMKMEL",
-      "ticket": "ITHD-97195",
-      "pendiente": "Continuidad",
-      "proveedor": "",
-      "canal": "",
-      "detalle": "Pendiente revision CO"
-    },
-    {
-      "fecha": "2026-10-05",
-      "fn": "2026-10-06",
-      "marca": "MKP",
-      "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "25258321901-A_JBLCLMKRIP",
       "ticket": "ITHD-97195",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Sin generacion de guia en Yuju"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-06",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
       "pen": "Continuidad",
       "ov": "3146634660_MMACLMKPAR",
@@ -157632,71 +157632,71 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Sin falla al revisar -Pendiente validacion OPS"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-06",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Escalado operaciones",
+      "com": "Escalado operaciones",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "0",
       "ov": "25262723002-A_JBLCLMKRIP",
       "ticket": "ITHD-97195",
-      "pendiente": "Continuidad",
+      "pendiente": "0",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Configuracion de producto"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-06",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Escalado operaciones",
+      "com": "Escalado operaciones",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3147196213_JBLCLMKPAR",
       "ticket": "ITHD-97195",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Configuracion de producto"
     },
     {
       "fecha": "2026-10-05",
       "fn": "2026-10-06",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018816904832_MMACLMKMEL",
       "ticket": "ITHD-97195",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Sin falla al revisar -Pendiente validacion OPS"
     },
     {
       "fecha": "2026-10-06",
       "fn": "2026-10-06",
       "marca": "MKP",
       "pais": "Chile",
-      "estado": "Pendiente revision CO",
-      "com": "Pendiente revision CO",
+      "estado": "Liberada",
+      "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "8452651002456_MMACLMKWAL",
       "ticket": "ITHD-97195",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO"
+      "detalle": "Sin falla al revisar -Pendiente validacion OPS"
     },
     {
       "fecha": "2026-10-06",
@@ -157706,10 +157706,10 @@
       "estado": "Pendiente revision CO",
       "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3147897270_MMACLMKPAR",
       "ticket": "ITHD-97195",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Pendiente revision CO"
@@ -157722,10 +157722,10 @@
       "estado": "Pendiente revision CO",
       "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3147902070_MMACLMKPAR",
       "ticket": "ITHD-97195",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Pendiente revision CO"
@@ -158247,8 +158247,8 @@
       "fn": "2026-10-06",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "43909-CROCS_COL",
@@ -158263,8 +158263,8 @@
       "fn": "2026-10-06",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "43938-CROCS_COL",
@@ -158279,8 +158279,8 @@
       "fn": "2026-10-06",
       "marca": "Dockers",
       "pais": "Chile",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9054_DOCCLWL180",
@@ -158295,8 +158295,8 @@
       "fn": "2026-10-06",
       "marca": "LC",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9105-LACOSTE_COL",
@@ -158311,8 +158311,8 @@
       "fn": "2026-10-06",
       "marca": "LC",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9106-LACOSTE_COL",
@@ -158327,8 +158327,8 @@
       "fn": "2026-10-06",
       "marca": "LC",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9107-LACOSTE_COL",
@@ -158343,8 +158343,8 @@
       "fn": "2026-10-06",
       "marca": "LC",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9108-LACOSTE_COL",
@@ -158359,8 +158359,8 @@
       "fn": "2026-10-06",
       "marca": "LC",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9109-LACOSTE_COL",
@@ -158375,8 +158375,8 @@
       "fn": "2026-10-06",
       "marca": "LC",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9110-LACOSTE_COL",
@@ -158391,8 +158391,8 @@
       "fn": "2026-10-06",
       "marca": "LC",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9111-LACOSTE_COL",
@@ -158407,8 +158407,8 @@
       "fn": "2026-10-06",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15357-ON_COL",
@@ -158423,8 +158423,8 @@
       "fn": "2026-10-06",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15378-ON_COL",
@@ -158439,8 +158439,8 @@
       "fn": "2026-10-06",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15379-ON_COL",
@@ -158455,8 +158455,8 @@
       "fn": "2026-10-06",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15380-ON_COL",
@@ -158471,8 +158471,8 @@
       "fn": "2026-10-06",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15381-ON_COL",
@@ -158487,8 +158487,8 @@
       "fn": "2026-10-06",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15382-ON_COL",
@@ -158503,8 +158503,8 @@
       "fn": "2026-10-06",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15383-ON_COL",
@@ -158519,8 +158519,8 @@
       "fn": "2026-10-06",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15384-ON_COL",
@@ -158535,8 +158535,8 @@
       "fn": "2026-10-06",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15385-ON_COL",
@@ -158551,8 +158551,8 @@
       "fn": "2026-10-06",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15386-ON_COL",
@@ -158567,8 +158567,8 @@
       "fn": "2026-10-06",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15387-ON_COL",
@@ -158583,8 +158583,8 @@
       "fn": "2026-10-06",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15389-ON_COL",
@@ -158599,8 +158599,8 @@
       "fn": "2026-10-06",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15390-ON_COL",
@@ -158615,8 +158615,8 @@
       "fn": "2026-10-06",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15391-ON_COL",
@@ -158631,8 +158631,8 @@
       "fn": "2026-10-06",
       "marca": "MKP",
       "pais": "Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "6001047743-A",
@@ -158647,8 +158647,8 @@
       "fn": "2026-10-06",
       "marca": "MKP",
       "pais": "Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "62001047374-A",
@@ -158663,8 +158663,8 @@
       "fn": "2026-10-06",
       "marca": "Motorola",
       "pais": "PERU",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "594168",
@@ -158679,12 +158679,60 @@
       "fn": "2026-10-06",
       "marca": "EPSON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "IX-40000059040",
       "ticket": "ITHD-97216",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-07",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "15404-ON_COL_ONRCOWL180",
+      "ticket": "ITHD-97219",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-07",
+      "marca": "MKP",
+      "pais": "Guatemala",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "21000146777-A",
+      "ticket": "ITHD-97220",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-07",
+      "marca": "RB",
+      "pais": "Running balboa Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1190_RUNGTWL180",
+      "ticket": "ITHD-97221",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
@@ -204849,6 +204897,558 @@
       "ov": "5292",
       "pais": "CHILE",
       "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "IX-46000016281",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "8228_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "8706_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "8743-2_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "8773-1_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "8798_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "8814-1_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "8821_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "8929_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "R1_43626-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018818330524_MMACOMKMEL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000146606-A",
+      "pais": "GUATEMALA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "JB-GT00062966",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "JB-GT00062969",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "JB-GT00063052",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "43840-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-05-10",
+      "ov": "JB-CL00179090",
+      "pais": "CHILE",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-05-10",
+      "ov": "JB-CL00179145",
+      "pais": "CHILE",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-05-10",
+      "ov": "JB-CL00179214",
+      "pais": "CHILE",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "2000018733988240_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "3145655950_MMACLMKPAR",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "8442663000618_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "4782639004648_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "2000018805583498_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "25258321901-A_JBLCLMKRIP",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "3146634660_MMACLMKPAR",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "25262723002-A_JBLCLMKRIP",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "3147196213_JBLCLMKPAR",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "2000018816904832_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "8452651002456_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "3147897270_MMACLMKPAR",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "3147902070_MMACLMKPAR",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "8452659000604_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018822037116_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "4782643001069_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "4792635000095_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "4792635001015_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "8452659001762_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "4792635001237_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "4792636000300_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "4792636002392_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "4792636002807_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "8452660003459_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "4792637000119_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "8452661001267_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "8452661001348_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "8452661003834_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "4792637003598_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "4792637001329_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "8452662001500_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "4792638002041_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "4792638002523_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "4732643000408_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018745084890_EPSECMKMEL",
+      "pais": "ECUADOR",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-09-28",
+      "ov": "R1_43653-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-05",
+      "ov": "R1_42684-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-02",
+      "ov": "GT1376_CUBGTWL180",
+      "pais": "GUATEMAL",
+      "marca": "Cubitt"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "IX-46000016314",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-05-10",
+      "ov": "6743-CROCS_CRC",
+      "pais": "RICA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "679516",
+      "pais": "CHILE",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "679520",
+      "pais": "CHILE",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "679528",
+      "pais": "CHILE",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "679556",
+      "pais": "CHILE",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "679562",
+      "pais": "CHILE",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "43909-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "43938-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "9054_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "9105-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "9106-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "9107-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "9108-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "9109-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "9110-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "9111-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "15357-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "15378-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "15379-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "15380-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "15381-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "15382-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "15383-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "15384-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "15385-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "15386-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "15387-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "15389-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "15390-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "15391-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "6001047743-A",
+      "pais": "GUATEMALA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "62001047374-A",
+      "pais": "GUATEMALA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "594168",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "IX-40000059040",
+      "pais": "COLOMBIA",
+      "marca": "EPSON"
     },
     {
       "fecha": "2026-07-06",
