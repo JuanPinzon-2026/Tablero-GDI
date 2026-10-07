@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T19:14:52.563496+00:00",
+  "generatedAt": "2026-10-07T19:44:49.526210+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -120554,10 +120554,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "Alistamiento",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Operaciones Solucionado",
       "ov": "13027-ON_COL_ONRCOWL180",
       "ticket": "ITHD-96500",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Niveles geograficos Kronotime"
@@ -124170,10 +124170,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "sin stock reembolso solicitado",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CL00176688",
       "ticket": "ITHD-96524",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar"
@@ -124362,10 +124362,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "sin stock reembolso solicitado",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CL00177278",
       "ticket": "ITHD-96524",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar"
@@ -157402,10 +157402,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000146606-A",
       "ticket": "ITHD-97183",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar -Pendiente validacion OPS"
@@ -157418,10 +157418,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00062966",
       "ticket": "ITHD-97188",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden llego por fuera del corte de servicio"
@@ -157562,10 +157562,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Operaciones Solucionado",
       "ov": "8442663000618_MMACLMKWAL",
       "ticket": "ITHD-97195",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar -Pendiente validacion OPS"
@@ -157626,10 +157626,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3146634660_MMACLMKPAR",
       "ticket": "ITHD-97195",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar -Pendiente validacion OPS"
@@ -157674,10 +157674,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018816904832_MMACLMKMEL",
       "ticket": "ITHD-97195",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar -Pendiente validacion OPS"
@@ -157690,10 +157690,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Operaciones Solucionado",
       "ov": "8452651002456_MMACLMKWAL",
       "ticket": "ITHD-97195",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar -Pendiente validacion OPS"
@@ -157738,10 +157738,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "8452659000604_MMACLMKWAL",
       "ticket": "ITHD-97195",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar -Pendiente validacion OPS"
@@ -157754,10 +157754,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018822037116_MMACLMKMEL",
       "ticket": "ITHD-97195",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar -Pendiente validacion OPS"
@@ -158058,10 +158058,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Operaciones Solucionado",
       "ov": "4732643000408_MMACLMKWAL",
       "ticket": "ITHD-97195",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar -Pendiente validacion OPS"
@@ -158186,10 +158186,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "679520",
       "ticket": "ITHD-97203",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Niveles geograficos Motorola CL"
@@ -158298,10 +158298,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9105-LACOSTE_COL",
       "ticket": "ITHD-97210",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Demora en inyeccion de orden desde Kronotime"
@@ -158314,10 +158314,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9106-LACOSTE_COL",
       "ticket": "ITHD-97210",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Demora en inyeccion de orden desde Kronotime"
@@ -158714,10 +158714,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "21000146777-A",
       "ticket": "ITHD-97220",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar -Pendiente validacion OPS"
@@ -158739,7 +158739,7 @@
       "detalle": "Campo Lastname en null"
     },
     {
-      "fecha": "2026-06-10",
+      "fecha": "2026-10-06",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -158755,7 +158755,7 @@
       "detalle": "Servicio no disponible cuando orden llego"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -158771,7 +158771,7 @@
       "detalle": "Orden sin stock JBL"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -158787,7 +158787,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -158803,7 +158803,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -158819,7 +158819,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -158835,7 +158835,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -158851,7 +158851,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -158867,7 +158867,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -158883,7 +158883,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -158899,7 +158899,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -158915,7 +158915,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -158931,7 +158931,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -158947,7 +158947,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -158963,7 +158963,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -158979,7 +158979,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -158995,7 +158995,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -159011,7 +159011,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -159027,7 +159027,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "URUGUAY",
@@ -159043,7 +159043,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "JBL",
       "pais": "CHILE",
@@ -159059,7 +159059,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Colombia",
@@ -159075,7 +159075,7 @@
       "detalle": "Sin falla al revisar -Pendiente validacion OPS"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Colombia",
@@ -159091,7 +159091,7 @@
       "detalle": "Sin falla al revisar -Pendiente validacion OPS"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "Honor",
       "pais": "Chile",
@@ -159107,7 +159107,7 @@
       "detalle": "Sin falla al revisar"
     },
     {
-      "fecha": "2026-07-10",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "Honor",
       "pais": "Chile",
@@ -159306,10 +159306,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "8462658000243_MMACLMKWAL",
       "ticket": "ITHD-97231",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar -Pendiente validacion OPS"
@@ -159770,10 +159770,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "8462660000068_MMACLMKWAL",
       "ticket": "ITHD-97231",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar -Pendiente validacion OPS"
@@ -183651,7 +183651,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -183939,7 +183939,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -184067,7 +184067,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -184099,7 +184099,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -184227,7 +184227,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -184243,7 +184243,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -184467,7 +184467,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -184531,7 +184531,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -184547,7 +184547,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -184627,7 +184627,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -184659,7 +184659,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -184675,7 +184675,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -184755,7 +184755,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -184787,7 +184787,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -184899,7 +184899,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -184995,7 +184995,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -185091,7 +185091,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -185123,7 +185123,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -185219,7 +185219,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -185411,7 +185411,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -185491,7 +185491,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -185523,7 +185523,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -185587,7 +185587,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -185619,7 +185619,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -185635,7 +185635,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -185651,7 +185651,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -185779,7 +185779,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -185843,7 +185843,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -185859,7 +185859,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -185875,7 +185875,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -185939,7 +185939,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -186051,7 +186051,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -186115,7 +186115,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -186147,7 +186147,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -186243,7 +186243,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -186499,7 +186499,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -186627,7 +186627,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -186771,7 +186771,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -186947,7 +186947,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -187267,7 +187267,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -187443,7 +187443,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -187475,7 +187475,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -187635,7 +187635,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -187763,7 +187763,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -187795,7 +187795,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -188115,7 +188115,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -188211,7 +188211,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -188243,7 +188243,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -188323,7 +188323,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -188371,7 +188371,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -188387,7 +188387,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -188419,7 +188419,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -188451,7 +188451,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -188483,7 +188483,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -188515,7 +188515,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -188579,7 +188579,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -188659,7 +188659,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-07",
       "marca": "MKP",
       "pais": "Chile",
@@ -188682,10 +188682,10 @@
       "estado": "Liberada",
       "com": "Liberada",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CO00247500",
       "ticket": "ITHD-97229",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden llego por fuera de corte de sevicio"
@@ -188701,6 +188701,22 @@
       "pen": "",
       "ov": "3255452800",
       "ticket": "ITHD-97234",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-07",
+      "fn": "2026-10-07",
+      "marca": "RB",
+      "pais": "Running balboa Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "",
+      "pen": "",
+      "ov": "1191_RUNGTWL180",
+      "ticket": "",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
