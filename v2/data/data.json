@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T16:14:45.750644+00:00",
+  "generatedAt": "2026-10-08T16:44:44.032063+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -187895,8 +187895,8 @@
       "fn": "2026-10-07",
       "marca": "Crocs",
       "pais": "Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "5371-CROCS_GTQ_CCSGTWL180",
@@ -187911,8 +187911,8 @@
       "fn": "2026-10-08",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "R1_42867-CROCS_COL_CCSCOWL180",
@@ -187927,8 +187927,8 @@
       "fn": "2026-10-08",
       "marca": "Cubitt",
       "pais": "Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "GT1380_CUBGTWL180",
@@ -187943,8 +187943,8 @@
       "fn": "2026-10-08",
       "marca": "Cubitt",
       "pais": "Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "GT1384_CUBGTWL180",
@@ -187959,8 +187959,8 @@
       "fn": "2026-10-08",
       "marca": "Crocs",
       "pais": "Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "5387-CROCS_GTQ_CCSGTWL180",
@@ -188707,7 +188707,7 @@
       "detalle": "Pendiente revision CO"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -188723,7 +188723,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -188739,7 +188739,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -188755,7 +188755,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -188771,7 +188771,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -188787,7 +188787,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -188803,7 +188803,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -188819,7 +188819,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -188835,7 +188835,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -188851,7 +188851,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -188867,7 +188867,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -188883,7 +188883,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -188899,7 +188899,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -188915,7 +188915,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -188931,7 +188931,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -188947,7 +188947,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -188963,7 +188963,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -188979,7 +188979,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -188995,7 +188995,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189011,7 +189011,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189027,7 +189027,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189043,7 +189043,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189059,7 +189059,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189075,7 +189075,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189091,7 +189091,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189107,7 +189107,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189123,7 +189123,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189139,7 +189139,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189155,7 +189155,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189171,7 +189171,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189187,7 +189187,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189203,7 +189203,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189219,7 +189219,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189235,7 +189235,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189251,7 +189251,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189267,7 +189267,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189283,7 +189283,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189299,7 +189299,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189315,7 +189315,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189331,7 +189331,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189347,7 +189347,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189363,7 +189363,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189379,7 +189379,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189395,7 +189395,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189411,7 +189411,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189427,7 +189427,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189443,7 +189443,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189459,7 +189459,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189475,7 +189475,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189491,7 +189491,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189507,7 +189507,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189523,7 +189523,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189539,7 +189539,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189555,7 +189555,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189571,7 +189571,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189587,7 +189587,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189603,7 +189603,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189619,7 +189619,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189635,7 +189635,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189651,7 +189651,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189667,7 +189667,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189683,7 +189683,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189699,7 +189699,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189715,7 +189715,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189731,7 +189731,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189747,7 +189747,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189763,7 +189763,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189779,7 +189779,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189795,7 +189795,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189811,7 +189811,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189827,7 +189827,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189843,7 +189843,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189859,7 +189859,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189875,7 +189875,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189891,7 +189891,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189907,7 +189907,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189923,7 +189923,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189939,7 +189939,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189955,7 +189955,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189971,7 +189971,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -189987,7 +189987,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190003,7 +190003,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190019,7 +190019,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190035,7 +190035,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190051,7 +190051,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190067,7 +190067,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190083,7 +190083,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190099,7 +190099,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190115,7 +190115,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190131,7 +190131,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190147,7 +190147,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190163,7 +190163,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190179,7 +190179,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190195,7 +190195,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190211,7 +190211,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190227,7 +190227,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190243,7 +190243,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190259,7 +190259,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190275,7 +190275,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190291,7 +190291,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190307,7 +190307,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190323,7 +190323,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190339,7 +190339,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190355,7 +190355,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190371,7 +190371,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190387,7 +190387,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190403,7 +190403,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190419,7 +190419,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190435,7 +190435,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190451,7 +190451,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190467,7 +190467,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190483,7 +190483,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190499,7 +190499,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190515,7 +190515,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190531,7 +190531,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190547,7 +190547,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190563,7 +190563,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190579,7 +190579,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190595,7 +190595,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190611,7 +190611,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190627,7 +190627,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190643,7 +190643,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190659,7 +190659,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190675,7 +190675,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190691,7 +190691,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190707,7 +190707,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190723,7 +190723,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190739,7 +190739,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190755,7 +190755,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190771,7 +190771,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190787,7 +190787,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190803,7 +190803,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190819,7 +190819,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190835,7 +190835,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190851,7 +190851,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190867,7 +190867,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190883,7 +190883,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190899,7 +190899,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190915,7 +190915,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190931,7 +190931,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190947,7 +190947,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190963,7 +190963,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190979,7 +190979,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -190995,7 +190995,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191011,7 +191011,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191027,7 +191027,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191043,7 +191043,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191059,7 +191059,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191075,7 +191075,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191091,7 +191091,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191107,7 +191107,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191123,7 +191123,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191139,7 +191139,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191155,7 +191155,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191171,7 +191171,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191187,7 +191187,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191203,7 +191203,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191219,7 +191219,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191235,7 +191235,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191251,7 +191251,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191267,7 +191267,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191283,7 +191283,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191299,7 +191299,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191315,7 +191315,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191331,7 +191331,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191347,7 +191347,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191363,7 +191363,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191379,7 +191379,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191395,7 +191395,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191411,7 +191411,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191427,7 +191427,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191443,7 +191443,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191459,7 +191459,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191475,7 +191475,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191491,7 +191491,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191507,7 +191507,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191523,7 +191523,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191539,7 +191539,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191555,7 +191555,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191571,7 +191571,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191587,7 +191587,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191603,7 +191603,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191619,7 +191619,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191635,7 +191635,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191651,7 +191651,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191667,7 +191667,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191683,7 +191683,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191699,7 +191699,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191715,7 +191715,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191731,7 +191731,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191747,7 +191747,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191763,7 +191763,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191779,7 +191779,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191795,7 +191795,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191811,7 +191811,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191827,7 +191827,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191843,7 +191843,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191859,7 +191859,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191875,7 +191875,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191891,7 +191891,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191907,7 +191907,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191923,7 +191923,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191939,7 +191939,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191955,7 +191955,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191971,7 +191971,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -191987,7 +191987,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192003,7 +192003,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192019,7 +192019,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192035,7 +192035,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192051,7 +192051,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192067,7 +192067,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192083,7 +192083,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192099,7 +192099,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192115,7 +192115,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192131,7 +192131,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192147,7 +192147,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192163,7 +192163,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192179,7 +192179,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192195,7 +192195,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192211,7 +192211,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192227,7 +192227,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192243,7 +192243,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192259,7 +192259,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192275,7 +192275,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192291,7 +192291,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192307,7 +192307,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192323,7 +192323,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192339,7 +192339,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192355,7 +192355,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192371,7 +192371,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192387,7 +192387,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192403,7 +192403,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192419,7 +192419,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192435,7 +192435,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192451,7 +192451,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192467,7 +192467,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192483,7 +192483,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192499,7 +192499,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192515,7 +192515,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192531,7 +192531,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192547,7 +192547,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192563,7 +192563,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192579,7 +192579,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192595,7 +192595,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192611,7 +192611,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192627,7 +192627,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192643,7 +192643,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192659,7 +192659,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192675,7 +192675,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192691,7 +192691,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192707,7 +192707,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192723,7 +192723,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192739,7 +192739,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192755,7 +192755,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192771,7 +192771,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192787,7 +192787,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192803,7 +192803,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192819,7 +192819,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192835,7 +192835,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192851,7 +192851,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192867,7 +192867,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192883,7 +192883,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192899,7 +192899,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192915,7 +192915,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192931,7 +192931,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192947,7 +192947,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192963,7 +192963,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192979,7 +192979,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -192995,7 +192995,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193011,7 +193011,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193027,7 +193027,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193043,7 +193043,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193059,7 +193059,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193075,7 +193075,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193091,7 +193091,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193107,7 +193107,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193123,7 +193123,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193139,7 +193139,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193155,7 +193155,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193171,7 +193171,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193187,7 +193187,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193203,7 +193203,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193219,7 +193219,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193235,7 +193235,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193251,7 +193251,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193267,7 +193267,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193283,7 +193283,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193299,7 +193299,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193315,7 +193315,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193331,7 +193331,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193347,7 +193347,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193363,7 +193363,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193379,7 +193379,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193395,7 +193395,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193411,7 +193411,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193427,7 +193427,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193443,7 +193443,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193459,7 +193459,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193475,7 +193475,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193491,7 +193491,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193507,7 +193507,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193523,7 +193523,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193539,7 +193539,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193555,7 +193555,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193571,7 +193571,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193587,7 +193587,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193603,7 +193603,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193619,7 +193619,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193635,7 +193635,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193651,7 +193651,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193667,7 +193667,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193683,7 +193683,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193699,7 +193699,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193715,7 +193715,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193731,7 +193731,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193747,7 +193747,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193763,7 +193763,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193779,7 +193779,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193795,7 +193795,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193811,7 +193811,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193827,7 +193827,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193843,7 +193843,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193859,7 +193859,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193875,7 +193875,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193891,7 +193891,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193907,7 +193907,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193923,7 +193923,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193939,7 +193939,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193955,7 +193955,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193971,7 +193971,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -193987,7 +193987,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194003,7 +194003,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194019,7 +194019,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194035,7 +194035,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194051,7 +194051,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194067,7 +194067,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194083,7 +194083,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194099,7 +194099,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194115,7 +194115,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194131,7 +194131,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194147,7 +194147,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194163,7 +194163,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194179,7 +194179,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194195,7 +194195,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194211,7 +194211,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194227,7 +194227,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194243,7 +194243,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194259,7 +194259,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194275,7 +194275,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194291,7 +194291,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194307,7 +194307,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194323,7 +194323,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194339,7 +194339,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194355,7 +194355,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194371,7 +194371,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194387,7 +194387,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194403,7 +194403,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194419,7 +194419,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194435,7 +194435,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194451,7 +194451,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194467,7 +194467,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194483,7 +194483,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194499,7 +194499,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194515,7 +194515,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194531,7 +194531,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194547,7 +194547,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194563,7 +194563,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194579,7 +194579,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194595,7 +194595,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194611,7 +194611,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194627,7 +194627,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194643,7 +194643,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194659,7 +194659,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194675,7 +194675,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194691,7 +194691,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194707,7 +194707,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194723,7 +194723,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194739,7 +194739,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194755,7 +194755,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194771,7 +194771,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194787,7 +194787,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194803,7 +194803,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194819,7 +194819,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194835,7 +194835,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194851,7 +194851,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194867,7 +194867,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194883,7 +194883,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194899,7 +194899,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194915,7 +194915,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194931,7 +194931,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194947,7 +194947,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194963,7 +194963,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194979,7 +194979,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -194995,7 +194995,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195011,7 +195011,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195027,7 +195027,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195043,7 +195043,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195059,7 +195059,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195075,7 +195075,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195091,7 +195091,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195107,7 +195107,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195123,7 +195123,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195139,7 +195139,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195155,7 +195155,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195171,7 +195171,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195187,7 +195187,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195203,7 +195203,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195219,7 +195219,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195235,7 +195235,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195251,7 +195251,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195267,7 +195267,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195283,7 +195283,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195299,7 +195299,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195315,7 +195315,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195331,7 +195331,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195347,7 +195347,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195363,7 +195363,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195379,7 +195379,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195395,7 +195395,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195411,7 +195411,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195427,7 +195427,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195443,7 +195443,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195459,7 +195459,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195475,7 +195475,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195491,7 +195491,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195507,7 +195507,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195523,7 +195523,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195539,7 +195539,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195555,7 +195555,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195571,7 +195571,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195587,7 +195587,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195603,7 +195603,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195619,7 +195619,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195635,7 +195635,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195651,7 +195651,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195667,7 +195667,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195683,7 +195683,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195699,7 +195699,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195715,7 +195715,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195731,7 +195731,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195747,7 +195747,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195763,7 +195763,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195779,7 +195779,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195795,7 +195795,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195811,7 +195811,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195827,7 +195827,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195843,7 +195843,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195859,7 +195859,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195875,7 +195875,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195891,7 +195891,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195907,7 +195907,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195923,7 +195923,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195939,7 +195939,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195955,7 +195955,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195971,7 +195971,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -195987,7 +195987,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196003,7 +196003,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196019,7 +196019,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196035,7 +196035,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196051,7 +196051,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196067,7 +196067,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196083,7 +196083,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196099,7 +196099,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196115,7 +196115,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196131,7 +196131,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196147,7 +196147,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196163,7 +196163,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196179,7 +196179,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196195,7 +196195,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196211,7 +196211,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196227,7 +196227,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196243,7 +196243,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196259,7 +196259,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196275,7 +196275,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196291,7 +196291,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196307,7 +196307,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196323,7 +196323,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196339,7 +196339,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196355,7 +196355,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196371,7 +196371,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196387,7 +196387,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196403,7 +196403,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196419,7 +196419,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196435,7 +196435,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196451,7 +196451,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196467,7 +196467,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196483,7 +196483,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196499,7 +196499,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196515,7 +196515,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196531,7 +196531,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196547,7 +196547,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196563,7 +196563,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196579,7 +196579,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196595,7 +196595,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196611,7 +196611,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196627,7 +196627,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196643,7 +196643,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196659,7 +196659,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196675,7 +196675,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196691,7 +196691,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196707,7 +196707,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196723,7 +196723,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196739,7 +196739,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196755,7 +196755,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196771,7 +196771,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196787,7 +196787,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196803,7 +196803,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196819,7 +196819,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196835,7 +196835,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196851,7 +196851,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196867,7 +196867,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196883,7 +196883,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196899,7 +196899,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196915,7 +196915,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196931,7 +196931,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196947,7 +196947,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196963,7 +196963,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196979,7 +196979,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -196995,7 +196995,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197011,7 +197011,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197027,7 +197027,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197043,7 +197043,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197059,7 +197059,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197075,7 +197075,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197091,7 +197091,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197107,7 +197107,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197123,7 +197123,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197139,7 +197139,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197155,7 +197155,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197171,7 +197171,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197187,7 +197187,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197203,7 +197203,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197219,7 +197219,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197235,7 +197235,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197251,7 +197251,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197267,7 +197267,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197283,7 +197283,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197299,7 +197299,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197315,7 +197315,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197331,7 +197331,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197347,7 +197347,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197363,7 +197363,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197379,7 +197379,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197395,7 +197395,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197411,7 +197411,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197427,7 +197427,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197443,7 +197443,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197459,7 +197459,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197475,7 +197475,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197491,7 +197491,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197507,7 +197507,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197523,7 +197523,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197539,7 +197539,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197555,7 +197555,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197571,7 +197571,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197587,7 +197587,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197603,7 +197603,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197619,7 +197619,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197635,7 +197635,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197651,7 +197651,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197667,7 +197667,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197683,7 +197683,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197699,7 +197699,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197715,7 +197715,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197731,7 +197731,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197747,7 +197747,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197763,7 +197763,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197779,7 +197779,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197795,7 +197795,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197811,7 +197811,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197827,7 +197827,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197843,7 +197843,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197859,7 +197859,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197875,7 +197875,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197891,7 +197891,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197907,7 +197907,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197923,7 +197923,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197939,7 +197939,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197955,7 +197955,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197971,7 +197971,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -197987,7 +197987,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198003,7 +198003,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198019,7 +198019,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198035,7 +198035,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198051,7 +198051,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198067,7 +198067,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198083,7 +198083,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198099,7 +198099,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198115,7 +198115,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198131,7 +198131,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198147,7 +198147,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198163,7 +198163,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198179,7 +198179,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198195,7 +198195,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198211,7 +198211,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198227,7 +198227,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198243,7 +198243,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198259,7 +198259,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198275,7 +198275,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198291,7 +198291,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198307,7 +198307,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198323,7 +198323,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198339,7 +198339,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198355,7 +198355,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198371,7 +198371,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198387,7 +198387,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198403,7 +198403,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198419,7 +198419,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198435,7 +198435,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198451,7 +198451,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198467,7 +198467,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198483,7 +198483,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198499,7 +198499,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198515,7 +198515,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198531,7 +198531,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198547,7 +198547,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198563,7 +198563,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198579,7 +198579,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198595,7 +198595,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198611,7 +198611,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198627,7 +198627,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198643,7 +198643,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198659,7 +198659,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198675,7 +198675,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198691,7 +198691,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198707,7 +198707,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198723,7 +198723,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198739,7 +198739,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198755,7 +198755,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198771,7 +198771,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198787,7 +198787,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198803,7 +198803,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198819,7 +198819,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198835,7 +198835,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198851,7 +198851,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198867,7 +198867,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198883,7 +198883,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198899,7 +198899,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198915,7 +198915,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198931,7 +198931,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198947,7 +198947,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198963,7 +198963,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198979,7 +198979,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -198995,7 +198995,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199011,7 +199011,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199027,7 +199027,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199043,7 +199043,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199059,7 +199059,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199075,7 +199075,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199091,7 +199091,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199107,7 +199107,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199123,7 +199123,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199139,7 +199139,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199155,7 +199155,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199171,7 +199171,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199187,7 +199187,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199203,7 +199203,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199219,7 +199219,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199235,7 +199235,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199251,7 +199251,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199267,7 +199267,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199283,7 +199283,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199299,7 +199299,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199315,7 +199315,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199331,7 +199331,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199347,7 +199347,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199363,7 +199363,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199379,7 +199379,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199395,7 +199395,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199411,7 +199411,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199427,7 +199427,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199443,7 +199443,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199459,7 +199459,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199475,7 +199475,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199491,7 +199491,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199507,7 +199507,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199523,7 +199523,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199539,7 +199539,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199555,7 +199555,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199571,7 +199571,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199587,7 +199587,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199603,7 +199603,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199619,7 +199619,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199635,7 +199635,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199651,7 +199651,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199667,7 +199667,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199683,7 +199683,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199699,7 +199699,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199715,7 +199715,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199731,7 +199731,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199747,7 +199747,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199763,7 +199763,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199779,7 +199779,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199795,7 +199795,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199811,7 +199811,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199827,7 +199827,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199843,7 +199843,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199859,7 +199859,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199875,7 +199875,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199891,7 +199891,7 @@
       "detalle": "Orden sin facturar en NS"
     },
     {
-      "fecha": "2026-10-08",
+      "fecha": "2026-10-07",
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Chile",
@@ -199911,8 +199911,8 @@
       "fn": "2026-10-08",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15486-ON_COL_ONRCOWL180",
@@ -199927,8 +199927,8 @@
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3256555818_MMACOMKFAL",
@@ -199943,8 +199943,8 @@
       "fn": "2026-10-08",
       "marca": "Har",
       "pais": "man Kardon",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "HK-MX00069264",
@@ -199959,8 +199959,8 @@
       "fn": "2026-10-08",
       "marca": "Har",
       "pais": "man Kardon",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "HK-MX00069156",
@@ -199975,8 +199975,8 @@
       "fn": "2026-10-08",
       "marca": "JBL",
       "pais": "MEXICO",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-MX00276118",
@@ -200023,8 +200023,8 @@
       "fn": "2026-10-08",
       "marca": "JBL",
       "pais": "URUGUAY",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-UY-00040763",
@@ -200071,8 +200071,8 @@
       "fn": "2026-10-08",
       "marca": "MKP",
       "pais": "Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "6001049459-A",
@@ -200151,8 +200151,8 @@
       "fn": "2026-10-08",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "43957-CROCS_COL",
@@ -200167,8 +200167,8 @@
       "fn": "2026-10-08",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "43958-CROCS_COL",
@@ -200183,8 +200183,8 @@
       "fn": "2026-10-08",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "43959-CROCS_COL",
@@ -200199,8 +200199,8 @@
       "fn": "2026-10-08",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "43960-CROCS_COL",
@@ -200215,8 +200215,8 @@
       "fn": "2026-10-08",
       "marca": "Crocs",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "43961-CROCS_COL",
@@ -200231,8 +200231,8 @@
       "fn": "2026-10-08",
       "marca": "JBL",
       "pais": "Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-GT00063006",
@@ -200247,8 +200247,8 @@
       "fn": "2026-10-08",
       "marca": "JBL",
       "pais": "Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-GT00063071",
@@ -200263,8 +200263,8 @@
       "fn": "2026-10-08",
       "marca": "JBL",
       "pais": "Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-GT00063012",
@@ -200279,8 +200279,8 @@
       "fn": "2026-10-08",
       "marca": "JBL",
       "pais": "Guatemala",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-GT00063076",
@@ -200295,8 +200295,8 @@
       "fn": "2026-10-08",
       "marca": "JBL",
       "pais": "CHILE",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Customer Integration",
+      "com": "Escalado con Customer Integration",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-CL00173131",
@@ -200304,15 +200304,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin facturar en NS"
     },
     {
       "fecha": "2026-06-26",
       "fn": "2026-10-08",
       "marca": "JBL",
       "pais": "CHILE",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Customer Integration",
+      "com": "Escalado con Customer Integration",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-CL00173165",
@@ -200320,15 +200320,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin facturar en NS"
     },
     {
       "fecha": "2026-06-27",
       "fn": "2026-10-08",
       "marca": "JBL",
       "pais": "CHILE",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Customer Integration",
+      "com": "Escalado con Customer Integration",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-CL00173268",
@@ -200336,15 +200336,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin facturar en NS"
     },
     {
       "fecha": "2026-06-27",
       "fn": "2026-10-08",
       "marca": "JBL",
       "pais": "CHILE",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Customer Integration",
+      "com": "Escalado con Customer Integration",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-CL00173277",
@@ -200352,15 +200352,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin facturar en NS"
     },
     {
       "fecha": "2026-07-21",
       "fn": "2026-10-08",
       "marca": "JBL",
       "pais": "COSTA RICA",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Customer Integration",
+      "com": "Escalado con Customer Integration",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-CR00045575",
@@ -200368,15 +200368,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin facturar en NS"
     },
     {
       "fecha": "2026-07-21",
       "fn": "2026-10-08",
       "marca": "JBL",
       "pais": "MEXICO",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Customer Integration",
+      "com": "Escalado con Customer Integration",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-MX00260255",
@@ -200384,15 +200384,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin facturar en NS"
     },
     {
       "fecha": "2026-09-08",
       "fn": "2026-10-08",
       "marca": "JBL",
       "pais": "COSTA RICA",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Customer Integration",
+      "com": "Escalado con Customer Integration",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-CR00046021",
@@ -200400,15 +200400,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin facturar en NS"
     },
     {
       "fecha": "2026-09-08",
       "fn": "2026-10-08",
       "marca": "JBL",
       "pais": "Harman Audio",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Customer Integration",
+      "com": "Escalado con Customer Integration",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "HA-MX00070991",
@@ -200416,15 +200416,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin facturar en NS"
     },
     {
       "fecha": "2026-09-08",
       "fn": "2026-10-08",
       "marca": "JBL",
       "pais": "COSTA RICA",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Customer Integration",
+      "com": "Escalado con Customer Integration",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-CR00046022",
@@ -200432,15 +200432,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin facturar en NS"
     },
     {
       "fecha": "2026-09-09",
       "fn": "2026-10-08",
       "marca": "JBL",
       "pais": "MEXICO",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Customer Integration",
+      "com": "Escalado con Customer Integration",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-MX00272411",
@@ -200448,15 +200448,15 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin facturar en NS"
     },
     {
       "fecha": "2026-09-09",
       "fn": "2026-10-08",
       "marca": "JBL",
       "pais": "COSTA RICA",
-      "estado": "",
-      "com": "",
+      "estado": "Escalado con Customer Integration",
+      "com": "Escalado con Customer Integration",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-CR00046026",
@@ -200464,7 +200464,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": ""
+      "detalle": "Orden sin facturar en NS"
     },
     {
       "fecha": "2026-09-09",
@@ -207367,8 +207367,8 @@
       "fn": "2026-10-08",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15156-ON_COL_ONRCOWL180",
@@ -207383,8 +207383,8 @@
       "fn": "2026-10-08",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15445-ON_COL_ONRCOWL180",
@@ -207399,8 +207399,8 @@
       "fn": "2026-10-08",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15447-ON_COL_ONRCOWL180",
@@ -207415,12 +207415,988 @@
       "fn": "2026-10-08",
       "marca": "ON",
       "pais": "Colombia",
-      "estado": "",
-      "com": "",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "15448-ON_COL_ONRCOWL180",
       "ticket": "ITHD-97268",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-07-31",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3061",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-08-28",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3214",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-08-30",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3235",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-08-30",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3238",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-04",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3255",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-10",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3280",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-10",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3281",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-10",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3282",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-10",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3283",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-11",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3284",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-09-12",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3285",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3398",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3399",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3404",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3405",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3406",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3407",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3408",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3409",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3410",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3411",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3412",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3413",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3414",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3415",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3417",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3418",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3419",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3420",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3421",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3422",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3423",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3424",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3425",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3426",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3427",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3428",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3429",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3430",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3431",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3435",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3436",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3437",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3438",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3439",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3440",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3441",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3442",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3443",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3444",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3445",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3446",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3447",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3448",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3449",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3450",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3451",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3452",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3453",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3455",
+      "ticket": "ITHD-97270",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": ""
+    },
+    {
+      "fecha": "2026-10-06",
+      "fn": "2026-10-08",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "Pendiente revision CO",
+      "com": "Pendiente revision CO",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3456",
+      "ticket": "ITHD-97270",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
