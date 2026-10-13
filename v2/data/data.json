@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T20:45:11.578287+00:00",
+  "generatedAt": "2026-10-13T21:15:25.948543+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -157532,14 +157532,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "R1_41916-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-96874",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Revision de ordenes reenviadas",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-11",
@@ -161041,7 +161041,7 @@
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Habilitacion de guia para generar 2 guia",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-09-29",
@@ -220217,8 +220217,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin facturar en NS",
+      "liberada": "Escalado con la Capa"
     },
     {
       "fecha": "2026-10-08",
@@ -221605,14 +221605,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "JB-UY-00040657",
       "ticket": "ITHD-97287",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar",
-      "liberada": "Liberada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-09",
@@ -244640,14 +244640,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "HO3514",
       "ticket": "ITHD-97333",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-11",
@@ -244657,14 +244657,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "HO3515",
       "ticket": "ITHD-97333",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-11",
@@ -244674,14 +244674,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "HO3516",
       "ticket": "ITHD-97333",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-11",
@@ -244691,14 +244691,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "HO3517",
       "ticket": "ITHD-97333",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-11",
@@ -244708,14 +244708,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "HO3518",
       "ticket": "ITHD-97333",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-11",
@@ -244725,14 +244725,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "HO3519",
       "ticket": "ITHD-97333",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-11",
@@ -244742,14 +244742,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "HO3520",
       "ticket": "ITHD-97333",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-12",
@@ -244759,14 +244759,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "HO3521",
       "ticket": "ITHD-97333",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-12",
@@ -244776,14 +244776,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "HO3522",
       "ticket": "ITHD-97333",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-12",
@@ -245717,8 +245717,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Campo lastname en null",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-10",
@@ -245734,8 +245734,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Campo lastname en null",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-12",
@@ -245751,8 +245751,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Campo lastname en null",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-11",
@@ -245762,14 +245762,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "1200_RUNGTWL180",
       "ticket": "ITHD-97351",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "message\":\"No se encontró información para los productos: 1122930-WBGR-S",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-11",
@@ -245779,14 +245779,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "1201_RUNGTWL180",
       "ticket": "ITHD-97351",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "message\":\"No se encontró información para los productos: OS1-100443W-M, 3013B086.100-M, 3013B082.700-M, 648078-M",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-11",
@@ -245796,14 +245796,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "1202_RUNGTWL180",
       "ticket": "ITHD-97351",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "message\":\"No se encontró información para los productos: 1168716-FYP-10",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-13",
@@ -245904,7 +245904,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -245921,7 +245921,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -245938,7 +245938,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -245955,7 +245955,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -245972,7 +245972,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -245989,7 +245989,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246006,7 +246006,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246023,7 +246023,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246040,7 +246040,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246057,7 +246057,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246074,7 +246074,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246091,7 +246091,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246125,7 +246125,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246142,7 +246142,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246159,7 +246159,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246176,7 +246176,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246193,7 +246193,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246210,7 +246210,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246227,7 +246227,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246244,7 +246244,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246261,7 +246261,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246278,7 +246278,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246295,7 +246295,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246312,7 +246312,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246329,7 +246329,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246346,7 +246346,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246363,7 +246363,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246380,7 +246380,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246397,7 +246397,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246414,7 +246414,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246431,7 +246431,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246448,7 +246448,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246465,7 +246465,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246482,7 +246482,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246499,7 +246499,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246516,7 +246516,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246533,7 +246533,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246550,7 +246550,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246567,7 +246567,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246584,7 +246584,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246601,7 +246601,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246618,7 +246618,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246635,7 +246635,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -246652,7 +246652,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock Crocs CO",
+      "detalle": "Error en Availability",
       "liberada": "Liberada"
     },
     {
@@ -247071,14 +247071,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "3257135918_MMAPEMKFAL",
       "ticket": "ITHD-97369",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
@@ -247088,14 +247088,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "3256838692_MMAPEMKFAL",
       "ticket": "ITHD-97368",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
@@ -247105,14 +247105,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018908226806_MMAPEMKMEL",
       "ticket": "ITHD-97368",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
@@ -247122,14 +247122,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "3256844895_MMAPEMKFAL",
       "ticket": "ITHD-97368",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
@@ -247139,14 +247139,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018914330346_HEWPEMKMEL",
       "ticket": "ITHD-97368",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -247156,14 +247156,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "JB-GT00063205",
       "ticket": "ITHD-97367",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -247173,14 +247173,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "JB-GT00063340",
       "ticket": "ITHD-97367",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -247190,14 +247190,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "JB-GT00063299",
       "ticket": "ITHD-97367",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
@@ -247207,14 +247207,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "JB-GT00063461",
       "ticket": "ITHD-97367",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
@@ -247224,14 +247224,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018915837896_HEWPEMKMEL",
       "ticket": "ITHD-97370",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
@@ -247241,14 +247241,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018937437150_MMAPEMKMEL",
       "ticket": "ITHD-97371",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     }
   ],
   "ingresadas": [
