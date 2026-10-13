@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T21:15:25.948543+00:00",
+  "generatedAt": "2026-10-13T21:45:38.500316+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -163438,7 +163438,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Pendiente revision CO",
-      "liberada": "En revision GDI"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-01-10",
@@ -200083,14 +200083,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "8462663004612_MMACLMKWAL",
       "ticket": "ITHD-97252",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin guia en Yuju, validar si seller cuenta con guia",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-08",
@@ -200134,14 +200134,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "4802646004938_MMACLMKWAL",
       "ticket": "ITHD-97252",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin guia en Yuju, validar si seller cuenta con guia",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-08",
@@ -200151,14 +200151,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "3150941020_MMACLMKPAR",
       "ticket": "ITHD-97252",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin guia en Yuju, validar si seller cuenta con guia",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-08",
@@ -221758,14 +221758,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "25314584001-A_JBLCLMKRIP",
       "ticket": "ITHD-97294",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden con diponibilidad de guia 09/10/26 23:59",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-09",
@@ -244289,8 +244289,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin generacion de guia Kronotime",
+      "liberada": "Escalado con Kronotime"
     },
     {
       "fecha": "2026-10-09",
@@ -247249,6 +247249,91 @@
       "canal": "",
       "detalle": "Pendiente revision CO",
       "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-13",
+      "fn": "2026-10-13",
+      "marca": "JBL",
+      "pais": "MEXICO",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-MX00277047",
+      "ticket": "ITHD-97375",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-10",
+      "fn": "2026-10-13",
+      "marca": "Crocs",
+      "pais": "Costa Rica",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "6791-CROCS_CRC",
+      "ticket": "ITHD-97376",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-10",
+      "fn": "2026-10-13",
+      "marca": "Crocs",
+      "pais": "Costa Rica",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "6790-CROCS_CRC",
+      "ticket": "ITHD-97376",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-10",
+      "fn": "2026-10-13",
+      "marca": "Crocs",
+      "pais": "Panama",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2261-CROCS_PAN",
+      "ticket": "ITHD-97376",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-12-10",
+      "fn": "2026-10-13",
+      "marca": "Crocs",
+      "pais": "Panama",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2264-CROCS_PAN",
+      "ticket": "ITHD-97376",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
     }
   ],
   "ingresadas": [
