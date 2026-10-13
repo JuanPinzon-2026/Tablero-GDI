@@ -78,7 +78,7 @@ PRIORITY_SHEETS = ["novedad", "ordenes", "data", "datos", "incidentadas"]
 COLUMN_MAP = {
     "fo":    ["fecha de orden", "fecha orden", "fecha_orden", "fo", "f. orden", "fecha oc"],
     "fn":    ["fecha de notificacion jira", "fecha notificacion", "fecha novedad", "fecha_novedad", "fn", "f. novedad", "fecha nov", "fecha de notificacion"],
-    "com":   ["comentario continuidad", "rta continuidad", "comentario", "continuidad", "com", "comentarios"],
+    "com":   ["comentario continuidad", "rta continuidad", "comentario", "continuidad", "com", "comentarios", "liberada"],
     "est":   ["estado caso", "error", "estado", "error / estado", "error/estado", "est", "descripcion", "descripcion", "motivo"],
     "pen":   ["pendiente por:", "pendiente por", "pendiente", "pen", "pendiente x", "pend"],
     "marca": ["marca", "brand", "cliente", "tienda"],
