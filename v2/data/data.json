@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T23:16:05.854857+00:00",
+  "generatedAt": "2026-10-13T23:46:04.737488+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -244374,8 +244374,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin estado Pickup",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-09",
@@ -244391,8 +244391,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin estado Pickup",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-09",
@@ -244408,8 +244408,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin estado Pickup",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-07",
@@ -244419,14 +244419,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "5405-CROCS_GTQ_CCSGTWL180",
       "ticket": "ITHD-97323",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Niveles geograficos erroneo Kronotime",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-02",
@@ -244504,14 +244504,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00276092",
       "ticket": "ITHD-97332",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Servicio se encontraba desactvado cuando orden llego",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -244521,14 +244521,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00276220",
       "ticket": "ITHD-97332",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin cobertura, zipcode ya en tramite de retiro de front",
+      "liberada": "Orden cancelada"
     },
     {
       "fecha": "2026-10-11",
@@ -244538,14 +244538,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00276284",
       "ticket": "ITHD-97332",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Servicio se encontraba desactvado cuando orden llego",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-11",
@@ -244555,14 +244555,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00276435",
       "ticket": "ITHD-97332",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin cobertura, zipcode ya en tramite de retiro de front",
+      "liberada": "Orden cancelada"
     },
     {
       "fecha": "2026-10-12",
@@ -244572,14 +244572,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CL00180275",
       "ticket": "ITHD-97332",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Servicio se encontraba desactvado cuando orden llego",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-12",
@@ -244589,14 +244589,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CL00180296",
       "ticket": "ITHD-97332",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Servicio se encontraba desactvado cuando orden llego",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-12",
@@ -244606,14 +244606,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "HK-MX00069158",
       "ticket": "ITHD-97332",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-12",
@@ -244623,14 +244623,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CL00180278",
       "ticket": "ITHD-97332",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Servicio se encontraba desactvado cuando orden llego",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-11",
@@ -246754,7 +246754,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -246771,7 +246771,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -246788,7 +246788,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247354,7 +247354,7 @@
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247371,7 +247371,7 @@
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247388,7 +247388,7 @@
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247405,7 +247405,7 @@
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247413,16 +247413,16 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9190-LACOSTE_COL_LACCOWL180",
-      "ticket": "",
+      "ticket": "ITHD-97383",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
       "detalle": "",
-      "liberada": ""
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247430,16 +247430,16 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9192-LACOSTE_COL_LACCOWL180",
-      "ticket": "",
+      "ticket": "ITHD-97383",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
       "detalle": "",
-      "liberada": ""
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247447,16 +247447,16 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9193-LACOSTE_COL_LACCOWL180",
-      "ticket": "",
+      "ticket": "ITHD-97383",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
       "detalle": "",
-      "liberada": ""
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247464,16 +247464,16 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9194-LACOSTE_COL_LACCOWL180",
-      "ticket": "",
+      "ticket": "ITHD-97383",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
       "detalle": "",
-      "liberada": ""
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247481,16 +247481,16 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9195-LACOSTE_COL_LACCOWL180",
-      "ticket": "",
+      "ticket": "ITHD-97383",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
       "detalle": "",
-      "liberada": ""
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247498,16 +247498,16 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9196-LACOSTE_COL_LACCOWL180",
-      "ticket": "",
+      "ticket": "ITHD-97383",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
       "detalle": "",
-      "liberada": ""
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247515,16 +247515,16 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9197-LACOSTE_COL_LACCOWL180",
-      "ticket": "",
+      "ticket": "ITHD-97383",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
       "detalle": "",
-      "liberada": ""
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247532,16 +247532,16 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9198-LACOSTE_COL_LACCOWL180",
-      "ticket": "",
+      "ticket": "ITHD-97383",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
       "detalle": "",
-      "liberada": ""
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247549,16 +247549,16 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9200-LACOSTE_COL_LACCOWL180",
-      "ticket": "",
+      "ticket": "ITHD-97383",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
       "detalle": "",
-      "liberada": ""
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247566,16 +247566,16 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9201-LACOSTE_COL_LACCOWL180",
-      "ticket": "",
+      "ticket": "ITHD-97383",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
       "detalle": "",
-      "liberada": ""
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247583,16 +247583,16 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9202-LACOSTE_COL_LACCOWL180",
-      "ticket": "",
+      "ticket": "ITHD-97383",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
       "detalle": "",
-      "liberada": ""
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247600,16 +247600,16 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9203-LACOSTE_COL_LACCOWL180",
-      "ticket": "",
+      "ticket": "ITHD-97383",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
       "detalle": "",
-      "liberada": ""
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247617,16 +247617,16 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9204-LACOSTE_COL_LACCOWL180",
-      "ticket": "",
+      "ticket": "ITHD-97383",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
       "detalle": "",
-      "liberada": ""
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247634,16 +247634,16 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9205-LACOSTE_COL_LACCOWL180",
-      "ticket": "",
+      "ticket": "ITHD-97383",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
       "detalle": "",
-      "liberada": ""
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247651,16 +247651,16 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9206-LACOSTE_COL_LACCOWL180",
-      "ticket": "",
+      "ticket": "ITHD-97383",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
       "detalle": "",
-      "liberada": ""
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247668,16 +247668,16 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9207-LACOSTE_COL_LACCOWL180",
-      "ticket": "",
+      "ticket": "ITHD-97383",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
       "detalle": "",
-      "liberada": ""
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
-      "fn": "2026-10-13",
+      "fn": "2026-10-14",
       "marca": "LC",
       "pais": "Colombia",
       "estado": "",
@@ -247685,7 +247685,41 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "9230-LACOSTE_COL_LACCOWL180",
-      "ticket": "",
+      "ticket": "ITHD-97383",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-13",
+      "fn": "2026-10-14",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "15992-ON_COL_ONRCOWL180",
+      "ticket": "ITHD-97385",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-14",
+      "fn": "2026-10-14",
+      "marca": "MKP",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000018964501474_MMACOMKMEL",
+      "ticket": "ITHD-97386",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
