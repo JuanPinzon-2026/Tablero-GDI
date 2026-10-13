@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T16:16:05.719067+00:00",
+  "generatedAt": "2026-10-13T16:46:51.455749+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -246955,6 +246955,23 @@
       "pen": "",
       "ov": "5439-CROCS_GTQ",
       "ticket": "ITHD-97360",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-13",
+      "fn": "2026-10-13",
+      "marca": "MKP",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000018956465432_MMACOMKMEL",
+      "ticket": "ITHD-97361",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
