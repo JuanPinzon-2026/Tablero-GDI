@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T16:46:51.455749+00:00",
+  "generatedAt": "2026-10-13T17:21:37.102862+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -221910,7 +221910,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "Facturada",
       "pen": "Operaciones Solucionado",
       "ov": "JB-CO00247871",
       "ticket": "ITHD-97296",
@@ -244834,7 +244834,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin guia en orquestador, con guia en Yuju",
-      "liberada": ""
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-12",
@@ -244850,8 +244850,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden en estado QUEUED",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-12",
@@ -244867,8 +244867,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Product 'MM907JBL58' is no longer active",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-01",
@@ -246972,6 +246972,23 @@
       "pen": "",
       "ov": "2000018956465432_MMACOMKMEL",
       "ticket": "ITHD-97361",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-10",
+      "fn": "2026-10-13",
+      "marca": "JBL",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-GT00063165",
+      "ticket": "ITHD-97363",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
