@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T13:23:17.249377+00:00",
+  "generatedAt": "2026-10-13T13:45:59.085624+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -165420,14 +165420,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018798831954_JBLECMKMEL",
       "ticket": "ITHD-97153",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden no asigna stock en trax",
-      "liberada": "Escalado con Trax"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-30",
@@ -245892,7 +245892,7 @@
     },
     {
       "fecha": "2026-10-12",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "URUGUAY",
       "estado": "",
@@ -245909,7 +245909,7 @@
     },
     {
       "fecha": "2026-10-12",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "CHILE",
       "estado": "",
@@ -245926,7 +245926,7 @@
     },
     {
       "fecha": "2026-10-12",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "CHILE",
       "estado": "",
@@ -245943,7 +245943,7 @@
     },
     {
       "fecha": "2026-10-01",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -245960,7 +245960,7 @@
     },
     {
       "fecha": "2026-10-03",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -245977,7 +245977,7 @@
     },
     {
       "fecha": "2026-10-03",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -245994,7 +245994,7 @@
     },
     {
       "fecha": "2026-10-03",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -246011,7 +246011,7 @@
     },
     {
       "fecha": "2026-10-03",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -246028,7 +246028,7 @@
     },
     {
       "fecha": "2026-10-06",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -246045,7 +246045,7 @@
     },
     {
       "fecha": "2026-10-06",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -246062,7 +246062,7 @@
     },
     {
       "fecha": "2026-10-06",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -246079,7 +246079,7 @@
     },
     {
       "fecha": "2026-10-06",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -246096,7 +246096,7 @@
     },
     {
       "fecha": "2026-10-06",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -246113,7 +246113,7 @@
     },
     {
       "fecha": "2026-10-06",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -246130,7 +246130,7 @@
     },
     {
       "fecha": "2026-10-06",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -246147,7 +246147,7 @@
     },
     {
       "fecha": "2026-10-06",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -246164,7 +246164,7 @@
     },
     {
       "fecha": "2026-10-06",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -246181,7 +246181,7 @@
     },
     {
       "fecha": "2026-10-06",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -246198,7 +246198,7 @@
     },
     {
       "fecha": "2026-10-07",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -246215,7 +246215,7 @@
     },
     {
       "fecha": "2026-10-08",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -246232,7 +246232,7 @@
     },
     {
       "fecha": "2026-10-09",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -246249,7 +246249,7 @@
     },
     {
       "fecha": "2026-10-10",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -246266,7 +246266,7 @@
     },
     {
       "fecha": "2026-10-11",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -246283,7 +246283,7 @@
     },
     {
       "fecha": "2026-10-11",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL MEXICO",
       "estado": "",
@@ -246300,7 +246300,7 @@
     },
     {
       "fecha": "2026-10-05",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL CHILE",
       "estado": "",
@@ -246317,7 +246317,7 @@
     },
     {
       "fecha": "2026-10-05",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL CHILE",
       "estado": "",
@@ -246334,7 +246334,7 @@
     },
     {
       "fecha": "2026-10-05",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL CHILE",
       "estado": "",
@@ -246351,7 +246351,7 @@
     },
     {
       "fecha": "2026-10-06",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL CHILE",
       "estado": "",
@@ -246368,7 +246368,7 @@
     },
     {
       "fecha": "2026-10-06",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL CHILE",
       "estado": "",
@@ -246385,7 +246385,7 @@
     },
     {
       "fecha": "2026-10-07",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL CHILE",
       "estado": "",
@@ -246402,7 +246402,7 @@
     },
     {
       "fecha": "2026-10-07",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL CHILE",
       "estado": "",
@@ -246419,7 +246419,7 @@
     },
     {
       "fecha": "2026-10-07",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL CHILE",
       "estado": "",
@@ -246436,7 +246436,7 @@
     },
     {
       "fecha": "2026-10-07",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL CHILE",
       "estado": "",
@@ -246453,7 +246453,7 @@
     },
     {
       "fecha": "2026-10-07",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL CHILE",
       "estado": "",
@@ -246470,7 +246470,7 @@
     },
     {
       "fecha": "2026-10-08",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL CHILE",
       "estado": "",
@@ -246487,7 +246487,7 @@
     },
     {
       "fecha": "2026-10-08",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL CHILE",
       "estado": "",
@@ -246504,7 +246504,7 @@
     },
     {
       "fecha": "2026-10-10",
-      "fn": "2026-10-12",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "FULL CHILE",
       "estado": "",
@@ -246656,16 +246656,16 @@
       "liberada": ""
     },
     {
-      "fecha": "",
-      "fn": "",
-      "marca": "",
-      "pais": "",
+      "fecha": "2026-10-13",
+      "fn": "2026-10-13",
+      "marca": "EPSON",
+      "pais": "Colombia",
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "IX-40000059493",
-      "ticket": "",
+      "ticket": "ITHD-97346",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
