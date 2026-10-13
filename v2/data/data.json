@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T21:45:38.500316+00:00",
+  "generatedAt": "2026-10-13T22:15:43.867142+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -165743,14 +165743,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "3146024880_MMACLMKPAR",
       "ticket": "ITHD-97157",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Producto sin activar en PIM",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -165981,14 +165981,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "2000018804821960_MMACLMKMEL",
       "ticket": "ITHD-97157",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Producto sin activar en PIM",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -167443,14 +167443,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "2000018805583498_MMACLMKMEL",
       "ticket": "ITHD-97195",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Producto no configurado(No results from DB for sku ID002WAC89 type skuProvider country CL)",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -167511,14 +167511,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "3147196213_JBLCLMKPAR",
       "ticket": "ITHD-97195",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Configuracion de producto",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -167562,14 +167562,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "3147897270_MMACLMKPAR",
       "ticket": "ITHD-97195",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Producto no configurado(No results from DB for sku CH064WDC02  type skuProvider country CL)",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -167579,14 +167579,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "3147902070_MMACLMKPAR",
       "ticket": "ITHD-97195",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Producto no configurado (No results from DB for sku CH064WDC02 type skuProvider country CL)",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -169075,14 +169075,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3254768187_MMACLMKFAL",
       "ticket": "ITHD-97231",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar -Pendiente validacion OPS",
-      "liberada": "Liberada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -169092,14 +169092,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3254851571_MMACLMKFAL",
       "ticket": "ITHD-97231",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar -Pendiente validacion OPS",
-      "liberada": "Liberada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -200032,14 +200032,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3254757796_MMACLMKFAL",
       "ticket": "ITHD-97252",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar pendiente confirmacion operaciones",
-      "liberada": "Liberada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-08",
@@ -200049,14 +200049,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3255325825_MMACLMKFAL",
       "ticket": "ITHD-97252",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar pendiente confirmacion operaciones",
-      "liberada": "Liberada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-08",
@@ -200066,14 +200066,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3255325825_MMACLMKFAL",
       "ticket": "ITHD-97252",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar pendiente confirmacion operaciones",
-      "liberada": "Liberada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-08",
@@ -200100,14 +200100,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "3150163850_MMACLMKPAR",
       "ticket": "ITHD-97252",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Producto no configurado (No results from DB for sku CH064WDC02 type skuProvider)",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-08",
@@ -200287,14 +200287,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "2000018862193398_MMACLMKMEL",
       "ticket": "ITHD-97252",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar pendiente confirmacion operaciones",
-      "liberada": "Liberada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-08",
@@ -200389,14 +200389,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3256557664_MMACLMKFAL",
       "ticket": "ITHD-97252",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar pendiente confirmacion operaciones",
-      "liberada": "Liberada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-08",
@@ -200440,14 +200440,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "3255599468_MMACLMKFAL",
       "ticket": "ITHD-97252",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Producto no configurado (No results from DB for sku MM105NXT52 type skuProvider)",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-08",
@@ -221775,14 +221775,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "2000018866213450_MMACLMKMEL",
       "ticket": "ITHD-97294",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden cancelada en Yuju",
-      "liberada": "Orden cancelada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-09",
@@ -221792,14 +221792,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "4812642001975_MMACLMKWAL",
       "ticket": "ITHD-97294",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar",
-      "liberada": "Liberada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-09",
@@ -221809,14 +221809,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "2000018877606496_MMACLMKMEL",
       "ticket": "ITHD-97294",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Producto no configurado (No results from DB for sku AN120KLX95 type skuProvider)",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-09",
@@ -221850,7 +221850,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Producto no configurado (No results from DB for sku AN120KLX95 type skuProvider)",
-      "liberada": "Escalado con Driver"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-09",
@@ -244851,7 +244851,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Orden en estado QUEUED",
-      "liberada": "Escalado con Driver"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -245762,14 +245762,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "1200_RUNGTWL180",
       "ticket": "ITHD-97351",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "message\":\"No se encontró información para los productos: 1122930-WBGR-S",
-      "liberada": "Escalado operaciones"
+      "detalle": "Campo lastname en null",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-11",
@@ -245779,14 +245779,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Operaciones Solucionado",
       "ov": "1201_RUNGTWL180",
       "ticket": "ITHD-97351",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "message\":\"No se encontró información para los productos: OS1-100443W-M, 3013B086.100-M, 3013B082.700-M, 648078-M",
-      "liberada": "Escalado operaciones"
+      "detalle": "Producto no encontrado en AVA",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-11",
@@ -245796,14 +245796,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "1202_RUNGTWL180",
       "ticket": "ITHD-97351",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "message\":\"No se encontró información para los productos: 1168716-FYP-10",
-      "liberada": "Escalado operaciones"
+      "detalle": "Campo lastname en null",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-13",
