@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T22:15:16.785154+00:00",
+  "generatedAt": "2026-10-14T22:45:01.840076+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -252259,6 +252259,23 @@
       "pen": "",
       "ov": "44187-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97417",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "",
+      "fn": "",
+      "marca": "",
+      "pais": "",
+      "estado": "",
+      "com": "",
+      "ops": "",
+      "pen": "",
+      "ov": "2000018978213848_MMACOMKMEL",
+      "ticket": "",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
