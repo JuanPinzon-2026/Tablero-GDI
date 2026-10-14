@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T17:15:22.788559+00:00",
+  "generatedAt": "2026-10-14T17:46:51.637280+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -245813,14 +245813,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "43280-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97353",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "solicitud de segunda guia",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -251953,6 +251953,23 @@
       "pen": "",
       "ov": "JB-MX00277056",
       "ticket": "ITHD-97403",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-14",
+      "fn": "2026-10-14",
+      "marca": "JBL",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-PE00208461_JBLPEWL180",
+      "ticket": "ITHD-97404",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
