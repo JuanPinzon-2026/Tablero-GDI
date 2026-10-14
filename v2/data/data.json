@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T23:46:04.737488+00:00",
+  "generatedAt": "2026-10-14T00:15:26.390710+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -244459,8 +244459,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "solicitud de segunda guia",
+      "liberada": "Escalado con Customer Integration"
     },
     {
       "fecha": "2026-10-06",
@@ -244470,14 +244470,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "8798_DOCCLWL180",
       "ticket": "ITHD-97328",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-06",
@@ -244493,8 +244493,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Campo lastname en null",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-09",
@@ -246748,14 +246748,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "1314_NEBSVWL180",
       "ticket": "ITHD-97359",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -246765,14 +246765,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "1315_NEBSVWL180",
       "ticket": "ITHD-97359",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -246782,14 +246782,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "1316_NEBSVWL180",
       "ticket": "ITHD-97359",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-11",
@@ -247281,8 +247281,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-10",
@@ -247298,8 +247298,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-10",
@@ -247315,8 +247315,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-12-10",
@@ -247332,8 +247332,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-13",
@@ -247349,7 +247349,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247366,7 +247366,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247383,7 +247383,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247400,7 +247400,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247434,7 +247434,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247451,7 +247451,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247468,7 +247468,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247485,7 +247485,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247502,7 +247502,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247519,7 +247519,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247536,7 +247536,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247553,7 +247553,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247570,7 +247570,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247587,7 +247587,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247621,7 +247621,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247638,7 +247638,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247655,7 +247655,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247672,7 +247672,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
+      "detalle": "Error en Availability",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247710,7 +247710,7 @@
       "liberada": ""
     },
     {
-      "fecha": "2026-10-14",
+      "fecha": "2026-10-13",
       "fn": "2026-10-14",
       "marca": "MKP",
       "pais": "Colombia",
@@ -247720,6 +247720,57 @@
       "pen": "",
       "ov": "2000018964501474_MMACOMKMEL",
       "ticket": "ITHD-97386",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-13",
+      "fn": "2026-10-14",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "15656-ON_COL_ONRCOWL180",
+      "ticket": "ITHD-97389",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-13",
+      "fn": "2026-10-14",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "15769-ON_COL_ONRCOWL180",
+      "ticket": "ITHD-97389",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-13",
+      "fn": "2026-10-14",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "15865-ON_COL_ONRCOWL180",
+      "ticket": "ITHD-97389",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
