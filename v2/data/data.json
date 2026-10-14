@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T21:16:40.561737+00:00",
+  "generatedAt": "2026-10-14T21:45:40.785459+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -221510,7 +221510,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "SKU de la marca  incompleto en NS",
-      "liberada": "Escalado con SORNP"
+      "liberada": "En revision GDI"
     },
     {
       "fecha": "2026-10-08",
@@ -245802,8 +245802,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sin generacion de guia Kronotime",
-      "liberada": "Escalado con Kronotime"
+      "detalle": "Sin generacion de guia",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-09-19",
@@ -246136,14 +246136,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "44116-CROCS_COL",
       "ticket": "ITHD-97355",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Liberada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
@@ -247791,7 +247791,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Mapeo pago Driver2",
+      "detalle": "Mapeo pago Driver1",
       "liberada": "Liberada"
     },
     {
@@ -247808,7 +247808,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Mapeo pago Driver3",
+      "detalle": "Mapeo pago Driver1",
       "liberada": "Liberada"
     },
     {
@@ -247825,7 +247825,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Mapeo pago Driver4",
+      "detalle": "Mapeo pago Driver1",
       "liberada": "Liberada"
     },
     {
@@ -252213,6 +252213,57 @@
       "canal": "Tienda",
       "detalle": "Pendiente revision CO",
       "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-14",
+      "fn": "2026-10-14",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "44209-CROCS_COL",
+      "ticket": "ITHD-97414",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-14",
+      "fn": "2026-10-14",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "44210-CROCS_COL",
+      "ticket": "ITHD-97414",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-14",
+      "fn": "2026-10-14",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "44187-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97417",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
     }
   ],
   "ingresadas": [
