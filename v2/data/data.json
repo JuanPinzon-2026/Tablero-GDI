@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T14:15:51.010438+00:00",
+  "generatedAt": "2026-10-14T14:45:19.259822+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -247132,8 +247132,8 @@
       "liberada": "Escalado con Customer Integration"
     },
     {
-      "fecha": "",
-      "fn": "",
+      "fecha": "2026-10-13",
+      "fn": "2026-10-13",
       "marca": "MKP",
       "pais": "Peru",
       "estado": "",
@@ -247319,7 +247319,7 @@
       "liberada": "Liberada"
     },
     {
-      "fecha": "2026-12-10",
+      "fecha": "2026-10-12",
       "fn": "2026-10-13",
       "marca": "Crocs",
       "pais": "Panama",
@@ -247350,7 +247350,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247367,7 +247367,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247384,7 +247384,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247401,7 +247401,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247417,8 +247417,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock LC",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-13",
@@ -247435,7 +247435,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247452,7 +247452,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247469,7 +247469,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247486,7 +247486,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247503,7 +247503,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247520,7 +247520,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247537,7 +247537,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247554,7 +247554,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247571,7 +247571,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247588,7 +247588,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247604,8 +247604,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock LC",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-13",
@@ -247622,7 +247622,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247639,7 +247639,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247656,7 +247656,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247673,7 +247673,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247689,8 +247689,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock LC",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-13",
