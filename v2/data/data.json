@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T20:46:07.003964+00:00",
+  "generatedAt": "2026-10-14T21:16:40.561737+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -199947,10 +199947,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018858558486",
       "ticket": "ITHD-97251",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "PaymentTypeId en Null / orden carrito 2000015411619089",
@@ -247230,8 +247230,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden con error en NS",
+      "liberada": "Escalado con la Capa"
     },
     {
       "fecha": "2026-10-13",
@@ -247247,8 +247247,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden con error en Update",
+      "liberada": "Escalado con Mienvio"
     },
     {
       "fecha": "2026-11-10",
@@ -247683,14 +247683,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "15992-ON_COL_ONRCOWL180",
       "ticket": "ITHD-97385",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Campo state incorrecto para NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247768,14 +247768,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "62001054436-A",
       "ticket": "ITHD-97390",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Mapeo pago Driver1",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247785,14 +247785,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "6001054031-A",
       "ticket": "ITHD-97390",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Mapeo pago Driver2",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247802,14 +247802,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "62001054639-A",
       "ticket": "ITHD-97390",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Mapeo pago Driver3",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247819,14 +247819,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "63001054772-A",
       "ticket": "ITHD-97390",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Mapeo pago Driver4",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -247853,14 +247853,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "204300002320968",
       "ticket": "ITHD-97391",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden es sin ID de cotizacion",
-      "liberada": "Escalado con Mienvio"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-14",
@@ -251651,7 +251651,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Validacion si se genero estado Ready to delivery",
-      "liberada": "En revision GDI"
+      "liberada": "Escalado con la Capa"
     },
     {
       "fecha": "2026-10-07",
@@ -251668,7 +251668,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Validacion si se genero estado Ready to delivery",
-      "liberada": "En revision GDI"
+      "liberada": "Escalado con la Capa"
     },
     {
       "fecha": "2026-10-14",
@@ -251984,14 +251984,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "6752-CROCS_CRC",
       "ticket": "ITHD-97408",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
@@ -252001,14 +252001,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "6794-CROCS_CRC",
       "ticket": "ITHD-97408",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -252018,14 +252018,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "1317_NEBSVWL180",
       "ticket": "ITHD-97410",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -252035,14 +252035,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "1318_NEBSVWL180",
       "ticket": "ITHD-97410",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -252052,14 +252052,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "1319_NEBSVWL180",
       "ticket": "ITHD-97410",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -252069,14 +252069,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "1313_NEBSVWL180",
       "ticket": "ITHD-97410",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -252086,14 +252086,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "10336-1_DOCCLWL180",
-      "ticket": "",
-      "pendiente": "",
+      "ticket": "ITHD-97412",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -252103,14 +252103,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "10336-2_DOCCLWL180",
-      "ticket": "",
-      "pendiente": "",
+      "ticket": "ITHD-97412",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -252120,14 +252120,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "10338_DOCCLWL180",
-      "ticket": "",
-      "pendiente": "",
+      "ticket": "ITHD-97412",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
@@ -252137,14 +252137,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "10346-1_DOCCLWL180",
-      "ticket": "",
-      "pendiente": "",
+      "ticket": "ITHD-97412",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
@@ -252154,14 +252154,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "10351_DOCCLWL180",
-      "ticket": "",
-      "pendiente": "",
+      "ticket": "ITHD-97412",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -252171,14 +252171,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "10352_DOCCLWL180",
-      "ticket": "",
-      "pendiente": "",
+      "ticket": "ITHD-97412",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -252188,14 +252188,31 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "10354_DOCCLWL180",
-      "ticket": "",
-      "pendiente": "",
+      "ticket": "ITHD-97412",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-08",
+      "fn": "2026-10-14",
+      "marca": "New Balance",
+      "pais": "Salvador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "1313_NEBSVWL180",
+      "ticket": "ITHD-97309",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     }
   ],
   "ingresadas": [
