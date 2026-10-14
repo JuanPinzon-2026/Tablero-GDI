@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T19:16:05.511024+00:00",
+  "generatedAt": "2026-10-14T19:46:14.451298+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -244266,14 +244266,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9144-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97315",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin generacion de guia Kronotime",
-      "liberada": "Escalado con Kronotime"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-09",
@@ -244834,7 +244834,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Orden en estado QUEUED",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-12",
@@ -245802,8 +245802,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin generacion de guia Kronotime",
+      "liberada": "Escalado con Kronotime"
     },
     {
       "fecha": "2026-09-19",
@@ -246680,14 +246680,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "5387-CROCS_GTQ_CCSGTWL180",
       "ticket": "ITHD-97357",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-07",
@@ -246697,14 +246697,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "5400-CROCS_GTQ_CCSGTWL180",
       "ticket": "ITHD-97358",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-07",
@@ -246714,14 +246714,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "5405-CROCS_GTQ_CCSGTWL180",
       "ticket": "ITHD-97358",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
