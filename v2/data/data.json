@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T22:45:01.840076+00:00",
+  "generatedAt": "2026-10-14T23:15:14.086125+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -252266,16 +252266,16 @@
       "liberada": ""
     },
     {
-      "fecha": "",
-      "fn": "",
-      "marca": "",
-      "pais": "",
+      "fecha": "2026-10-14",
+      "fn": "2026-10-14",
+      "marca": "MKP",
+      "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "",
+      "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000018978213848_MMACOMKMEL",
-      "ticket": "",
+      "ticket": "ITHD-97418",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
