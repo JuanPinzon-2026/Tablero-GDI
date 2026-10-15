@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T15:45:52.624726+00:00",
+  "generatedAt": "2026-10-15T16:15:39.553734+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -252599,6 +252599,23 @@
       "pen": "",
       "ov": "43881-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97439",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-10",
+      "fn": "2026-10-15",
+      "marca": "Dockers",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "10293_DOCCLWL180",
+      "ticket": "ITHD-97440",
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
