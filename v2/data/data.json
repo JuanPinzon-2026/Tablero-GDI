@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T15:16:21.705931+00:00",
+  "generatedAt": "2026-10-15T15:45:52.624726+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -244810,14 +244810,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000015435558397_JBLUYMKMEL",
       "ticket": "ITHD-97335",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin guia en orquestador, con guia en Yuju",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-12",
@@ -245694,14 +245694,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "1198_RUNGTWL180",
       "ticket": "ITHD-97350",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Campo lastname en null",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -245711,14 +245711,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "1199_RUNGTWL180",
       "ticket": "ITHD-97350",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Campo lastname en null",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-12",
@@ -245728,14 +245728,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "1205_RUNGTWL180",
       "ticket": "ITHD-97350",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Campo lastname en null",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-11",
@@ -245830,14 +245830,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "44085-CROCS_COL",
       "ticket": "ITHD-97355",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock Crocs CO",
-      "liberada": "Escalado con Driver"
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-13",
@@ -245847,14 +245847,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "44091-CROCS_COL",
       "ticket": "ITHD-97355",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock Crocs CO",
-      "liberada": "Escalado con Driver"
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-13",
@@ -245864,14 +245864,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "44098-CROCS_COL",
       "ticket": "ITHD-97355",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock Crocs CO",
-      "liberada": "Escalado con Driver"
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-13",
@@ -246085,14 +246085,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "44113-CROCS_COL",
       "ticket": "ITHD-97355",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock Crocs CO",
-      "liberada": "Escalado con Driver"
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-13",
@@ -247887,14 +247887,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "1209_RUNGTWL180",
       "ticket": "ITHD-97394",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Campo lastname en null",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -252432,8 +252432,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -252449,8 +252449,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Medidas erroneas",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -252466,8 +252466,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin stock disponible",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-13",
@@ -252483,8 +252483,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error 500 Mienvio",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-14",
@@ -252500,6 +252500,108 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
+      "detalle": "Lastaname en Null",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-15",
+      "marca": "Dockers",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "8547_DOCCLWL180",
+      "ticket": "ITHD-97437",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-15",
+      "fn": "2026-10-15",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "16012-ON_COL_ONRCOWL180",
+      "ticket": "ITHD-97438",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-15",
+      "fn": "2026-10-15",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "16042-ON_COL_ONRCOWL180",
+      "ticket": "ITHD-97438",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-15",
+      "fn": "2026-10-15",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "16043-ON_COL_ONRCOWL180",
+      "ticket": "ITHD-97438",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-15",
+      "fn": "2026-10-15",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "16076-ON_COL_ONRCOWL180",
+      "ticket": "ITHD-97438",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-05",
+      "fn": "2026-10-15",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "43881-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97439",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
       "detalle": "",
       "liberada": ""
     }
@@ -258684,6 +258786,1794 @@
       "ov": "5197-LACOSTE_COL",
       "pais": "COLOMBIA",
       "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9199-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9224-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9226-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9190-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9192-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9193-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9194-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9195-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9196-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9197-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9198-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9200-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9201-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9202-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9203-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9204-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9205-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9206-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9207-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "9230-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "15992-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "2000018964501474_MMACOMKMEL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "15656-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "15769-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "15865-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "62001054436-A",
+      "pais": "GUATEMALA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "6001054031-A",
+      "pais": "GUATEMALA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "62001054639-A",
+      "pais": "GUATEMALA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "63001054772-A",
+      "pais": "GUATEMALA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "204300002320898",
+      "pais": "PERU",
+      "marca": "HP"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "204300002320968",
+      "pais": "PERU",
+      "marca": "HP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "IX-40000059757",
+      "pais": "COLOMBIA",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "1209_RUNGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "RB"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3254598791_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3254644560_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3254863977_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3254936016_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3254982124_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255007021_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255030431_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255054165_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255075467_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3255076985_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3255076985_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255088770_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255093566_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255232706_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255256381_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255262468_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255286250_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255317302_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255335693_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255337331_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3255385259_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255431469_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255434836_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255476012_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255520521_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255529571_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255539463_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255555107_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255568880_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3255570773_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255575927_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3255608513_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255623798_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255619577_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3255657824_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255674990_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255690973_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3255701661_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255708747_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255715607_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3255718205_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255727857_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255728092_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255734338_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255738572_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255740396_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255741161_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3255742177_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255753010_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255764721_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255766623_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3255831094_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255831859_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255842158_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3255847921_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3255852734_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255854816_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255855381_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255856657_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255859812_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255860776_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255861573_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255869135_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255869135_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255870492_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3255872896_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255875095_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255878007_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255884586_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3255889145_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255896089_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255898221_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255898262_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255960112_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255961971_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255971445_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255972221_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3255987628_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256000688_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256001678_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256016602_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256021678_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256025048_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256034421_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256036185_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256051298_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256053977_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256063505_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256068371_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256082173_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256094720_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256107721_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256112102_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256130140_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256134461_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256136883_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256147735_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256151557_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256158004_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256158048_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256163556_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256173073_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256176489_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256177559_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256181422_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256182007_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256190954_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256192206_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256191790_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256194261_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256202457_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256206652_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256212727_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256212727_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256217001_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256218511_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256235276_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-08",
+      "ov": "4802646004938_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256239247_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256242366_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256244549_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256246042_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256248320_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256249196_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256249196_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256250878_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256251046_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256268619_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256269144_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256269255_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256269581_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256289152_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256296312_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256296785_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256321515_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256324962_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256328959_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256335862_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256336616_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256342554_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256346029_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256360863_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256362343_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256365402_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256365989_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256371460_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256372086_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256380085_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256384163_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256385780_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256397471_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256397666_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256399850_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256403274_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256407363_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256407363_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256407885_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256416104_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256418930_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256420231_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256426520_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256429443_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256430440_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256436389_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256446161_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256452796_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256453769_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256454467_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256455049_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256456087_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256457475_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256460358_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256461656_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256462404_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256473540_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256475854_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256477093_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256478954_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256479175_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256481185_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256481990_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256491154_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256493615_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256492090_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256496642_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256497546_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256498463_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256502260_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256505769_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256507249_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256508357_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256519294_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256520973_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256521413_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256526765_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256551465_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256589264_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256644270_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256657036_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256676196_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256686401_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256686586_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256687382_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256690399_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256692541_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256694424_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256697514_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256701014_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "2000018883547098_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "2000018883679240_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256704270_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256705868_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256706816_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256713797_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256718086_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "2000018897504906_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256799074_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "2000018900369842_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "2000018901071712_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256829271_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "HO3416",
+      "pais": "CHILE",
+      "marca": "HONOR"
+    },
+    {
+      "fecha": "2026-10-07",
+      "ov": "HO3459",
+      "pais": "CHILE",
+      "marca": "HONOR"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3255797654_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256354975_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3256661445_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3256687735_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "25332468401-A_JBLCLMKRIP",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "2000018897106986_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "2000018910769268_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "4862632005519_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "3152742250_MMACLMKPAR",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "5452-CROCS_GTQ",
+      "pais": "GUATEMALA",
+      "marca": "crocs"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "5454-CROCS_GTQ",
+      "pais": "GUATEMALA",
+      "marca": "crocs"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "JB-CO00249042_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "JB-GT00063465",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "JB-GT00063555",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "JB-GT00063559",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "JB-CL00180512",
+      "pais": "CHILE",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "JB-MX00277056",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "JB-PE00208461_JBLPEWL180",
+      "pais": "PERU",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "6752-CROCS_CRC",
+      "pais": "RICA",
+      "marca": "crocs"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "6794-CROCS_CRC",
+      "pais": "RICA",
+      "marca": "crocs"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "1317_NEBSVWL180",
+      "pais": "SALVADOR",
+      "marca": "NB"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "1318_NEBSVWL180",
+      "pais": "SALVADOR",
+      "marca": "NB"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "1319_NEBSVWL180",
+      "pais": "SALVADOR",
+      "marca": "NB"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "1313_NEBSVWL180",
+      "pais": "SALVADOR",
+      "marca": "NB"
+    },
+    {
+      "fecha": "2026-10-12",
+      "ov": "10336-1_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "DOCKERS"
+    },
+    {
+      "fecha": "2026-10-12",
+      "ov": "10336-2_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "DOCKERS"
+    },
+    {
+      "fecha": "2026-10-12",
+      "ov": "10338_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "DOCKERS"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "10346-1_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "DOCKERS"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "10351_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "DOCKERS"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "10352_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "DOCKERS"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "10354_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "DOCKERS"
+    },
+    {
+      "fecha": "2026-10-08",
+      "ov": "1313_NEBSVWL180",
+      "pais": "SALVADOR",
+      "marca": "New Balance"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "44209-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "44210-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "44187-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "2000018978213848_MMACOMKMEL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "9238-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-07",
+      "ov": "43968-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-09-20",
+      "ov": "43333-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "10350_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "8954_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "8449_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-10-12",
+      "ov": "10336-1_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
     },
     {
       "fecha": "2026-09-14",
