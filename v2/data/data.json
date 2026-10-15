@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T14:15:33.875905+00:00",
+  "generatedAt": "2026-10-15T14:46:03.240157+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -244470,14 +244470,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "10149_DOCCLWL180",
       "ticket": "ITHD-97338",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Campo lastname en null",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-09",
