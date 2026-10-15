@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T19:47:04.733505+00:00",
+  "generatedAt": "2026-10-15T20:17:52.715402+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -252228,8 +252228,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin stock IXL",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-14",
@@ -252245,8 +252245,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin stock IXL",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-14",
@@ -252262,8 +252262,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin stock disponible",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-14",
@@ -252517,8 +252517,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Solicitud segunda guia",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-15",
@@ -252534,8 +252534,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Envio de evento Provider - Generacion de guia",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Envio de evento Pickup- Generacion de guia",
+      "liberada": "Escalado con Kronotime"
     },
     {
       "fecha": "2026-10-15",
@@ -252551,8 +252551,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Envio de evento Provider - Generacion de guia",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Envio de evento Pickup- Generacion de guia",
+      "liberada": "Escalado con Kronotime"
     },
     {
       "fecha": "2026-10-15",
@@ -252568,8 +252568,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Envio de evento Provider - Generacion de guia",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Envio de evento Pickup- Generacion de guia",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-15",
@@ -252585,8 +252585,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Envio de evento Pickup- Generacion de guia",
+      "liberada": "Escalado con Kronotime"
     },
     {
       "fecha": "2026-10-05",
@@ -252603,7 +252603,7 @@
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Envio de evento Provider - Generacion de guia",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con Kronotime"
     },
     {
       "fecha": "2026-10-10",
@@ -252619,8 +252619,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin facturar en NS",
+      "liberada": "Escalado con la Capa"
     },
     {
       "fecha": "2026-10-15",
@@ -252636,8 +252636,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden con released",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-14",
@@ -252653,8 +252653,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin stock Crocs GT",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-15",
@@ -252670,8 +252670,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en tarifas Mienvio",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-12",
@@ -252687,8 +252687,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-12",
