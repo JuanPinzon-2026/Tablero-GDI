@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T16:15:39.553734+00:00",
+  "generatedAt": "2026-10-15T16:48:21.946109+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -221316,10 +221316,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "2000018854364252_MMACOMKMEL",
       "ticket": "ITHD-97271",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Product '100002608' is not authorized",
@@ -221689,7 +221689,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Continuidad",
       "ov": "3256659079",
       "ticket": "ITHD-97291",
@@ -252228,8 +252228,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -252245,8 +252245,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -252262,8 +252262,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -252279,8 +252279,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -252296,8 +252296,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-07",
@@ -252313,8 +252313,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-09-20",
@@ -252330,8 +252330,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
@@ -252347,8 +252347,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -252364,8 +252364,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -252381,8 +252381,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -252398,8 +252398,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
@@ -252415,8 +252415,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
@@ -252517,8 +252517,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-15",
@@ -252534,8 +252534,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-15",
@@ -252551,8 +252551,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-15",
@@ -252568,8 +252568,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-15",
@@ -252585,8 +252585,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -252602,8 +252602,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -252619,8 +252619,25 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-15",
+      "fn": "2026-10-15",
+      "marca": "MKP",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000018995132654_MMACOMKMEL",
+      "ticket": "ITHD-97442",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     }
   ],
   "ingresadas": [
