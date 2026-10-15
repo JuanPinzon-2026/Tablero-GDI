@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T14:46:03.240157+00:00",
+  "generatedAt": "2026-10-15T15:16:21.705931+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -161833,14 +161833,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "43677-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97044",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden Sin guia- Error 500 Kronotime",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-27",
@@ -163437,8 +163437,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sincronizacion de stock AVA",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-01-10",
@@ -252480,6 +252480,23 @@
       "pen": "",
       "ov": "IX-40000059757",
       "ticket": "ITHD-97432",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-14",
+      "fn": "2026-10-15",
+      "marca": "RB",
+      "pais": "Running balboa Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1210_RUNGTWL180",
+      "ticket": "ITHD-97436",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
