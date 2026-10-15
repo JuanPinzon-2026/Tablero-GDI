@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T20:46:40.427347+00:00",
+  "generatedAt": "2026-10-15T21:16:02.107590+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -221316,10 +221316,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018854364252_MMACOMKMEL",
       "ticket": "ITHD-97271",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Product '100002608' is not authorized",
@@ -244833,7 +244833,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden en estado QUEUED",
+      "detalle": "Orden en estado Queued/ Producto configurado correctamente OPS",
       "liberada": "Escalado con Driver"
     },
     {
@@ -247224,14 +247224,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018937437150_MMAPEMKMEL",
       "ticket": "ITHD-97371",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden con error en NS",
-      "liberada": "Escalado con la Capa"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247241,14 +247241,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00277047",
       "ticket": "ITHD-97375",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden con error en Update",
-      "liberada": "Escalado con Mienvio"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-10",
@@ -251650,8 +251650,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Validacion si se genero estado Ready to delivery",
-      "liberada": "Escalado con la Capa"
+      "detalle": "Orden sin facturar en NS",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-07",
@@ -251667,8 +251667,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Validacion si se genero estado Ready to delivery",
-      "liberada": "Escalado con la Capa"
+      "detalle": "Orden sin facturar en NS",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-14",
@@ -251950,14 +251950,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00277056",
       "ticket": "ITHD-97403",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Error al generar guia",
-      "liberada": "Escalado con Mienvio"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-14",
@@ -252018,14 +252018,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "1317_NEBSVWL180",
       "ticket": "ITHD-97410",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Asignar metodo de pago",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-14",
@@ -252035,14 +252035,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "1318_NEBSVWL180",
       "ticket": "ITHD-97410",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Asignar metodo de pago",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-14",
@@ -252052,14 +252052,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "1319_NEBSVWL180",
       "ticket": "ITHD-97410",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Asignar metodo de pago",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-14",
@@ -252075,7 +252075,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Producto sin medidas",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -252476,7 +252476,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Operaciones Solucionado",
       "ov": "IX-40000059757",
       "ticket": "ITHD-97432",
@@ -252620,7 +252620,7 @@
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con la Capa"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-15",
@@ -252970,14 +252970,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "JB-CO00249084_JBLCOWL180",
       "ticket": "ITHD-97450",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-15",
@@ -252987,14 +252987,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "JB-CO00249138_JBLCOWL180",
       "ticket": "ITHD-97450",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -253055,14 +253055,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "JB-GT00063205",
       "ticket": "ITHD-97451",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -253072,14 +253072,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "JB-GT00063484",
       "ticket": "ITHD-97453",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-09-19",
@@ -253089,14 +253089,14 @@
       "estado": "",
       "com": "",
       "ops": "",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "43280-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97454",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-15",
@@ -253106,14 +253106,48 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "IX-40000059685",
       "ticket": "ITHD-97456",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-15",
+      "fn": "2026-10-15",
+      "marca": "JBL",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "JB-PE00208673_JBLPEWL180",
+      "ticket": "ITHD-97459",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-15",
+      "fn": "2026-10-15",
+      "marca": "KC",
+      "pais": "Kenneth cole Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "PE17257_KENPEWL180",
+      "ticket": "ITHD-97458",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     }
   ],
   "ingresadas": [
