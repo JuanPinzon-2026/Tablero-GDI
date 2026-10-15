@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T21:16:02.107590+00:00",
+  "generatedAt": "2026-10-15T21:46:28.979299+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -251950,14 +251950,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "JB-MX00277056",
       "ticket": "ITHD-97403",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Error al generar guia",
-      "liberada": "Liberada"
+      "liberada": "Escalado con Mienvio"
     },
     {
       "fecha": "2026-10-14",
@@ -252069,14 +252069,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "1313_NEBSVWL180",
       "ticket": "ITHD-97410",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Producto sin medidas",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-12",
