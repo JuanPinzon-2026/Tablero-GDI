@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T16:48:21.946109+00:00",
+  "generatedAt": "2026-10-15T17:15:49.537821+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -157226,14 +157226,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "584296",
       "ticket": "ITHD-96861",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Solicitud de placeorder",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "21/09/26",
@@ -246136,14 +246136,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "44116-CROCS_COL",
       "ticket": "ITHD-97355",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Error en Availability",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin inventario en IXL",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-13",
@@ -247700,14 +247700,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018964501474_MMACOMKMEL",
       "ticket": "ITHD-97386",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Niveles geograficos erroneos en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247717,14 +247717,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "15656-ON_COL_ONRCOWL180",
       "ticket": "ITHD-97389",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Envio de Provider Pendiente",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247740,7 +247740,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Envio de Provider Pendiente",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -247757,7 +247757,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Envio de Provider Pendiente",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -251984,14 +251984,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "6752-CROCS_CRC",
       "ticket": "ITHD-97408",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -252001,14 +252001,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "6794-CROCS_CRC",
       "ticket": "ITHD-97408",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-14",
@@ -252638,6 +252638,40 @@
       "canal": "",
       "detalle": "Pendiente revision CO",
       "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-14",
+      "fn": "2026-10-15",
+      "marca": "Crocs",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "5460-CROCS_GTQ",
+      "ticket": "ITHD-97444",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-15",
+      "fn": "2026-10-15",
+      "marca": "Har",
+      "pais": "man Audio",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HA-MX00071499",
+      "ticket": "ITHD-97446",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
     }
   ],
   "ingresadas": [
