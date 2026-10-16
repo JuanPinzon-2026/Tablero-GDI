@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T21:15:19.561641+00:00",
+  "generatedAt": "2026-10-16T21:45:25.546550+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -221315,7 +221315,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018854364252_MMACOMKMEL",
       "ticket": "ITHD-97271",
@@ -253741,8 +253741,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Novedad en costo de envio",
+      "liberada": "Escalado con Customer Integration"
     },
     {
       "fecha": "2026-10-16",
