@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T20:16:03.591566+00:00",
+  "generatedAt": "2026-10-16T20:45:29.215467+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -253771,7 +253771,7 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000019011804912",
-      "ticket": "",
+      "ticket": "ITHD-97478",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
