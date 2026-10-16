@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T19:15:51.875462+00:00",
+  "generatedAt": "2026-10-16T19:46:06.202900+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -160905,7 +160905,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Driver"
+      "liberada": "Escalado con Customer Integration"
     },
     {
       "fecha": "2026-09-29",
@@ -160922,7 +160922,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Driver"
+      "liberada": "Escalado con Customer Integration"
     },
     {
       "fecha": "2026-09-29",
@@ -163438,7 +163438,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-01-10",
@@ -168316,7 +168316,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Demora en inyeccion de orden desde Kronotime",
+      "detalle": "Orden sin guia",
       "liberada": "Escalado con Driver"
     },
     {
@@ -241314,7 +241314,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Ordenes sin facturar en NS",
+      "detalle": "Orden sin facturar en NS",
       "liberada": "Escalado con Customer Integration"
     },
     {
@@ -241331,7 +241331,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Ordenes sin facturar en NS",
+      "detalle": "Orden sin facturar en NS",
       "liberada": "Escalado con Customer Integration"
     },
     {
@@ -241348,7 +241348,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes sin facturar en NS",
+      "detalle": "Orden sin facturar en NS",
       "liberada": "Escalado con Customer Integration"
     },
     {
@@ -244290,7 +244290,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-09",
@@ -251651,7 +251651,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Driver"
+      "liberada": "Escalado con Customer Integration"
     },
     {
       "fecha": "2026-10-07",
@@ -251668,7 +251668,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Driver"
+      "liberada": "Escalado con Customer Integration"
     },
     {
       "fecha": "2026-10-14",
@@ -252297,7 +252297,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-07",
@@ -252307,14 +252307,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "43968-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97421",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Solicitud de guia corregida",
-      "liberada": "Escalado con Kronotime"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-20",
@@ -252324,14 +252324,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "43333-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97422",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Solicitud de guia",
-      "liberada": "Escalado con Kronotime"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -253541,7 +253541,7 @@
       "liberada": ""
     },
     {
-      "fecha": "2026-10-16",
+      "fecha": "2026-10-15",
       "fn": "2026-10-16",
       "marca": "Crocs",
       "pais": "Colombia",
@@ -253558,7 +253558,7 @@
       "liberada": ""
     },
     {
-      "fecha": "2026-10-16",
+      "fecha": "2026-10-15",
       "fn": "2026-10-16",
       "marca": "Crocs",
       "pais": "Colombia",
@@ -253575,7 +253575,7 @@
       "liberada": ""
     },
     {
-      "fecha": "2026-10-16",
+      "fecha": "2026-10-15",
       "fn": "2026-10-16",
       "marca": "Crocs",
       "pais": "Colombia",
@@ -253592,7 +253592,7 @@
       "liberada": ""
     },
     {
-      "fecha": "2026-10-16",
+      "fecha": "2026-10-15",
       "fn": "2026-10-16",
       "marca": "Crocs",
       "pais": "Colombia",
@@ -253609,7 +253609,7 @@
       "liberada": ""
     },
     {
-      "fecha": "2026-10-16",
+      "fecha": "2026-10-15",
       "fn": "2026-10-16",
       "marca": "Crocs",
       "pais": "Colombia",
@@ -253626,7 +253626,7 @@
       "liberada": ""
     },
     {
-      "fecha": "2026-10-16",
+      "fecha": "2026-10-15",
       "fn": "2026-10-16",
       "marca": "Crocs",
       "pais": "Colombia",
@@ -253721,6 +253721,40 @@
       "pen": "",
       "ov": "44301-CROCS_COL",
       "ticket": "ITHD-97474",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-16",
+      "fn": "2026-10-16",
+      "marca": "MKP",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "3257333082",
+      "ticket": "",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-16",
+      "fn": "2026-10-16",
+      "marca": "RB",
+      "pais": "Running balboa Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1212_RUNGTWL180",
+      "ticket": "ITHD-97475",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
