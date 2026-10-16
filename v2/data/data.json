@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T20:45:29.215467+00:00",
+  "generatedAt": "2026-10-16T21:15:19.561641+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -253486,8 +253486,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Numero de seguimiento erroneo",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-15",
@@ -253537,8 +253537,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden con promoCode sin descuento",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-15",
@@ -253758,8 +253758,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Campo lastname en Null",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-16",
@@ -253772,6 +253772,23 @@
       "pen": "",
       "ov": "2000019011804912",
       "ticket": "ITHD-97478",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "No results from DB for sku AS222HEW23 type skuProvider country PE customerId HEWPEMKMEL",
+      "liberada": "Escalado operaciones"
+    },
+    {
+      "fecha": "2026-10-16",
+      "fn": "2026-10-16",
+      "marca": "JBL",
+      "pais": "PERU",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-PE00208481_JBLPEWL180",
+      "ticket": "ITHD-97479",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
