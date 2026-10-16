@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T17:16:41.312025+00:00",
+  "generatedAt": "2026-10-16T17:45:50.783212+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -252273,14 +252273,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018978213848_MMACOMKMEL",
       "ticket": "ITHD-97418",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Niveles geograficos erroneos en NS",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-14",
@@ -252313,8 +252313,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Solicitud de guia corregida",
+      "liberada": "Escalado con Kronotime"
     },
     {
       "fecha": "2026-09-20",
@@ -252330,8 +252330,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Solicitud de guia",
+      "liberada": "Escalado con Kronotime"
     },
     {
       "fecha": "2026-10-13",
@@ -252392,14 +252392,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "10336-1_DOCCLWL180",
       "ticket": "ITHD-97430",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Guia contaba con error inicial",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -252409,14 +252409,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "1668630594390-01",
       "ticket": "ITHD-97431",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Niveles geograficos Motorola PE",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -253249,7 +253249,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Orden cancelada en yuju",
-      "liberada": ""
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-15",
@@ -253265,8 +253265,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Revisar error en seller al generar guia",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-14",
@@ -253517,6 +253517,23 @@
       "pen": "",
       "ov": "JB-GT00063498",
       "ticket": "ITHD-97471",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-16",
+      "fn": "2026-10-16",
+      "marca": "Crocs",
+      "pais": "Panama",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2267-CROCS_PAN",
+      "ticket": "ITHD-97472",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
