@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T19:46:06.202900+00:00",
+  "generatedAt": "2026-10-16T20:16:03.591566+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -253282,8 +253282,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "No results from DB for sku CH064WDC02 type skuProvider country CL customerId MMACLMKPAR",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-14",
@@ -253299,8 +253299,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin guia en Yuju, validar si seller cuenta con guia",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-15",
@@ -253316,8 +253316,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-15",
@@ -253333,8 +253333,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-15",
@@ -253350,8 +253350,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin guia en Yuju, validar si seller cuenta con guia",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-15",
@@ -253367,8 +253367,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin guia en Yuju, validar si seller cuenta con guia",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-15",
@@ -253384,8 +253384,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin guia en Yuju, validar si seller cuenta con guia",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-15",
@@ -253401,8 +253401,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin guia en Yuju, validar si seller cuenta con guia",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-15",
@@ -253418,8 +253418,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "No results from DB for sku PT336EPS54 type skuProvider country MX customerId MMAMXMKMEL",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-15",
@@ -253482,7 +253482,7 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "OR MKP - dato desconocido  Instrucciones de Embarque",
-      "ticket": "",
+      "ticket": "ITHD-97473",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
@@ -253554,8 +253554,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-15",
@@ -253571,8 +253571,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-15",
@@ -253588,8 +253588,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-15",
@@ -253605,8 +253605,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-15",
@@ -253622,8 +253622,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-15",
@@ -253639,8 +253639,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-16",
@@ -253656,8 +253656,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-16",
@@ -253673,8 +253673,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-16",
@@ -253690,8 +253690,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-16",
@@ -253707,8 +253707,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-16",
@@ -253724,8 +253724,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-16",
@@ -253737,7 +253737,7 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "3257333082",
-      "ticket": "",
+      "ticket": "ITHD-97477",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
@@ -253755,6 +253755,23 @@
       "pen": "",
       "ov": "1212_RUNGTWL180",
       "ticket": "ITHD-97475",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-16",
+      "fn": "2026-10-16",
+      "marca": "MKP",
+      "pais": "PERU",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000019011804912",
+      "ticket": "",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
