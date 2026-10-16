@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T16:46:15.740575+00:00",
+  "generatedAt": "2026-10-16T17:16:41.312025+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -252256,14 +252256,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "44187-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97417",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Crocs CO",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-14",
@@ -252279,7 +252279,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Niveles geograficos erroneos en NS",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -252375,14 +252375,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "8449_DOCCLWL180",
       "ticket": "ITHD-97428",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Solicitud guia adicional",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-12",
@@ -253089,14 +253089,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "43280-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97454",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Solicitud de guia",
-      "liberada": "Escalado con Kronotime"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-15",
@@ -253106,14 +253106,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "IX-40000059685",
       "ticket": "ITHD-97456",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
-      "detalle": "Inyeccion de ordenes en Magento",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Validcion de informacion de orden",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-15",
@@ -253231,8 +253231,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "PaymentTypeId en null",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-15",
@@ -253248,7 +253248,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
+      "detalle": "Orden cancelada en yuju",
       "liberada": ""
     },
     {
@@ -253466,6 +253466,57 @@
       "pen": "",
       "ov": "5468-CROCS_GTQ",
       "ticket": "ITHD-97467",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-15",
+      "fn": "2026-10-16",
+      "marca": "MKP",
+      "pais": "PERU/COL",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "OR MKP - dato desconocido  Instrucciones de Embarque",
+      "ticket": "",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-15",
+      "fn": "2026-10-16",
+      "marca": "JBL",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-GT00063495",
+      "ticket": "ITHD-97471",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-15",
+      "fn": "2026-10-16",
+      "marca": "JBL",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-GT00063498",
+      "ticket": "ITHD-97471",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
