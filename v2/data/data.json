@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T16:45:38.944297+00:00",
+  "generatedAt": "2026-10-19T17:16:18.023552+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -253775,8 +253775,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "No results from DB for sku AS222HEW23 type skuProvider country PE customerId HEWPEMKMEL",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden en estado Queued/ Producto configurado correctamente OPS",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-16",
@@ -253966,7 +253966,7 @@
       "liberada": "Liberada"
     },
     {
-      "fecha": "2026-10-16",
+      "fecha": "2026-10-15",
       "fn": "2026-10-16",
       "marca": "LC",
       "pais": "Colombia",
@@ -253979,11 +253979,11 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
-      "fecha": "2026-10-16",
+      "fecha": "2026-10-15",
       "fn": "2026-10-16",
       "marca": "LC",
       "pais": "Colombia",
@@ -253996,11 +253996,11 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin stock LC",
+      "liberada": "Sin stock"
     },
     {
-      "fecha": "2026-10-16",
+      "fecha": "2026-10-15",
       "fn": "2026-10-16",
       "marca": "LC",
       "pais": "Colombia",
@@ -254013,11 +254013,11 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin stock LC",
+      "liberada": "Sin stock"
     },
     {
-      "fecha": "2026-10-16",
+      "fecha": "2026-10-15",
       "fn": "2026-10-16",
       "marca": "LC",
       "pais": "Colombia",
@@ -254030,11 +254030,11 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin stock LC",
+      "liberada": "Sin stock"
     },
     {
-      "fecha": "2026-10-16",
+      "fecha": "2026-10-15",
       "fn": "2026-10-16",
       "marca": "LC",
       "pais": "Colombia",
@@ -254047,11 +254047,11 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
-      "fecha": "2026-10-16",
+      "fecha": "2026-10-15",
       "fn": "2026-10-16",
       "marca": "LC",
       "pais": "Colombia",
@@ -254064,11 +254064,11 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin stock LC",
+      "liberada": "Sin stock"
     },
     {
-      "fecha": "2026-10-16",
+      "fecha": "2026-10-15",
       "fn": "2026-10-16",
       "marca": "LC",
       "pais": "Colombia",
@@ -254081,8 +254081,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin stock LC",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-09-19",
@@ -254319,8 +254319,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Kits with price zero detected. Please check Trax configuration",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-17",
@@ -254336,8 +254336,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Kits with price zero detected. Please check Trax configuration",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-19",
@@ -254353,8 +254353,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Reenvio de evento Payment_OK",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-19",
@@ -254384,6 +254384,23 @@
       "pen": "",
       "ov": "2000018983773274_MMAPEMKMEL",
       "ticket": "ITHD-97503",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-18",
+      "fn": "2026-10-19",
+      "marca": "JBL",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-GT00063716",
+      "ticket": "ITHD-97506",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
