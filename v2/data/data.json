@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T13:47:07.820701+00:00",
+  "generatedAt": "2026-10-19T14:16:20.470131+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -247869,7 +247869,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Operaciones Revision/Configuracion",
       "ov": "IX-40000059757",
       "ticket": "ITHD-97392",
@@ -253435,8 +253435,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-15",
@@ -253452,8 +253452,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-15",
@@ -253469,8 +253469,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en Availability",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-15",
@@ -253792,8 +253792,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin facturar en NS",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-07",
@@ -253809,8 +253809,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin facturar en NS",
+      "liberada": "Escalado con la Capa"
     },
     {
       "fecha": "2026-10-07",
@@ -254231,6 +254231,40 @@
       "pen": "",
       "ov": "62001058054-A",
       "ticket": "ITHD-97495",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-16",
+      "fn": "2026-10-19",
+      "marca": "Epson",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "IX-40000060081",
+      "ticket": "ITHD-97497",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-16",
+      "fn": "2026-10-19",
+      "marca": "Epson",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "IX-40000060084",
+      "ticket": "ITHD-97497",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
