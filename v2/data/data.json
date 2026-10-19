@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T17:16:18.023552+00:00",
+  "generatedAt": "2026-10-19T17:46:14.673160+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -253106,14 +253106,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Operaciones Solucionado",
       "ov": "IX-40000059685",
       "ticket": "ITHD-97456",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Validcion de informacion de orden",
-      "liberada": "Escalado operaciones"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-15",
@@ -254404,8 +254404,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Reenvio de evento Payment_OK",
+      "liberada": "Liberada"
     }
   ],
   "ingresadas": [
