@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T16:17:02.086361+00:00",
+  "generatedAt": "2026-10-19T16:45:38.944297+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -247843,7 +247843,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Generacion manual de Placeorder",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con Mienvio"
     },
     {
       "fecha": "2026-10-11",
@@ -247860,7 +247860,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Orden es sin ID de cotizacion",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con Mienvio"
     },
     {
       "fecha": "2026-10-14",
@@ -253734,7 +253734,7 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "",
       "ov": "3257333082",
       "ticket": "ITHD-97477",
@@ -253769,14 +253769,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000019011804912",
       "ticket": "ITHD-97478",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "No results from DB for sku AS222HEW23 type skuProvider country PE customerId HEWPEMKMEL",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-16",
@@ -254302,8 +254302,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Kits with price zero detected. Please check Trax configuration.",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-17",
@@ -254370,8 +254370,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Kits with price zero detected. Please check Trax configuration",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-15",
