@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T14:16:20.470131+00:00",
+  "generatedAt": "2026-10-19T14:46:05.808586+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -253503,8 +253503,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden llego por fuera del corte de servicio",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-15",
@@ -253520,8 +253520,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden llego por fuera del corte de servicio",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-16",
@@ -253826,8 +253826,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Envio de evento de Pickup",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-16",
@@ -253843,8 +253843,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-12",
@@ -253860,8 +253860,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Reenvio de orden para generacion de pick",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-16",
@@ -254265,6 +254265,108 @@
       "pen": "",
       "ov": "IX-40000060084",
       "ticket": "ITHD-97497",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-16",
+      "fn": "2026-10-19",
+      "marca": "Har",
+      "pais": "man Audio",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HA-MX00071504",
+      "ticket": "ITHD-97499",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-17",
+      "fn": "2026-10-19",
+      "marca": "JBL",
+      "pais": "MEXICO",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-MX00277196",
+      "ticket": "ITHD-97499",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-17",
+      "fn": "2026-10-19",
+      "marca": "JBL",
+      "pais": "MEXICO",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-MX00277197",
+      "ticket": "ITHD-97499",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-17",
+      "fn": "2026-10-19",
+      "marca": "JBL",
+      "pais": "MEXICO",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-MX00277317",
+      "ticket": "ITHD-97499",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-19",
+      "fn": "2026-10-19",
+      "marca": "JBL",
+      "pais": "MEXICO",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-MX00277554",
+      "ticket": "ITHD-97499",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-19",
+      "fn": "2026-10-19",
+      "marca": "JBL",
+      "pais": "MEXICO",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-MX00277646",
+      "ticket": "ITHD-97499",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
