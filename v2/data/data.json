@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T15:46:32.012018+00:00",
+  "generatedAt": "2026-10-19T16:17:02.086361+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -254132,7 +254132,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Niveles geograficos erroneos en NS",
+      "detalle": "Niveles geograficos erroneos desde Kronotime",
       "liberada": "Liberada"
     },
     {
@@ -254149,7 +254149,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "sin falla al revisar",
+      "detalle": "Niveles geograficos erroneos desde Kronotime",
       "liberada": "Liberada"
     },
     {
@@ -254166,8 +254166,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Niveles geograficos erroneos desde Kronotime",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-18",
@@ -254183,8 +254183,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Niveles geograficos erroneos en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-16",
@@ -254200,8 +254200,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "PaymentTypeId en null",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-16",
@@ -254217,8 +254217,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "PaymentTypeId en null",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-16",
@@ -254234,8 +254234,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "PaymentTypeId en null",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-16",
@@ -254251,8 +254251,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden cancelada por cliente",
+      "liberada": "Orden cancelada"
     },
     {
       "fecha": "2026-10-16",
@@ -254268,8 +254268,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Timeout Mienvio",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-16",
@@ -254285,8 +254285,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin stock JBL",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-17",
@@ -254367,6 +254367,23 @@
       "pen": "",
       "ov": "JB-MX00277646",
       "ticket": "ITHD-97499",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-15",
+      "fn": "2026-10-19",
+      "marca": "MKP",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000018983773274_MMAPEMKMEL",
+      "ticket": "ITHD-97503",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
