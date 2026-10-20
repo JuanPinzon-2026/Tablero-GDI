@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T20:15:01.589069+00:00",
+  "generatedAt": "2026-10-20T20:45:01.345159+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -255690,14 +255690,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9336-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97536",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin stock IXL",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-20",
@@ -255707,14 +255707,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9375-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97536",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin stock IXL",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-20",
@@ -255724,14 +255724,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9437-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97536",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin stock IXL",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-20",
@@ -255741,14 +255741,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9439-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97536",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin stock IXL",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-20",
@@ -255758,14 +255758,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9456-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97536",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin stock IXL",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-20",
@@ -255775,14 +255775,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9524-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97536",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin stock IXL",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-20",
@@ -255798,8 +255798,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sincronizacion de stock AVA",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-20",
@@ -255815,8 +255815,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sincronizacion de stock AVA",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-19",
@@ -255826,14 +255826,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00277671",
       "ticket": "ITHD-97539",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden con error interno en la capa",
-      "liberada": "Escalado con la Capa"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-19",
@@ -255843,14 +255843,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CL00180720",
       "ticket": "ITHD-97540",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden con error interno en la capa",
-      "liberada": "Escalado con la Capa"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-19",
@@ -255866,8 +255866,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden con error interno en la capa",
-      "liberada": "Escalado con la Capa"
+      "detalle": "Orden no ingreso a IX",
+      "liberada": "Escalado con la marca"
     },
     {
       "fecha": "2026-10-20",
@@ -255883,8 +255883,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden con error interno en la capa",
-      "liberada": "Escalado con la Capa"
+      "detalle": "Orden no ingreso a IX",
+      "liberada": "Escalado con la marca"
     },
     {
       "fecha": "2026-10-20",
@@ -260628,6 +260628,40 @@
       "canal": "",
       "detalle": "Pendiente revision CO",
       "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-17",
+      "fn": "2026-10-20",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "44420-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97565",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-10",
+      "fn": "2026-10-20",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "R1_44086-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97565",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": "",
+      "liberada": ""
     }
   ],
   "ingresadas": [
@@ -344290,7 +344324,2519 @@
       "marca": "JBL"
     }
   ],
-  "jiras": [],
+  "jiras": [
+    {
+      "ticket": "ITHD-96833",
+      "marca": "Crocs",
+      "pais": "Crocs Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-09-21",
+      "dias": 29,
+      "ov": "R2_R_41245-CROCS_COL_CCSCOWL180",
+      "estado": "Revision de ordenes reenviadas",
+      "jira_ci": "ITHD-96949"
+    },
+    {
+      "ticket": "ITHD-97009",
+      "marca": "JBL",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-29",
+      "dias": 21,
+      "ov": "JB-PE00206606_JBLPEWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97010"
+    },
+    {
+      "ticket": "ITHD-97009",
+      "marca": "JBL",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-29",
+      "dias": 21,
+      "ov": "JB-PE00207024_JBLPEWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97010"
+    },
+    {
+      "ticket": "ITHD-97020",
+      "marca": "Crocs",
+      "pais": "Crocs Guatemala",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-09-29",
+      "dias": 21,
+      "ov": "5242-CROCS_GTQ_CCSGTWL180",
+      "estado": "Habilitacion de guia para generar 2 guia",
+      "jira_ci": "ITHD-97354"
+    },
+    {
+      "ticket": "ITHD-97024",
+      "marca": "Crocs",
+      "pais": "Crocs Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-09-29",
+      "dias": 21,
+      "ov": "R1_42752-CROCS_COL_CCSCOWL180",
+      "estado": "Sin generacion de guia orden reasignada",
+      "jira_ci": "ITHD-97037"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1665400593952-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1664130593732-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1665320593940-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1664090593722-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1665310593938-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1664080593720-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1664820593830-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1665280593924-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1665270593922-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1664080593718-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1664780593814-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1665270593918-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1664050593714-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1664720593806-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1664480593776-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1665090593878-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1663850593676-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1665240593910-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1664380593772-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1665200593898-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1663810593666-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1663790593660-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1664280593756-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1664140593740-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1664130593734-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1665080593874-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1665070593870-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1665070593868-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1665070593866-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1665040593858-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1665000593850-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97029",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "1664960593842-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97053",
+      "marca": "Crocs",
+      "pais": "Crocs Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-09-30",
+      "dias": 20,
+      "ov": "R1_43536-CROCS_COL_CCSCOWL180",
+      "estado": "Sin generacion de guia orden reenviada",
+      "jira_ci": "ITHD-97037"
+    },
+    {
+      "ticket": "ITHD-97082",
+      "marca": "JBL",
+      "pais": "JBL URUGUY",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-01",
+      "dias": 19,
+      "ov": "JB-UY-00039293",
+      "estado": "Investigacion de asignacion de SKU",
+      "jira_ci": "ITHD-97086"
+    },
+    {
+      "ticket": "ITHD-97092",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-02",
+      "dias": 18,
+      "ov": "3253776716",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97435"
+    },
+    {
+      "ticket": "ITHD-97114",
+      "marca": "Cubitt",
+      "pais": "Cubitt Guatemala",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-02",
+      "dias": 18,
+      "ov": "GT1372_CUBGTWL180",
+      "estado": "Habilitacion de orden para generar guia",
+      "jira_ci": "ITHD-97189"
+    },
+    {
+      "ticket": "ITHD-97114",
+      "marca": "Cubitt",
+      "pais": "Cubitt Guatemala",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-02",
+      "dias": 18,
+      "ov": "R1_GT1365_CUBGTWL180",
+      "estado": "Habilitacion de orden para generar guia",
+      "jira_ci": "ITHD-97189"
+    },
+    {
+      "ticket": "ITHD-97114",
+      "marca": "Cubitt",
+      "pais": "Cubitt Guatemala",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-02",
+      "dias": 18,
+      "ov": "GT1373_CUBGTWL180",
+      "estado": "Habilitacion de orden para generar guia",
+      "jira_ci": "ITHD-97189"
+    },
+    {
+      "ticket": "ITHD-97132",
+      "marca": "Crocs",
+      "pais": "Crocs Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-05",
+      "dias": 15,
+      "ov": "R1_42633-CROCS_COL_CCSCOWL180",
+      "estado": "Revision de ordenes reenviadas",
+      "jira_ci": "ITHD-97146"
+    },
+    {
+      "ticket": "ITHD-97132",
+      "marca": "Crocs",
+      "pais": "Crocs Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-05",
+      "dias": 15,
+      "ov": "R1_42790-CROCS_COL_CCSCOWL180",
+      "estado": "Revision de ordenes reenviadas",
+      "jira_ci": "ITHD-97146"
+    },
+    {
+      "ticket": "ITHD-97141",
+      "marca": "Epson",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-05",
+      "dias": 15,
+      "ov": "IX-40000058622",
+      "estado": "Error en Microtarifario",
+      "jira_ci": "ITHD-97191"
+    },
+    {
+      "ticket": "ITHD-97155",
+      "marca": "Crocs",
+      "pais": "Crocs Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-05",
+      "dias": 15,
+      "ov": "R1_43696-CROCS_COL_CCSCOWL180",
+      "estado": "orden reenviada sin guia",
+      "jira_ci": "ITHD-97205"
+    },
+    {
+      "ticket": "ITHD-97157",
+      "marca": "MKP",
+      "pais": "MKP Chile",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-05",
+      "dias": 15,
+      "ov": "3146024880_MMACLMKPAR",
+      "estado": "Orden en estado Queued/ Producto configurado correctamente OPS",
+      "jira_ci": ""
+    },
+    {
+      "ticket": "ITHD-97157",
+      "marca": "MKP",
+      "pais": "MKP Chile",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-05",
+      "dias": 15,
+      "ov": "2000018804821960_MMACLMKMEL",
+      "estado": "Orden en estado Queued/ Producto configurado correctamente OPS",
+      "jira_ci": ""
+    },
+    {
+      "ticket": "ITHD-97156",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-05",
+      "dias": 15,
+      "ov": "43840-CROCS_COL",
+      "estado": "Orden si stock Crocs CO",
+      "jira_ci": "ITHD-97280"
+    },
+    {
+      "ticket": "ITHD-97181",
+      "marca": "Crocs",
+      "pais": "Crocs Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-06",
+      "dias": 14,
+      "ov": "R1_43626-CROCS_COL_CCSCOWL180",
+      "estado": "orden reenviada sin guia",
+      "jira_ci": "ITHD-97238"
+    },
+    {
+      "ticket": "ITHD-97195",
+      "marca": "MKP",
+      "pais": "MKP Chile",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-06",
+      "dias": 14,
+      "ov": "2000018805583498_MMACLMKMEL",
+      "estado": "Orden en estado Queued/ Producto configurado correctamente OPS",
+      "jira_ci": "ITHD-97230"
+    },
+    {
+      "ticket": "ITHD-97195",
+      "marca": "MKP",
+      "pais": "MKP Chile",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-06",
+      "dias": 14,
+      "ov": "3147196213_JBLCLMKPAR",
+      "estado": "Orden en estado Queued/ Producto configurado correctamente OPS",
+      "jira_ci": "ITHD-97230"
+    },
+    {
+      "ticket": "ITHD-97195",
+      "marca": "MKP",
+      "pais": "MKP Chile",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-06",
+      "dias": 14,
+      "ov": "3147897270_MMACLMKPAR",
+      "estado": "Orden en estado Queued/ Producto configurado correctamente OPS",
+      "jira_ci": "ITHD-97230"
+    },
+    {
+      "ticket": "ITHD-97195",
+      "marca": "MKP",
+      "pais": "MKP Chile",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-06",
+      "dias": 14,
+      "ov": "3147902070_MMACLMKPAR",
+      "estado": "Orden en estado Queued/ Producto configurado correctamente OPS",
+      "jira_ci": "ITHD-97230"
+    },
+    {
+      "ticket": "ITHD-97197",
+      "marca": "Crocs",
+      "pais": "Crocs Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-06",
+      "dias": 14,
+      "ov": "R1_43653-CROCS_COL_CCSCOWL180",
+      "estado": "orden reenviada sin guia",
+      "jira_ci": "ITHD-97238"
+    },
+    {
+      "ticket": "ITHD-97197",
+      "marca": "Crocs",
+      "pais": "Crocs Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-06",
+      "dias": 14,
+      "ov": "R1_42684-CROCS_COL_CCSCOWL180",
+      "estado": "orden reenviada sin guia",
+      "jira_ci": "ITHD-97238"
+    },
+    {
+      "ticket": "ITHD-97198",
+      "marca": "Cubitt",
+      "pais": "Cubitt Guatemal",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-06",
+      "dias": 14,
+      "ov": "GT1376_CUBGTWL180",
+      "estado": "Habilitacion de orden para generar guia",
+      "jira_ci": "ITHD-97189"
+    },
+    {
+      "ticket": "ITHD-97212",
+      "marca": "ON",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-06",
+      "dias": 14,
+      "ov": "15357-ON_COL",
+      "estado": "Orden sin guia",
+      "jira_ci": "ITHD-97297"
+    },
+    {
+      "ticket": "ITHD-97252",
+      "marca": "MKP",
+      "pais": "MKP Chile",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-08",
+      "dias": 12,
+      "ov": "3150163850_MMACLMKPAR",
+      "estado": "Orden en estado Queued/ Producto configurado correctamente OPS",
+      "jira_ci": "ITHD-97304"
+    },
+    {
+      "ticket": "ITHD-97252",
+      "marca": "MKP",
+      "pais": "MKP Chile",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-08",
+      "dias": 12,
+      "ov": "3255599468_MMACLMKFAL",
+      "estado": "Orden en estado Queued/ Producto configurado correctamente OPS",
+      "jira_ci": "ITHD-97304"
+    },
+    {
+      "ticket": "ITHD-97265",
+      "marca": "JBL",
+      "pais": "JBL COSTA RICA",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-08",
+      "dias": 12,
+      "ov": "JB-CR00046021",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97267"
+    },
+    {
+      "ticket": "ITHD-97265",
+      "marca": "JBL",
+      "pais": "Harman Audio",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-08",
+      "dias": 12,
+      "ov": "HA-MX00070991",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97267"
+    },
+    {
+      "ticket": "ITHD-97265",
+      "marca": "JBL",
+      "pais": "JBL COSTA RICA",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-08",
+      "dias": 12,
+      "ov": "JB-CR00046022",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97267"
+    },
+    {
+      "ticket": "ITHD-97294",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-09",
+      "dias": 11,
+      "ov": "2000018877606496_MMACLMKMEL",
+      "estado": "Orden en estado Queued/ Producto configurado correctamente OPS",
+      "jira_ci": "ITHD-97299"
+    },
+    {
+      "ticket": "ITHD-97294",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-09",
+      "dias": 11,
+      "ov": "2000018885706764_MMACLMKMEL",
+      "estado": "Orden en estado Queued/ Producto configurado correctamente OPS",
+      "jira_ci": "ITHD-97299"
+    },
+    {
+      "ticket": "ITHD-97265",
+      "marca": "JBL",
+      "pais": "JBL COSTA RICA",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-09",
+      "dias": 11,
+      "ov": "JB-CR00046021",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97267"
+    },
+    {
+      "ticket": "ITHD-97265",
+      "marca": "JBL",
+      "pais": "Harman Audio",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-09",
+      "dias": 11,
+      "ov": "HA-MX00070991",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97267"
+    },
+    {
+      "ticket": "ITHD-97265",
+      "marca": "JBL",
+      "pais": "JBL COSTA RICA",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-09",
+      "dias": 11,
+      "ov": "JB-CR00046022",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97267"
+    },
+    {
+      "ticket": "ITHD-97316",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-09",
+      "dias": 11,
+      "ov": "9157-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97406"
+    },
+    {
+      "ticket": "ITHD-97322",
+      "marca": "ON",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-09",
+      "dias": 11,
+      "ov": "15575-ON_COL",
+      "estado": "Orden sin estado Pickup",
+      "jira_ci": "ITHD-97384"
+    },
+    {
+      "ticket": "ITHD-97322",
+      "marca": "ON",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-09",
+      "dias": 11,
+      "ov": "15610-ON_COL",
+      "estado": "Orden sin estado Pickup",
+      "jira_ci": "ITHD-97384"
+    },
+    {
+      "ticket": "ITHD-97322",
+      "marca": "ON",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-09",
+      "dias": 11,
+      "ov": "15612-ON_COL",
+      "estado": "Orden sin estado Pickup",
+      "jira_ci": "ITHD-97384"
+    },
+    {
+      "ticket": "ITHD-97327",
+      "marca": "Dockers",
+      "pais": "Dockers Chile",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-13",
+      "dias": 7,
+      "ov": "10240_DOCCLWL180",
+      "estado": "solicitud de segunda guia",
+      "jira_ci": "ITHD-97387"
+    },
+    {
+      "ticket": "ITHD-97335",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-13",
+      "dias": 7,
+      "ov": "3152217360_MMACLMKPAR",
+      "estado": "Orden en estado Queued/ Producto configurado correctamente OPS",
+      "jira_ci": "ITHD-97362"
+    },
+    {
+      "ticket": "ITHD-97352",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-13",
+      "dias": 7,
+      "ov": "44054-CROCS_COL",
+      "estado": "Sin generacion de guia",
+      "jira_ci": "ITHD-97415"
+    },
+    {
+      "ticket": "ITHD-97355",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-13",
+      "dias": 7,
+      "ov": "44177-CROCS_COL",
+      "estado": "Sincronizacion de stock Crocs CO",
+      "jira_ci": "ITHD-97365"
+    },
+    {
+      "ticket": "ITHD-97355",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-13",
+      "dias": 7,
+      "ov": "44182-CROCS_COL",
+      "estado": "Sincronizacion de stock Crocs CO",
+      "jira_ci": "ITHD-97365"
+    },
+    {
+      "ticket": "ITHD-97389",
+      "marca": "MKP",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-14",
+      "dias": 6,
+      "ov": "15865-ON_COL_ONRCOWL180",
+      "estado": "Orden sin generacion de Pickup",
+      "jira_ci": "ITHD-97448"
+    },
+    {
+      "ticket": "ITHD-97396",
+      "marca": "HONOR",
+      "pais": "HONOR CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-14",
+      "dias": 6,
+      "ov": "HO3416",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97457"
+    },
+    {
+      "ticket": "ITHD-97396",
+      "marca": "HONOR",
+      "pais": "HONOR CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-14",
+      "dias": 6,
+      "ov": "HO3459",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97457"
+    },
+    {
+      "ticket": "ITHD-97419",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-14",
+      "dias": 6,
+      "ov": "9238-LACOSTE_COL",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97466"
+    },
+    {
+      "ticket": "ITHD-97437",
+      "marca": "Dockers",
+      "pais": "Dockers Chile",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-15",
+      "dias": 5,
+      "ov": "8547_DOCCLWL180",
+      "estado": "Solicitud segunda guia",
+      "jira_ci": "ITHD-97455"
+    },
+    {
+      "ticket": "ITHD-97478",
+      "marca": "MKP",
+      "pais": "PERU",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-16",
+      "dias": 4,
+      "ov": "2000019011804912",
+      "estado": "Orden en estado Queued/ Producto configurado correctamente OPS",
+      "jira_ci": "ITHD-97507"
+    },
+    {
+      "ticket": "ITHD-97479",
+      "marca": "JBL",
+      "pais": "PERU",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-16",
+      "dias": 4,
+      "ov": "JB-PE00208481_JBLPEWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97498"
+    },
+    {
+      "ticket": "ITHD-97306",
+      "marca": "Crocs",
+      "pais": "Crocs Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-16",
+      "dias": 4,
+      "ov": "43967-CROCS_COL_CCSCOWL180",
+      "estado": "Envio de evento de Pickup",
+      "jira_ci": "ITHD-97500"
+    },
+    {
+      "ticket": "ITHD-97487",
+      "marca": "ON",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-16",
+      "dias": 4,
+      "ov": "16108-ON_COL_ONRCOWL180",
+      "estado": "Envio de evento de Pickup",
+      "jira_ci": "ITHD-97501"
+    },
+    {
+      "ticket": "ITHD-97489",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-16",
+      "dias": 4,
+      "ov": "9288-LACOSTE_COL_LACCOWL180",
+      "estado": "Envio de evento de Pickup",
+      "jira_ci": "ITHD-97502"
+    },
+    {
+      "ticket": "ITHD-97489",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-16",
+      "dias": 4,
+      "ov": "9313-LACOSTE_COL_LACCOWL180",
+      "estado": "Envio de evento de Pickup",
+      "jira_ci": "ITHD-97502"
+    },
+    {
+      "ticket": "ITHD-97503",
+      "marca": "MKP",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-19",
+      "dias": 1,
+      "ov": "2000018983773274_MMAPEMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97511"
+    },
+    {
+      "ticket": "ITHD-97513",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-19",
+      "dias": 1,
+      "ov": "44499-CROCS_COL",
+      "estado": "Sin generacion de guia",
+      "jira_ci": "ITHD-97522"
+    },
+    {
+      "ticket": "ITHD-97519",
+      "marca": "Crocs",
+      "pais": "Crocs Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-19",
+      "dias": 1,
+      "ov": "R1_44292-CROCS_COL_CCSCOWL180",
+      "estado": "Orden asignada sin guia",
+      "jira_ci": "ITHD-97537"
+    },
+    {
+      "ticket": "ITHD-97519",
+      "marca": "Crocs",
+      "pais": "Crocs Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-19",
+      "dias": 1,
+      "ov": "R1_44300-CROCS_COL_CCSCOWL180",
+      "estado": "Orden asignada sin guia",
+      "jira_ci": "ITHD-97537"
+    },
+    {
+      "ticket": "ITHD-97519",
+      "marca": "Crocs",
+      "pais": "Crocs Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-19",
+      "dias": 1,
+      "ov": "R1_44294-CROCS_COL_CCSCOWL180",
+      "estado": "Orden asignada sin guia",
+      "jira_ci": "ITHD-97537"
+    },
+    {
+      "ticket": "ITHD-97520",
+      "marca": "Dockers",
+      "pais": "Dockers Chile",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-19",
+      "dias": 1,
+      "ov": "9114-1_DOCCLWL180",
+      "estado": "Solicitud guia adicional",
+      "jira_ci": "ITHD-97538"
+    },
+    {
+      "ticket": "ITHD-97526",
+      "marca": "ON",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-19",
+      "dias": 1,
+      "ov": "16203-ON_COL_ONRCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97541"
+    },
+    {
+      "ticket": "ITHD-97526",
+      "marca": "ON",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-19",
+      "dias": 1,
+      "ov": "16210-ON_COL_ONRCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97541"
+    },
+    {
+      "ticket": "ITHD-97526",
+      "marca": "ON",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-19",
+      "dias": 1,
+      "ov": "16224-ON_COL_ONRCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97541"
+    },
+    {
+      "ticket": "ITHD-97535",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-19",
+      "dias": 1,
+      "ov": "9366-LACOSTE_COL_LACCOWL180",
+      "estado": "Sin generacion de guia reenvio pickup",
+      "jira_ci": "ITHD-97544"
+    },
+    {
+      "ticket": "ITHD-97535",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-19",
+      "dias": 1,
+      "ov": "9432-LACOSTE_COL_LACCOWL180",
+      "estado": "Sin generacion de guia reenvio pickup",
+      "jira_ci": "ITHD-97544"
+    },
+    {
+      "ticket": "ITHD-97530",
+      "marca": "Crocs",
+      "pais": "Crocs Costa Rica",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "6826-CROCS_CRC_CCSCRWL180",
+      "estado": "Sin generacion de guia reenvio pickup",
+      "jira_ci": "ITHD-97549"
+    },
+    {
+      "ticket": "ITHD-97543",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "9334-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97553"
+    },
+    {
+      "ticket": "ITHD-97543",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "9343-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97553"
+    },
+    {
+      "ticket": "ITHD-97543",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "9345-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97553"
+    },
+    {
+      "ticket": "ITHD-97543",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "9360-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97553"
+    },
+    {
+      "ticket": "ITHD-97543",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "9377-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97553"
+    },
+    {
+      "ticket": "ITHD-97543",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "9383-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97553"
+    },
+    {
+      "ticket": "ITHD-97543",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "9389-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97553"
+    },
+    {
+      "ticket": "ITHD-97543",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "9410-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97553"
+    },
+    {
+      "ticket": "ITHD-97543",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "9421-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97553"
+    },
+    {
+      "ticket": "ITHD-97543",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "9423-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97553"
+    },
+    {
+      "ticket": "ITHD-97543",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "9433-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97553"
+    },
+    {
+      "ticket": "ITHD-97543",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "9444-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97553"
+    },
+    {
+      "ticket": "ITHD-97543",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "9452-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97553"
+    },
+    {
+      "ticket": "ITHD-97543",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "9453-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97553"
+    },
+    {
+      "ticket": "ITHD-97543",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "9457-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97553"
+    },
+    {
+      "ticket": "ITHD-97543",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "9467-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97553"
+    },
+    {
+      "ticket": "ITHD-97543",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "9478-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97553"
+    },
+    {
+      "ticket": "ITHD-97543",
+      "marca": "LC",
+      "pais": "Colombia",
+      "liberada": "Escalado con Driver",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "9520-LACOSTE_COL_LACCOWL180",
+      "estado": "Sincronizacion de stock AVA",
+      "jira_ci": "ITHD-97553"
+    },
+    {
+      "ticket": "ITHD-97545",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "1669370594498-01",
+      "estado": "Ordenes Motorola PE sin facturar en VTEX",
+      "jira_ci": "ITHD-97035"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00249525_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00249555_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00249537_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00249564_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00249677_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00249693_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00249706_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00249712_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00249821_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00249948_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00250050_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00250058_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00250022_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00250102_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00250133_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00250244_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00250180_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00250193_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00250194_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00250275_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00250210_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97546",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "JB-CO00250211_JBLCOWL180",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97552"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019023573300_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019024645784_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019024705314_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019024717856_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019026501032_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019027024572_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019028169466_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019028803420_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019030228900_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "600000133175771_MMAMXMKWAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019033288804_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019034108492_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019036871732_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019038138546_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019044349138_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019044528084_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019052064112_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019053671498_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019055238670_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019056546848_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019058939158_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019060754642_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019060949732_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019061009960_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP MEXICO",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019061174254_MMAMXMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97551",
+      "marca": "MKP",
+      "pais": "Ecuador",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019062196252_EPSECMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": ""
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3255538045_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3255557073_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3255561322_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3255619229_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3255756045_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3255843240_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3255991415_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256011238_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256030480_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256033934_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256049763_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256049763_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256049518_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256070932_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256087279_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256106375_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256171695_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256201528_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256260757_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3150941020_MMACLMKPAR",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256260946_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256265071_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256268367_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256273453_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256274013_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256295470_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256323837_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256347545_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256362435_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256446642_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256462131_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256481229_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256482811_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256494228_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256495888_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256505041_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256520317_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3256548039_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "25332468401-A_JBLCLMKRIP",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019059246524_MMACLMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019059516452_MMACLMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019059552388_MMACLMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019059707354_MMACLMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019059765860_MMACLMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "3257724674_MMACLMKFAL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019060008978_MMACLMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    },
+    {
+      "ticket": "ITHD-97554",
+      "marca": "MKP",
+      "pais": "MKP CHILE",
+      "liberada": "Escalado con Customer Integration",
+      "fn": "2026-10-20",
+      "dias": 0,
+      "ov": "2000019061031934_MMACLMKMEL",
+      "estado": "Orden sin facturar en NS",
+      "jira_ci": "ITHD-97559"
+    }
+  ],
+  "jiras_clones": {
+    "ITHD-96833": [
+      "ITHD-96949"
+    ],
+    "ITHD-97009": [
+      "ITHD-97010"
+    ],
+    "ITHD-97020": [
+      "ITHD-97354"
+    ],
+    "ITHD-97024": [
+      "ITHD-97037"
+    ],
+    "ITHD-97029": [
+      "ITHD-97035"
+    ],
+    "ITHD-97053": [
+      "ITHD-97037"
+    ],
+    "ITHD-97082": [
+      "ITHD-97086"
+    ],
+    "ITHD-97092": [
+      "ITHD-97435"
+    ],
+    "ITHD-97114": [
+      "ITHD-97189"
+    ],
+    "ITHD-97132": [
+      "ITHD-97146"
+    ],
+    "ITHD-97141": [
+      "ITHD-97191"
+    ],
+    "ITHD-97155": [
+      "ITHD-97205"
+    ],
+    "ITHD-97156": [
+      "ITHD-97280"
+    ],
+    "ITHD-97157": [],
+    "ITHD-97181": [
+      "ITHD-97238"
+    ],
+    "ITHD-97195": [
+      "ITHD-97230",
+      "ITHD-97382"
+    ],
+    "ITHD-97197": [
+      "ITHD-97238"
+    ],
+    "ITHD-97198": [
+      "ITHD-97189"
+    ],
+    "ITHD-97212": [
+      "ITHD-97297"
+    ],
+    "ITHD-97252": [
+      "ITHD-97304"
+    ],
+    "ITHD-97265": [
+      "ITHD-97267"
+    ],
+    "ITHD-97294": [
+      "ITHD-97299"
+    ],
+    "ITHD-97306": [
+      "ITHD-97500"
+    ],
+    "ITHD-97316": [
+      "ITHD-97406"
+    ],
+    "ITHD-97322": [
+      "ITHD-97384"
+    ],
+    "ITHD-97327": [
+      "ITHD-97387"
+    ],
+    "ITHD-97335": [
+      "ITHD-97362"
+    ],
+    "ITHD-97352": [
+      "ITHD-97415"
+    ],
+    "ITHD-97355": [
+      "ITHD-97365"
+    ],
+    "ITHD-97389": [
+      "ITHD-97448"
+    ],
+    "ITHD-97396": [
+      "ITHD-97457"
+    ],
+    "ITHD-97419": [
+      "ITHD-97466"
+    ],
+    "ITHD-97437": [
+      "ITHD-97455"
+    ],
+    "ITHD-97478": [
+      "ITHD-97507"
+    ],
+    "ITHD-97479": [
+      "ITHD-97498"
+    ],
+    "ITHD-97487": [
+      "ITHD-97501"
+    ],
+    "ITHD-97489": [
+      "ITHD-97502"
+    ],
+    "ITHD-97503": [
+      "ITHD-97511"
+    ],
+    "ITHD-97513": [
+      "ITHD-97522"
+    ],
+    "ITHD-97519": [
+      "ITHD-97537"
+    ],
+    "ITHD-97520": [
+      "ITHD-97538"
+    ],
+    "ITHD-97526": [
+      "ITHD-97541"
+    ],
+    "ITHD-97530": [
+      "ITHD-97549"
+    ],
+    "ITHD-97535": [
+      "ITHD-97544"
+    ],
+    "ITHD-97543": [
+      "ITHD-97553"
+    ],
+    "ITHD-97545": [
+      "ITHD-97035"
+    ],
+    "ITHD-97546": [
+      "ITHD-97552"
+    ],
+    "ITHD-97551": [],
+    "ITHD-97554": [
+      "ITHD-97559"
+    ]
+  },
   "ixcData": {
     "2026-10-01": 783,
     "2026-10-02": 684,
