@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T20:45:01.345159+00:00",
+  "generatedAt": "2026-10-20T21:14:57.210974+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -255877,14 +255877,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00277617",
       "ticket": "ITHD-97539",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden no ingreso a IX",
-      "liberada": "Escalado con la marca"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -257475,14 +257475,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000019062196252_EPSECMKMEL",
       "ticket": "ITHD-97551",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-15",
@@ -344851,7 +344851,7 @@
       "dias": 15,
       "ov": "3146024880_MMACLMKPAR",
       "estado": "Orden en estado Queued/ Producto configurado correctamente OPS",
-      "jira_ci": ""
+      "jira_ci": "ITHD-97382"
     },
     {
       "ticket": "ITHD-97157",
@@ -344862,7 +344862,7 @@
       "dias": 15,
       "ov": "2000018804821960_MMACLMKMEL",
       "estado": "Orden en estado Queued/ Producto configurado correctamente OPS",
-      "jira_ci": ""
+      "jira_ci": "ITHD-97382"
     },
     {
       "ticket": "ITHD-97156",
@@ -346731,7 +346731,9 @@
     "ITHD-97156": [
       "ITHD-97280"
     ],
-    "ITHD-97157": [],
+    "ITHD-97157": [
+      "ITHD-97382"
+    ],
     "ITHD-97181": [
       "ITHD-97238"
     ],
