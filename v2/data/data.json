@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T17:15:10.230491+00:00",
+  "generatedAt": "2026-10-20T17:44:54.122053+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -256597,8 +256597,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Diferencia de valores",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-20",
@@ -256614,8 +256614,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Timeout Mienvio",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -256631,8 +256631,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Envio de evento Payment complete",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -256648,8 +256648,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Envio de evento Payment complete",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -256665,8 +256665,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Envio de evento Payment complete",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -256682,8 +256682,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Diferencia de valores",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-20",
@@ -256699,8 +256699,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Diferencia de valores",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-20",
@@ -256716,8 +256716,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Diferencia de valores",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-20",
@@ -256733,8 +256733,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Diferencia de valores",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-20",
@@ -256750,8 +256750,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Diferencia de valores",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-20",
@@ -256767,8 +256767,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Diferencia de valores",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-20",
@@ -258326,7 +258326,7 @@
       "com": "",
       "ops": "En revision CO - IT",
       "pen": "",
-      "ov": "2272-CROCS_PAN",
+      "ov": "validar configuracion de CUS ID TRAX",
       "ticket": "ITHD-97556",
       "pendiente": "",
       "proveedor": "",
