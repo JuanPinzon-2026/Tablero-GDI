@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T19:15:01.972215+00:00",
+  "generatedAt": "2026-10-20T20:15:01.589069+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -254908,14 +254908,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "16229-ON_COL_ONRCOWL180",
       "ticket": "ITHD-97527",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Envio de evento Provider - Generacion de guia",
-      "liberada": "Escalado con Cristian V"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-19",
@@ -254932,7 +254932,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Envio de evento Provider - Generacion de guia",
-      "liberada": "Escalado con Cristian V"
+      "liberada": "Escalado con Kronotime"
     },
     {
       "fecha": "2026-10-19",
@@ -255095,14 +255095,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9280-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97533",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255112,14 +255112,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9294-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97533",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255129,14 +255129,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9298-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97533",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255146,14 +255146,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9301-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97533",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255163,14 +255163,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9312-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97533",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255180,14 +255180,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9314-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97533",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255197,14 +255197,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9321-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97533",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255214,14 +255214,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9328-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255231,14 +255231,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9344-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255248,14 +255248,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9346-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255265,14 +255265,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9352-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255282,14 +255282,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9355-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255299,14 +255299,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9361-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255316,14 +255316,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9364-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255333,14 +255333,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9365-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255350,14 +255350,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9369-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255367,14 +255367,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9372-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255384,14 +255384,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9384-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255401,14 +255401,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9385-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255418,14 +255418,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9393-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255435,14 +255435,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9408-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255452,14 +255452,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9409-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255469,14 +255469,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9412-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255486,14 +255486,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9413-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255503,14 +255503,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9419-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255520,14 +255520,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9424-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255537,14 +255537,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9434-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255554,14 +255554,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9443-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255571,14 +255571,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9449-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255588,14 +255588,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9458-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255605,14 +255605,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9472-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255622,14 +255622,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9473-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255639,14 +255639,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9491-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255656,14 +255656,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9492-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255673,14 +255673,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "9498-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97534",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin falla al revisar orden facturarada en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255690,14 +255690,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "9336-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97536",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -255707,14 +255707,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "9375-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97536",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -255724,14 +255724,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "9437-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97536",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -255741,14 +255741,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "9439-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97536",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -255758,14 +255758,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "9456-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97536",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -255775,14 +255775,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "9524-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97536",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -255792,14 +255792,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "9532-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97543",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -255809,14 +255809,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "9534-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97543",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-19",
@@ -256778,14 +256778,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "JB-CO00250291",
       "ticket": "ITHD-97548",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -256795,14 +256795,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "JB-CO00250292",
       "ticket": "ITHD-97548",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-19",
@@ -256818,7 +256818,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
+      "detalle": "sin falla al revisar",
       "liberada": "Liberada"
     },
     {
@@ -256829,14 +256829,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Operaciones Solucionado",
       "ov": "2000019062359854_JBLUYMKMEL",
       "ticket": "ITHD-97550",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Validacion de producto",
-      "liberada": "Escalado operaciones"
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-19",
@@ -256846,14 +256846,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "702-4170213-7675469_MMAMXMKAMA",
       "ticket": "ITHD-97550",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin stock MKP",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-19",
@@ -256863,14 +256863,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "2000019062013736_MMAMXMKMEL",
       "ticket": "ITHD-97550",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin stock MKP",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-19",
@@ -256880,14 +256880,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "2000019015787622_MMACLMKMEL",
       "ticket": "ITHD-97550",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-19",
@@ -256897,14 +256897,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "3257506094_MMACLMKFAL",
       "ticket": "ITHD-97550",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-19",
@@ -258291,14 +258291,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00209005",
       "ticket": "ITHD-97555",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error 500 Mienvio",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -258308,14 +258308,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "JB-PE00209195",
       "ticket": "ITHD-97555",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-19",
@@ -258325,14 +258325,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "2272-CROCS_PAN",
       "ticket": "ITHD-97556",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -258342,14 +258342,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Continuidad",
       "ov": "2274-CROCS_PAN",
       "ticket": "ITHD-97556",
-      "pendiente": "0",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -258359,14 +258359,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "validar configuracion BO - CUS ID TRAX",
       "ticket": "ITHD-97558",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-01",
@@ -258376,14 +258376,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018737808802",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-04",
@@ -258393,14 +258393,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018795483852",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -258410,14 +258410,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018799046890",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -258427,14 +258427,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018799041638",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -258444,14 +258444,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018799609142",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -258461,14 +258461,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018799601624",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -258478,14 +258478,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018802676928",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -258495,14 +258495,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018803960910",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -258512,14 +258512,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018803961626",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -258529,14 +258529,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "3254584640",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -258546,14 +258546,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018808160348",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -258563,14 +258563,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018809267018",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -258580,14 +258580,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018809372778",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -258597,14 +258597,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018809419008",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -258614,14 +258614,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018809610262",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-05",
@@ -258631,14 +258631,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018817817870",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258648,14 +258648,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018822931260",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258665,14 +258665,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018826340090",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258682,14 +258682,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018830494760",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258699,14 +258699,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018831236360",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258716,14 +258716,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018831564888",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258733,14 +258733,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018831654988",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258750,14 +258750,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018831677006",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258767,14 +258767,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018832094100",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258784,14 +258784,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018836585686",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258801,14 +258801,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018836591986",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258818,14 +258818,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018836717092",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258835,14 +258835,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018836713936",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258852,14 +258852,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018836747002",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258869,14 +258869,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018836801496",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258886,14 +258886,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018836876406",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258903,14 +258903,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018836889624",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258920,14 +258920,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018837005796",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258937,14 +258937,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018837098874",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258954,14 +258954,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018837395948",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258971,14 +258971,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018837455604",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -258988,14 +258988,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018837473080",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -259005,14 +259005,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018837473170",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -259022,14 +259022,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018837526916",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -259039,14 +259039,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018837873394",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -259056,14 +259056,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018839727164",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -259073,14 +259073,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018841202384",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-07",
@@ -259090,14 +259090,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018849279746",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-07",
@@ -259107,14 +259107,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018851526512",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-07",
@@ -259124,14 +259124,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018851527986",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-07",
@@ -259141,14 +259141,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018851532012",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-07",
@@ -259158,14 +259158,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018855182580",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-07",
@@ -259175,14 +259175,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018858562136",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-07",
@@ -259192,14 +259192,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018858558486",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-07",
@@ -259209,14 +259209,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018862314838",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-07",
@@ -259226,14 +259226,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "3256518368",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-08",
@@ -259243,14 +259243,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "3256538910",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-08",
@@ -259260,14 +259260,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018869651366",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-08",
@@ -259277,14 +259277,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018874213628",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-08",
@@ -259294,14 +259294,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018883620730",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-09",
@@ -259311,14 +259311,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018886024150",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-09",
@@ -259328,14 +259328,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018890865852",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-09",
@@ -259345,14 +259345,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018893206110",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-09",
@@ -259362,14 +259362,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018893421572",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-09",
@@ -259379,14 +259379,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018895391518",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-09",
@@ -259396,14 +259396,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018897741036",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-09",
@@ -259413,14 +259413,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018899856856",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259430,14 +259430,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018900972356",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259447,14 +259447,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018901465404",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259464,14 +259464,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018901465406",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259481,14 +259481,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018901729878",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259498,14 +259498,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018902616654",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259515,14 +259515,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018902729334",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259532,14 +259532,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018902762480",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259549,14 +259549,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018902755182",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259566,14 +259566,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018902938992",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259583,14 +259583,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018902927900",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259600,14 +259600,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018902948306",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259617,14 +259617,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018903647558",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259634,14 +259634,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018905134948",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259651,14 +259651,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018905119656",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259668,14 +259668,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018905191764",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259685,14 +259685,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018905454114",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259702,14 +259702,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018905718820",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259719,14 +259719,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018905795698",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259736,14 +259736,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018911618752",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259753,14 +259753,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018912123238",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259770,14 +259770,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018913180910",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-10",
@@ -259787,14 +259787,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018918358626",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-11",
@@ -259804,14 +259804,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018919807056",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-11",
@@ -259821,14 +259821,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018919807096",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-11",
@@ -259838,14 +259838,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018919810902",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-11",
@@ -259855,14 +259855,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018923546224",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-11",
@@ -259872,14 +259872,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018926991152",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-11",
@@ -259889,14 +259889,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018927590494",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-11",
@@ -259906,14 +259906,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018928765726",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-11",
@@ -259923,14 +259923,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018931850006",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-11",
@@ -259940,14 +259940,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018931910308",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-11",
@@ -259957,14 +259957,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018931918458",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-11",
@@ -259974,14 +259974,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018932878376",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -259991,14 +259991,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018933664838",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -260008,14 +260008,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018934441470",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -260025,14 +260025,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018937777960",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -260042,14 +260042,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018942484954",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -260059,14 +260059,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "3257050037",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -260076,14 +260076,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018942912400",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -260093,14 +260093,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018943140132",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -260110,14 +260110,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018943167632",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -260127,14 +260127,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018943520718",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -260144,14 +260144,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018946872072",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
@@ -260161,14 +260161,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "3257172971",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
@@ -260178,14 +260178,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "3257178905",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
@@ -260195,14 +260195,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018968685092",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -260212,14 +260212,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018969446000",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -260229,14 +260229,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018970936536",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -260246,14 +260246,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018971993632",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -260263,14 +260263,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018972030392",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -260280,14 +260280,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018972707994",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -260297,14 +260297,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018973998168",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -260314,14 +260314,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018976684522",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -260331,14 +260331,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018976855120",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -260348,14 +260348,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018978445864",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -260365,14 +260365,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018980107452",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -260382,14 +260382,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018980135020",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -260399,14 +260399,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018983107734",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-14",
@@ -260416,14 +260416,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018986147096",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-15",
@@ -260433,14 +260433,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018992024340",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-15",
@@ -260450,14 +260450,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018994270890",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-16",
@@ -260467,14 +260467,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000019015531872",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-19",
@@ -260484,14 +260484,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000019057514066",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -260501,14 +260501,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000019072760424",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -260518,14 +260518,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018837132570",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-06",
@@ -260535,14 +260535,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018841080172",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-12",
@@ -260552,14 +260552,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018937522246",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-13",
@@ -260569,14 +260569,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "702-5579175-9886602",
       "ticket": "ITHD-97561",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Ordenes Fulfilment sin revisar",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-16",
@@ -260586,14 +260586,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "IX-46000016869",
       "ticket": "ITHD-97562",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-19",
@@ -260603,14 +260603,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "679728",
       "ticket": "ITHD-97563",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-19",
@@ -260620,14 +260620,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "679730",
       "ticket": "ITHD-97563",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     }
   ],
   "ingresadas": [
