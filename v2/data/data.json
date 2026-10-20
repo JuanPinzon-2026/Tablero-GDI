@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T14:15:02.822712+00:00",
+  "generatedAt": "2026-10-20T14:44:43.603387+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -254727,8 +254727,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden asignada sin guia",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-15",
@@ -254744,8 +254744,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden asignada sin guia",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-15",
@@ -254761,8 +254761,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden asignada sin guia",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-06",
@@ -254778,8 +254778,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Solicitud guia adicional",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-19",
@@ -254795,8 +254795,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden con error interno en la capa",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-19",
@@ -254812,8 +254812,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Direccion excedia los caracteres permitidos",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-19",
@@ -254829,8 +254829,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "PaymentTypeId en null",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-19",
@@ -254846,8 +254846,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "PaymentTypeId en null",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-19",
@@ -254863,8 +254863,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin facturar en NS",
+      "liberada": "Escalado con Customer Integration"
     },
     {
       "fecha": "2026-10-19",
@@ -254880,8 +254880,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin facturar en NS",
+      "liberada": "Escalado con Customer Integration"
     },
     {
       "fecha": "2026-10-19",
@@ -254897,8 +254897,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin facturar en NS",
+      "liberada": "Escalado con Customer Integration"
     },
     {
       "fecha": "2026-10-19",
@@ -255676,6 +255676,176 @@
       "pen": "",
       "ov": "9432-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97535",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-20",
+      "fn": "2026-10-20",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9336-LACOSTE_COL_LACCOWL180",
+      "ticket": "ITHD-97536",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-20",
+      "fn": "2026-10-20",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9375-LACOSTE_COL_LACCOWL180",
+      "ticket": "ITHD-97536",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-20",
+      "fn": "2026-10-20",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9437-LACOSTE_COL_LACCOWL180",
+      "ticket": "ITHD-97536",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-20",
+      "fn": "2026-10-20",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9439-LACOSTE_COL_LACCOWL180",
+      "ticket": "ITHD-97536",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-20",
+      "fn": "2026-10-20",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9456-LACOSTE_COL_LACCOWL180",
+      "ticket": "ITHD-97536",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-20",
+      "fn": "2026-10-20",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9524-LACOSTE_COL_LACCOWL180",
+      "ticket": "ITHD-97536",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-19",
+      "fn": "2026-10-20",
+      "marca": "JBL",
+      "pais": "MEXICO",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-MX00277671",
+      "ticket": "ITHD-97539",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-19",
+      "fn": "2026-10-20",
+      "marca": "JBL",
+      "pais": "CHILE",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-CL00180720",
+      "ticket": "ITHD-97540",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-19",
+      "fn": "2026-10-20",
+      "marca": "JBL",
+      "pais": "CHILE",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-CL00180797",
+      "ticket": "ITHD-97540",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-20",
+      "fn": "2026-10-20",
+      "marca": "JBL",
+      "pais": "MEXICO",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-MX00277617",
+      "ticket": "ITHD-97539",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
