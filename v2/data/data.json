@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T15:44:58.742399+00:00",
+  "generatedAt": "2026-10-21T16:15:01.200912+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -256897,14 +256897,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3257506094_MMACLMKFAL",
       "ticket": "ITHD-97550",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-19",
@@ -258410,14 +258410,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018799046890",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Error en released",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-05",
@@ -258427,14 +258427,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018799041638",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Error en released",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-05",
@@ -258444,14 +258444,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018799609142",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Error en released",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-05",
@@ -258461,14 +258461,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018799601624",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Error en released",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-05",
@@ -260586,14 +260586,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "IX-46000016869",
       "ticket": "ITHD-97562",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Error en medidas",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-19",
@@ -260603,14 +260603,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "679728",
       "ticket": "ITHD-97563",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Error en medidas y niveles",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-19",
@@ -260620,14 +260620,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "679730",
       "ticket": "ITHD-97563",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Error en medidas y niveles",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-17",
