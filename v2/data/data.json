@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T17:14:45.848334+00:00",
+  "generatedAt": "2026-10-21T17:44:58.207398+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -260711,8 +260711,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Campo lastname en Null",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-18",
@@ -260830,8 +260830,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-18",
@@ -260847,8 +260847,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin facturar en NS falta de stock",
+      "liberada": "Escalado Claudia Peñaloza"
     },
     {
       "fecha": "2026-10-21",
@@ -260864,8 +260864,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -260881,8 +260881,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -260898,8 +260898,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -260915,8 +260915,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -260932,8 +260932,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-09-27",
@@ -260949,8 +260949,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -260966,8 +260966,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -260983,8 +260983,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -261000,8 +261000,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -261017,8 +261017,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -261034,8 +261034,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -261051,8 +261051,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -261068,8 +261068,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -261102,8 +261102,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -261119,8 +261119,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -261136,8 +261136,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -261153,8 +261153,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -261170,8 +261170,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -261187,8 +261187,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -261204,8 +261204,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -261272,8 +261272,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -261289,8 +261289,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -261306,8 +261306,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -261323,8 +261323,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -261340,8 +261340,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -261357,8 +261357,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -261374,8 +261374,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-21",
@@ -261388,6 +261388,91 @@
       "pen": "",
       "ov": "16597-ON_COL",
       "ticket": "ITHD-97587",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-21",
+      "marca": "JBL",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-GT00063819",
+      "ticket": "ITHD-97590",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-21",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3565",
+      "ticket": "ITHD-97592",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-21",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3566",
+      "ticket": "ITHD-97592",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-17",
+      "fn": "2026-10-21",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "44391-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97593",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "",
+      "fn": "",
+      "marca": "",
+      "pais": "",
+      "estado": "",
+      "com": "",
+      "ops": "",
+      "pen": "",
+      "ov": "JB-CO00250490",
+      "ticket": "",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
