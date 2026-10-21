@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T16:44:44.686072+00:00",
+  "generatedAt": "2026-10-21T17:14:45.848334+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -260643,8 +260643,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin estado de Pickup",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-10",
@@ -260660,8 +260660,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin estado de Pickup",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-20",
@@ -260678,7 +260678,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "",
-      "liberada": ""
+      "liberada": "Escalado con Cristian V"
     },
     {
       "fecha": "2026-10-20",
@@ -260745,8 +260745,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "PaymentTypeId en null",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -260762,8 +260762,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "PaymentTypeId en null",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -260779,8 +260779,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "PaymentTypeId en null",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -260796,8 +260796,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Pago tipo splitt",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -261268,7 +261268,7 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000019075328524_MMACLMKMEL",
-      "ticket": "",
+      "ticket": "ITHD-97588",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
@@ -261285,7 +261285,7 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000019084745130_MMACLMKMEL",
-      "ticket": "",
+      "ticket": "ITHD-97588",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
@@ -261302,7 +261302,7 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000019088050968_MMACLMKMEL",
-      "ticket": "",
+      "ticket": "ITHD-97588",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
@@ -261316,10 +261316,10 @@
       "pais": "MEXICO",
       "estado": "",
       "com": "",
-      "ops": "",
+      "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000019096860744_MMAMXMKMEL",
-      "ticket": "",
+      "ticket": "ITHD-97588",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
@@ -261333,10 +261333,10 @@
       "pais": "MEXICO",
       "estado": "",
       "com": "",
-      "ops": "",
+      "ops": "En revision CO - IT",
       "pen": "",
       "ov": "2000019096857880_MMAMXMKMEL",
-      "ticket": "",
+      "ticket": "ITHD-97588",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
@@ -349825,5 +349825,163 @@
     "2026-05": 25658,
     "2026-04": 28551,
     "2026-03": 33849
+  },
+  "metricas_jira": {
+    "actualizadoEn": "2026-10-21",
+    "nota": "Brenda Vasquez excluida desde 2025-08-01. Ordenes desde campo customfield_10616.",
+    "totalGlobal": 92439,
+    "ticketsSinCampo": {
+      "2022": 3976,
+      "2023": 3803,
+      "2024": 475,
+      "2025": 351,
+      "2026": 266
+    },
+    "tiposPorAnio": {
+      "2022": {
+        "incidentes": 0,
+        "solicitudes": 0,
+        "total": 3976
+      },
+      "2023": {
+        "incidentes": 0,
+        "solicitudes": 0,
+        "total": 4730
+      },
+      "2024": {
+        "incidentes": 3696,
+        "solicitudes": 169,
+        "total": 3865
+      },
+      "2025": {
+        "incidentes": 4024,
+        "solicitudes": 349,
+        "total": 4373
+      },
+      "2026": {
+        "incidentes": 3738,
+        "solicitudes": 259,
+        "total": 3997
+      }
+    },
+    "porAnio": {
+      "2022": 3976,
+      "2023": 4730,
+      "2024": 3865,
+      "2025": 4373,
+      "2026": 3997
+    },
+    "mensual": {
+      "2024": {
+        "2024-01": 220,
+        "2024-02": 271,
+        "2024-03": 246,
+        "2024-04": 267,
+        "2024-05": 221,
+        "2024-06": 335,
+        "2024-07": 294,
+        "2024-08": 374,
+        "2024-09": 360,
+        "2024-10": 372,
+        "2024-11": 409,
+        "2024-12": 383
+      },
+      "2025": {
+        "2025-01": 262,
+        "2025-02": 237,
+        "2025-03": 280,
+        "2025-04": 316,
+        "2025-05": 346,
+        "2025-06": 355,
+        "2025-07": 426,
+        "2025-08": 315,
+        "2025-09": 330,
+        "2025-10": 339,
+        "2025-11": 431,
+        "2025-12": 623
+      },
+      "2026": {
+        "2026-01": 260,
+        "2026-02": 308,
+        "2026-03": 427,
+        "2026-04": 389,
+        "2026-05": 382,
+        "2026-06": 386,
+        "2026-07": 462,
+        "2026-08": 410,
+        "2026-09": 479,
+        "2026-10": 361
+      }
+    },
+    "mensualOrdenes": {
+      "2024": {
+        "2024-01": 599,
+        "2024-02": 1319,
+        "2024-03": 751,
+        "2024-04": 1196,
+        "2024-05": 1388,
+        "2024-06": 2486,
+        "2024-07": 2207,
+        "2024-08": 1686,
+        "2024-09": 1509,
+        "2024-10": 1162,
+        "2024-11": 3142,
+        "2024-12": 8806
+      },
+      "2025": {
+        "2025-01": 1142,
+        "2025-02": 1253,
+        "2025-03": 1686,
+        "2025-04": 1306,
+        "2025-05": 2269,
+        "2025-06": 3836,
+        "2025-07": 2535,
+        "2025-08": 941,
+        "2025-09": 2437,
+        "2025-10": 3197,
+        "2025-11": 1869,
+        "2025-12": 8854
+      },
+      "2026": {
+        "2026-01": 2549,
+        "2026-02": 1362,
+        "2026-03": 3558,
+        "2026-04": 3600,
+        "2026-05": 4105,
+        "2026-06": 1934,
+        "2026-07": 4239,
+        "2026-08": 2192,
+        "2026-09": 5220,
+        "2026-10": 6104
+      }
+    },
+    "ordenesPorAnio": {
+      "2024": 26251,
+      "2025": 31325,
+      "2026": 34863
+    },
+    "porAsignado": {
+      "Juan Pinzon": {
+        "2022": 1430,
+        "2023": 2391,
+        "2024": 1960,
+        "2025": 2372,
+        "2026": 1993
+      },
+      "Anlly Giraldo": {
+        "2022": 0,
+        "2023": 0,
+        "2024": 0,
+        "2025": 878,
+        "2026": 2006
+      },
+      "Brenda Vasquez": {
+        "2022": 2546,
+        "2023": 2339,
+        "2024": 1905,
+        "2025": 1123,
+        "2026": 0
+      }
+    }
   }
 }
