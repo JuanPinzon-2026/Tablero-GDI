@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T19:44:56.583167+00:00",
+  "generatedAt": "2026-10-21T20:14:57.647199+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -260949,8 +260949,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sincronizacion de stock AVA",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-21",
@@ -260966,8 +260966,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sincronizacion de stock AVA",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-21",
@@ -260983,8 +260983,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Retenida por falta de stock, se reenvia y queda liberada (Sincronizacion de stock AVA)",
+      "liberada": ""
     },
     {
       "fecha": "2026-10-21",
@@ -261000,8 +261000,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Retenida por falta de stock, se reenvia y queda liberada (Sincronizacion de stock AVA)",
+      "liberada": ""
     },
     {
       "fecha": "2026-10-21",
@@ -261017,8 +261017,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sincronizacion de stock AVA",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-21",
@@ -261034,8 +261034,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sincronizacion de stock AVA",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-21",
@@ -261051,8 +261051,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sincronizacion de stock AVA",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-21",
@@ -261272,8 +261272,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Validar generacion de guia en seller",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-20",
@@ -261289,8 +261289,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Validar generacion de guia en seller",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-20",
@@ -261306,8 +261306,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Validar generacion de guia en seller",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-20",
@@ -261323,8 +261323,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "No results from DB for sku AS207EPS98 type skuProvider country MX customerId MMAMXMKMEL",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-20",
@@ -261340,8 +261340,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "No results from DB for sku AS207EPS98 type skuProvider country MX customerId MMAMXMKMEL",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-21",
@@ -261357,8 +261357,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin inventario en IXL",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-21",
@@ -261374,8 +261374,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin inventario en IXL",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-21",
@@ -261391,8 +261391,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Envio de estado Provider para generacion de guia",
+      "liberada": "Escalado con Cristian V"
     },
     {
       "fecha": "2026-10-21",
