@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T15:15:00.529477+00:00",
+  "generatedAt": "2026-10-21T15:44:58.742399+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -255689,7 +255689,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Operaciones Solucionado",
       "ov": "9336-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97536",
@@ -255706,7 +255706,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Operaciones Solucionado",
       "ov": "9375-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97536",
@@ -255723,7 +255723,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Operaciones Solucionado",
       "ov": "9437-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97536",
@@ -255740,7 +255740,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Operaciones Solucionado",
       "ov": "9439-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97536",
@@ -255757,7 +255757,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Operaciones Solucionado",
       "ov": "9456-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97536",
@@ -255774,7 +255774,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Operaciones Solucionado",
       "ov": "9524-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97536",
@@ -259062,7 +259062,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
+      "detalle": "Orden Fullfilment con error",
       "liberada": "Liberada"
     },
     {
@@ -259164,7 +259164,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
+      "detalle": "Orden Fullfilment con error",
       "liberada": "Liberada"
     },
     {
@@ -259175,14 +259175,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018858562136",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Error en released",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-07",
@@ -259192,14 +259192,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018858558486",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Error en released",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-07",
@@ -259215,7 +259215,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
+      "detalle": "Orden Fullfilment con error",
       "liberada": "Liberada"
     },
     {
@@ -259300,7 +259300,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
+      "detalle": "Orden Fullfilment con error",
       "liberada": "Liberada"
     },
     {
@@ -259317,7 +259317,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
+      "detalle": "Orden Fullfilment con error",
       "liberada": "Liberada"
     },
     {
@@ -259334,7 +259334,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
+      "detalle": "Orden Fullfilment con error",
       "liberada": "Liberada"
     },
     {
@@ -259351,7 +259351,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
+      "detalle": "Orden Fullfilment con error",
       "liberada": "Liberada"
     },
     {
@@ -259368,7 +259368,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
+      "detalle": "Orden Fullfilment con error",
       "liberada": "Liberada"
     },
     {
@@ -259379,14 +259379,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018895391518",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-09",
@@ -259396,14 +259396,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018897741036",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-09",
@@ -259413,14 +259413,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018899856856",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-10",
@@ -259430,14 +259430,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018900972356",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-10",
@@ -259447,14 +259447,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018901465404",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259464,14 +259464,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018901465406",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259481,14 +259481,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018901729878",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-10",
@@ -259498,14 +259498,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018902616654",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259515,14 +259515,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018902729334",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259532,14 +259532,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018902762480",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259549,14 +259549,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018902755182",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259566,14 +259566,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018902938992",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259583,14 +259583,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018902927900",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259600,14 +259600,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018902948306",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259617,14 +259617,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
-      "ov": "2000018903647558",
+      "pen": "Operaciones Solucionado",
+      "ov": "2000018903647550",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259634,14 +259634,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018905134948",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259651,14 +259651,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018905119656",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259668,14 +259668,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018905191764",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-10",
@@ -259685,14 +259685,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018905454114",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259702,14 +259702,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018905718820",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259719,14 +259719,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
-      "ov": "2000018905795698",
+      "pen": "Operaciones Solucionado",
+      "ov": "2000018905795690",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259736,14 +259736,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018911618752",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259753,14 +259753,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018912123238",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259770,14 +259770,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018913180910",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259787,14 +259787,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018918358626",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-11",
@@ -259804,14 +259804,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018919807056",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-11",
@@ -259821,14 +259821,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018919807096",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-11",
@@ -259838,14 +259838,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018919810902",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-11",
@@ -259855,14 +259855,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018923546224",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-11",
@@ -259872,14 +259872,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018926991152",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-11",
@@ -259889,14 +259889,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018927590494",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-11",
@@ -259906,14 +259906,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018928765726",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-11",
@@ -259923,14 +259923,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018931850006",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-11",
@@ -259940,14 +259940,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018931910308",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-11",
@@ -259957,14 +259957,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018931918458",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-11",
@@ -259974,14 +259974,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018932878376",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-12",
@@ -259991,14 +259991,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018933664838",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-12",
@@ -260008,14 +260008,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018934441470",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-12",
@@ -260025,14 +260025,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018937777960",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-12",
@@ -260042,14 +260042,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018942484954",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-12",
@@ -260059,14 +260059,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3257050037",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-12",
@@ -260076,14 +260076,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018942912400",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-12",
@@ -260093,14 +260093,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018943140132",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-12",
@@ -260110,14 +260110,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018943167632",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-12",
@@ -260127,14 +260127,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018943520718",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-12",
@@ -260144,14 +260144,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018946872072",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -260161,14 +260161,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3257172971",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-13",
@@ -260178,14 +260178,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3257178905",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-13",
@@ -260195,14 +260195,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018968685092",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-14",
@@ -260212,14 +260212,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018969446000",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-14",
@@ -260229,14 +260229,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018970936536",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-14",
@@ -260246,14 +260246,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018971993632",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-14",
@@ -260263,14 +260263,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018972030392",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-14",
@@ -260280,14 +260280,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018972707994",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-14",
@@ -260297,14 +260297,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018973998168",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-14",
@@ -260314,14 +260314,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018976684522",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-14",
@@ -260331,14 +260331,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018976855120",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-14",
@@ -260348,14 +260348,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018978445864",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-14",
@@ -260365,14 +260365,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018980107452",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-14",
@@ -260382,14 +260382,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018980135020",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-14",
@@ -260399,14 +260399,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018983107734",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-14",
@@ -260416,14 +260416,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018986147096",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-15",
@@ -260433,14 +260433,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018992024340",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-15",
@@ -260450,14 +260450,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018994270890",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-16",
@@ -260467,14 +260467,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000019015531872",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-19",
@@ -260484,14 +260484,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000019057514066",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -260501,14 +260501,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000019072760424",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Fullfilment",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-06",
@@ -260518,14 +260518,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018837132570",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-06",
@@ -260535,14 +260535,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018841080172",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-12",
@@ -260552,14 +260552,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018937522246",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -260569,14 +260569,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "702-5579175-9886602",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes Fulfilment sin revisar",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden Fullfilment con error",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-16",
@@ -261082,6 +261082,125 @@
       "pen": "",
       "ov": "X-46000016500",
       "ticket": "ITHD-97582",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-21",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9563-LACOSTE_COL",
+      "ticket": "ITHD-97583",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-21",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9558-LACOSTE_COL_LACCOWL180",
+      "ticket": "ITHD-97585",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-21",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9560-LACOSTE_COL_LACCOWL180",
+      "ticket": "ITHD-97585",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-21",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9566-LACOSTE_COL_LACCOWL180",
+      "ticket": "ITHD-97585",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-21",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9583-LACOSTE_COL_LACCOWL180",
+      "ticket": "ITHD-97585",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-21",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9584-LACOSTE_COL_LACCOWL180",
+      "ticket": "ITHD-97585",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-21",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9592-LACOSTE_COL_LACCOWL180",
+      "ticket": "ITHD-97585",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
@@ -280973,6 +281092,2016 @@
       "ov": "2000017847058782",
       "pais": "COLOMBIA",
       "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "6826-CROCS_CRC_CCSCRWL180",
+      "pais": "RICA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "6806-CROCS_CRC_CCSCRWL180",
+      "pais": "RICA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "1213_RUNGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "Guatemala"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9280-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9294-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9298-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9301-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9312-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9314-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9321-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9328-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9344-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9346-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9352-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9355-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9361-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9364-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9365-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9369-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9372-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9384-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9385-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9393-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9408-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9409-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9412-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9413-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9419-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9424-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9434-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9443-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9449-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9458-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9472-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9473-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9491-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9492-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9498-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9336-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9375-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9437-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9439-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9456-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9524-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9532-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9534-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "JB-MX00277671",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "JB-CL00180720",
+      "pais": "CHILE",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "JB-CL00180797",
+      "pais": "CHILE",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-MX00277617",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9334-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9343-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9345-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9360-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9377-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9383-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9389-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9410-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9421-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9423-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9433-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9444-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9452-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9453-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9457-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9467-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9478-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "9520-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-16",
+      "ov": "1669370594498-01",
+      "pais": "PERU",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00249525_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00249555_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00249537_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00249564_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00249677_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00249693_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00249706_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00249712_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00249821_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00249948_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250050_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250058_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250022_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250102_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250133_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250244_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250180_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250193_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250194_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250275_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250210_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250211_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00249755",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00249970",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250117",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250263",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250473",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250484",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250411",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250495",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250496",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250425",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250511",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250291",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250292",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019062152954_JBLUYMKMEL",
+      "pais": "URUGUAY",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019062359854_JBLUYMKMEL",
+      "pais": "URUGUAY",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "702-4170213-7675469_MMAMXMKAMA",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019062013736_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019015787622_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "3257506094_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "4912641001785_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019055878704_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "3257712494_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019061973702_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "3257736481_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019062105190_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "3257749354_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019065564100_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019023573300_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019024645784_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019024705314_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019024717856_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019026501032_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019027024572_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019028169466_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019028803420_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019030228900_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "600000133175771_MMAMXMKWAL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019033288804_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019034108492_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019036871732_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019038138546_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019044349138_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019044528084_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019052064112_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019053671498_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019055238670_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019056546848_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019058939158_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019060754642_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019060949732_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019061009960_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019061174254_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "2000019062196252_EPSECMKMEL",
+      "pais": "ECUADOR",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-15",
+      "ov": "3255538045_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "3255557073_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-16",
+      "ov": "3255561322_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-15",
+      "ov": "3255619229_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-15",
+      "ov": "3255756045_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-16",
+      "ov": "3255843240_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "3255991415_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-16",
+      "ov": "3256011238_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-15",
+      "ov": "3256030480_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-15",
+      "ov": "3256033934_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-16",
+      "ov": "3256049763_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-16",
+      "ov": "3256049763_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "3256049518_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-16",
+      "ov": "3256070932_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-16",
+      "ov": "3256087279_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-16",
+      "ov": "3256106375_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-16",
+      "ov": "3256171695_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-16",
+      "ov": "3256201528_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-16",
+      "ov": "3256260757_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-08",
+      "ov": "3150941020_MMACLMKPAR",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "3256260946_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-16",
+      "ov": "3256265071_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-15",
+      "ov": "3256268367_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "3256273453_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "3256274013_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "3256295470_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-15",
+      "ov": "3256323837_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "3256347545_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "3256362435_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "3256446642_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "3256462131_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-15",
+      "ov": "3256481229_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-15",
+      "ov": "3256482811_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "3256494228_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "3256495888_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-15",
+      "ov": "3256505041_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "3256520317_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "3256548039_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "25332468401-A_JBLCLMKRIP",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "2000019059246524_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019059516452_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "2000019059552388_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "2000019059707354_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "2000019059765860_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "3257724674_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "2000019060008978_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "2000019061031934_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-PE00209005",
+      "pais": "PERU",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-PE00209195",
+      "pais": "PERU",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2272-CROCS_PAN",
+      "pais": "PANAMA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "2274-CROCS_PAN",
+      "pais": "PANAMA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "validar configuracion BO - CUS ID TRAX",
+      "pais": "REGIONAL",
+      "marca": "Dropship"
+    },
+    {
+      "fecha": "2026-10-01",
+      "ov": "2000018737808802",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-04",
+      "ov": "2000018795483852",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "2000018799046890",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "2000018799041638",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "2000018799609142",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "2000018799601624",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "2000018802676928",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "2000018803960910",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "2000018803961626",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "3254584640",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "2000018808160348",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "2000018809267018",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "2000018809372778",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "2000018809419008",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "2000018809610262",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-05",
+      "ov": "2000018817817870",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018822931260",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018826340090",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018830494760",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018831236360",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018831564888",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018831654988",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018831677006",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018832094100",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018836585686",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018836591986",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018836717092",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018836713936",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018836747002",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018836801496",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018836876406",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018836889624",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018837005796",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018837098874",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018837395948",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018837455604",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018837473080",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018837473170",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018837526916",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018837873394",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018839727164",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018841202384",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-07",
+      "ov": "2000018849279746",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-07",
+      "ov": "2000018851526512",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-07",
+      "ov": "2000018851527986",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-07",
+      "ov": "2000018851532012",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-07",
+      "ov": "2000018855182580",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-07",
+      "ov": "2000018858562136",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-07",
+      "ov": "2000018858558486",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-07",
+      "ov": "2000018862314838",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-07",
+      "ov": "3256518368",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-08",
+      "ov": "3256538910",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-08",
+      "ov": "2000018869651360",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-08",
+      "ov": "2000018874213628",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-08",
+      "ov": "2000018883620730",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-09",
+      "ov": "2000018886024150",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-09",
+      "ov": "2000018890865852",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-09",
+      "ov": "2000018893206110",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-09",
+      "ov": "2000018893421572",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-09",
+      "ov": "2000018895391518",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-09",
+      "ov": "2000018897741036",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-09",
+      "ov": "2000018899856856",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018900972356",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018901465404",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018901465406",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018901729878",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018902616654",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018902729334",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018902762480",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018902755182",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018902938992",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018902927900",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018902948306",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018903647550",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018905134948",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018905119656",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018905191764",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018905454114",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018905718820",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018905795690",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018911618752",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018912123238",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018913180910",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "2000018918358626",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "2000018919807056",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "2000018919807096",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "2000018919810902",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "2000018923546224",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "2000018926991152",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "2000018927590494",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "2000018928765726",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "2000018931850006",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "2000018931910308",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "2000018931918458",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "2000018932878376",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-12",
+      "ov": "2000018933664838",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-12",
+      "ov": "2000018934441470",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-12",
+      "ov": "2000018937777960",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-12",
+      "ov": "2000018942484954",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-12",
+      "ov": "3257050037",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-12",
+      "ov": "2000018942912400",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-12",
+      "ov": "2000018943140132",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-12",
+      "ov": "2000018943167632",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-12",
+      "ov": "2000018943520718",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-12",
+      "ov": "2000018946872072",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3257172971",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3257178905",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "2000018968685092",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "2000018969446000",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "2000018970936536",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "2000018971993632",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "2000018972030392",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "2000018972707994",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "2000018973998168",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "2000018976684522",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "2000018976855120",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "2000018978445864",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "2000018980107452",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "2000018980135020",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "2000018983107734",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-14",
+      "ov": "2000018986147096",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-15",
+      "ov": "2000018992024340",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-15",
+      "ov": "2000018994270890",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-16",
+      "ov": "2000019015531872",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "2000019057514066",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "2000019072760424",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018837132570",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-06",
+      "ov": "2000018841080172",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-12",
+      "ov": "2000018937522246",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "702-5579175-9886602",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-16",
+      "ov": "IX-46000016869",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "679728",
+      "pais": "CHILE",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-10-19",
+      "ov": "679730",
+      "pais": "CHILE",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-10-17",
+      "ov": "44420-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "R1_44086-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "2000019081366290",
+      "pais": "ECUADOR",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-20",
+      "ov": "JB-CO00250532",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-09-20",
+      "ov": "43333-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-18",
+      "ov": "10429_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
     },
     {
       "fecha": "2026-08-21",
