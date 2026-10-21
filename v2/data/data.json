@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T20:14:57.647199+00:00",
+  "generatedAt": "2026-10-21T22:26:35.511823+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -247836,10 +247836,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "204300002320898",
       "ticket": "ITHD-97391",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Generacion manual de Placeorder",
@@ -247853,10 +247853,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "204300002320968",
       "ticket": "ITHD-97391",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden es sin ID de cotizacion",
@@ -254466,14 +254466,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "44274-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97512",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin facturar en NS falta de stock",
-      "liberada": "Escalado Claudia Peñaloza"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-19",
@@ -255860,14 +255860,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CL00180797",
       "ticket": "ITHD-97540",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden no ingreso a IX",
-      "liberada": "Escalado con la marca"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -258325,14 +258325,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2272-CROCS_PAN",
       "ticket": "ITHD-97556",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Codigo de descuento erroneo",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -258342,14 +258342,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2274-CROCS_PAN",
       "ticket": "ITHD-97556",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Codigo de descuento erroneo",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -260688,10 +260688,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CO00250532",
       "ticket": "ITHD-97569",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden llego por fuera del corte de servicio",
@@ -260705,10 +260705,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "43333-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97570",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Campo lastname en Null",
@@ -260722,10 +260722,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "10429_DOCCLWL180",
       "ticket": "ITHD-97571",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "sin falla al revisar",
@@ -260739,10 +260739,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "6001060143-A",
       "ticket": "ITHD-97573",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "PaymentTypeId en null",
@@ -260756,10 +260756,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "63001060284-A",
       "ticket": "ITHD-97573",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "PaymentTypeId en null",
@@ -260773,10 +260773,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "6001061058-A",
       "ticket": "ITHD-97573",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "PaymentTypeId en null",
@@ -260790,10 +260790,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "594626",
       "ticket": "ITHD-97574",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Pago tipo splitt",
@@ -260807,10 +260807,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "IX-43000024531",
       "ticket": "ITHD-97575",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Error en medidas",
@@ -260943,14 +260943,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "42921-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97579",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "detalle": "Sin respuesta a la capa de envento PICKUP_READY para facturar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -260977,14 +260977,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "44607-CROCS_COL",
       "ticket": "ITHD-97580",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Retenida por falta de stock, se reenvia y queda liberada (Sincronizacion de stock AVA)",
-      "liberada": ""
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -260994,14 +260994,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "44609-CROCS_COL",
       "ticket": "ITHD-97580",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Retenida por falta de stock, se reenvia y queda liberada (Sincronizacion de stock AVA)",
-      "liberada": ""
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -261079,10 +261079,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "X-46000016500",
       "ticket": "ITHD-97582",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Reenvio de orden",
@@ -261402,14 +261402,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00063819",
       "ticket": "ITHD-97590",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Servicio se encontraba desactivado cuando orden llego",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -261419,14 +261419,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "HO3565",
       "ticket": "ITHD-97592",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Servicio se encontraba desactivado cuando orden llego",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -261436,14 +261436,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "HO3566",
       "ticket": "ITHD-97592",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Servicio se encontraba desactivado cuando orden llego",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-17",
@@ -261476,7 +261476,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261493,7 +261493,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261510,7 +261510,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261527,7 +261527,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261544,7 +261544,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261561,7 +261561,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261578,7 +261578,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261595,7 +261595,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261612,7 +261612,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261629,7 +261629,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261646,7 +261646,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261663,7 +261663,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261680,7 +261680,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261697,7 +261697,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261714,7 +261714,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261731,7 +261731,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261748,7 +261748,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261765,7 +261765,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261782,7 +261782,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261799,7 +261799,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261816,7 +261816,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261833,7 +261833,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261850,7 +261850,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261867,7 +261867,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261884,7 +261884,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261901,7 +261901,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Diferencia de valores (falta de promocodes)",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -261918,8 +261918,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Medidas no disponibles para tipo de servicio",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -261935,8 +261935,59 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Producto no configurado",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-21",
+      "marca": "MKP",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000019097459240_MMACOMKMEL",
+      "ticket": "ITHD-97599",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "No results from DB for sku PT336EPS08 type skuProvider country CO customerId MMACOMKMEL",
+      "liberada": "Escalado operaciones"
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-21",
+      "marca": "Crocs",
+      "pais": "Costa Rica",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "6841-CROCS_CRC",
+      "ticket": "ITHD-97600",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-21",
+      "marca": "MKP",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "62001061616-A",
+      "ticket": "ITHD-97602",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
     }
   ],
   "ingresadas": [
