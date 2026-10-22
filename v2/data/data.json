@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T14:31:13.782319+00:00",
+  "generatedAt": "2026-10-22T17:01:54.471482+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -258365,8 +258365,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Ajuste  configuracion en trax",
+      "liberada": "Escalado con Trax"
     },
     {
       "fecha": "2026-10-01",
@@ -260824,14 +260824,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "1214_RUNGTWL180",
       "ticket": "ITHD-97576",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Campo lastname en Null",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-18",
@@ -261459,8 +261459,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Envio de estado Pickup",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-20",
@@ -261946,14 +261946,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Operaciones Solucionado",
       "ov": "2000019097459240_MMACOMKMEL",
       "ticket": "ITHD-97599",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "No results from DB for sku PT336EPS08 type skuProvider country CO customerId MMACOMKMEL",
-      "liberada": "Escalado operaciones"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -261969,8 +261969,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -261986,8 +261986,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "PaymentTypeId en null",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -262003,8 +262003,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Campo lastname en Null",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -262020,8 +262020,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Niveles geograficos erroneos desde Kronotime",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -262037,8 +262037,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Niveles geograficos erroneos desde NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-22",
@@ -262054,6 +262054,176 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
+      "detalle": "descuento erroneo desde Kronotime",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-22",
+      "marca": "Har",
+      "pais": "man Audio",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HA-MX00071831",
+      "ticket": "ITHD-97609",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Orden sin stock HA",
+      "liberada": "Sin stock"
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-22",
+      "marca": "Har",
+      "pais": "man Audio",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HA-MX00071790",
+      "ticket": "ITHD-97609",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Timeout en order created",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-22",
+      "fn": "2026-10-22",
+      "marca": "JBL",
+      "pais": "MEXICO",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-MX00277954",
+      "ticket": "ITHD-97609",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Orden no ha ingresado a IX",
+      "liberada": "Escalado con la marca"
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-22",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3567",
+      "ticket": "ITHD-97611",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Retenida por tipo de servicio desactivado",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-22",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3568",
+      "ticket": "ITHD-97611",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Retenida por tipo de servicio desactivado",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-22",
+      "marca": "Dockers",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "10471_DOCCLWL180",
+      "ticket": "ITHD-97610",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": "Sin niveles geograficos ni direccion",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-22",
+      "marca": "JBL",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-GT00063748",
+      "ticket": "ITHD-97612",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Medidas no disponibles para tipo de servicio",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-22",
+      "marca": "New Balance",
+      "pais": "Salvador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1322_NEBSVWL180",
+      "ticket": "ITHD-97615",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-22",
+      "marca": "New Balance",
+      "pais": "Salvador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1323_NEBSVWL180",
+      "ticket": "ITHD-97615",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-22",
+      "marca": "New Balance",
+      "pais": "Salvador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1324_NEBSVWL180",
+      "ticket": "ITHD-97615",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
       "detalle": "",
       "liberada": ""
     }
