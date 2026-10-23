@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T14:31:30.244607+00:00",
+  "generatedAt": "2026-10-23T17:01:45.628564+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -253810,7 +253810,7 @@
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con la Capa"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-07",
@@ -254296,14 +254296,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "JB-MX00277196",
       "ticket": "ITHD-97499",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Kits with price zero detected. Please check Trax configuration",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-17",
@@ -254313,14 +254313,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "JB-MX00277197",
       "ticket": "ITHD-97499",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Kits with price zero detected. Please check Trax configuration",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-17",
@@ -254330,14 +254330,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "JB-MX00277317",
       "ticket": "ITHD-97499",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Kits with price zero detected. Please check Trax configuration",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-19",
@@ -254364,14 +254364,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "JB-MX00277646",
       "ticket": "ITHD-97499",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Kits with price zero detected. Please check Trax configuration",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-15",
@@ -256598,7 +256598,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -256683,7 +256683,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -256700,7 +256700,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -256717,7 +256717,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -256734,7 +256734,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -256751,7 +256751,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -256768,7 +256768,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -260857,7 +260857,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "reasignar",
       "pen": "Operaciones Solucionado",
       "ov": "44561-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97578",
@@ -260891,7 +260891,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "reasignar",
       "pen": "Operaciones Solucionado",
       "ov": "44580-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97578",
@@ -261477,7 +261477,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261494,7 +261494,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261511,7 +261511,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261528,7 +261528,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261545,7 +261545,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261562,7 +261562,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261579,7 +261579,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261596,7 +261596,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261613,7 +261613,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261630,7 +261630,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261647,7 +261647,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261664,7 +261664,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261681,7 +261681,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261698,7 +261698,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261715,7 +261715,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261732,7 +261732,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261749,7 +261749,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261766,7 +261766,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261783,7 +261783,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261800,7 +261800,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261817,7 +261817,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261834,7 +261834,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261851,7 +261851,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261868,7 +261868,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261885,7 +261885,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -261902,7 +261902,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-20",
@@ -262445,8 +262445,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Niveles geograficos erroneos en NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-22",
@@ -262462,7 +262462,296 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Niveles geograficos erroneos en NS",
+      "detalle": "Niveles geograficos erroneos en Kronotime",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-20",
+      "fn": "2026-10-23",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "44621-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97628",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": "Ordene sin estado de Pickup",
+      "liberada": "Escalado con Driver"
+    },
+    {
+      "fecha": "2026-10-23",
+      "fn": "2026-10-23",
+      "marca": "MKP",
+      "pais": "Ecuador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000019125077420_APLECMKMEL",
+      "ticket": "ITHD-97629",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-23",
+      "marca": "MKP",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000015645524731_CCSCOMKMEL",
+      "ticket": "ITHD-97630",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-23",
+      "marca": "MKP",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "3257951544_MMAPEMKFAL",
+      "ticket": "ITHD-97633",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-23",
+      "marca": "MKP",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000019116131132_MMAPEMKMEL",
+      "ticket": "ITHD-97633",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-22",
+      "fn": "2026-10-23",
+      "marca": "JBL",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-GT00064054",
+      "ticket": "ITHD-97635",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-22",
+      "fn": "2026-10-23",
+      "marca": "JBL",
+      "pais": "CHILE",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-CL00181094",
+      "ticket": "ITHD-97638",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-22",
+      "fn": "2026-10-23",
+      "marca": "Har",
+      "pais": "man Audio",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HA-MX00072209",
+      "ticket": "ITHD-97639",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-23",
+      "fn": "2026-10-23",
+      "marca": "MKP",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "16779-ON_COL_ONRCOWL180",
+      "ticket": "ITHD-97637",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-23",
+      "fn": "2026-10-23",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "44695-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97640",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-23",
+      "fn": "2026-10-23",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "44699-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97641",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-23",
+      "fn": "2026-10-23",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "44704-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97641",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-23",
+      "fn": "2026-10-23",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "44727-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97641",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-23",
+      "fn": "2026-10-23",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "44729-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97641",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-23",
+      "fn": "2026-10-23",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "44731-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97641",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-23",
+      "fn": "2026-10-23",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "44768-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97641",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-23",
+      "fn": "2026-10-23",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "44777-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97641",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
       "liberada": ""
     }
   ],
