@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T21:26:03.229168+00:00",
+  "generatedAt": "2026-10-23T14:31:30.244607+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -254296,14 +254296,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "JB-MX00277196",
       "ticket": "ITHD-97499",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Kits with price zero detected. Please check Trax configuration",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-17",
@@ -254313,14 +254313,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "JB-MX00277197",
       "ticket": "ITHD-97499",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Kits with price zero detected. Please check Trax configuration",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-17",
@@ -254330,14 +254330,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "JB-MX00277317",
       "ticket": "ITHD-97499",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Kits with price zero detected. Please check Trax configuration",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-19",
@@ -254364,14 +254364,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Continuidad",
       "ov": "JB-MX00277646",
       "ticket": "ITHD-97499",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Kits with price zero detected. Please check Trax configuration",
-      "liberada": "Escalado operaciones"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-15",
@@ -256591,14 +256591,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "JB-CO00249755",
       "ticket": "ITHD-97547",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Diferencia de valores",
-      "liberada": "Orden cancelada"
+      "detalle": "Diferencia de valores (falta de promocodes)",
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -256676,14 +256676,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "JB-CO00250484",
       "ticket": "ITHD-97547",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Orden cancelada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -256693,14 +256693,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "JB-CO00250411",
       "ticket": "ITHD-97547",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Orden cancelada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -256710,14 +256710,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "JB-CO00250495",
       "ticket": "ITHD-97547",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Orden cancelada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -256727,14 +256727,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "JB-CO00250496",
       "ticket": "ITHD-97547",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Orden cancelada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -256744,14 +256744,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "JB-CO00250425",
       "ticket": "ITHD-97547",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Orden cancelada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -256761,14 +256761,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "JB-CO00250511",
       "ticket": "ITHD-97547",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Diferencia de valores (falta de promocodes)",
-      "liberada": "Orden cancelada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-20",
@@ -262099,14 +262099,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00277954",
       "ticket": "ITHD-97609",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden no ha ingresado a IX",
-      "liberada": "Escalado con la marca"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -262243,6 +262243,227 @@
       "canal": "",
       "detalle": "Error interno Mienvio",
       "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-22",
+      "fn": "2026-10-22",
+      "marca": "Apple",
+      "pais": "Ecuador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1024_DINECWL180",
+      "ticket": "ITHD-97619",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Marca no entregada a continuidad",
+      "liberada": "Marcha blanca"
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-22",
+      "marca": "EPSON",
+      "pais": "Chile Whitelabel 360",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "IX-46000017025",
+      "ticket": "ITHD-97620",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Servicio se encontraba desactivado cuando orden llego",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-21",
+      "fn": "2026-10-22",
+      "marca": "EPSON",
+      "pais": "Chile Whitelabel 360",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "IX-46000017034",
+      "ticket": "ITHD-97620",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Servicio se encontraba desactivado cuando orden llego",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-22",
+      "fn": "2026-10-22",
+      "marca": "Kenneth Cole",
+      "pais": "Costa Rica",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1080_KENCRWL180",
+      "ticket": "ITHD-97621",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-22",
+      "fn": "2026-10-22",
+      "marca": "Har",
+      "pais": "man Audio",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HA-MX00072101",
+      "ticket": "ITHD-97622",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-22",
+      "fn": "2026-10-22",
+      "marca": "Har",
+      "pais": "man Audio",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HA-MX00072102",
+      "ticket": "ITHD-97622",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Orden sin stock JBL",
+      "liberada": "Sin stock"
+    },
+    {
+      "fecha": "2026-10-22",
+      "fn": "2026-10-22",
+      "marca": "JBL",
+      "pais": "MEXICO",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-MX00278246",
+      "ticket": "ITHD-97622",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-22",
+      "fn": "2026-10-22",
+      "marca": "Har",
+      "pais": "man Audio",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HA-MX00072199",
+      "ticket": "ITHD-97622",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-22",
+      "fn": "2026-10-22",
+      "marca": "Har",
+      "pais": "man Kardon",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HK-MX00069672",
+      "ticket": "ITHD-97622",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Error en la generacion del costumer Order",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-22",
+      "fn": "2026-10-22",
+      "marca": "Har",
+      "pais": "man Audio",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HA-MX00072203",
+      "ticket": "ITHD-97622",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-22",
+      "fn": "2026-10-22",
+      "marca": "Har",
+      "pais": "man Audio",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HA-MX00072107",
+      "ticket": "ITHD-97622",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Orden mal configurado en PIM",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-22",
+      "fn": "2026-10-23",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000019130273628_MMACOMKMEL",
+      "ticket": "ITHD-97626",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-22",
+      "fn": "2026-10-23",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "16774-ON_COL_ONRCOWL180",
+      "ticket": "ITHD-97627",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Niveles geograficos erroneos en NS",
+      "liberada": ""
     }
   ],
   "ingresadas": [
@@ -291831,6 +292052,156 @@
       "ov": "JB-CL00173003",
       "pais": "CHILE",
       "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "9617-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "3258016913_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-22",
+      "ov": "2280-CROCS_PAN",
+      "pais": "PANAMÁ",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "HA-MX00071831",
+      "pais": "AUDIO",
+      "marca": "Har"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "HA-MX00071790",
+      "pais": "AUDIO",
+      "marca": "Har"
+    },
+    {
+      "fecha": "2026-10-22",
+      "ov": "JB-MX00277954",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "HO3567",
+      "pais": "CHILE",
+      "marca": "Honor"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "HO3568",
+      "pais": "CHILE",
+      "marca": "Honor"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "10471_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "JB-GT00063748",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "1322_NEBSVWL180",
+      "pais": "SALVADOR",
+      "marca": "New Balance"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "1323_NEBSVWL180",
+      "pais": "SALVADOR",
+      "marca": "New Balance"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "1324_NEBSVWL180",
+      "pais": "SALVADOR",
+      "marca": "New Balance"
+    },
+    {
+      "fecha": "2026-10-22",
+      "ov": "IX-40000060864",
+      "pais": "COLOMBIA",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-10-22",
+      "ov": "1024_DINECWL180",
+      "pais": "ECUADOR",
+      "marca": "Apple"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "IX-46000017025",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "IX-46000017034",
+      "pais": "360",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-10-22",
+      "ov": "1080_KENCRWL180",
+      "pais": "RICA",
+      "marca": "Kenneth Cole"
+    },
+    {
+      "fecha": "2026-10-22",
+      "ov": "HA-MX00072101",
+      "pais": "AUDIO",
+      "marca": "Har"
+    },
+    {
+      "fecha": "2026-10-22",
+      "ov": "HA-MX00072102",
+      "pais": "AUDIO",
+      "marca": "Har"
+    },
+    {
+      "fecha": "2026-10-22",
+      "ov": "JB-MX00278246",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-22",
+      "ov": "HA-MX00072199",
+      "pais": "AUDIO",
+      "marca": "Har"
+    },
+    {
+      "fecha": "2026-10-22",
+      "ov": "HK-MX00069672",
+      "pais": "KARDON",
+      "marca": "Har"
+    },
+    {
+      "fecha": "2026-10-22",
+      "ov": "HA-MX00072203",
+      "pais": "AUDIO",
+      "marca": "Har"
+    },
+    {
+      "fecha": "2026-10-22",
+      "ov": "HA-MX00072107",
+      "pais": "AUDIO",
+      "marca": "Har"
     },
     {
       "fecha": "2026-09-12",
@@ -350902,6 +351273,7 @@
     "2026-10-19": 1109,
     "2026-10-20": 1061,
     "2026-10-21": 1025,
+    "2026-10-22": 1050,
     "2026-09-01": 1114,
     "2026-09-02": 934,
     "2026-09-03": 1108,
@@ -351118,7 +351490,7 @@
     "2026-03-31": 1597
   },
   "ixcMes": {
-    "2026-10": 27053,
+    "2026-10": 28103,
     "2026-09": 28618,
     "2026-08": 35523,
     "2026-07": 38348,
