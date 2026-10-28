@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T20:42:39.036464+00:00",
+  "generatedAt": "2026-10-28T21:26:19.217935+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -258501,7 +258501,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden Fullfilment con error",
+      "detalle": "Orden sin stock Fullfilment",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -258654,7 +258654,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden Fullfilment con error",
+      "detalle": "Orden sin stock Fullfilment",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259175,14 +259175,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018858562136",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Error en released",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-07",
@@ -259192,14 +259192,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018858558486",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Error en released",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-07",
@@ -259447,14 +259447,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018901465404",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden Fullfilment con error",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -259464,14 +259464,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018901465406",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden Fullfilment con error",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -264859,8 +264859,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-27",
@@ -264876,8 +264876,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-18",
@@ -265516,14 +265516,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "45145-CROCS_COL",
       "ticket": "ITHD-97720",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin stock Crocs",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-26",
@@ -265533,14 +265533,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3256201295_MMACLMKFAL",
       "ticket": "ITHD-97726",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-26",
@@ -265550,14 +265550,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
-      "ov": "3256321949_MMACLMKFAL",
+      "pen": "Operaciones Solucionado",
+      "ov": "3256201295_MMACLMKFAL",
       "ticket": "ITHD-97726",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden duplicada",
+      "liberada": "Orden Duplicada"
     },
     {
       "fecha": "2026-10-26",
@@ -265567,14 +265567,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3256415726_MMACLMKFAL",
       "ticket": "ITHD-97726",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-26",
@@ -265590,8 +265590,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-26",
@@ -265607,8 +265607,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-26",
@@ -265624,8 +265624,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-26",
@@ -265641,8 +265641,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-26",
@@ -265658,8 +265658,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-26",
@@ -265675,8 +265675,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-26",
@@ -265692,8 +265692,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-26",
@@ -265703,14 +265703,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000019190312674_MMACLMKMEL",
       "ticket": "ITHD-97726",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin guia en Yuju, validar si seller cuenta con guia",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-26",
@@ -265726,8 +265726,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-26",
@@ -265743,8 +265743,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-26",
@@ -265760,8 +265760,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-26",
@@ -265777,8 +265777,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-26",
@@ -265794,8 +265794,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-27",
@@ -267641,14 +267641,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3258639475_MMACOMKFAL",
       "ticket": "ITHD-97743",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes de tipo FF no entregado a CO",
-      "liberada": "Marcha blanca"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-28",
@@ -267658,14 +267658,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3258641822_MMACOMKFAL",
       "ticket": "ITHD-97743",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes de tipo FF no entregado a CO",
-      "liberada": "Marcha blanca"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-28",
@@ -267675,14 +267675,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3258650710_MMACOMKFAL",
       "ticket": "ITHD-97743",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes de tipo FF no entregado a CO",
-      "liberada": "Marcha blanca"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-28",
@@ -267692,14 +267692,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3258653006_MMACOMKFAL",
       "ticket": "ITHD-97743",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes de tipo FF no entregado a CO",
-      "liberada": "Marcha blanca"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-28",
@@ -267709,14 +267709,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3258658378_MMACOMKFAL",
       "ticket": "ITHD-97743",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes de tipo FF no entregado a CO",
-      "liberada": "Marcha blanca"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-28",
@@ -267726,14 +267726,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3258665777_MMACOMKFAL",
       "ticket": "ITHD-97743",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes de tipo FF no entregado a CO",
-      "liberada": "Marcha blanca"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-28",
@@ -267743,14 +267743,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3258690964_MMACOMKFAL",
       "ticket": "ITHD-97743",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes de tipo FF no entregado a CO",
-      "liberada": "Marcha blanca"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-28",
@@ -267760,14 +267760,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3258692232_MMACOMKFAL",
       "ticket": "ITHD-97743",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes de tipo FF no entregado a CO",
-      "liberada": "Marcha blanca"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-28",
@@ -267777,14 +267777,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3258693404_MMACOMKFAL",
       "ticket": "ITHD-97743",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes de tipo FF no entregado a CO",
-      "liberada": "Marcha blanca"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-28",
@@ -267794,14 +267794,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3258698243_MMACOMKFAL",
       "ticket": "ITHD-97743",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes de tipo FF no entregado a CO",
-      "liberada": "Marcha blanca"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-28",
@@ -267811,14 +267811,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3258720477_MMACOMKFAL",
       "ticket": "ITHD-97743",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes de tipo FF no entregado a CO",
-      "liberada": "Marcha blanca"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-28",
@@ -267828,14 +267828,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3258727384_MMACOMKFAL",
       "ticket": "ITHD-97743",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes de tipo FF no entregado a CO",
-      "liberada": "Marcha blanca"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-28",
@@ -267845,14 +267845,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3258729367_MMACOMKFAL",
       "ticket": "ITHD-97743",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes de tipo FF no entregado a CO",
-      "liberada": "Marcha blanca"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-28",
@@ -267862,14 +267862,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3258732968_MMACOMKFAL",
       "ticket": "ITHD-97743",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes de tipo FF no entregado a CO",
-      "liberada": "Marcha blanca"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-28",
@@ -267879,14 +267879,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3258738569_MMACOMKFAL",
       "ticket": "ITHD-97743",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Ordenes de tipo FF no entregado a CO",
-      "liberada": "Marcha blanca"
+      "detalle": "Orden con guia en seller- sin guia en Yuju",
+      "liberada": "Escalado con Yuju"
     },
     {
       "fecha": "2026-10-28",
@@ -267964,14 +267964,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00064215",
       "ticket": "ITHD-97751",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Medidas no disponibles para tipo de servicio",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-26",
@@ -267981,14 +267981,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00278750",
       "ticket": "ITHD-97755",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin cobertura",
+      "liberada": "Sin cobertura"
     },
     {
       "fecha": "2026-10-27",
@@ -267998,14 +267998,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00042370",
       "ticket": "ITHD-97755",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Error 400 Mienvio",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-27",
@@ -268244,6 +268244,142 @@
       "canal": "",
       "detalle": "Orden con guia en seller- sin guia en Yuju",
       "liberada": "Escalado con Yuju"
+    },
+    {
+      "fecha": "2026-10-28",
+      "fn": "2026-10-28",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "45202-CROCS_COL",
+      "ticket": "ITHD-97759",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-28",
+      "fn": "2026-10-28",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "45162-CROCS_COL_CCSCOWL180",
+      "ticket": "",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-28",
+      "fn": "2026-10-28",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "45185-CROCS_COL_CCSCOWL180",
+      "ticket": "",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-27",
+      "fn": "2026-10-28",
+      "marca": "Dockers",
+      "pais": "Perú",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "3282_DOCPEWL180",
+      "ticket": "ITHD-97758",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-28",
+      "fn": "2026-10-28",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "45197-CROCS_COL_CCSCOWL180",
+      "ticket": "",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-28",
+      "fn": "2026-10-28",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "45204-CROCS_COL_CCSCOWL180",
+      "ticket": "",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-28",
+      "fn": "2026-10-28",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "45211-CROCS_COL_CCSCOWL180",
+      "ticket": "",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-28",
+      "fn": "2026-10-28",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "45220-CROCS_COL_CCSCOWL180",
+      "ticket": "",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     }
   ],
   "ingresadas": [
