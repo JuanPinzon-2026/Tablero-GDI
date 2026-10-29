@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T15:15:17.455298+00:00",
+  "generatedAt": "2026-10-29T17:00:49.420055+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -247071,14 +247071,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3256838692_MMAPEMKFAL",
       "ticket": "ITHD-97368",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Liberada"
+      "liberada": "Escalado con Customer Integration"
     },
     {
       "fecha": "2026-10-13",
@@ -247088,14 +247088,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "2000018908226806_MMAPEMKMEL",
       "ticket": "ITHD-97368",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Liberada"
+      "liberada": "Escalado con Customer Integration"
     },
     {
       "fecha": "2026-10-13",
@@ -247105,14 +247105,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "3256844895_MMAPEMKFAL",
       "ticket": "ITHD-97368",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Liberada"
+      "liberada": "Escalado con Customer Integration"
     },
     {
       "fecha": "2026-10-13",
@@ -247122,14 +247122,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "2000018914330346_HEWPEMKMEL",
       "ticket": "ITHD-97368",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Liberada"
+      "liberada": "Escalado con Customer Integration"
     },
     {
       "fecha": "2026-10-12",
@@ -258416,7 +258416,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -258433,7 +258433,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -258450,7 +258450,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Error en released",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Liberada"
     },
     {
@@ -258467,7 +258467,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Error en released",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Liberada"
     },
     {
@@ -258484,7 +258484,7 @@
       "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden Fullfilment con error",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Liberada"
     },
     {
@@ -258501,7 +258501,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -258535,7 +258535,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -258654,7 +258654,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -258858,7 +258858,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -258875,7 +258875,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -258892,7 +258892,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -258909,7 +258909,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -258926,7 +258926,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -258943,7 +258943,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -258960,7 +258960,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -258977,7 +258977,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -258994,7 +258994,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259011,7 +259011,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259028,7 +259028,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259045,7 +259045,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259096,7 +259096,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259113,7 +259113,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259130,7 +259130,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259147,7 +259147,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259215,7 +259215,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden Fullfilment con error",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259232,7 +259232,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259249,7 +259249,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259266,7 +259266,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259283,7 +259283,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259385,7 +259385,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259402,7 +259402,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259419,7 +259419,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259436,7 +259436,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259487,7 +259487,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259827,7 +259827,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259844,7 +259844,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259912,7 +259912,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -259946,7 +259946,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -260031,7 +260031,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -260065,7 +260065,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -260082,7 +260082,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -260099,7 +260099,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -260116,7 +260116,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -260167,7 +260167,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -260184,7 +260184,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -260303,7 +260303,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -260337,7 +260337,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -260354,7 +260354,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -260371,7 +260371,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -260388,7 +260388,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -260405,7 +260405,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -260422,7 +260422,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -260439,7 +260439,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -260456,7 +260456,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -260473,7 +260473,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin stock Fullfilment",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -263510,14 +263510,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Operaciones Solucionado",
       "ov": "2000019139426156_MMACOMKMEL",
       "ticket": "ITHD-97669",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Validacion configuracion de producto",
-      "liberada": "Escalado operaciones"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-26",
@@ -263527,14 +263527,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Revision/Configuracion",
+      "pen": "Operaciones Solucionado",
       "ov": "3258324786_MMACOMKFAL",
       "ticket": "ITHD-97669",
-      "pendiente": "Operaciones Revision/Configuracion",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Validacion configuracion de producto",
-      "liberada": "Escalado operaciones"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-23",
@@ -263969,14 +263969,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9748-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97680",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin generacion de guia",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-26",
@@ -264622,7 +264622,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Sin generacion de guia Kronotime - reenvio Provider order",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado con Kronotime"
     },
     {
       "fecha": "2026-10-26",
@@ -265890,14 +265890,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9854-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97728",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "En revision de producto",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin inventario en IXL",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-24",
@@ -267896,14 +267896,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000019209617086_MMACOMKMEL",
       "ticket": "ITHD-97746",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Validacion configuracion de producto",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-28",
@@ -267913,14 +267913,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3258750136_MMACOMKFAL",
       "ticket": "ITHD-97748",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Niveles geograficos erroneo NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-25",
@@ -267930,14 +267930,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "44960-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97750",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin guia- Envio de estado Pickup",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-24",
@@ -267953,8 +267953,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden reenviada sin generacion de guia",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-27",
@@ -268253,14 +268253,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "0",
+      "pen": "Operaciones Solucionado",
       "ov": "45202-CROCS_COL",
       "ticket": "ITHD-97759",
-      "pendiente": "0",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin generacion de guia Kronotime - reenvio Provider order",
-      "liberada": ""
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-28",
@@ -268395,8 +268395,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden con  paymentTypeId vacio",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-28",
@@ -268412,8 +268412,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin facturar en NS falta de stock",
+      "liberada": "Escalado Claudia Peñaloza"
     },
     {
       "fecha": "2026-10-28",
@@ -268429,8 +268429,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin facturar en NS falta de stock",
+      "liberada": "Escalado Claudia Peñaloza"
     },
     {
       "fecha": "2026-10-28",
@@ -268440,10 +268440,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "17264-ON_COL",
       "ticket": "ITHD-97768",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Pendiente revision CO",
@@ -268457,10 +268457,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "17289-ON_COL",
       "ticket": "ITHD-97768",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Pendiente revision CO",
@@ -268474,10 +268474,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "17332-ON_COL",
       "ticket": "ITHD-97768",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Pendiente revision CO",
@@ -268491,10 +268491,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "17352-ON_COL",
       "ticket": "ITHD-97768",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Pendiente revision CO",
@@ -268508,13 +268508,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018053012568",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268525,13 +268525,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018360880066",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268542,13 +268542,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018361130074",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268559,13 +268559,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018362128478",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268576,13 +268576,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018365709728",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268593,13 +268593,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018393906506",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268610,13 +268610,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018394219344",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268627,13 +268627,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018394260896",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268644,13 +268644,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018395007344",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268661,13 +268661,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018395003686",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268678,13 +268678,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018395050406",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268695,13 +268695,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018395319170",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268712,13 +268712,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018395372024",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268729,13 +268729,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018395484442",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268746,13 +268746,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018395654366",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268763,13 +268763,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018395928758",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268780,13 +268780,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018395989666",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268797,13 +268797,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018396171678",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268814,13 +268814,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018400478374",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268831,13 +268831,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018400469990",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268848,13 +268848,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018400478372",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268865,13 +268865,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018401025498",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268882,13 +268882,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018401032052",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268899,13 +268899,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "3251484992",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268916,13 +268916,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018411817418",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268933,13 +268933,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018419864696",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268950,13 +268950,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018441798236",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268967,13 +268967,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018474644722",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -268984,13 +268984,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018485543432",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269001,13 +269001,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018496466898",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269018,13 +269018,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018507566020",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269035,13 +269035,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018612888560",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269052,13 +269052,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018618322504",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269069,13 +269069,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018620822854",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269086,13 +269086,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018623184434",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269103,13 +269103,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018630270258",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269120,13 +269120,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018859980646",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269137,13 +269137,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018869651366",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269154,13 +269154,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "3256786398",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269171,13 +269171,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "3256792380",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269188,13 +269188,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "3256823639",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269205,13 +269205,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "3256831891",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269222,13 +269222,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018921975842",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269239,13 +269239,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "3256920722",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269256,13 +269256,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018928669636",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269273,13 +269273,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018929103942",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269290,13 +269290,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018929480888",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269307,13 +269307,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018929578246",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269324,13 +269324,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018941900166",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269341,13 +269341,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018951821778",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269358,13 +269358,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "3257119664",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269375,13 +269375,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "3257149126",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269392,13 +269392,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018963352652",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269409,13 +269409,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000018993187796",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269426,13 +269426,13 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Continuidad",
       "ov": "2000019015744348",
       "ticket": "ITHD-97769",
-      "pendiente": "",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
+      "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
       "liberada": "Pendiente revision CO"
     },
     {
@@ -269449,8 +269449,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Campo lastname en Null",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-29",
@@ -269466,8 +269466,76 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-28",
+      "fn": "2026-10-29",
+      "marca": "JBL",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-GT00064225",
+      "ticket": "ITHD-97774",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Servicio desactivado cuando orden llego",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-28",
+      "fn": "2026-10-29",
+      "marca": "JBL",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-GT00064226",
+      "ticket": "ITHD-97774",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Servicio desactivado cuando orden llego",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-28",
+      "fn": "2026-10-29",
+      "marca": "MKP",
+      "pais": "Ecuador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Operaciones Solucionado",
+      "ov": "2000019217553620_EPSECMKMEL",
+      "ticket": "ITHD-97775",
+      "pendiente": "Operaciones Solucionado",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Guia retenida en Celigo",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-29",
+      "fn": "2026-10-29",
+      "marca": "MKP",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "2000019232575022_MMACOMKMEL",
+      "ticket": "ITHD-97777",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Validacion de error interno",
+      "liberada": "Escalado con la Capa"
     }
   ],
   "ingresadas": [
@@ -313870,6 +313938,1020 @@
       "ov": "1998-CROCS_PAN_CCSPAWL180",
       "pais": "PANAMÁ",
       "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258732968_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258733646_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "2000015727951337_JBLUYMKMEL",
+      "pais": "URUGUAY",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "702-3032429-3371416_MMAMXMKAMA",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "701-3485643-5284267_MMAMXMKAMA",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "701-4662162-5503416_MMAMXMKAMA",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "2000019135581324_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "2000019135586562_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "701-6634054-1194607_MMAMXMKAMA",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "2000019159425770_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "2000019180502444_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "701-2167890-8445867_MMAMXMKAMA",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3256105182_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258259354_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258421864_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258495916_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258641821_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3154929670_JBLCLMKPAR",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258643684_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258649584_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258652681_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258656537_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258663196_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258665406_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258666656_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258670909_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "2000019199829872_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258674310_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258675814_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "2000019200406222_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258680452_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258691592_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258700219_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258703048_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258708337_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258711678_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258713688_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258722545_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "2000019207147674_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "2000019207154090_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "2000019207149428_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258728389_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258732071_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258739761_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258741869_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258742967_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258744236_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3258746101_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "1331_NEBSVWL180",
+      "pais": "SALVADOR",
+      "marca": "NB"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "1332_NEBSVWL180",
+      "pais": "SALVADOR",
+      "marca": "NB"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "2000019094833938",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "2000019096112568",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "2000019116653044",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "2000019163418302",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "2000019209880888",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "2000019210039720",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "2000019210098374",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "2000019210119640",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "2000019210219066",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "2000019210317568",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "2000019210624734",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "2000019210977836",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "2000019211008684",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258639475_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258641822_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258650710_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258653006_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258658378_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258665777_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258690964_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258692232_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258693404_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258698243_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258720477_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258727384_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258729367_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258732968_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258738569_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "2000019209617086_MMACOMKMEL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258750136_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-25",
+      "ov": "44960-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-24",
+      "ov": "R1_44863-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "JB-GT00064215",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-26",
+      "ov": "JB-MX00278750",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "JB-UY-00042370",
+      "pais": "URUGUAY",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "2000019192388644_MMAPEMKMEL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258655367_MMAPEMKFAL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258661038_MMAPEMKFAL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258665202_MMAPEMKFAL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258665516_MMAPEMKFAL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258671588_MMAPEMKFAL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258677029_MMAPEMKFAL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258679954_MMAPEMKFAL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258699473_MMAPEMKFAL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258700859_MMAPEMKFAL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258703296_MMAPEMKFAL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258707028_MMAPEMKFAL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258715802_MMAPEMKFAL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "3258721203_MMAPEMKFAL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "45202-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "45162-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "45185-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-27",
+      "ov": "3282_DOCPEWL180",
+      "pais": "PERÚ",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "45197-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "45204-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "45211-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "45220-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "61001069010-A",
+      "pais": "GUATEMALA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "9791-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "9858-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "17264-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "17289-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "17332-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "17352-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-08-21",
+      "ov": "2000018053012568",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-09",
+      "ov": "2000018360880066",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-09",
+      "ov": "2000018361130074",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-09",
+      "ov": "2000018362128478",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-09",
+      "ov": "2000018365709728",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "2000018393906506",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "2000018394219344",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "2000018394260896",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "2000018395007344",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "2000018395003686",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "2000018395050406",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "2000018395319170",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "2000018395372024",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "2000018395484442",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "2000018395654366",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "2000018395928758",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "2000018395989666",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "2000018396171678",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "2000018400478374",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "2000018400469990",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "2000018400478372",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "2000018401025498",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-10",
+      "ov": "2000018401032052",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-11",
+      "ov": "3251484992",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-11",
+      "ov": "2000018411817418",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-12",
+      "ov": "2000018419864696",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-13",
+      "ov": "2000018441798236",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-15",
+      "ov": "2000018474644722",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-16",
+      "ov": "2000018485543432",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-16",
+      "ov": "2000018496466898",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-17",
+      "ov": "2000018507566020",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-23",
+      "ov": "2000018612888560",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "2000018618322504",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "2000018620822854",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "2000018623184434",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-09-24",
+      "ov": "2000018630270258",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-07",
+      "ov": "2000018859980646",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-08",
+      "ov": "2000018869651366",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-09",
+      "ov": "3256786398",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-09",
+      "ov": "3256792380",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "3256823639",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-10",
+      "ov": "3256831891",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "2000018921975842",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "3256920722",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "2000018928669636",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "2000018929103942",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "2000018929480888",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "2000018929578246",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-12",
+      "ov": "2000018941900166",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "2000018951821778",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3257119664",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "3257149126",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-13",
+      "ov": "2000018963352652",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-15",
+      "ov": "2000018993187796",
+      "pais": "CHILE",
+      "marca": "mkp"
+    },
+    {
+      "fecha": "2026-10-16",
+      "ov": "2000019015744348",
+      "pais": "CHILE",
+      "marca": "mkp"
     },
     {
       "fecha": "2026-09-06",
