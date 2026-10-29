@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T17:00:49.420055+00:00",
+  "generatedAt": "2026-10-29T21:25:37.300685+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -165743,14 +165743,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3146024880_MMACLMKPAR",
       "ticket": "ITHD-97157",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden en estado Queued/ Producto configurado correctamente OPS",
-      "liberada": "Escalado con Driver"
+      "detalle": "Product 'CH064WDC02' is not authorized. Please refresh the catalog to ensure that only authorized products are used.",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-05",
@@ -165981,14 +165981,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018804821960_MMACLMKMEL",
       "ticket": "ITHD-97157",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden en estado Queued/ Producto configurado correctamente OPS",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-05",
@@ -167443,14 +167443,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018805583498_MMACLMKMEL",
       "ticket": "ITHD-97195",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden en estado Queued/ Producto configurado correctamente OPS",
-      "liberada": "Escalado con Driver"
+      "detalle": "Producto ID002WAC89  no existe en PIM",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-05",
@@ -167511,14 +167511,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3147196213_JBLCLMKPAR",
       "ticket": "ITHD-97195",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden en estado Queued/ Producto configurado correctamente OPS",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-05",
@@ -167562,14 +167562,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3147897270_MMACLMKPAR",
       "ticket": "ITHD-97195",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden en estado Queued/ Producto configurado correctamente OPS",
-      "liberada": "Escalado con Driver"
+      "detalle": "Product 'CH064WDC02' is not authorized. Please refresh the catalog to ensure that only authorized products are used.",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-06",
@@ -167579,14 +167579,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3147902070_MMACLMKPAR",
       "ticket": "ITHD-97195",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden en estado Queued/ Producto configurado correctamente OPS",
-      "liberada": "Escalado con Driver"
+      "detalle": "Product 'CH064WDC02' is not authorized. Please refresh the catalog to ensure that only authorized products are used.",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-06",
@@ -200083,14 +200083,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3150163850_MMACLMKPAR",
       "ticket": "ITHD-97252",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden en estado Queued/ Producto configurado correctamente OPS",
-      "liberada": "Escalado con Driver"
+      "detalle": "Product 'CH064WDC02' is not authorized. Please refresh the catalog to ensure that only authorized products are used.",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-08",
@@ -221792,14 +221792,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018877606496_MMACLMKMEL",
       "ticket": "ITHD-97294",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden en estado Queued/ Producto configurado correctamente OPS",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-09",
@@ -221826,14 +221826,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018885706764_MMACLMKMEL",
       "ticket": "ITHD-97294",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden en estado Queued/ Producto configurado correctamente OPS",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-09",
@@ -244283,14 +244283,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9157-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97316",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-09",
@@ -252290,14 +252290,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9238-LACOSTE_COL",
       "ticket": "ITHD-97419",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-07",
@@ -253418,7 +253418,7 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "No results from DB for sku PT336EPS54 type skuProvider country MX customerId MMAMXMKMEL",
+      "detalle": "Orden en estado Queued/ Producto configurado correctamente OPS",
       "liberada": "Escalado con Driver"
     },
     {
@@ -255792,14 +255792,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9532-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97543",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255809,14 +255809,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9534-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97543",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-19",
@@ -255894,14 +255894,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9334-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97543",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255911,14 +255911,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9343-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97543",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255962,14 +255962,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9377-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97543",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255979,14 +255979,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9383-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97543",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -255996,14 +255996,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9389-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97543",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -256013,14 +256013,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9410-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97543",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -256030,14 +256030,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9421-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97543",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -256047,14 +256047,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9423-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97543",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -256081,14 +256081,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9444-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97543",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -256098,14 +256098,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9452-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97543",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -256115,14 +256115,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9453-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97543",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -256132,14 +256132,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9457-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97543",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -256166,14 +256166,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9478-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97543",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -256183,14 +256183,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9520-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97543",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-16",
@@ -260637,14 +260637,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "44420-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97565",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Orden sin estado de Pickup",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-10",
@@ -260960,14 +260960,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "44568-CROCS_COL",
       "ticket": "ITHD-97580",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -261011,14 +261011,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "44611-CROCS_COL",
       "ticket": "ITHD-97580",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -261028,14 +261028,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "44633-CROCS_COL",
       "ticket": "ITHD-97580",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -261045,14 +261045,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "44639-CROCS_COL",
       "ticket": "ITHD-97580",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -261112,7 +261112,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "Alistamiento",
       "pen": "Continuidad",
       "ov": "9558-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97585",
@@ -261146,7 +261146,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Continuidad",
       "ov": "9566-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97585",
@@ -261163,7 +261163,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "Alistamiento",
       "pen": "Continuidad",
       "ov": "9583-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97585",
@@ -261180,7 +261180,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "Facturada",
       "pen": "Continuidad",
       "ov": "9584-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97585",
@@ -261197,7 +261197,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "Facturada",
       "pen": "Continuidad",
       "ov": "9592-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97585",
@@ -261453,14 +261453,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "44391-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97593",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Envio de estado Pickup",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -262473,14 +262473,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "44621-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97628",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Ordene sin estado de Pickup",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-23",
@@ -262915,14 +262915,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9615-LACOSTE_COL",
       "ticket": "ITHD-97650",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-22",
@@ -262932,14 +262932,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9623-LACOSTE_COL",
       "ticket": "ITHD-97650",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-22",
@@ -262949,14 +262949,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9640-LACOSTE_COL",
       "ticket": "ITHD-97650",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-22",
@@ -262966,14 +262966,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9643-LACOSTE_COL",
       "ticket": "ITHD-97650",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-22",
@@ -262983,14 +262983,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9665-LACOSTE_COL",
       "ticket": "ITHD-97650",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-22",
@@ -263000,14 +263000,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9672-LACOSTE_COL",
       "ticket": "ITHD-97650",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-22",
@@ -263017,14 +263017,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9677-LACOSTE_COL",
       "ticket": "ITHD-97650",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-22",
@@ -263034,14 +263034,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9680-LACOSTE_COL",
       "ticket": "ITHD-97650",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-22",
@@ -263051,14 +263051,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9687-LACOSTE_COL",
       "ticket": "ITHD-97650",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-22",
@@ -263068,14 +263068,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9692-LACOSTE_COL",
       "ticket": "ITHD-97650",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-22",
@@ -263085,14 +263085,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9704-LACOSTE_COL",
       "ticket": "ITHD-97650",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-22",
@@ -263102,14 +263102,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9715-LACOSTE_COL",
       "ticket": "ITHD-97650",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-23",
@@ -263918,14 +263918,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3258392662_CCSCOMKFAL",
       "ticket": "ITHD-97676",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Novedad sincronizacion de stock",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-26",
@@ -263941,8 +263941,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Orden sin facturar en NS pendiente estado READY_TO_DELIVER",
-      "liberada": "Escalado con Driver"
+      "detalle": "Orden sin facturar en NS",
+      "liberada": "Escalado con Customer Integration"
     },
     {
       "fecha": "2026-10-26",
@@ -263968,7 +263968,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "Facturada",
       "pen": "Operaciones Solucionado",
       "ov": "9748-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97680",
@@ -264019,7 +264019,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancealada - sin stock",
       "pen": "Continuidad",
       "ov": "9718-LACOSTE_COL",
       "ticket": "ITHD-97682",
@@ -264054,14 +264054,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "9724-LACOSTE_COL",
       "ticket": "ITHD-97682",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-26",
@@ -264070,7 +264070,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Continuidad",
       "ov": "9727-LACOSTE_COL",
       "ticket": "ITHD-97682",
@@ -264104,7 +264104,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Continuidad",
       "ov": "9743-LACOSTE_COL",
       "ticket": "ITHD-97682",
@@ -264207,14 +264207,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "44759-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97686",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado Claudia Peñaloza"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-26",
@@ -265166,7 +265166,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Error en Updateorder",
-      "liberada": "Escalado con Driver"
+      "liberada": "Escalado con Mienvio"
     },
     {
       "fecha": "2026-10-27",
@@ -267385,7 +267385,7 @@
       "pais": "Salvador",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Operaciones Solucionado",
       "ov": "1331_NEBSVWL180",
       "ticket": "ITHD-97739",
@@ -267402,7 +267402,7 @@
       "pais": "Salvador",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "Facturada",
       "pen": "Operaciones Solucionado",
       "ov": "1332_NEBSVWL180",
       "ticket": "ITHD-97741",
@@ -267947,14 +267947,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "R1_44863-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97750",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Orden reenviada sin generacion de guia",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-27",
@@ -268021,8 +268021,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Orden sin facturar en NS pendiente estado READY_TO_DELIVER",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-10-28",
@@ -268270,14 +268270,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "45162-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97760",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Novedad sincronizacion de stock",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-28",
@@ -268287,14 +268287,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "45185-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97760",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Novedad sincronizacion de stock",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-27",
@@ -268304,14 +268304,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3282_DOCPEWL180",
       "ticket": "ITHD-97758",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Sin acciones de CO",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-28",
@@ -268321,14 +268321,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "45197-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97760",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Novedad sincronizacion de stock",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-28",
@@ -268338,14 +268338,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "45204-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97760",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Novedad sincronizacion de stock",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-28",
@@ -268355,14 +268355,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "45211-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97760",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Novedad sincronizacion de stock",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-28",
@@ -268372,14 +268372,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "45220-CROCS_COL_CCSCOWL180",
       "ticket": "ITHD-97760",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "Novedad sincronizacion de stock",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-28",
@@ -268405,7 +268405,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "Facturada",
       "pen": "",
       "ov": "9791-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97766",
@@ -268422,7 +268422,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "Facturada",
       "pen": "",
       "ov": "9858-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97766",
@@ -268439,7 +268439,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Continuidad",
       "ov": "17264-ON_COL",
       "ticket": "ITHD-97768",
@@ -269443,10 +269443,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "1223_RUNGTWL180",
       "ticket": "ITHD-97770",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Campo lastname en Null",
@@ -269460,10 +269460,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "2000019213886652_MMACOMKMEL",
       "ticket": "ITHD-97771",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "sin falla al revisar",
@@ -269477,10 +269477,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00064225",
       "ticket": "ITHD-97774",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Servicio desactivado cuando orden llego",
@@ -269494,10 +269494,10 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00064226",
       "ticket": "ITHD-97774",
-      "pendiente": "",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Servicio desactivado cuando orden llego",
@@ -269528,14 +269528,150 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000019232575022_MMACOMKMEL",
       "ticket": "ITHD-97777",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Validacion de error interno",
-      "liberada": "Escalado con la Capa"
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-29",
+      "fn": "2026-10-29",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "JB-CO00251746_JBLCOWL180",
+      "ticket": "ITHD-97778",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Orden sin facturar en NS",
+      "liberada": "Escalado con Customer Integration"
+    },
+    {
+      "fecha": "2026-10-29",
+      "fn": "2026-10-29",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "JB-CO00253167",
+      "ticket": "ITHD-97779",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-29",
+      "fn": "2026-10-29",
+      "marca": "Epson",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Operaciones Solucionado",
+      "ov": "IX-40000061797",
+      "ticket": "ITHD-97782",
+      "pendiente": "Operaciones Solucionado",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Servicio desactivado cuando orden llego",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-29",
+      "fn": "2026-10-29",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Operaciones Solucionado",
+      "ov": "HO3593",
+      "ticket": "ITHD-97781",
+      "pendiente": "Operaciones Solucionado",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Error en created order",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-29",
+      "fn": "2026-10-29",
+      "marca": "RB",
+      "pais": "Running balboa Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "1224_RUNGTWL180",
+      "ticket": "ITHD-97784",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-29",
+      "fn": "2026-10-29",
+      "marca": "RB",
+      "pais": "Running balboa Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "1225_RUNGTWL180",
+      "ticket": "ITHD-97786",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-29",
+      "fn": "2026-10-29",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "17372-ON_COL_ONRCOWL180",
+      "ticket": "ITHD-97788",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-23",
+      "fn": "2026-10-29",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "9744-LACOSTE_COL_LACCOWL180",
+      "ticket": "ITHD-97791",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
     }
   ],
   "ingresadas": [
