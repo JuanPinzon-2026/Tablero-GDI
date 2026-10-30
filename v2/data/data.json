@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T21:25:37.300685+00:00",
+  "generatedAt": "2026-10-30T14:30:34.502523+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -28604,14 +28604,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057136_JBLGTWL180",
       "ticket": "ITHD-95078",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-17",
@@ -28621,14 +28621,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057180_JBLGTWL180",
       "ticket": "ITHD-95078",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-19",
@@ -28706,14 +28706,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057227_JBLGTWL180",
       "ticket": "ITHD-95078",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-19",
@@ -28774,14 +28774,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057512_JBLGTWL180",
       "ticket": "ITHD-95078",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-22",
@@ -28791,14 +28791,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057521_JBLGTWL180",
       "ticket": "ITHD-95078",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-18",
@@ -28995,14 +28995,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057739_JBLGTWL180",
       "ticket": "ITHD-95099",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-26",
@@ -29029,14 +29029,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057748_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-21",
@@ -29080,14 +29080,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057873_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-26",
@@ -29097,14 +29097,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057794_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-26",
@@ -29114,14 +29114,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057798_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-26",
@@ -29131,14 +29131,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057808_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-26",
@@ -29148,14 +29148,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057809_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-27",
@@ -29165,14 +29165,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057883_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-22",
@@ -29199,14 +29199,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057888_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-27",
@@ -29216,14 +29216,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057819_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-22",
@@ -29267,14 +29267,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057899_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-27",
@@ -29284,14 +29284,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057820_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-27",
@@ -29301,14 +29301,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057905_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-16",
@@ -29335,14 +29335,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057826_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-27",
@@ -29352,14 +29352,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057909_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-27",
@@ -29369,14 +29369,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057839_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-28",
@@ -29386,14 +29386,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057842_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-28",
@@ -29403,14 +29403,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057914_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-28",
@@ -29420,14 +29420,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057844_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-28",
@@ -29437,14 +29437,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057849_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-28",
@@ -29454,14 +29454,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057858_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-19",
@@ -29488,14 +29488,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057048_JBLGTWL180",
       "ticket": "ITHD-94999",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-16",
@@ -29505,14 +29505,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057062_JBLGTWL180",
       "ticket": "ITHD-94999",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-16",
@@ -29522,14 +29522,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057122_JBLGTWL180",
       "ticket": "ITHD-94999",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-16",
@@ -29539,14 +29539,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057170_JBLGTWL180",
       "ticket": "ITHD-94999",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-17",
@@ -29556,14 +29556,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057171_JBLGTWL180",
       "ticket": "ITHD-94999",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-17",
@@ -29573,14 +29573,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057172_JBLGTWL180",
       "ticket": "ITHD-94999",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-17",
@@ -29590,14 +29590,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057179_JBLGTWL180",
       "ticket": "ITHD-94999",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-17",
@@ -29607,14 +29607,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057141_JBLGTWL180",
       "ticket": "ITHD-94999",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-17",
@@ -29624,14 +29624,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057183_JBLGTWL180",
       "ticket": "ITHD-94999",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-17",
@@ -29641,14 +29641,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057148_JBLGTWL180",
       "ticket": "ITHD-94999",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-17",
@@ -29658,14 +29658,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057190_JBLGTWL180",
       "ticket": "ITHD-94999",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-18",
@@ -29675,14 +29675,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057149_JBLGTWL180",
       "ticket": "ITHD-94999",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-18",
@@ -29692,14 +29692,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057152_JBLGTWL180",
       "ticket": "ITHD-94999",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-18",
@@ -29709,14 +29709,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057215_JBLGTWL180",
       "ticket": "ITHD-94999",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-19",
@@ -30015,14 +30015,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057925_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-28",
@@ -30032,14 +30032,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057968_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-28",
@@ -30049,14 +30049,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057974_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-28",
@@ -30066,14 +30066,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057951_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-29",
@@ -30083,14 +30083,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057993_JBLGTWL180",
       "ticket": "ITHD-95135",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-05-05",
@@ -38260,14 +38260,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057977_JBLGTWL180",
       "ticket": "ITHD-95190",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-28",
@@ -38277,14 +38277,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-GT00057952_JBLGTWL180",
       "ticket": "ITHD-95190",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-07-02",
@@ -69811,7 +69811,7 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "591008",
       "ticket": "ITHD-95793",
@@ -69828,7 +69828,7 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "591002",
       "ticket": "ITHD-95793",
@@ -69998,7 +69998,7 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "591022",
       "ticket": "ITHD-95797",
@@ -71885,7 +71885,7 @@
       "pais": "PERU",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "1650190590744-01",
       "ticket": "ITHD-95804",
@@ -71902,7 +71902,7 @@
       "pais": "PERU",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "1651580590994-01",
       "ticket": "ITHD-95804",
@@ -71919,7 +71919,7 @@
       "pais": "PERU",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "1651590590996-01",
       "ticket": "ITHD-95804",
@@ -71936,7 +71936,7 @@
       "pais": "PERU",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "1651600590998-01",
       "ticket": "ITHD-95804",
@@ -71953,7 +71953,7 @@
       "pais": "PERU",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "1651610591000-01",
       "ticket": "ITHD-95804",
@@ -71970,7 +71970,7 @@
       "pais": "PERU",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "1651610591002-01",
       "ticket": "ITHD-95804",
@@ -71987,7 +71987,7 @@
       "pais": "PERU",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "1651620591006-01",
       "ticket": "ITHD-95804",
@@ -72004,7 +72004,7 @@
       "pais": "PERU",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "1651620591008-01",
       "ticket": "ITHD-95804",
@@ -72021,7 +72021,7 @@
       "pais": "PERU",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "1651640591014-01",
       "ticket": "ITHD-95804",
@@ -72038,7 +72038,7 @@
       "pais": "PERU",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "1651660591016-01",
       "ticket": "ITHD-95804",
@@ -72055,7 +72055,7 @@
       "pais": "PERU",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "1651740591022-01",
       "ticket": "ITHD-95804",
@@ -72072,7 +72072,7 @@
       "pais": "PERU",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "1651750591024-01",
       "ticket": "ITHD-95804",
@@ -72089,7 +72089,7 @@
       "pais": "PERU",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "1651770591028-01",
       "ticket": "ITHD-95804",
@@ -74775,7 +74775,7 @@
       "pais": "PERU",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "591226",
       "ticket": "ITHD-95875",
@@ -129380,14 +129380,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CL00173131",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-26",
@@ -129397,14 +129397,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CL00173165",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-27",
@@ -129414,14 +129414,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CL00173268",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-06-27",
@@ -129431,14 +129431,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CL00173277",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-08-25",
@@ -129805,14 +129805,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CR00045891",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-04",
@@ -129822,14 +129822,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039440",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-04",
@@ -129839,14 +129839,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039409",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-04",
@@ -129856,14 +129856,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "HA-MX00070761",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-04",
@@ -129873,14 +129873,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00271704",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-04",
@@ -129890,14 +129890,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039410",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-04",
@@ -129907,14 +129907,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039412",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-04",
@@ -129924,14 +129924,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00271635",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-04",
@@ -129941,14 +129941,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00271638",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-04",
@@ -129958,14 +129958,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00271906",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-04",
@@ -129975,14 +129975,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CR00045904",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-04",
@@ -129992,14 +129992,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00272008",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130009,14 +130009,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039448",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130026,14 +130026,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00271919",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130043,14 +130043,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039545",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130060,14 +130060,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039546",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130077,14 +130077,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00272025",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130094,14 +130094,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "HA-MX00070882",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130111,14 +130111,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039549",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130128,14 +130128,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039454",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130145,14 +130145,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039455",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130162,14 +130162,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039551",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130179,14 +130179,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039552",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130196,14 +130196,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00272040",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130213,14 +130213,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00272041",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130230,14 +130230,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039556",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130247,14 +130247,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039558",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130264,14 +130264,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039458",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130281,14 +130281,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039460",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130298,14 +130298,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00272046",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130315,14 +130315,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039559",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130349,14 +130349,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00272057",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130366,14 +130366,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00271939",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130383,14 +130383,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00272058",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130400,14 +130400,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039560",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130417,14 +130417,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039561",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130434,14 +130434,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CR00045908",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130451,14 +130451,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039465",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130468,14 +130468,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039467",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130485,14 +130485,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039468",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130502,14 +130502,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00271944",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130519,14 +130519,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039562",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130536,14 +130536,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039476",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130553,14 +130553,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00272072",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130570,14 +130570,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00271952",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130587,14 +130587,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00271958",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-05",
@@ -130604,14 +130604,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039478",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130621,14 +130621,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039481",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130638,14 +130638,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00271961",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130655,14 +130655,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039484",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130672,14 +130672,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039485",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130689,14 +130689,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00271962",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130706,14 +130706,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00272080",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130723,14 +130723,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00272083",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130740,14 +130740,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039487",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130757,14 +130757,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039566",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130774,14 +130774,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00271964",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130791,14 +130791,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CR00045911",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130808,14 +130808,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039489",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130825,14 +130825,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00272087",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130842,14 +130842,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00272089",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130859,14 +130859,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039580",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130876,14 +130876,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039586",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130893,14 +130893,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039493",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130910,14 +130910,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039496",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130927,14 +130927,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039591",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130944,14 +130944,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039593",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130961,14 +130961,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039598",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130978,14 +130978,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039502",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -130995,14 +130995,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039600",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -131012,14 +131012,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039604",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -131029,14 +131029,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039605",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -131046,14 +131046,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039607",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -131063,14 +131063,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039509",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -131080,14 +131080,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039515",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -131097,14 +131097,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039518",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -131114,14 +131114,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039520",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -131131,14 +131131,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039611",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -131148,14 +131148,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039616",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -131165,14 +131165,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039522",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -131182,14 +131182,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039619",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -131199,14 +131199,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039524",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -131216,14 +131216,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039621",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -131233,14 +131233,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039622",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -131250,14 +131250,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039529",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -131267,14 +131267,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039627",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -131284,14 +131284,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039630",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-06",
@@ -131301,14 +131301,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039632",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-07",
@@ -131318,14 +131318,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039636",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-07",
@@ -131335,14 +131335,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039637",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-07",
@@ -131369,14 +131369,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039531",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-07",
@@ -131386,14 +131386,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039533",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-07",
@@ -131403,14 +131403,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039534",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-07",
@@ -131420,14 +131420,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039535",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-07",
@@ -131437,14 +131437,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039536",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-07",
@@ -131454,14 +131454,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039537",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-07",
@@ -131471,14 +131471,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039538",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-07",
@@ -131488,14 +131488,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-UY-00039648",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-08",
@@ -131505,14 +131505,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-MX00272273",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-08",
@@ -131522,14 +131522,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CL00177806",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-08",
@@ -131539,14 +131539,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CL00177884",
       "ticket": "ITHD-96514",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-08",
@@ -131725,7 +131725,7 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "1660020592956-01",
       "ticket": "ITHD-96522",
@@ -137064,14 +137064,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205521_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137081,14 +137081,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205569_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137098,14 +137098,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205576_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137115,14 +137115,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205684_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137132,14 +137132,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205694_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137149,14 +137149,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205596_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137166,14 +137166,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205600_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137183,14 +137183,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205601_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137200,14 +137200,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205709_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137217,14 +137217,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205714_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137234,14 +137234,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205720_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137251,14 +137251,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205727_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137268,14 +137268,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205730_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137285,14 +137285,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205617_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137302,14 +137302,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205744_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137319,14 +137319,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205633_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137336,14 +137336,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205840_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137353,14 +137353,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205761_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137370,14 +137370,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205846_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137387,14 +137387,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205847_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137404,14 +137404,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205768_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -137421,14 +137421,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00205769_JBLPEWL180",
       "ticket": "ITHD-96637",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-14",
@@ -157225,7 +157225,7 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "584296",
       "ticket": "ITHD-96861",
@@ -159010,7 +159010,7 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "593720",
       "ticket": "ITHD-96933",
@@ -159027,7 +159027,7 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "593718",
       "ticket": "ITHD-96933",
@@ -161169,15 +161169,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1665400593952-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161186,15 +161186,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1664130593732-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161203,15 +161203,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1665320593940-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161220,15 +161220,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1664090593722-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161237,15 +161237,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1665310593938-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161254,15 +161254,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1664080593720-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161271,15 +161271,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1664820593830-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161288,15 +161288,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1665280593924-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161305,15 +161305,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1665270593922-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161322,15 +161322,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1664080593718-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161339,15 +161339,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1664780593814-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161356,15 +161356,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1665270593918-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161373,15 +161373,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1664050593714-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161390,15 +161390,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1664720593806-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161407,15 +161407,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1664480593776-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161424,15 +161424,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1665090593878-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161441,15 +161441,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1663850593676-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161458,15 +161458,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1665240593910-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161475,15 +161475,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1664380593772-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161492,15 +161492,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1665200593898-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161509,15 +161509,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1663810593666-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161526,15 +161526,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1663790593660-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161543,15 +161543,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1664280593756-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161560,15 +161560,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1664140593740-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161577,15 +161577,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1664130593734-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161594,15 +161594,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1665080593874-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161611,15 +161611,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1665070593870-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161628,15 +161628,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1665070593868-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161645,15 +161645,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1665070593866-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161662,15 +161662,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1665040593858-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161679,15 +161679,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1665000593850-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-30",
@@ -161696,15 +161696,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1664960593842-01",
       "ticket": "ITHD-97029",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-09-29",
@@ -164382,7 +164382,7 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "594110",
       "ticket": "ITHD-97139",
@@ -168581,7 +168581,7 @@
       "pais": "PERU",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "594168",
       "ticket": "ITHD-97215",
@@ -252408,7 +252408,7 @@
       "pais": "PERU",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "1668630594390-01",
       "ticket": "ITHD-97431",
@@ -255061,14 +255061,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "6806-CROCS_CRC_CCSCRWL180",
       "ticket": "ITHD-97531",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Sin falla al revisar",
-      "liberada": "Liberada"
+      "liberada": "Escalado con SORNP"
     },
     {
       "fecha": "2026-10-19",
@@ -256199,15 +256199,15 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "ops": "facturada",
+      "pen": "Operaciones Solucionado",
       "ov": "1669370594498-01",
       "ticket": "ITHD-97545",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes Motorola PE sin facturar en VTEX",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-20",
@@ -258410,14 +258410,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018799046890",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-05",
@@ -258427,14 +258427,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018799041638",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-05",
@@ -258495,14 +258495,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018803960910",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-05",
@@ -258529,14 +258529,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3254584640",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-05",
@@ -258648,14 +258648,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018822931260",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-06",
@@ -258852,14 +258852,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018836747002",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-06",
@@ -258869,14 +258869,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018836801496",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-06",
@@ -258886,14 +258886,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018836876406",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-06",
@@ -258903,14 +258903,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018836889624",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-06",
@@ -258920,14 +258920,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018837005796",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-06",
@@ -258937,14 +258937,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018837098874",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-06",
@@ -258954,14 +258954,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018837395948",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-06",
@@ -258971,14 +258971,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018837455604",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-06",
@@ -258988,14 +258988,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018837473080",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-06",
@@ -259005,14 +259005,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018837473170",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-06",
@@ -259022,14 +259022,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018837526916",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-06",
@@ -259039,14 +259039,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018837873394",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-06",
@@ -259090,14 +259090,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018849279746",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-07",
@@ -259107,14 +259107,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018851526512",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-07",
@@ -259124,14 +259124,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018851527986",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-07",
@@ -259141,14 +259141,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018851532012",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-07",
@@ -259209,14 +259209,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018862314838",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-07",
@@ -259226,14 +259226,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3256518368",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-08",
@@ -259243,14 +259243,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3256538910",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-08",
@@ -259260,14 +259260,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018869651360",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-08",
@@ -259277,14 +259277,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018874213628",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-08",
@@ -259379,14 +259379,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018895391518",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-09",
@@ -259396,14 +259396,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018897741036",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-09",
@@ -259413,14 +259413,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018899856856",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-10",
@@ -259430,14 +259430,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018900972356",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-10",
@@ -259481,14 +259481,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018901729878",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-10",
@@ -259821,14 +259821,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018919807096",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-11",
@@ -259838,14 +259838,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018919810902",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-11",
@@ -259906,14 +259906,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018928765726",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-11",
@@ -259940,14 +259940,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018931910308",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-11",
@@ -260025,14 +260025,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018937777960",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-12",
@@ -260059,14 +260059,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3257050037",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-12",
@@ -260076,14 +260076,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018942912400",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-12",
@@ -260093,14 +260093,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018943140132",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-12",
@@ -260110,14 +260110,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018943167632",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-12",
@@ -260161,14 +260161,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3257172971",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-13",
@@ -260178,14 +260178,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3257178905",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-13",
@@ -260297,14 +260297,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018973998168",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-14",
@@ -260331,14 +260331,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018976855120",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-14",
@@ -260348,14 +260348,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018978445864",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-14",
@@ -260365,14 +260365,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018980107452",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-14",
@@ -260382,14 +260382,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018980135020",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-14",
@@ -260399,14 +260399,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018983107734",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-14",
@@ -260416,14 +260416,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018986147096",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-15",
@@ -260433,14 +260433,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018992024340",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-15",
@@ -260450,14 +260450,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018994270890",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-16",
@@ -260467,14 +260467,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000019015531872",
       "ticket": "ITHD-97561",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-19",
@@ -260789,7 +260789,7 @@
       "pais": "PERU",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "facturada",
       "pen": "Operaciones Solucionado",
       "ov": "594626",
       "ticket": "ITHD-97574",
@@ -260967,7 +260967,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Liberada"
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-21",
@@ -261018,7 +261018,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Liberada"
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-21",
@@ -261035,7 +261035,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Liberada"
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-21",
@@ -261052,7 +261052,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Sincronizacion de stock AVA",
-      "liberada": "Liberada"
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-21",
@@ -261129,7 +261129,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Continuidad",
       "ov": "9560-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97585",
@@ -264087,7 +264087,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Continuidad",
       "ov": "9740-LACOSTE_COL",
       "ticket": "ITHD-97682",
@@ -264580,7 +264580,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "Reasignar",
       "pen": "Operaciones Solucionado",
       "ov": "44923-CROCS_COL",
       "ticket": "ITHD-97689",
@@ -265872,7 +265872,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Operaciones Solucionado",
       "ov": "9852-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97728",
@@ -265889,7 +265889,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Operaciones Solucionado",
       "ov": "9854-LACOSTE_COL_LACCOWL180",
       "ticket": "ITHD-97728",
@@ -268508,14 +268508,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018053012568",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-09",
@@ -268525,14 +268525,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018360880066",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-09",
@@ -268542,14 +268542,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018361130074",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-09",
@@ -268559,14 +268559,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018362128478",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-09",
@@ -268576,14 +268576,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018365709728",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-10",
@@ -268593,14 +268593,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018393906506",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-10",
@@ -268610,14 +268610,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018394219344",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-10",
@@ -268627,14 +268627,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018394260896",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-10",
@@ -268644,14 +268644,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018395007344",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-10",
@@ -268661,14 +268661,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018395003686",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-10",
@@ -268678,14 +268678,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018395050406",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-10",
@@ -268695,14 +268695,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018395319170",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-10",
@@ -268712,14 +268712,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018395372024",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-10",
@@ -268729,14 +268729,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018395484442",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-10",
@@ -268746,14 +268746,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018395654366",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-10",
@@ -268763,14 +268763,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018395928758",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-10",
@@ -268780,14 +268780,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018395989666",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-10",
@@ -268797,14 +268797,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018396171678",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-10",
@@ -268814,14 +268814,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018400478374",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-10",
@@ -268831,14 +268831,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018400469990",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-10",
@@ -268848,14 +268848,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018400478372",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-10",
@@ -268865,14 +268865,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018401025498",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-10",
@@ -268882,14 +268882,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018401032052",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-11",
@@ -268899,14 +268899,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3251484992",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-11",
@@ -268916,14 +268916,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018411817418",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-12",
@@ -268933,14 +268933,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018419864696",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-13",
@@ -268950,14 +268950,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018441798236",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-15",
@@ -268967,14 +268967,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018474644722",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-16",
@@ -268984,14 +268984,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018485543432",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-16",
@@ -269001,14 +269001,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018496466898",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-17",
@@ -269018,14 +269018,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018507566020",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-23",
@@ -269035,14 +269035,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018612888560",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-24",
@@ -269052,14 +269052,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018618322504",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-24",
@@ -269069,14 +269069,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018620822854",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-24",
@@ -269086,14 +269086,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018623184434",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-24",
@@ -269103,14 +269103,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018630270258",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-07",
@@ -269120,14 +269120,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018859980646",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-08",
@@ -269137,14 +269137,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018869651366",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-09",
@@ -269154,14 +269154,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3256786398",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-09",
@@ -269171,14 +269171,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3256792380",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-10",
@@ -269188,14 +269188,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3256823639",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-10",
@@ -269205,14 +269205,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3256831891",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-11",
@@ -269222,14 +269222,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018921975842",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-11",
@@ -269239,14 +269239,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3256920722",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-11",
@@ -269256,14 +269256,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018928669636",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-11",
@@ -269273,14 +269273,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018929103942",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-11",
@@ -269290,14 +269290,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018929480888",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-11",
@@ -269307,14 +269307,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018929578246",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-12",
@@ -269324,14 +269324,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018941900166",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-13",
@@ -269341,14 +269341,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018951821778",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-13",
@@ -269358,14 +269358,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3257119664",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-13",
@@ -269375,14 +269375,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "3257149126",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-13",
@@ -269392,14 +269392,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018963352652",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-15",
@@ -269409,14 +269409,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000018993187796",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-16",
@@ -269426,14 +269426,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000019015744348",
       "ticket": "ITHD-97769",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
       "detalle": "Ordenes FF pendiente validacion de como proceder- Tienda apagada en Driver 1",
-      "liberada": "Pendiente revision CO"
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-10-29",
@@ -269672,6 +269672,142 @@
       "canal": "",
       "detalle": "Pendiente revision CO",
       "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-29",
+      "fn": "2026-10-29",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "45239-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97792",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-29",
+      "fn": "2026-10-29",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "45240-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97792",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-29",
+      "fn": "2026-10-29",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "45243-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97792",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-29",
+      "fn": "2026-10-29",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "45261-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97792",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-29",
+      "fn": "2026-10-29",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "45265-CROCS_COL_CCSCOWL180",
+      "ticket": "ITHD-97792",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-29",
+      "fn": "2026-10-30",
+      "marca": "MKP",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "3258964966_MMACOMKFAL",
+      "ticket": "ITHD-97793",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-29",
+      "fn": "2026-10-30",
+      "marca": "MKP",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "Continuidad",
+      "ov": "6001070564-B",
+      "ticket": "ITHD-97794",
+      "pendiente": "Continuidad",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-30",
+      "fn": "2026-10-30",
+      "marca": "DI",
+      "pais": "Ecuador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1030_DINECWL180",
+      "ticket": "ITHD-97796",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
     }
   ],
   "ingresadas": [
@@ -316194,6 +316330,120 @@
       "marca": "RB"
     },
     {
+      "fecha": "2026-10-29",
+      "ov": "1223_RUNGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "RB"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "2000019213886652_MMACOMKMEL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "JB-GT00064225",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "JB-GT00064226",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "2000019217553620_EPSECMKMEL",
+      "pais": "ECUADOR",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "2000019232575022_MMACOMKMEL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "JB-CO00251746_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "JB-CO00253167",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "IX-40000061797",
+      "pais": "COLOMBIA",
+      "marca": "Epson"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "HO3593",
+      "pais": "CHILE",
+      "marca": "Honor"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "1224_RUNGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "RB"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "1225_RUNGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "RB"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "17372-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-23",
+      "ov": "9744-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "45239-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "45240-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "45243-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "45261-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "45265-CROCS_COL_CCSCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
       "fecha": "2026-09-05",
       "ov": "R1_42689-CROCS_COL_CCSCOWL180",
       "pais": "COLOMBIA",
@@ -360936,6 +361186,7 @@
     "2026-10-26": 924,
     "2026-10-27": 843,
     "2026-10-28": 563,
+    "2026-10-29": 414,
     "2026-09-01": 1114,
     "2026-09-02": 934,
     "2026-09-03": 1108,
@@ -361152,7 +361403,7 @@
     "2026-03-31": 1597
   },
   "ixcMes": {
-    "2026-10": 33162,
+    "2026-10": 33576,
     "2026-09": 28618,
     "2026-08": 35523,
     "2026-07": 38348,
