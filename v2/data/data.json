@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T13:53:00.879631+00:00",
+  "generatedAt": "2026-11-03T14:30:39.197588+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -268456,7 +268456,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Operaciones Solucionado",
       "ov": "17289-ON_COL",
       "ticket": "ITHD-97768",
@@ -270350,8 +270350,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Proyecto no entregado a CO",
+      "liberada": "Marcha blanca"
     },
     {
       "fecha": "2026-11-01",
@@ -270367,8 +270367,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Niveles geograficos erroneos desde Kronotime",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-01",
@@ -270384,8 +270384,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Nivelees geograficos erroneos desde NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-02",
@@ -270401,7 +270401,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
+      "detalle": "Nivelees geograficos erroneos desde NS",
       "liberada": ""
     },
     {
@@ -271244,10 +271244,265 @@
       "pais": "Guatemala",
       "estado": "",
       "com": "",
-      "ops": "",
+      "ops": "En revision CO - IT",
       "pen": "",
       "ov": "62001073660-A",
       "ticket": "ITHD-97857",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17401-ON_COL_ONRCOWL180",
+      "ticket": "ITHD-97859",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17408-ON_COL_ONRCOWL180",
+      "ticket": "ITHD-97859",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17423-ON_COL",
+      "ticket": "ITHD-97860",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17439-ON_COL",
+      "ticket": "ITHD-97860",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17724-ON_COL",
+      "ticket": "ITHD-97860",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17743-ON_COL",
+      "ticket": "ITHD-97860",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17451-ON_COL",
+      "ticket": "ITHD-97861",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17453-ON_COL",
+      "ticket": "ITHD-97861",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17467-ON_COL",
+      "ticket": "ITHD-97861",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17477-ON_COL",
+      "ticket": "ITHD-97861",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17480-ON_COL",
+      "ticket": "ITHD-97861",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17488-ON_COL",
+      "ticket": "ITHD-97861",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17510-ON_COL",
+      "ticket": "ITHD-97861",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17520-ON_COL",
+      "ticket": "ITHD-97861",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17678-ON_COL",
+      "ticket": "ITHD-97861",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
@@ -319945,6 +320200,210 @@
       "ov": "5092_DOCCLWL180",
       "pais": "CHILE",
       "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "679806",
+      "pais": "CHILE",
+      "marca": "Motorola"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "3258964966_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "6001070564-B",
+      "pais": "GUATEMALA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "1030_DINECWL180",
+      "pais": "ECUADOR",
+      "marca": "DI"
+    },
+    {
+      "fecha": "2026-10-07",
+      "ov": "3255925882_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-08",
+      "ov": "3256586656_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-11",
+      "ov": "3256884509_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "600000129677494_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "600000125528396_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "2000019231015382_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "2000019231478544_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "600000128731388_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "2000019235600290_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "701-1499285-4057846_MMAMXMKAMA",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "2000019220053886_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "2000019194099150_JBLUYMKMEL",
+      "pais": "URUGUAY",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "2000015770337205_CCSCOMKMEL",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "IX-43000024861",
+      "pais": "PERU",
+      "marca": "Epson"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "JB-GT00064666",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "JB-GT00064667",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "JB-CO00253240",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "63001071014-A",
+      "pais": "GUATEMALA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "6902-CROCS_CRC",
+      "pais": "RICA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "3314_DOCPEWL180",
+      "pais": "PERU",
+      "marca": "DK"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "1226_RUNGTWL180",
+      "pais": "GUATEMALA",
+      "marca": "RB"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "6001071164-A",
+      "pais": "GUATEMALA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-21",
+      "ov": "IX-28000058689",
+      "pais": "MEXICO",
+      "marca": "Epson"
+    },
+    {
+      "fecha": "2026-10-26",
+      "ov": "IX-28000058848",
+      "pais": "MEXICO",
+      "marca": "Epson"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "9895-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "9896-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "9897-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "9898-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "9899-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-10-28",
+      "ov": "IX-28000058944",
+      "pais": "MEXICO",
+      "marca": "Epson"
     },
     {
       "fecha": "2026-09-29",
