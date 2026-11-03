@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T14:30:39.197588+00:00",
+  "generatedAt": "2026-11-03T17:00:44.167006+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -263492,7 +263492,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Continuidad",
       "ov": "3258284205_MMACOMKFAL",
       "ticket": "ITHD-97668",
@@ -270384,7 +270384,7 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Nivelees geograficos erroneos desde NS",
+      "detalle": "Niveles geograficos erroneos desde NS",
       "liberada": "Liberada"
     },
     {
@@ -270401,8 +270401,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "Nivelees geograficos erroneos desde NS",
-      "liberada": ""
+      "detalle": "Niveles geograficos erroneos desde NS",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-30",
@@ -270418,8 +270418,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden no ha llegado a IX",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-02",
@@ -270469,8 +270469,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "No results from DB for 001N2-0001-XL with type upc in country PE and customerId DOCPEWL180",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-11-02",
@@ -270486,8 +270486,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "orderNumber(IWS) for order has not been set",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-02",
@@ -270503,8 +270503,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "orderNumber(IWS) for order has not been set",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-02",
@@ -270520,8 +270520,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "o results from DB for A4165-0007-M with type upc in country PE and customerId DOCPEWL180",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-11-02",
@@ -270537,8 +270537,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "No results from DB for A4165-0038-M with type upc in country PE and customerId DOCPEWL180",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-11-02",
@@ -270588,8 +270588,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en servdor driver",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-11-02",
@@ -270605,8 +270605,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en servdor driver",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-11-02",
@@ -270622,8 +270622,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en servdor driver",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-11-02",
@@ -270639,8 +270639,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en servdor driver",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-11-02",
@@ -270656,8 +270656,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error en servdor driver",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-09-30",
@@ -270673,8 +270673,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-09-30",
@@ -270690,8 +270690,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-09-30",
@@ -270707,8 +270707,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-09-30",
@@ -270724,8 +270724,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-11-01",
@@ -270741,8 +270741,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-11-01",
@@ -270758,8 +270758,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-11-01",
@@ -270775,8 +270775,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-11-01",
@@ -270792,8 +270792,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-11-01",
@@ -270809,8 +270809,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-11-01",
@@ -270826,8 +270826,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-11-02",
@@ -270843,8 +270843,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Escalado con Cristian V"
     },
     {
       "fecha": "2026-10-31",
@@ -270860,8 +270860,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-31",
@@ -270877,8 +270877,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-31",
@@ -270894,8 +270894,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-31",
@@ -270911,8 +270911,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-31",
@@ -270928,8 +270928,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-31",
@@ -270945,8 +270945,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-31",
@@ -270962,8 +270962,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-31",
@@ -270979,8 +270979,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Sin stock"
     },
     {
       "fecha": "2026-10-31",
@@ -270996,8 +270996,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-31",
@@ -271013,8 +271013,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-31",
@@ -271030,8 +271030,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-31",
@@ -271047,8 +271047,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-31",
@@ -271064,8 +271064,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-31",
@@ -271081,8 +271081,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Escalado con Cristian V"
     },
     {
       "fecha": "2026-10-31",
@@ -271098,8 +271098,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-31",
@@ -271115,8 +271115,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-31",
@@ -271132,8 +271132,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-02",
@@ -271149,8 +271149,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-02",
@@ -271166,8 +271166,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-02",
@@ -271183,8 +271183,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Error asociado a Customer order is not registered in the orchestrator system.",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-02",
@@ -271200,8 +271200,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "sin falla al revisar",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-02",
@@ -271217,8 +271217,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "PaymentTypeId en null",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-02",
@@ -271251,8 +271251,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "PaymentTypeId en null",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-03",
@@ -271503,6 +271503,550 @@
       "pen": "",
       "ov": "17678-ON_COL",
       "ticket": "ITHD-97861",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17574-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17575-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17576-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17577-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17578-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17579-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17580-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17581-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17582-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17583-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17584-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17585-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17587-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17588-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17589-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17590-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17591-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17593-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17594-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17595-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17596-ON_COL",
+      "ticket": "ITHD-97862",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-29",
+      "fn": "2026-11-03",
+      "marca": "Dockers",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "10630_DOCCLWL180",
+      "ticket": "ITHD-97863",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "Tienda",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "Crocs",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "5584-CROCS_GTQ",
+      "ticket": "ITHD-97864",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Orden retenida en el orquestador",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "Crocs",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "5585-CROCS_GTQ",
+      "ticket": "ITHD-97864",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Orden retenida en el orquestador",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "EPson",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "IX-43000025089",
+      "ticket": "ITHD-97868",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Kits with price zero detected. Please check Trax configuration",
+      "liberada": "Escalado operaciones"
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "EPson",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "IX-43000025122",
+      "ticket": "ITHD-97868",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Kits with price zero detected. Please check Trax configuration",
+      "liberada": "Escalado operaciones"
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "DK",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "3415_DOCPEWL180",
+      "ticket": "ITHD-97869",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "No results from DB for A4165-0007-L with type upc in country PE and customerId DOCPEWL180",
+      "liberada": "Escalado operaciones"
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "NB",
+      "pais": "Salvador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1336_NEBSVWL180",
+      "ticket": "ITHD-97870",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "NB",
+      "pais": "Salvador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1338_NEBSVWL180",
+      "ticket": "ITHD-97870",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "",
+      "fn": "",
+      "marca": "MKP",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "",
+      "pen": "",
+      "ov": "2000019300287256_MMACOMKMEL",
+      "ticket": "",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "",
+      "fn": "",
+      "marca": "MKP",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "",
+      "pen": "",
+      "ov": "2000019301718392_MMACOMKMEL",
+      "ticket": "",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "",
+      "fn": "",
+      "marca": "MKP",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "",
+      "pen": "",
+      "ov": "2000019310739962_MMACOMKMEL",
+      "ticket": "",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
