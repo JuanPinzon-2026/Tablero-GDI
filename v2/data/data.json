@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T21:26:13.138504+00:00",
+  "generatedAt": "2026-11-04T14:31:31.675378+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -270037,7 +270037,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Continuidad",
       "ov": "2000015770337205_CCSCOMKMEL",
       "ticket": "ITHD-97800",
@@ -270054,7 +270054,7 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancela cliente",
       "pen": "Operaciones Revision/Configuracion",
       "ov": "IX-43000024861",
       "ticket": "ITHD-97801",
@@ -270156,7 +270156,7 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "Facturada",
       "pen": "Operaciones Solucionado",
       "ov": "3314_DOCPEWL180",
       "ticket": "ITHD-97812",
@@ -270276,14 +270276,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "9897-LACOSTE_COL",
       "ticket": "ITHD-97816",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden no ha llegado a IX",
-      "liberada": "Liberada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-10-30",
@@ -270513,7 +270513,7 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "Alistamiento",
       "pen": "Operaciones Revision/Configuracion",
       "ov": "3383_DOCPEWL180",
       "ticket": "ITHD-97845",
@@ -271227,7 +271227,7 @@
       "pais": "Colombia",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Continuidad",
       "ov": "2000015831856001_CCSCOMKMEL",
       "ticket": "ITHD-97854",
@@ -271958,7 +271958,7 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "Alistamiento",
       "pen": "Operaciones Revision/Configuracion",
       "ov": "3415_DOCPEWL180",
       "ticket": "ITHD-97869",
@@ -273395,6 +273395,397 @@
       "canal": "",
       "detalle": "Pendiente revision CO",
       "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-30",
+      "fn": "2026-11-03",
+      "marca": "JBL",
+      "pais": "COSTA RICA",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-CR00047539",
+      "ticket": "ITHD-97887",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Validacion de valores de JSON",
+      "liberada": "Escalado con la Capa"
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "Har",
+      "pais": "man Audio",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HA-MX00072952",
+      "ticket": "ITHD-97887",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Configuracion de producto en PIM",
+      "liberada": "Escalado operaciones"
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "JBL",
+      "pais": "URUGUAY",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-UY-00042685",
+      "ticket": "ITHD-97887",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Kits with price zero detected. Please check Trax configuration",
+      "liberada": "Escalado operaciones"
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "DI",
+      "pais": "Ecuador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1033_DINECWL180",
+      "ticket": "ITHD-97888",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "NB",
+      "pais": "Salvador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1342_NEBSVWL180",
+      "ticket": "ITHD-97889",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Campo lastname vacio",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "Crocs",
+      "pais": "Costa Rica",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "6969-CROCS_CRC",
+      "ticket": "ITHD-97890",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "Crocs",
+      "pais": "Costa Rica",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "6970-CROCS_CRC",
+      "ticket": "ITHD-97890",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "Crocs",
+      "pais": "Costa Rica",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "6971-CROCS_CRC",
+      "ticket": "ITHD-97890",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "Crocs",
+      "pais": "Costa Rica",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "6972-CROCS_CRC",
+      "ticket": "ITHD-97890",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-10-31",
+      "fn": "2026-11-03",
+      "marca": "Crocs",
+      "pais": "Costa Rica",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "6973-CROCS_CRC",
+      "ticket": "ITHD-97890",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-11-01",
+      "fn": "2026-11-03",
+      "marca": "Crocs",
+      "pais": "Costa Rica",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "6974-CROCS_CRC",
+      "ticket": "ITHD-97890",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-11-01",
+      "fn": "2026-11-03",
+      "marca": "Crocs",
+      "pais": "Costa Rica",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "6975-CROCS_CRC",
+      "ticket": "ITHD-97890",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-11-01",
+      "fn": "2026-11-03",
+      "marca": "Crocs",
+      "pais": "Costa Rica",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "6976-CROCS_CRC",
+      "ticket": "ITHD-97890",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-11-01",
+      "fn": "2026-11-03",
+      "marca": "Crocs",
+      "pais": "Costa Rica",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "6977-CROCS_CRC",
+      "ticket": "ITHD-97890",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9902-LACOSTE_COL",
+      "ticket": "ITHD-97891",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9905-LACOSTE_COL",
+      "ticket": "ITHD-97891",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9904-LACOSTE_COL",
+      "ticket": "ITHD-97892",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9913-LACOSTE_COL_LACCOWL180",
+      "ticket": "ITHD-97893",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "LC",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "9914-LACOSTE_COL_LACCOWL180",
+      "ticket": "ITHD-97893",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-03",
+      "marca": "HP",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "204300002322396",
+      "ticket": "ITHD-97894",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Pendiente revision CO",
+      "liberada": "Pendiente revision CO"
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-04",
+      "marca": "JBL",
+      "pais": "URUGUAY",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-UY-00042786",
+      "ticket": "ITHD-97895",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-04",
+      "marca": "JBL",
+      "pais": "CHILE",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-CL00181743",
+      "ticket": "ITHD-97895",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-04",
+      "marca": "JBL",
+      "pais": "CHILE",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-CL00181744",
+      "ticket": "ITHD-97895",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
     }
   ],
   "ingresadas": [
@@ -324765,6 +325156,906 @@
       "marca": "Dockers"
     },
     {
+      "fecha": "2026-11-02",
+      "ov": "3259431681_MMACOMKFAL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-02",
+      "ov": "63001073756-A",
+      "pais": "GUATEMALA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-02",
+      "ov": "2000015831856001_CCSCOMKMEL",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-11-02",
+      "ov": "62001073660-A",
+      "pais": "GUATEMALA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "17401-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "17408-ON_COL_ONRCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "17423-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "17439-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "17724-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "17743-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "17451-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "17453-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "17467-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "17477-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "17480-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "17488-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "17510-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "17520-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "17678-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17574-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17575-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17576-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17577-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17578-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17579-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17580-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17581-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17582-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17583-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17584-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17585-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17587-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17588-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17589-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17590-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17591-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17593-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17594-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17595-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "17596-ON_COL",
+      "pais": "COLOMBIA",
+      "marca": "ON"
+    },
+    {
+      "fecha": "2026-10-29",
+      "ov": "10630_DOCCLWL180",
+      "pais": "CHILE",
+      "marca": "Dockers"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "5584-CROCS_GTQ",
+      "pais": "GUATEMALA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "5585-CROCS_GTQ",
+      "pais": "GUATEMALA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "IX-43000025089",
+      "pais": "PERU",
+      "marca": "EPson"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "IX-43000025122",
+      "pais": "PERU",
+      "marca": "EPson"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "3415_DOCPEWL180",
+      "pais": "PERU",
+      "marca": "DK"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "1336_NEBSVWL180",
+      "pais": "SALVADOR",
+      "marca": "NB"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "1338_NEBSVWL180",
+      "pais": "SALVADOR",
+      "marca": "NB"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "2000019300287256_MMACOMKMEL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "2000019301718392_MMACOMKMEL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "2000019310739962_MMACOMKMEL",
+      "pais": "COLOMBIA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "JB-GT00064757",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-11-02",
+      "ov": "JB-GT00064715",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-11-02",
+      "ov": "JB-GT00064725",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "600000135794132_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "2000019257744870_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "600000135055013_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "2000019271421530_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "2000019271822028_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "3259180849_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "25378773001-A_MMACLMKRIP",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "2000019272067284_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "2000019272315820_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "25378866902-A_MMACLMKRIP",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "25378878501-A_JBLCLMKRIP",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "2000019272657082_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "2000019272830270_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "2000019272818940_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "3259190264_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "2000019273054282_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "3259192115_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "2000019273354380_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "2000019273442790_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "3155749110_JBLCLMKPAR",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "2000019273647660_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "3259199745_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "2000019274196670_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "2000019274764034_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "3259210643_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "2000019277181448_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-02",
+      "ov": "3259555305_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-02",
+      "ov": "2000019305593274_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-02",
+      "ov": "2000019305691816_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "600000132909348_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "600000133016143_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "600000130730405_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "600000132927685_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "2000019270987690_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "2000019271126974_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "3259175456_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "3259175597_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "3259176042_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "3259176197_MMACLMKFAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "600000142168876_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "2000019278300574_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "600000140753173_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "2000019283187030_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "600000126350866_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "600000137986221_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "2000019291933826_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-02",
+      "ov": "2000019293734560_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-02",
+      "ov": "2000019295987188_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-02",
+      "ov": "2000019299361222_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-02",
+      "ov": "600000134492905_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-02",
+      "ov": "600000143600107_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-30",
+      "ov": "01242550-A",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "2000019264947240_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "2000019264960438_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "2000019271158280_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "2000019271167448_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "2000019274357432_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "2000019312455908_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "701-3065085-8981832_MMAMXMKAMA",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "2000019314455780_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "2000019314453858_MMAMXMKMEL",
+      "pais": "MEXICO",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "2000019257910994_JBLUYMKMEL",
+      "pais": "URUGUAY",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-02",
+      "ov": "2000019298654772_JBLUYMKMEL",
+      "pais": "URUGUAY",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "2000019311175388_JBLUYMKMEL",
+      "pais": "URUGUAY",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "SKU stock Incorrecto",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-11-02",
+      "ov": "3259176197",
+      "pais": "CHILE",
+      "marca": "Falabella"
+    },
+    {
+      "fecha": "2026-11-02",
+      "ov": "3259176042",
+      "pais": "CHILE",
+      "marca": "Falabella"
+    },
+    {
+      "fecha": "2026-11-02",
+      "ov": "3259175597",
+      "pais": "CHILE",
+      "marca": "Falabella"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "JB-CO00253554",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "8044504301-A_JBLPEMKRIP",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "2000019295660080_MMAPEMKMEL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "3259474023_MMAPEMKFAL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "2000019295762072_MMAPEMKMEL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "2000019295787020_MMAPEMKMEL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "3259475585_MMAPEMKFAL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "2000019300268482_HEWPEMKMEL",
+      "pais": "PERU",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-10-30",
+      "ov": "JB-CR00047539",
+      "pais": "RICA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "HA-MX00072952",
+      "pais": "AUDIO",
+      "marca": "Har"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "JB-UY-00042685",
+      "pais": "URUGUAY",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "1033_DINECWL180",
+      "pais": "ECUADOR",
+      "marca": "DI"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "1342_NEBSVWL180",
+      "pais": "SALVADOR",
+      "marca": "NB"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "6969-CROCS_CRC",
+      "pais": "RICA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "6970-CROCS_CRC",
+      "pais": "RICA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "6971-CROCS_CRC",
+      "pais": "RICA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "6972-CROCS_CRC",
+      "pais": "RICA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-10-31",
+      "ov": "6973-CROCS_CRC",
+      "pais": "RICA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "6974-CROCS_CRC",
+      "pais": "RICA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "6975-CROCS_CRC",
+      "pais": "RICA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "6976-CROCS_CRC",
+      "pais": "RICA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "6977-CROCS_CRC",
+      "pais": "RICA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "9902-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "9905-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "9904-LACOSTE_COL",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "9913-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "9914-LACOSTE_COL_LACCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "LC"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "204300002322396",
+      "pais": "PERU",
+      "marca": "HP"
+    },
+    {
       "fecha": "2026-09-02",
       "ov": "12616-ON_COL",
       "pais": "COLOMBIA",
@@ -364951,6 +366242,7 @@
   "ixcData": {
     "2026-11-01": 426,
     "2026-11-02": 727,
+    "2026-11-03": 707,
     "2026-10-01": 783,
     "2026-10-02": 684,
     "2026-10-03": 649,
@@ -365198,7 +366490,7 @@
     "2026-03-31": 1597
   },
   "ixcMes": {
-    "2026-11": 1153,
+    "2026-11": 1860,
     "2026-10": 34417,
     "2026-09": 28618,
     "2026-08": 35523,
