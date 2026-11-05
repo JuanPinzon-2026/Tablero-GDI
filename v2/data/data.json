@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T14:31:45.715077+00:00",
+  "generatedAt": "2026-11-05T17:02:15.432378+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -274893,8 +274893,8 @@
       "liberada": "Liberada"
     },
     {
-      "fecha": "46330",
-      "fn": "46330",
+      "fecha": "2026-11-04",
+      "fn": "2026-11-04",
       "marca": "MKP",
       "pais": "Peru",
       "estado": "",
@@ -274923,8 +274923,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "desincronizacion de stock en NS",
+      "liberada": "En revision GDI"
     },
     {
       "fecha": "2026-11-02",
@@ -274940,8 +274940,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "desincronizacion de stock en NS",
+      "liberada": "En revision GDI"
     },
     {
       "fecha": "2026-11-03",
@@ -274957,8 +274957,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "desincronizacion de stock en NS",
+      "liberada": "En revision GDI"
     },
     {
       "fecha": "2026-11-03",
@@ -274974,8 +274974,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "desincronizacion de stock en NS",
+      "liberada": "En revision GDI"
     },
     {
       "fecha": "2026-11-03",
@@ -274991,8 +274991,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "desincronizacion de stock en NS",
+      "liberada": "En revision GDI"
     },
     {
       "fecha": "2026-11-03",
@@ -275008,8 +275008,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "desincronizacion de stock en NS",
+      "liberada": "En revision GDI"
     },
     {
       "fecha": "2026-11-03",
@@ -275025,8 +275025,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "desincronizacion de stock en NS",
+      "liberada": "En revision GDI"
     },
     {
       "fecha": "2026-11-03",
@@ -275042,8 +275042,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "desincronizacion de stock en NS",
+      "liberada": "En revision GDI"
     },
     {
       "fecha": "2026-11-04",
@@ -275059,8 +275059,8 @@
       "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
-      "detalle": "Pendiente revision CO",
-      "liberada": "Pendiente revision CO"
+      "detalle": "desincronizacion de stock en NS",
+      "liberada": "En revision GDI"
     },
     {
       "fecha": "2026-11-04",
@@ -275128,7 +275128,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Campo lastname vacio",
-      "liberada": ""
+      "liberada": "Escalado con Kronotime"
     },
     {
       "fecha": "2026-11-04",
@@ -275158,6 +275158,482 @@
       "pen": "",
       "ov": "2000019278008722_EPSECMKMEL",
       "ticket": "ITHD-97925",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Orden con guia en seller sin guia en IX",
+      "liberada": "Escalado con Cristian V"
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-CO00254255_JBLCOWL180",
+      "ticket": "ITHD-97926",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Configuracion de producto en PIM",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "JBL",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-CO00254270_JBLCOWL180",
+      "ticket": "ITHD-97926",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Configuracion de producto en PIM",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-05",
+      "marca": "JBL",
+      "pais": "CHILE",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-CL00181646",
+      "ticket": "ITHD-97928",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Servicio desactivado cuando orden llego",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-05",
+      "marca": "JBL",
+      "pais": "MEXICO",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-MX00279431",
+      "ticket": "ITHD-97928",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Servicio desactivado cuando orden llego",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-05",
+      "marca": "JBL",
+      "pais": "URUGUAY",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-UY-00042842",
+      "ticket": "ITHD-97928",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Configuracion de producto en PIM",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-05",
+      "marca": "Har",
+      "pais": "man Audio",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HA-MX00073104",
+      "ticket": "ITHD-97928",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Orden sin informacion de pago en capa",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "Diners",
+      "pais": "Ecuador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1032_DINECWL180",
+      "ticket": "ITHD-97929",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "Diners",
+      "pais": "Ecuador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1034_DINECWL180",
+      "ticket": "ITHD-97929",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "Diners",
+      "pais": "Ecuador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1035_DINECWL180",
+      "ticket": "ITHD-97929",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "Diners",
+      "pais": "Ecuador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1036_DINECWL180",
+      "ticket": "ITHD-97929",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "Diners",
+      "pais": "Ecuador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1037_DINECWL180",
+      "ticket": "ITHD-97929",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "Diners",
+      "pais": "Ecuador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1038_DINECWL180",
+      "ticket": "ITHD-97929",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "Diners",
+      "pais": "Ecuador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1039_DINECWL180",
+      "ticket": "ITHD-97929",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "Diners",
+      "pais": "Ecuador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1040_DINECWL180",
+      "ticket": "ITHD-97930",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-05",
+      "marca": "MKP",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "600000131421155_MMACLMKWAL",
+      "ticket": "ITHD-97931",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-05",
+      "marca": "MKP",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "600000135589362_MMACLMKWAL",
+      "ticket": "ITHD-97931",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-05",
+      "marca": "MKP",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000019336475876_MMACLMKMEL",
+      "ticket": "ITHD-97931",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-05",
+      "marca": "MKP",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "600000133721324_MMACLMKWAL",
+      "ticket": "ITHD-97931",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-05",
+      "marca": "MKP",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000019341927224_MMACLMKMEL",
+      "ticket": "ITHD-97931",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-05",
+      "marca": "MKP",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "600000144168346_MMACLMKWAL",
+      "ticket": "ITHD-97932",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-03",
+      "fn": "2026-11-05",
+      "marca": "MKP",
+      "pais": "Uruguay",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000019313437540_JBLUYMKMEL",
+      "ticket": "ITHD-97933",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-05",
+      "marca": "MKP",
+      "pais": "Uruguay",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000019344370694_JBLUYMKMEL",
+      "ticket": "ITHD-97933",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-05",
+      "marca": "MKP",
+      "pais": "Uruguay",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000019345663670_JBLUYMKMEL",
+      "ticket": "ITHD-97933",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-05",
+      "marca": "MKP",
+      "pais": "Uruguay",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000019346311828_JBLUYMKMEL",
+      "ticket": "ITHD-97933",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "NB",
+      "pais": "Salvador",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1344_NEBSVWL180",
+      "ticket": "ITHD-97934",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-05",
+      "marca": "JBL",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-GT00064956",
+      "ticket": "",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "JBL",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-GT00064962",
+      "ticket": "",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "JBL",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-GT00064858",
+      "ticket": "",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
@@ -368377,7 +368853,7 @@
     "2026-03": 33849
   },
   "metricas_jira": {
-    "actualizadoEn": "2026-10-21",
+    "actualizadoEn": "2026-11-05",
     "nota": "Brenda Vasquez excluida desde 2025-08-01. Ordenes desde campo customfield_10616.",
     "totalGlobal": 92439,
     "ticketsSinCampo": {
@@ -368409,9 +368885,9 @@
         "total": 4373
       },
       "2026": {
-        "incidentes": 3738,
-        "solicitudes": 259,
-        "total": 3997
+        "incidentes": 4360,
+        "solicitudes": 276,
+        "total": 4275
       }
     },
     "porAnio": {
@@ -368419,7 +368895,7 @@
       "2023": 4730,
       "2024": 3865,
       "2025": 4373,
-      "2026": 3997
+      "2026": 4275
     },
     "mensual": {
       "2024": {
@@ -368460,7 +368936,8 @@
         "2026-07": 462,
         "2026-08": 410,
         "2026-09": 479,
-        "2026-10": 361
+        "2026-10": 575,
+        "2026-11": 64
       }
     },
     "mensualOrdenes": {
@@ -368502,7 +368979,8 @@
         "2026-07": 4239,
         "2026-08": 2192,
         "2026-09": 5220,
-        "2026-10": 6104
+        "2026-10": 4282,
+        "2026-11": 162
       }
     },
     "ordenesPorAnio": {
@@ -368532,6 +369010,7 @@
         "2025": 1123,
         "2026": 0
       }
-    }
+    },
+    "totalOrdenes2026": 35093
   }
 }
