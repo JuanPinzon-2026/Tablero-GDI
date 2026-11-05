@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T17:02:15.432378+00:00",
+  "generatedAt": "2026-11-05T20:02:36.080168+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -247071,14 +247071,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3256838692_MMAPEMKFAL",
       "ticket": "ITHD-97368",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247088,14 +247088,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018908226806_MMAPEMKMEL",
       "ticket": "ITHD-97368",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247105,14 +247105,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3256844895_MMAPEMKFAL",
       "ticket": "ITHD-97368",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-13",
@@ -247122,14 +247122,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000018914330346_HEWPEMKMEL",
       "ticket": "ITHD-97368",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-12",
@@ -262524,14 +262524,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3257951544_MMAPEMKFAL",
       "ticket": "ITHD-97633",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-21",
@@ -262541,14 +262541,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000019116131132_MMAPEMKMEL",
       "ticket": "ITHD-97633",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-22",
@@ -265193,14 +265193,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3258433210_MMAPEMKFAL",
       "ticket": "ITHD-97709",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-25",
@@ -265210,14 +265210,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "8015595201-A_JBLPEMKRIP",
       "ticket": "ITHD-97709",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-27",
@@ -269562,14 +269562,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-CO00251746_JBLCOWL180",
       "ticket": "ITHD-97778",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-10-29",
@@ -270615,7 +270615,7 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "cancelada",
       "pen": "Continuidad",
       "ov": "2000019271390572",
       "ticket": "ITHD-97848",
@@ -270632,7 +270632,7 @@
       "pais": "Peru",
       "estado": "",
       "com": "",
-      "ops": "En revision CO - IT",
+      "ops": "Facturada",
       "pen": "Continuidad",
       "ov": "8041929401-A",
       "ticket": "ITHD-97849",
@@ -273744,14 +273744,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "JB-UY-00042786",
       "ticket": "ITHD-97895",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "",
       "detalle": "Sin falla al revisar",
-      "liberada": "Liberada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-11-04",
@@ -274475,14 +274475,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00210776_JBLPEWL180",
       "ticket": "ITHD-97905",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-04",
@@ -274492,14 +274492,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00211227_JBLPEWL180",
       "ticket": "ITHD-97905",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-04",
@@ -274509,14 +274509,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00211236_JBLPEWL180",
       "ticket": "ITHD-97905",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-04",
@@ -274526,14 +274526,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00211342_JBLPEWL180",
       "ticket": "ITHD-97905",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-04",
@@ -274543,14 +274543,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00211343_JBLPEWL180",
       "ticket": "ITHD-97905",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-04",
@@ -274560,14 +274560,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00211276_JBLPEWL180",
       "ticket": "ITHD-97905",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-04",
@@ -274577,14 +274577,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00211279_JBLPEWL180",
       "ticket": "ITHD-97905",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-04",
@@ -274594,14 +274594,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00211584_JBLPEWL180",
       "ticket": "ITHD-97905",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-04",
@@ -274611,14 +274611,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00211534_JBLPEWL180",
       "ticket": "ITHD-97905",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-04",
@@ -274628,14 +274628,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00211627_JBLPEWL180",
       "ticket": "ITHD-97905",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-04",
@@ -274645,14 +274645,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00211632_JBLPEWL180",
       "ticket": "ITHD-97905",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-04",
@@ -274662,14 +274662,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "JB-PE00211656_JBLPEWL180",
       "ticket": "ITHD-97905",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Escalado con Customer Integration"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-04",
@@ -275128,7 +275128,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Campo lastname vacio",
-      "liberada": "Escalado con Kronotime"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-04",
@@ -275162,7 +275162,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Orden con guia en seller sin guia en IX",
-      "liberada": "Escalado con Cristian V"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-05",
@@ -275264,7 +275264,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Orden sin informacion de pago en capa",
-      "liberada": ""
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-05",
@@ -275280,8 +275280,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden de Diners EC no cambia de estado en Shopify",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-11-05",
@@ -275297,8 +275297,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden de Diners EC no cambia de estado en Shopify",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-11-05",
@@ -275314,8 +275314,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden de Diners EC no cambia de estado en Shopify",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-11-05",
@@ -275331,8 +275331,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden de Diners EC no cambia de estado en Shopify",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-11-05",
@@ -275348,8 +275348,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden de Diners EC no cambia de estado en Shopify",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-11-05",
@@ -275365,8 +275365,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden de Diners EC no cambia de estado en Shopify",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-11-05",
@@ -275382,8 +275382,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden de Diners EC no cambia de estado en Shopify",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-11-05",
@@ -275416,8 +275416,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Estado: queued",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-11-04",
@@ -275433,8 +275433,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Estado: queued",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-11-04",
@@ -275450,8 +275450,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Validar configuracion de producto  HM101XIA40",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-11-04",
@@ -275467,8 +275467,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Estado: queued",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-11-04",
@@ -275484,8 +275484,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Envio tipo  Acordar con el vendedor",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-11-04",
@@ -275497,12 +275497,12 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "600000144168346_MMACLMKWAL",
-      "ticket": "ITHD-97932",
+      "ticket": "ITHD-97931",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Estado: queued",
+      "liberada": "Escalado con Driver"
     },
     {
       "fecha": "2026-11-03",
@@ -275518,8 +275518,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Sin guia or carrito 2000015839278101_JBLUYMKMEL",
+      "liberada": "Escalado con Cristian V"
     },
     {
       "fecha": "2026-11-04",
@@ -275535,8 +275535,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden sin guia",
+      "liberada": "Escalado con Cristian V"
     },
     {
       "fecha": "2026-11-04",
@@ -275552,8 +275552,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Orden carrito no se evidencia 2000015869462373_JBLUYMKMEL",
+      "liberada": "Escalado con Cristian V"
     },
     {
       "fecha": "2026-11-04",
@@ -275569,8 +275569,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Cancelada en Yuju",
+      "liberada": "Orden cancelada"
     },
     {
       "fecha": "2026-11-05",
@@ -275586,8 +275586,8 @@
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Campo lastname vacio",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-04",
@@ -275599,12 +275599,12 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-GT00064956",
-      "ticket": "",
+      "ticket": "ITHD-97935",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Servicio desactivado cuando orden llego",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-05",
@@ -275616,12 +275616,12 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-GT00064962",
-      "ticket": "",
+      "ticket": "ITHD-97935",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Niveles de envio en ID places",
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-05",
@@ -275633,12 +275633,114 @@
       "ops": "En revision CO - IT",
       "pen": "",
       "ov": "JB-GT00064858",
-      "ticket": "",
+      "ticket": "ITHD-97935",
       "pendiente": "",
       "proveedor": "",
       "canal": "",
-      "detalle": "",
-      "liberada": ""
+      "detalle": "Servicio desactivado cuando orden llego",
+      "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-10-30",
+      "fn": "2026-11-06",
+      "marca": "JBL",
+      "pais": "COSTA RICA",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-CR00047539",
+      "ticket": "ITHD-97937",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Orden duplicada en caso ITHD-97855",
+      "liberada": "No aplica"
+    },
+    {
+      "fecha": "2026-11-06",
+      "fn": "2026-11-06",
+      "marca": "MKP",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "3259456937_MMAPEMKFAL",
+      "ticket": "ITHD-97939",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Orden sin facturar en NS",
+      "liberada": "Escalado con Customer Integration"
+    },
+    {
+      "fecha": "2026-11-06",
+      "fn": "2026-11-06",
+      "marca": "MKP",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2000019294978638_HEWPEMKMEL",
+      "ticket": "ITHD-97939",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Orden sin facturar en NS",
+      "liberada": "Escalado con Customer Integration"
+    },
+    {
+      "fecha": "2026-11-06",
+      "fn": "2026-11-06",
+      "marca": "MKP",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "3259778769_MMAPEMKFAL",
+      "ticket": "ITHD-97939",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Orden sin facturar en NS",
+      "liberada": "Escalado con Customer Integration"
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-06",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3622",
+      "ticket": "ITHD-97941",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Kits with price zero detected. Please check Trax configuration.",
+      "liberada": "Escalado operaciones"
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-06",
+      "marca": "Honor",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "HO3626",
+      "ticket": "ITHD-97941",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "Sin falla al revisar",
+      "liberada": "Liberada"
     }
   ],
   "ingresadas": [
