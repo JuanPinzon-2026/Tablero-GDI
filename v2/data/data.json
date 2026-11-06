@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T21:26:26.404544+00:00",
+  "generatedAt": "2026-11-06T14:31:58.320144+00:00",
   "source": "local",
   "incidencias": [
     {
@@ -253803,14 +253803,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Operaciones Solucionado",
+      "pen": "Continuidad",
       "ov": "9346_DOCCLWL180",
       "ticket": "ITHD-97305",
-      "pendiente": "Operaciones Solucionado",
+      "pendiente": "Continuidad",
       "proveedor": "",
       "canal": "Tienda",
       "detalle": "Orden sin facturar en NS",
-      "liberada": "Liberada"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "46302",
@@ -270582,14 +270582,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000019271060614",
       "ticket": "ITHD-97848",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Error en servdor driver",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-02",
@@ -270599,14 +270599,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000019271176362",
       "ticket": "ITHD-97848",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Error en servdor driver",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-02",
@@ -270616,14 +270616,14 @@
       "estado": "",
       "com": "",
       "ops": "cancelada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "2000019271390572",
       "ticket": "ITHD-97848",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Error en servdor driver",
-      "liberada": "Escalado con Driver"
+      "liberada": "Orden cancelada"
     },
     {
       "fecha": "2026-11-02",
@@ -270633,14 +270633,14 @@
       "estado": "",
       "com": "",
       "ops": "Facturada",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "8041929401-A",
       "ticket": "ITHD-97849",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Error en servdor driver",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-02",
@@ -270650,14 +270650,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Revision/Configuracion",
       "ov": "2000019273955566",
       "ticket": "ITHD-97848",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Revision/Configuracion",
       "proveedor": "",
       "canal": "",
-      "detalle": "Error en servdor driver",
-      "liberada": "Escalado con Driver"
+      "detalle": "Kits with price zero detected. Please check Trax configuration.",
+      "liberada": "Escalado operaciones"
     },
     {
       "fecha": "2026-09-30",
@@ -273819,7 +273819,7 @@
       "proveedor": "",
       "canal": "",
       "detalle": "Orden no ha generado guia carrito 2000015820656813",
-      "liberada": "Escalado con Cristian V"
+      "liberada": "Pendiente revision CO"
     },
     {
       "fecha": "2026-11-03",
@@ -275087,14 +275087,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3544_DOCPEWL180",
       "ticket": "ITHD-97920",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Revision de proceso ejecuccion de articulo",
-      "liberada": "Escalado con SORNP"
+      "detalle": "Comentario en ticket",
+      "liberada": "No aplica"
     },
     {
       "fecha": "2026-11-04",
@@ -275104,14 +275104,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "3536_DOCPEWL180",
       "ticket": "ITHD-97920",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "Tienda",
-      "detalle": "Revision de proceso ejecuccion de articulo",
-      "liberada": "Escalado con SORNP"
+      "detalle": "Comentario en ticket",
+      "liberada": "No aplica"
     },
     {
       "fecha": "2026-11-04",
@@ -275393,14 +275393,14 @@
       "estado": "",
       "com": "",
       "ops": "En revision CO - IT",
-      "pen": "Continuidad",
+      "pen": "Operaciones Solucionado",
       "ov": "1040_DINECWL180",
       "ticket": "ITHD-97930",
-      "pendiente": "Continuidad",
+      "pendiente": "Operaciones Solucionado",
       "proveedor": "",
       "canal": "",
       "detalle": "Orden con error de producto",
-      "liberada": "Escalado con Driver"
+      "liberada": "Liberada"
     },
     {
       "fecha": "2026-11-04",
@@ -275741,6 +275741,227 @@
       "canal": "",
       "detalle": "Sin falla al revisar",
       "liberada": "Liberada"
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-05",
+      "marca": "Crocs",
+      "pais": "Panama",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2297-CROCS_PAN",
+      "ticket": "ITHD-97948",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-04",
+      "fn": "2026-11-05",
+      "marca": "Crocs",
+      "pais": "Panama",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "2298-CROCS_PAN",
+      "ticket": "ITHD-97948",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-01",
+      "fn": "2026-11-05",
+      "marca": "EPSON",
+      "pais": "Chile",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "IX-46000017337",
+      "ticket": "ITHD-97950",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "JBL",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-PE00212275",
+      "ticket": "ITHD-97951",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "JBL",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "JB-PE00212379",
+      "ticket": "ITHD-97951",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "MKP",
+      "pais": "Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "6001077854-B",
+      "ticket": "ITHD-97952",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "45631-CROCS_COL",
+      "ticket": "ITHD-97953",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "45649-CROCS_COL",
+      "ticket": "ITHD-97953",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "45654-CROCS_COL",
+      "ticket": "ITHD-97953",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-05",
+      "marca": "Crocs",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "45659-CROCS_COL",
+      "ticket": "ITHD-97953",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-06",
+      "marca": "ON",
+      "pais": "Colombia",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "17968-ON_COL_ONRCOWL180",
+      "ticket": "ITHD-97954",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-06",
+      "marca": "Motorola",
+      "pais": "Peru",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1673990595185-01",
+      "ticket": "ITHD-97955",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
+    },
+    {
+      "fecha": "2026-11-05",
+      "fn": "2026-11-06",
+      "marca": "RB",
+      "pais": "Running balbola Guatemala",
+      "estado": "",
+      "com": "",
+      "ops": "En revision CO - IT",
+      "pen": "",
+      "ov": "1231_RUNGTWL180",
+      "ticket": "ITHD-97956",
+      "pendiente": "",
+      "proveedor": "",
+      "canal": "",
+      "detalle": "",
+      "liberada": ""
     }
   ],
   "ingresadas": [
@@ -330471,6 +330692,240 @@
       "marca": "Crocs"
     },
     {
+      "fecha": "2026-11-04",
+      "ov": "2000019278008722_EPSECMKMEL",
+      "pais": "ECUADOR",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "JB-CO00254255_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "JB-CO00254270_JBLCOWL180",
+      "pais": "COLOMBIA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-11-04",
+      "ov": "JB-CL00181646",
+      "pais": "CHILE",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-11-04",
+      "ov": "JB-MX00279431",
+      "pais": "MEXICO",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-11-04",
+      "ov": "JB-UY-00042842",
+      "pais": "URUGUAY",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-11-04",
+      "ov": "HA-MX00073104",
+      "pais": "AUDIO",
+      "marca": "Har"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "1032_DINECWL180",
+      "pais": "ECUADOR",
+      "marca": "Diners"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "1034_DINECWL180",
+      "pais": "ECUADOR",
+      "marca": "Diners"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "1035_DINECWL180",
+      "pais": "ECUADOR",
+      "marca": "Diners"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "1036_DINECWL180",
+      "pais": "ECUADOR",
+      "marca": "Diners"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "1037_DINECWL180",
+      "pais": "ECUADOR",
+      "marca": "Diners"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "1038_DINECWL180",
+      "pais": "ECUADOR",
+      "marca": "Diners"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "1039_DINECWL180",
+      "pais": "ECUADOR",
+      "marca": "Diners"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "1040_DINECWL180",
+      "pais": "ECUADOR",
+      "marca": "Diners"
+    },
+    {
+      "fecha": "2026-11-04",
+      "ov": "600000131421155_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-04",
+      "ov": "600000135589362_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-04",
+      "ov": "2000019336475876_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-04",
+      "ov": "600000133721324_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-04",
+      "ov": "2000019341927224_MMACLMKMEL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-04",
+      "ov": "600000144168346_MMACLMKWAL",
+      "pais": "CHILE",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-03",
+      "ov": "2000019313437540_JBLUYMKMEL",
+      "pais": "URUGUAY",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-04",
+      "ov": "2000019344370694_JBLUYMKMEL",
+      "pais": "URUGUAY",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-04",
+      "ov": "2000019345663670_JBLUYMKMEL",
+      "pais": "URUGUAY",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-04",
+      "ov": "2000019346311828_JBLUYMKMEL",
+      "pais": "URUGUAY",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "1344_NEBSVWL180",
+      "pais": "SALVADOR",
+      "marca": "NB"
+    },
+    {
+      "fecha": "2026-11-04",
+      "ov": "JB-GT00064956",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "JB-GT00064962",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "JB-GT00064858",
+      "pais": "GUATEMALA",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-11-04",
+      "ov": "2297-CROCS_PAN",
+      "pais": "PANAMA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-11-04",
+      "ov": "2298-CROCS_PAN",
+      "pais": "PANAMA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-11-01",
+      "ov": "IX-46000017337",
+      "pais": "CHILE",
+      "marca": "EPSON"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "JB-PE00212275",
+      "pais": "PERU",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "JB-PE00212379",
+      "pais": "PERU",
+      "marca": "JBL"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "6001077854-B",
+      "pais": "GUATEMALA",
+      "marca": "MKP"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "45631-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "45649-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "45654-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
+      "fecha": "2026-11-05",
+      "ov": "45659-CROCS_COL",
+      "pais": "COLOMBIA",
+      "marca": "Crocs"
+    },
+    {
       "fecha": "2026-10-02",
       "ov": "679428",
       "pais": "CHILE",
@@ -368697,6 +369152,7 @@
     "2026-11-02": 727,
     "2026-11-03": 707,
     "2026-11-04": 705,
+    "2026-11-05": 726,
     "2026-10-01": 783,
     "2026-10-02": 684,
     "2026-10-03": 649,
@@ -368944,7 +369400,7 @@
     "2026-03-31": 1597
   },
   "ixcMes": {
-    "2026-11": 2565,
+    "2026-11": 3291,
     "2026-10": 34417,
     "2026-09": 28618,
     "2026-08": 35523,
